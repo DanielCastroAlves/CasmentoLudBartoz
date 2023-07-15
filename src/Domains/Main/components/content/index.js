@@ -5,7 +5,7 @@ const StackTeste = styled(Stack)(({ theme }) => ({
     position: "absolute",
     width: "100%",
     height: "100%",
-    backgroundImage: `url(${bgImage})`,
+    backgroundImage: `linear-gradient(360deg, #FFF 0%, rgba(255, 255, 255, 0.78) 37.87%, rgba(255, 255, 255, 0.00) 81.77%), url(${bgImage})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
