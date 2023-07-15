@@ -17,7 +17,7 @@ import mainLogo from '../../Images/mainLogo.png'
 import {useTheme } from "@mui/material"
 
 const pages = [];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+const settings = ["Link 1", "Link 2", "Link 3", "Link 4"];
 
 export const MenuAppBar = () => {
     const theme = useTheme()
