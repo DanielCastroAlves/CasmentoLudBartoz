@@ -13,13 +13,13 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
-import mainLogo from '../../Images/mainLogo.png'
+import mainLogo from '../../../Images/mainLogo.png'
 import {useTheme } from "@mui/material"
 
 const pages = [];
 const settings = ["Link 1", "Link 2", "Link 3", "Link 4"];
 
-export const MenuAppBar = () => {
+export const Header = () => {
     const theme = useTheme()
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
