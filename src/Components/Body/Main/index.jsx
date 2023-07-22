@@ -1,22 +1,18 @@
-import { Button, Stack, Typography, useTheme } from "@mui/material";
-import { pol, ptBr } from "../../../languageTexts.js";
-import { useState } from "react";
+import { Button, Stack, Typography } from "@mui/material";
+import { Outlet } from "react-router-dom";
+import { useLanguage } from "../../../hooks/useLanguage";
 
 export const Main = () => {
-    const [language, setlanguage] = useState(null);
-    const handleLanguage = (value) => {
-        value === "Português" ? setlanguage(ptBr) : setlanguage(pol);
-    };
-
+    const { handleUrlLanguage } = useLanguage();
     return (
         <Stack direction="row" width="100%" height="100%" justifyContent="center" alignItems="center" gap={8}>
-            <Button variant="contained" onClick={() => handleLanguage("Português")}>
+            <Button variant="contained" onClick={() => handleUrlLanguage("pt")}>
                 Português
             </Button>
-            <Button variant="outlined" onClick={() => handleLanguage("Polonês")}>
+            <Button variant="outlined" onClick={() => handleUrlLanguage("pol")}>
                 Polonês
             </Button>
-            {language && <Typography variant="h2">{language}</Typography>}
+            <Outlet />
         </Stack>
     );
 };

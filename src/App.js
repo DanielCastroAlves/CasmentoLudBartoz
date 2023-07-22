@@ -1,12 +1,34 @@
 import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./Theme/index.jsx";
-import { Body } from './Components/Body'
+import { Body } from "./Components/Body";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Home } from "./domains/Home/index.jsx";
+import { LanguageContextProvider } from "./context/LanguageContext.jsx";
+
+const router = createBrowserRouter([
+    {
+        element: <Body />,
+        children: [
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "home",
+                        element: <Home />,
+                    },
+                ],
+            },
+        ],
+    },
+]);
 
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <Body  />
+            <LanguageContextProvider>
+                <RouterProvider router={router} />
+            </LanguageContextProvider>
         </ThemeProvider>
     );
 }
