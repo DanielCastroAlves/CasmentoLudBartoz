@@ -3,16 +3,16 @@ import { createContext, useState } from "react";
 export const LanguageContext = createContext();
 
 export const LanguageContextProvider = ({ children }) => {
-    const [urlLanguage, setUrlLanguage] = useState("pt");
+    const [language, setLanguage] = useState("pt");
 
-    const handleUrlLanguage = (lang) => {
-        setUrlLanguage(lang);
+    const handleLanguage = (lang) => {
+        setLanguage(lang);
     };
 
     const providerValues = {
-        urlLanguage,
-        setUrlLanguage,
-        handleUrlLanguage,
+        language,
+        setLanguage,
+        handleLanguage,
     };
 
     return <LanguageContext.Provider value={providerValues}>{children}</LanguageContext.Provider>;
