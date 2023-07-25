@@ -1,153 +1,78 @@
 import * as React from "react";
+import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
-import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
-import DensityMediumIcon from '@mui/icons-material/DensityMedium';
-import mainLogo from '../../../Images/mainLogo.png'
-import {useTheme } from "@mui/material"
+import { Avatar, Box, Button, IconButton, Stack, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Alarm, Heart, Cube, List } from "@phosphor-icons/react";
+import headerLogo from "../../../Assets/Images/smallLogo.png";
+import brIcon from "../../../Assets/Images/brIcon.png";
+import { HeaderContainer, MenuAvatar, MenuLink } from "./style";
+import { Link } from "react-router-dom";
+import { HeaderDrawer, MenuDrawer } from "../../MenuDrawer";
 
 const pages = [];
 const settings = ["Link 1", "Link 2", "Link 3", "Link 4"];
 
 export const Header = () => {
-    const theme = useTheme()
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-    const [anchorElUser, setAnchorElUser] = React.useState(null);
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
+    const [open, setOpen] = useState(false);
+
+    const handleDrawerOpen = () => {
+        setOpen(!open);
     };
 
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
-
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
+    const handleDrawerClose = () => {
+        setOpen(false);
     };
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: "transparent" }}>
-            <Container maxWidth="xl">
-                <Toolbar disableGutters sx={{justifyContent: 'space-between'}}>
-                    {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-                    {/* <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: "none", md: "flex" },
-                            fontFamily: "monospace",
-                            fontWeight: 700,
-                            letterSpacing: ".3rem",
-                            color: "inherit",
-                            textDecoration: "none",
-                        }}
-                    >
-                        LOGO
-                    </Typography> */}
-                    <Box component="img" src={mainLogo}></Box>
-                    {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-                        <IconButton size="large" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} color="inherit">
-                            <MenuIcon />
-                        </IconButton>
-                        <Menu
-                            id="menu-appbar"
-                            anchorEl={anchorElNav}
-                            anchorOrigin={{
-                                vertical: "bottom",
-                                horizontal: "left",
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: "top",
-                                horizontal: "left",
-                            }}
-                            open={Boolean(anchorElNav)}
-                            onClose={handleCloseNavMenu}
-                            sx={{
-                                display: { xs: "block", md: "none" },
-                            }}
-                        >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box> */}
-                    {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
-                    {/* <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href=""
-                        sx={{
-                            mr: 2,
-                            display: { xs: "flex", md: "none" },
-                            flexGrow: 1,
-                            fontFamily: "monospace",
-                            fontWeight: 700,
-                            letterSpacing: ".3rem",
-                            color: "inherit",
-                            textDecoration: "none",
-                        }}
-                    >
-                        LOGO
-                    </Typography> */}
-                    <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-                        {pages.map((page) => (
-                            <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "white", display: "block" }}>
-                                {page}
-                            </Button>
-                        ))}
-                    </Box>
-
-                    <Box sx={{ flexGrow: 0 }}>
-                        <Tooltip title="Open settings">
-                            <DensityMediumIcon onClick={handleOpenUserMenu} backgroundColor={'red'} sx={{ p: 0 }}>
-                            </DensityMediumIcon>
-                        </Tooltip>
-                        <Menu
-                            sx={{ mt: "45px" }}
-                            id="menu-appbar"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{
-                                vertical: "top",
-                                horizontal: "right",
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: "top",
-                                horizontal: "right",
-                            }}
-                            open={Boolean(anchorElUser)}
-                            onClose={handleCloseUserMenu}
-                        >
-                            {settings.map((setting) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
+        <>
+            {" "}
+            <AppBar position="static" width="100%" sx={{ backgroundColor: "transparent !important" }}>
+                <Toolbar sx={{ padding: "0px" }}>
+                    <HeaderContainer>
+                        <img src={headerLogo} alt="Logo Ludmila e Bartosz" />
+                        <Stack direction="row" alignItems="center" gap={18}>
+                            {!isMobile && (
+                                <Stack direction="row" alignItems="center" gap={9}>
+                                    <MenuLink to="/home">
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                            HOME
+                                        </Typography>
+                                    </MenuLink>
+                                    <MenuLink to="/home">
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                            CASAMENTO
+                                        </Typography>
+                                    </MenuLink>
+                                    <MenuLink to="/home">
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                            VIAGEM
+                                        </Typography>
+                                    </MenuLink>
+                                    <MenuLink to="/home">
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                            Q&A
+                                        </Typography>
+                                    </MenuLink>
+                                </Stack>
+                            )}
+                            {isMobile ? (
+                                <Box>
+                                    <MenuAvatar onClick={(_) => alert("levado")}>
+                                        <List size={32} color={theme.palette.primary.main} />
+                                    </MenuAvatar>
+                                </Box>
+                            ) : (
+                                <MenuAvatar alt="Bandeira do Brasil" src={brIcon} onClick={_ => handleDrawerOpen(!open)} />
+                            )}
+                        </Stack>
+                    </HeaderContainer>
                 </Toolbar>
-            </Container>
-        </AppBar>
+            </AppBar>
+            <MenuDrawer open={open} handleDrawerOpen={handleDrawerOpen} />
+        </>
     );
 };
