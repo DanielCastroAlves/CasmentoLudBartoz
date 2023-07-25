@@ -1,5 +1,5 @@
 import { Box, Button, ButtonGroup, Chip, ListItem, Stack, styled } from "@mui/material";
-import bgImage from "../../Images/bgmain.jpg";
+import bgImage from "../../Assets/Images/bgmain.jpg";
 
 const StackTeste = styled(Stack)(({ theme }) => ({
     position: "absolute",

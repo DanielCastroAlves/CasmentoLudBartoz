@@ -1,6 +1,6 @@
 import { Box, Divider, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { FooterContainer } from "./style";
-import smallLogo from "../../../Images/smallLogo.png";
+import smallLogo from "../../../Assets/Images/smallLogo.png";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
