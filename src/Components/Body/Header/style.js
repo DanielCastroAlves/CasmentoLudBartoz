@@ -13,6 +13,7 @@ const MenuAvatar = styled(Avatar)(({ theme }) => ({
     backgroundColor: "transparent",
     cursor: "pointer",
 }));
+
 const MenuLink = styled(Link)(({ theme }) => ({
     textDecoration: "none",
 }));

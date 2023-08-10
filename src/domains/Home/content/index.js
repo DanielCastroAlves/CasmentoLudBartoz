@@ -1,7 +1,7 @@
-import { Stack, styled } from "@mui/material";
-import bgImage from "../../Assets/Images/bgmain.jpg";
+import { Box, Button, ButtonGroup, Chip, ListItem, Stack, styled } from "@mui/material";
+import bgImage from "../../../Images/bgmain.jpg";
 
-const BodyContainer = styled(Stack)(({ theme }) => ({
+const HomeContainer = styled(Stack)(({ theme }) => ({
     position: "absolute",
     width: "100%",
     height: "100%",
@@ -12,4 +12,4 @@ const BodyContainer = styled(Stack)(({ theme }) => ({
     maxWidth: "-webkit-fill-available",
 }));
 
-export { BodyContainer };
+export { HomeContainer };

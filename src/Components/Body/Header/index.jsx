@@ -7,8 +7,11 @@ import { Alarm, Heart, Cube, List } from "@phosphor-icons/react";
 import headerLogo from "../../../Assets/Images/smallLogo.png";
 import brIcon from "../../../Assets/Images/brIcon.png";
 import { HeaderContainer, MenuAvatar, MenuLink } from "./style";
-import { Link } from "react-router-dom";
-import { HeaderDrawer, MenuDrawer } from "../../MenuDrawer";
+import { MenuDrawer } from "./components/MenuDrawer";
+import { HeaderMenu } from "./components/HeaderMenu";
+import engIcon from "../../../Assets/Images/engIcon.png";
+import polIcon from "../../../Assets/Images/polIcon.png";
+import esIcon from "../../../Assets/Images/esIcon.png";
 
 const pages = [];
 const settings = ["Link 1", "Link 2", "Link 3", "Link 4"];
@@ -19,12 +22,46 @@ export const Header = () => {
 
     const [open, setOpen] = useState(false);
 
-    const handleDrawerOpen = () => {
+    const handleDrawerOpen = (index) => {
+        const updatedMenuOptions = menuOptions.map((option, i) => ({
+            ...option,
+            selected: i === index ? true : false,
+        }));
+        setMenuOptions(updatedMenuOptions);
         setOpen(!open);
     };
 
-    const handleDrawerClose = () => {
-        setOpen(false);
+    const [menuOptions, setMenuOptions] = useState([
+        {
+            alt: "Bandeira do Brasil",
+            image: brIcon,
+            selected: true,
+            language: "pt",
+        },
+        {
+            alt: "Bandeira da Polônia",
+            image: polIcon,
+            selected: false,
+            language: "pol",
+        },
+        {
+            alt: "Bandeira do Reino Unido",
+            image: engIcon,
+            selected: false,
+            language: "eng",
+        },
+        {
+            alt: "Bandeira da Espanha",
+            image: esIcon,
+            selected: false,
+            language: "es",
+        },
+    ]);
+
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event, index) => {
+        setAnchorEl(event.currentTarget);
     };
 
     return (
@@ -61,18 +98,19 @@ export const Header = () => {
                             )}
                             {isMobile ? (
                                 <Box>
-                                    <MenuAvatar onClick={(_) => alert("levado")}>
+                                    <MenuAvatar onClick={(_) => setOpen(!open)}>
                                         <List size={32} color={theme.palette.primary.main} />
                                     </MenuAvatar>
                                 </Box>
                             ) : (
-                                <MenuAvatar alt="Bandeira do Brasil" src={brIcon} onClick={_ => handleDrawerOpen(!open)} />
+                                menuOptions.map((item, i) => item.selected && <MenuAvatar key={i} alt={item.alt} src={item.image} onClick={(e) => handleClick(e, i)} />)
                             )}
                         </Stack>
                     </HeaderContainer>
                 </Toolbar>
             </AppBar>
-            <MenuDrawer open={open} handleDrawerOpen={handleDrawerOpen} />
+            <MenuDrawer open={open} setOpen={setOpen} handleDrawerOpen={handleDrawerOpen} menuOptions={menuOptions} />
+            <HeaderMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} handleClick={handleClick} menuOptions={menuOptions} setMenuOptions={setMenuOptions} />
         </>
     );
 };
