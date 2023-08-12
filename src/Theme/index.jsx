@@ -6,7 +6,9 @@ export const theme = createTheme({
     palette: {
         primary: {
             main: "#9C4522",
-            secondary: "#52736B",
+        },
+        secondary: {
+            main: "#52736B",
         },
         gray: {
             50: "#F9F9F9",
@@ -28,6 +30,9 @@ export const theme = createTheme({
             lg: 1200,
             xl: 1536,
         },
+    },
+    typography: {
+        fontFamily: "Cinzel, sans-serif",
     },
 
     spacing: (factor) => `${0.25 * factor}rem`,

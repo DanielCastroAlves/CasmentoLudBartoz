@@ -5,10 +5,28 @@ import { Body } from "./Components/Body";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./domains/Home/index.jsx";
 import { LanguageContextProvider } from "./context/LanguageContext.jsx";
+import { NewBody } from "./Components/NewBody/index.jsx";
 
 const router = createBrowserRouter([
     {
         element: <Body />,
+        children: [
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "home",
+                        element: <Home />,
+                    },
+                ],
+            },
+        ],
+    },
+]);
+
+const router2 = createBrowserRouter([
+    {
+        element: <NewBody />,
         children: [
             {
                 path: "/",

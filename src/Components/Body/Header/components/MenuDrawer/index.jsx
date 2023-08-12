@@ -54,22 +54,22 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => 
                             </Typography>
                             <Stack width="100%" alignItems="flex-start" gap={2}>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.secondary}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
                                         HOME
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.secondary}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
                                         CASAMENTO
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.secondary}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
                                         VIAGEM
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.secondary}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
                                         Q&A
                                     </Typography>
                                 </MenuLink>
