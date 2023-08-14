@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useLanguage } from "../../hooks/useLanguage.jsx";
 import text from "../../Assets/text.json";
 import { Header } from "../../Components/Body/Header/index.jsx";
-import { Button, Stack, Typography, useTheme } from "@mui/material";
+import { Box, Button, Stack, Typography, useTheme } from "@mui/material";
 import { HomeContainer } from "./style.js";
 
 export const Home = () => {
