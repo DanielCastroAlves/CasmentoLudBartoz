@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useLanguage } from "../../hooks/useLanguage.jsx";
 import text from "../../Assets/text.json";
 import { Header } from "../../Components/Body/Header/index.jsx";
-import { Box, Button, Stack, Typography, useTheme } from "@mui/material";
+import { Button, Stack, Typography, useTheme } from "@mui/material";
 import { HomeContainer } from "./style.js";
 
 export const Home = () => {
@@ -29,31 +29,7 @@ export const Home = () => {
             <Stack justifyContent='center' alignItems='center' gap={4} sx={{overflow: 'hidden'}}>
                 <Typography fontSize={theme.spacing(8)} fontWeight={700} color={theme.palette.secondary.main}>RSVP</Typography>
                 <Typography fontSize={theme.spacing(4.5)} fontFamily={'Open Sans'} color={theme.palette.gray['500']}>RESPOND SIL VOUS PLAIT</Typography>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                <Box height='800px'>
-                    Teste legal
-                </Box>
-                {/* <iframe src={urlForm} title="External Form" width="100%" height="2000px" frameBorder="0" ></iframe> */}
+                <iframe src={urlForm} title="External Form" width="100%" height="2000px" frameBorder="0" ></iframe>
             </Stack>
         </Stack>
     );
