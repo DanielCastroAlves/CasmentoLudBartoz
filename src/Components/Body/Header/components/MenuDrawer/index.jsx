@@ -4,13 +4,15 @@ import { Box, Divider, Stack, Typography, useTheme } from "@mui/material";
 import { HeaderMenuDrawerContainer, MenuAvatar, MenuLink } from "./style";
 import smallLogo from "../../../../../Assets/Images/smallLogo.png";
 import { X } from "@phosphor-icons/react";
+import { useLocation } from "react-router-dom";
 
 
 export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => {
 
-    console.log('menuOptions', menuOptions)
-
     const theme = useTheme();
+
+    const location = useLocation();
+    const url = location.pathname;
 
     return (
         <div>
@@ -54,29 +56,29 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => 
                             </Typography>
                             <Stack width="100%" alignItems="flex-start" gap={2}>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/home' ? 700 : 400} color={url === '/home' ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         HOME
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/wedding' ? 700 : 400} color={url === '/wedding' ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         CASAMENTO
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/travel' ? 700 : 400} color={url === '/travel' ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         VIAGEM
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/qea' ? 700 : 400} color={url === '/qea' ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         Q&A
                                     </Typography>
                                 </MenuLink>
                             </Stack>
                             <Stack direction="row" width="100%" justifyContent="center" gap={4}>
                                 {menuOptions.map((item, i) => (
-                                    <MenuAvatar key={item.language} alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} onClick={(_) => handleDrawerOpen(i)} />
+                                    <MenuAvatar key={item.language} alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} onClick={(_) => handleDrawerOpen(i, item.language)} />
                                 ))}
                             </Stack>
                             <Stack gap={4}>

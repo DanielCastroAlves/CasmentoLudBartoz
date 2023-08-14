@@ -26,31 +26,20 @@ export const Footer = () => {
                             </Typography>
                         </Stack>
                     </Stack>
-                    {/* <Stack direction="row" width='100%'>
-                        <Box component="img" src={smallLogo}></Box>
-                        <Stack width='100%'>
-                            <Typography fontSize={"12px"} color={theme.palette.primary.main}>
-                                LUDMILLA & BARTOSZ | 12.05.2024
-                            </Typography>
-                            <Typography fontWeight={300} fontSize={"8px"} color={theme.palette.gray["500"]}>
-                                Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
-                            </Typography>
-                        </Stack>
-                    </Stack> */}
                 </Stack>
             ) : (
                 <Grid container justifyContent="center" alignItems="center" px={8} py={4} height="172px" sx={{ backgroundColor: "#fff" }}>
                     <Grid xs={5} height="100%">
                         <Stack height="100%" width="100%" justifyContent="space-between">
                             <Box>
-                                <Typography fontSize="22px" color={theme.palette.primary.main}>
+                                <Typography fontSize={theme.spacing(5.5)} color={theme.palette.primary.main}>
                                     LUDMILLA & BARTOSZ | 12.05.2024
                                 </Typography>
-                                <Typography fontSize="13.5px" color={theme.palette.secondary.main}>
+                                <Typography fontSize={theme.spacing(3.8)} color={theme.palette.secondary.main}>
                                     Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
                                 </Typography>
                             </Box>
-                            <Typography fontSize="12px" color={theme.palette.secondary.main}>
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.secondary.main}>
                                 Ludmilla & Bartosz © 2023 All rights reserved | Site desenvolvido pela noiva e seus amigos
                             </Typography>
                         </Stack>

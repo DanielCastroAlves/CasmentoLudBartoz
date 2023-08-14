@@ -12,22 +12,28 @@ import { HeaderMenu } from "./components/HeaderMenu";
 import engIcon from "../../../Assets/Images/engIcon.png";
 import polIcon from "../../../Assets/Images/polIcon.png";
 import esIcon from "../../../Assets/Images/esIcon.png";
+import { useLanguage } from "../../../hooks/useLanguage";
+import { useLocation } from "react-router-dom";
 
-const pages = [];
-const settings = ["Link 1", "Link 2", "Link 3", "Link 4"];
 
 export const Header = () => {
     const theme = useTheme();
+    const { handleFormLanguage, handleLanguage } = useLanguage();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     const [open, setOpen] = useState(false);
 
-    const handleDrawerOpen = (index) => {
+    const location = useLocation();
+    const url = location.pathname;
+
+    const handleDrawerOpen = (index, lang) => {
         const updatedMenuOptions = menuOptions.map((option, i) => ({
             ...option,
             selected: i === index ? true : false,
         }));
         setMenuOptions(updatedMenuOptions);
+        handleLanguage(lang)
+        handleFormLanguage(lang)
         setOpen(!open);
     };
 
@@ -66,7 +72,6 @@ export const Header = () => {
 
     return (
         <>
-            {" "}
             <AppBar position="static" width="100%" sx={{ backgroundColor: "transparent !important" }}>
                 <Toolbar sx={{ padding: "0px" }}>
                     <HeaderContainer>
@@ -75,22 +80,22 @@ export const Header = () => {
                             {!isMobile && (
                                 <Stack direction="row" alignItems="center" gap={9}>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/home' ? 700 : 400} color={url === '/home' ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             HOME
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/wedding' ? 700 : 400} color={url === '/wedding' ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             CASAMENTO
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/travel' ? 700 : 400} color={url === '/travel' ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             VIAGEM
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={400} color={theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/qea' ? 700 : 400} color={url === '/qea' ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             Q&A
                                         </Typography>
                                     </MenuLink>

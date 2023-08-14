@@ -14,7 +14,6 @@ export const Body = () => {
     const location = useLocation();
     const url = location.pathname;
 
-    console.log("url", url);
 
     return url === "/home" ? (
         <Stack width='100%' height='100%'>
