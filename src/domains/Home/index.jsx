@@ -30,10 +30,26 @@ export const Home = () => {
                 <Typography fontSize={theme.spacing(8)} fontWeight={700} color={theme.palette.secondary.main}>RSVP</Typography>
                 <Typography fontSize={theme.spacing(4.5)} fontFamily={'Open Sans'} color={theme.palette.gray['500']}>RESPOND SIL VOUS PLAIT</Typography>
                 <Box height='800px'>
+                    Teste legal
+                </Box>
                 <Box height='800px'>
+                    Teste legal
+                </Box>
                 <Box height='800px'>
+                    Teste legal
+                </Box>
                 <Box height='800px'>
+                    Teste legal
+                </Box>
                 <Box height='800px'>
+                    Teste legal
+                </Box>
+                <Box height='800px'>
+                    Teste legal
+                </Box>
+                <Box height='800px'>
+                    Teste legal
+                </Box>
                 <Box height='800px'>
                     Teste legal
                 </Box>
