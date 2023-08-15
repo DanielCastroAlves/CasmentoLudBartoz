@@ -16,14 +16,14 @@ export const Body = () => {
 
 
     return url === "/home" ? (
-        <Stack width='100%' height='100%'>
+        <Stack width='100%' height='100%' p={0}>
             {/* <Header /> */}
             <Main />
             <Divider />
             <Footer />
         </Stack>
     ) : (
-        <Stack width='100%' height='100%'>
+        <Stack width='100%' height='100%' p={0}>
             <Header />
             <Main />
             <Divider />

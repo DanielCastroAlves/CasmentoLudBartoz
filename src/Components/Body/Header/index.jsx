@@ -14,11 +14,12 @@ import polIcon from "../../../Assets/Images/polIcon.png";
 import esIcon from "../../../Assets/Images/esIcon.png";
 import { useLanguage } from "../../../hooks/useLanguage";
 import { useLocation } from "react-router-dom";
-
+import text from "../../../Assets/text.json";
 
 export const Header = () => {
     const theme = useTheme();
-    const { handleFormLanguage, handleLanguage } = useLanguage();
+    const { handleFormLanguage, handleLanguage, language } = useLanguage();
+    console.log("language", text.MenuHeaderLinks.home[language]);
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     const [open, setOpen] = useState(false);
@@ -32,8 +33,8 @@ export const Header = () => {
             selected: i === index ? true : false,
         }));
         setMenuOptions(updatedMenuOptions);
-        handleLanguage(lang)
-        handleFormLanguage(lang)
+        handleLanguage(lang);
+        handleFormLanguage(lang);
         setOpen(!open);
     };
 
@@ -71,32 +72,34 @@ export const Header = () => {
     };
 
     return (
-        <>
-            <AppBar position="static" width="100%" sx={{ backgroundColor: "transparent !important" }}>
-                <Toolbar sx={{ padding: "0px" }}>
+        <Box>
+            <AppBar position="static" width="100%" sx={{ background: "transparent !important", boxShadow: "none" }}>
+                <Box sx={{ paddingLeft: "0px" }}>
                     <HeaderContainer>
-                        <img src={headerLogo} alt="Logo Ludmila e Bartosz" />
-                        <Stack direction="row" alignItems="center" gap={18}>
+                        <Box sx={{ paddingLeft: !isMobile && 15 }}>
+                            <img src={headerLogo} alt="Logo Ludmila e Bartosz" />
+                        </Box>
+                        <Stack direction="row" alignItems="center" gap={18} sx={{ paddingRight: !isMobile && 15 }}>
                             {!isMobile && (
                                 <Stack direction="row" alignItems="center" gap={9}>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/home' ? 700 : 400} color={url === '/home' ? theme.palette.secondary.main : theme.palette.primary.main}>
-                                            HOME
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/home" ? 700 : 400} color={url === "/home" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                            {text.MenuHeaderLinks.home[language].toUpperCase()}
+                                        </Typography>
+                                    </MenuLink>
+                                    <MenuLink to="/wedding">
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/wedding" ? 700 : 400} color={url === "/wedding" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                            {text.MenuHeaderLinks.wedding[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/wedding' ? 700 : 400} color={url === '/wedding' ? theme.palette.secondary.main : theme.palette.primary.main}>
-                                            CASAMENTO
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/travel" ? 700 : 400} color={url === "/travel" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                            {text.MenuHeaderLinks.travel[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/travel' ? 700 : 400} color={url === '/travel' ? theme.palette.secondary.main : theme.palette.primary.main}>
-                                            VIAGEM
-                                        </Typography>
-                                    </MenuLink>
-                                    <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === '/qea' ? 700 : 400} color={url === '/qea' ? theme.palette.secondary.main : theme.palette.primary.main}>
-                                            Q&A
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/qea" ? 700 : 400} color={url === "/qea" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                            {text.MenuHeaderLinks.qea[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                 </Stack>
@@ -112,10 +115,10 @@ export const Header = () => {
                             )}
                         </Stack>
                     </HeaderContainer>
-                </Toolbar>
+                </Box>
             </AppBar>
             <MenuDrawer open={open} setOpen={setOpen} handleDrawerOpen={handleDrawerOpen} menuOptions={menuOptions} />
             <HeaderMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} handleClick={handleClick} menuOptions={menuOptions} setMenuOptions={setMenuOptions} />
-        </>
+        </Box>
     );
 };

@@ -6,9 +6,7 @@ import smallLogo from "../../../../../Assets/Images/smallLogo.png";
 import { X } from "@phosphor-icons/react";
 import { useLocation } from "react-router-dom";
 
-
 export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => {
-
     const theme = useTheme();
 
     const location = useLocation();
@@ -26,7 +24,7 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => 
             >
                 <Stack width="100%" height="100%" gap={6}>
                     <Stack width="100%" direction="row" justifyContent="flex-end">
-                        <X size={32} onClick={_ => setOpen(!open)} color={theme.palette.primary.main} />
+                        <X size={32} onClick={(_) => setOpen(!open)} color={theme.palette.primary.main} />
                     </Stack>
                     <HeaderMenuDrawerContainer>
                         <Stack direction="row" justifyContent="space-between" alignItems="center" width="100%">
@@ -56,22 +54,22 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => 
                             </Typography>
                             <Stack width="100%" alignItems="flex-start" gap={2}>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/home' ? 700 : 400} color={url === '/home' ? theme.palette.primary.main : theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/home" ? 700 : 400} color={url === "/home" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         HOME
                                     </Typography>
                                 </MenuLink>
-                                <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/wedding' ? 700 : 400} color={url === '/wedding' ? theme.palette.primary.main : theme.palette.secondary.main}>
+                                <MenuLink to="/wedding">
+                                    <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/wedding" ? 700 : 400} color={url === "/wedding" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         CASAMENTO
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/travel' ? 700 : 400} color={url === '/travel' ? theme.palette.primary.main : theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/travel" ? 700 : 400} color={url === "/travel" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         VIAGEM
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography fontSize={theme.spacing(5)} fontWeight={url === '/qea' ? 700 : 400} color={url === '/qea' ? theme.palette.primary.main : theme.palette.secondary.main}>
+                                    <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/qea" ? 700 : 400} color={url === "/qea" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         Q&A
                                     </Typography>
                                 </MenuLink>

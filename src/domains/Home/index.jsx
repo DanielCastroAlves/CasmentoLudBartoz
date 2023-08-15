@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { useLanguage } from "../../hooks/useLanguage.jsx";
 import text from "../../Assets/text.json";
 import { Header } from "../../Components/Body/Header/index.jsx";
-import { Button, Stack, Typography, useTheme } from "@mui/material";
+import { Box, Button, Stack, Typography, useTheme } from "@mui/material";
 import { HomeContainer } from "./style.js";
 
 export const Home = () => {
@@ -18,7 +18,7 @@ export const Home = () => {
             <HomeContainer>
                 <Header />
                 <Stack alignItems="center" justifyContent="center" height="100%" px={4}>
-                    <Typography fontSize={theme.spacing(6)} fontWeight={700} color={theme.palette.primary.main}>
+                    <Typography fontSize={theme.spacing(6)} fontWeight={800} color={theme.palette.primary.main}>
                         LUDMILLA & BARTOSZ
                     </Typography>
                     <Typography fontSize={theme.spacing(4)} fontWeight={300} color={theme.palette.primary.main}>
@@ -26,10 +26,16 @@ export const Home = () => {
                     </Typography>
                 </Stack>
             </HomeContainer>
-            <Stack justifyContent='center' alignItems='center' gap={4} sx={{overflow: 'hidden'}}>
-                <Typography fontSize={theme.spacing(8)} fontWeight={700} color={theme.palette.secondary.main}>RSVP</Typography>
-                <Typography fontSize={theme.spacing(4.5)} fontFamily={'Open Sans'} color={theme.palette.gray['500']}>RESPOND SIL VOUS PLAIT</Typography>
-                <iframe src={urlForm} title="External Form" width="100%" height="2000px" frameBorder="0" ></iframe>
+            <Stack justifyContent="center" alignItems="center" gap={4} sx={{ overflow: "hidden" }}>
+                <Typography fontSize={theme.spacing(8)} fontWeight={700} color={theme.palette.secondary.main}>
+                    RSVP
+                </Typography>
+                <Typography fontSize={theme.spacing(4.5)} fontFamily={"Open Sans"} color={theme.palette.gray["500"]}>
+                    RESPOND SIL VOUS PLAIT
+                </Typography>
+                {/* <Box width='100%'> */}
+                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0"></iframe>
+                {/* </Box> */}
             </Stack>
         </Stack>
     );

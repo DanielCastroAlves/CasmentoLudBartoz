@@ -7,6 +7,8 @@ const HeaderContainer = styled(Stack)(({ theme }) => ({
     justifyContent: "space-between",
     padding: `${theme.spacing(4)} ${theme.spacing(4)}`,
     width: "100%",
+    boxShadow: 'none',
+    background: 'rgba(255, 255, 255, 0.25)'
 }));
 
 const MenuAvatar = styled(Avatar)(({ theme }) => ({

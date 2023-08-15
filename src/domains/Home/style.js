@@ -6,10 +6,11 @@ const HomeContainer = styled(Stack)(() => ({
     width: "100%",
     height: "100vh",
     backgroundImage: `linear-gradient(360deg, #FFF 0%, rgba(255, 255, 255, 0.78) 37.87%, rgba(255, 255, 255, 0.00) 81.77%), url(${bgImage})`,
-    backgroundPosition: "center",
+    // backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     maxWidth: "-webkit-fill-available",
+    overflow: 'auto !important'
 }));
 
 export { HomeContainer };
