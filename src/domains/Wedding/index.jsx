@@ -3,14 +3,16 @@ import text from "../../Assets/text.json";
 import { useLanguage } from "../../hooks/useLanguage";
 import { WeddingInvitation } from "./components/WeddingInvitation";
 import { LocationAndWeather } from "./components/LocationAndWeather";
+import { Gallery } from "./components/Gallery";
 
 export const Wedding = () => {
     const theme = useTheme();
     const { language } = useLanguage();
     return (
-        <Stack width='100%' height='100%'>
+        <Stack width='100%' height='100%' mb={10}>
             <WeddingInvitation />
             <LocationAndWeather />
+            <Gallery />
         </Stack>
     );
 };
