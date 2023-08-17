@@ -1,20 +1,20 @@
 import { Box, Stack } from "@mui/material";
 
 export const LocationAndWeather = () => {
-    (function (d, s, id) {
-        if (d.getElementById(id)) {
-            if (window.__TOMORROW__) {
-                window.__TOMORROW__.renderWidget();
-            }
-            return;
-        }
-        const fjs = d.getElementsByTagName(s)[0];
-        const js = d.createElement(s);
-        js.id = id;
-        js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+    // (function (d, s, id) {
+    //     if (d.getElementById(id)) {
+    //         if (window.__TOMORROW__) {
+    //             window.__TOMORROW__.renderWidget();
+    //         }
+    //         return;
+    //     }
+    //     const fjs = d.getElementsByTagName(s)[0];
+    //     const js = d.createElement(s);
+    //     js.id = id;
+    //     js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
 
-        fjs.parentNode.insertBefore(js, fjs);
-    })(document, "script", "tomorrow-sdk");
+    //     fjs.parentNode.insertBefore(js, fjs);
+    // })(document, "script", "tomorrow-sdk");
 
     return (
         <Stack width="100%" alignItems="center" px={30}>
@@ -33,11 +33,13 @@ export const LocationAndWeather = () => {
                 </Box>
             </Stack>
             <Stack width="100%" mt={8}>
-                <div class="tomorrow" data-location-id="010607" data-language="EN" data-unit-system="METRIC" data-skin="light" data-widget-type="summary">
+                {/* <div class="tomorrow" data-location-id="010607" data-language="EN" data-unit-system="METRIC" data-skin="light" data-widget-type="summary">
                     <a href="https://www.tomorrow.io/weather-api/" rel="nofollow noopener noreferrer" target="_blank">
                         <img alt="Powered by the Tomorrow.io Weather API" src="https://weather-website-client.tomorrow.io/img/powered-by.svg" width="250" height="18" />
                     </a>
-                </div>
+                </div> */}
+                {!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js')}
+                <a class="weatherwidget-io" href="https://forecast7.com/pt/n22d76n41d89/armacao-dos-buzios/" data-label_1="Búzios" data-label_2="Previsão do Tempo" data-icons="Climacons" data-mode="Forecast" data-theme="pure" >Búzios Previsão do Tempo</a>
             </Stack>
         </Stack>
     );

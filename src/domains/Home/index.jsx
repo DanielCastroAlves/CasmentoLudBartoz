@@ -4,13 +4,14 @@ import { useParams } from "react-router-dom";
 import { useLanguage } from "../../hooks/useLanguage.jsx";
 import text from "../../Assets/text.json";
 import { Header } from "../../Components/Body/Header/index.jsx";
-import { Box, Button, Stack, Typography, useTheme } from "@mui/material";
+import { Box, Button, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { HomeContainer } from "./style.js";
 
 export const Home = () => {
     const { urlForm } = useLanguage();
 
     const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     // return <div>{text[language].title}</div>;
     return (
@@ -33,9 +34,7 @@ export const Home = () => {
                 <Typography fontSize={theme.spacing(4.5)} fontFamily={"Open Sans"} color={theme.palette.gray["500"]}>
                     RESPOND SIL VOUS PLAIT
                 </Typography>
-                <Box width='100%' mb={10}>
-                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0" scrolling="no"></iframe>
-                </Box>
+                    <iframe src={urlForm} title="Confirme Presença" width="100%" height={isMobile ? '2500px' : '1700px'} frameBorder="0" scrolling="no"></iframe>
             </Stack>
         </Stack>
     );
