@@ -34,7 +34,7 @@ export const Home = () => {
                     RESPOND SIL VOUS PLAIT
                 </Typography>
                 <Box width='100%' mb={10}>
-                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0"></iframe>
+                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0" scrolling="no"></iframe>
                 </Box>
             </Stack>
         </Stack>
