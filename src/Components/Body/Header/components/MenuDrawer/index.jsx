@@ -5,10 +5,11 @@ import { HeaderMenuDrawerContainer, MenuAvatar, MenuLink } from "./style";
 import smallLogo from "../../../../../Assets/Images/smallLogo.png";
 import { X } from "@phosphor-icons/react";
 import { useLocation } from "react-router-dom";
+import { useLanguage } from "../../../../../hooks/useLanguage";
 
-export const MenuDrawer = ({ open, setOpen, handleDrawerOpen, menuOptions }) => {
+export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
     const theme = useTheme();
-
+    const { menuOptions } = useLanguage();
     const location = useLocation();
     const url = location.pathname;
 

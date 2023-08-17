@@ -18,8 +18,7 @@ import text from "../../../Assets/text.json";
 
 export const Header = () => {
     const theme = useTheme();
-    const { handleFormLanguage, handleLanguage, language } = useLanguage();
-    console.log("language", text.MenuHeaderLinks.home[language]);
+    const { handleFormLanguage, handleLanguage, language, menuOptions, setMenuOptions } = useLanguage();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     const [open, setOpen] = useState(false);
@@ -38,32 +37,32 @@ export const Header = () => {
         setOpen(!open);
     };
 
-    const [menuOptions, setMenuOptions] = useState([
-        {
-            alt: "Bandeira do Brasil",
-            image: brIcon,
-            selected: true,
-            language: "pt",
-        },
-        {
-            alt: "Bandeira da Polônia",
-            image: polIcon,
-            selected: false,
-            language: "pol",
-        },
-        {
-            alt: "Bandeira do Reino Unido",
-            image: engIcon,
-            selected: false,
-            language: "eng",
-        },
-        {
-            alt: "Bandeira da Espanha",
-            image: esIcon,
-            selected: false,
-            language: "es",
-        },
-    ]);
+    // const [menuOptions, setMenuOptions] = useState([
+    //     {
+    //         alt: "Bandeira do Brasil",
+    //         image: brIcon,
+    //         selected: true,
+    //         language: "pt",
+    //     },
+    //     {
+    //         alt: "Bandeira da Polônia",
+    //         image: polIcon,
+    //         selected: false,
+    //         language: "pol",
+    //     },
+    //     {
+    //         alt: "Bandeira do Reino Unido",
+    //         image: engIcon,
+    //         selected: false,
+    //         language: "eng",
+    //     },
+    //     {
+    //         alt: "Bandeira da Espanha",
+    //         image: esIcon,
+    //         selected: false,
+    //         language: "es",
+    //     },
+    // ]);
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -117,8 +116,8 @@ export const Header = () => {
                     </HeaderContainer>
                 </Box>
             </AppBar>
-            <MenuDrawer open={open} setOpen={setOpen} handleDrawerOpen={handleDrawerOpen} menuOptions={menuOptions} />
-            <HeaderMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} handleClick={handleClick} menuOptions={menuOptions} setMenuOptions={setMenuOptions} />
+            <MenuDrawer open={open} setOpen={setOpen} handleDrawerOpen={handleDrawerOpen} />
+            <HeaderMenu anchorEl={anchorEl} setAnchorEl={setAnchorEl} handleClick={handleClick} />
         </Box>
     );
 };

@@ -1,4 +1,8 @@
 import { createContext, useState } from "react";
+import brIcon from '../Assets/Images/brIcon.png'
+import polIcon from '../Assets/Images/polIcon.png'
+import engIcon from '../Assets/Images/engIcon.png'
+import esIcon from '../Assets/Images/esIcon.png'
 
 export const LanguageContext = createContext();
 
@@ -9,6 +13,33 @@ export const LanguageContextProvider = ({ children }) => {
     const handleLanguage = (lang) => {
         setLanguage(lang);
     };
+
+    const [menuOptions, setMenuOptions] = useState([
+        {
+            alt: "Bandeira do Brasil",
+            image: brIcon,
+            selected: true,
+            language: "pt",
+        },
+        {
+            alt: "Bandeira da Polônia",
+            image: polIcon,
+            selected: false,
+            language: "pol",
+        },
+        {
+            alt: "Bandeira do Reino Unido",
+            image: engIcon,
+            selected: false,
+            language: "eng",
+        },
+        {
+            alt: "Bandeira da Espanha",
+            image: esIcon,
+            selected: false,
+            language: "es",
+        },
+    ]);
 
     const handleFormLanguage = (lang) => {
         switch(lang) {
@@ -34,7 +65,9 @@ export const LanguageContextProvider = ({ children }) => {
         setLanguage,
         handleLanguage,
         urlForm,
-        handleFormLanguage
+        handleFormLanguage,
+        menuOptions,
+        setMenuOptions
     };
 
     return <LanguageContext.Provider value={providerValues}>{children}</LanguageContext.Provider>;

@@ -6,9 +6,9 @@ import { Stack, useTheme } from "@mui/material";
 import { MenuAvatar, MenuContainer } from "./style";
 import { useLanguage } from "../../../../../hooks/useLanguage";
 
-export const HeaderMenu = ({ anchorEl, setAnchorEl, menuOptions, setMenuOptions }) => {
+export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
     const theme = useTheme();
-    const { handleFormLanguage, handleLanguage } = useLanguage();
+    const { handleFormLanguage, handleLanguage, menuOptions, setMenuOptions } = useLanguage();
     const open = Boolean(anchorEl);
     const handleClose = (e, index, lang) => {
         const updatedMenuOptions = menuOptions.map((option, i) => ({
@@ -16,12 +16,10 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl, menuOptions, setMenuOptions 
             selected: i === index ? true : false,
         }));
         setMenuOptions(updatedMenuOptions);
-        handleLanguage(lang)
-        handleFormLanguage(lang)
+        handleLanguage(lang);
+        handleFormLanguage(lang);
         setAnchorEl(null);
     };
-
-    
 
     return (
         <Stack gap={8}>
@@ -51,7 +49,7 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl, menuOptions, setMenuOptions 
                 )}
                 {menuOptions.map((item, i) => {
                     return (
-                        <MenuItem key={item.language} onClick={(e) => handleClose(e, i, item.language)} >
+                        <MenuItem key={item.language} onClick={(e) => handleClose(e, i, item.language)}>
                             <MenuAvatar alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} />
                         </MenuItem>
                     );
