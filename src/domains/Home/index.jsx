@@ -33,9 +33,9 @@ export const Home = () => {
                 <Typography fontSize={theme.spacing(4.5)} fontFamily={"Open Sans"} color={theme.palette.gray["500"]}>
                     RESPOND SIL VOUS PLAIT
                 </Typography>
-                {/* <Box width='100%'> */}
-                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0" scrolling="no"></iframe>
-                {/* </Box> */}
+                <Box width='100%' mb={10}>
+                    <iframe src={urlForm} title="Confirme Presença" width="100%" height="1900px" frameBorder="0"></iframe>
+                </Box>
             </Stack>
         </Stack>
     );
