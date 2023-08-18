@@ -25,13 +25,13 @@ export const LanguageContextProvider = ({ children }) => {
             alt: "Bandeira da Polônia",
             image: polIcon,
             selected: false,
-            language: "pol",
+            language: "pl",
         },
         {
             alt: "Bandeira do Reino Unido",
             image: engIcon,
             selected: false,
-            language: "eng",
+            language: "en",
         },
         {
             alt: "Bandeira da Espanha",
@@ -46,14 +46,14 @@ export const LanguageContextProvider = ({ children }) => {
             case 'pt':
               setUrlForm('https://form.jotform.com/232013769282355')
               break;
-            case 'pol':
-                setUrlForm('https://form.jotform.com/232013397735355')
+            case 'pl':
+                setUrlForm('https://form.jotform.com/232013749527355')
               break;
-            case 'eng':
+            case 'en':
                 setUrlForm('https://form.jotform.com/232012755193047')
               break;
             case 'es':
-                setUrlForm('https://form.jotform.com/232013397735355')
+                setUrlForm('https://form.jotform.com/232012755193047')
               break;
             default:
                 setUrlForm('https://form.jotform.com/232013769282355')

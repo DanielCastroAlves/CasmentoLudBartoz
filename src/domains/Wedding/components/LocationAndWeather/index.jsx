@@ -1,30 +1,87 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, Typography, useTheme } from "@mui/material";
+import { useLanguage } from "../../../../hooks/useLanguage";
+import { useEffect, useState } from "react";
+import { CeremonyContainer } from "./style";
+import sargatana from '../../../../Assets/Images/Sargatana.png'
+import brMap from '../../../../Assets/Images/brMap.png'
 
 export const LocationAndWeather = () => {
-    // (function (d, s, id) {
-    //     if (d.getElementById(id)) {
-    //         if (window.__TOMORROW__) {
-    //             window.__TOMORROW__.renderWidget();
-    //         }
-    //         return;
-    //     }
-    //     const fjs = d.getElementsByTagName(s)[0];
-    //     const js = d.createElement(s);
-    //     js.id = id;
-    //     js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+    const { language } = useLanguage();
+    const theme = useTheme();
+    const [urlLanguage, setUrlLanguage] = useState(`https://forecast7.com/${language}/n22d76n41d89/armacao-dos-buzios/`);
 
-    //     fjs.parentNode.insertBefore(js, fjs);
-    // })(document, "script", "tomorrow-sdk");
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://weatherwidget.io/js/widget.min.js";
+        script.async = true;
+        script.onload = () => {
+            // Widget script loaded, you can initialize the widget here
+            // Be cautious, some widget scripts might not handle dynamic changes well
+        };
+        document.body.appendChild(script);
+        setUrlLanguage(`https://forecast7.com/${language}/n22d76n41d89/armacao-dos-buzios/`);
+
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, [language]);
 
     return (
         <Stack width="100%" alignItems="center" px={30}>
             <Stack direction="row" width="100%" gap={8}>
-                <Box width="50%" sx={{ border: "2px solid black" }}></Box>
-                <Box>
+                <CeremonyContainer width="50%">
+                    <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                        Cerimônia & Festa
+                    </Typography>
+                    <Stack width="100%" gap={2} alignItems="center">
+                        <Stack direction="row" width="100%" justifyContent="center" gap={2}>
+                            <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                Save
+                            </Typography>
+                            <Typography fontSize={theme.spacing(6.5)} color={theme.palette.secondary.main} fontFamily="Corinthia">
+                                the
+                            </Typography>
+                            <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                Date
+                            </Typography>
+                        </Stack>
+                        <Typography color={theme.palette.secondary.main}>WEEK-DAY, DD.MM.YYYY às HH:MM</Typography>
+                    </Stack>
+                    <Stack direction="row" width="100%" height="100%" justifyContent="space-between" gap={4} my={5}>
+                        <Stack gap={4} alignItems='center'>
+                            <Typography fontSize={theme.spacing(12)} color={theme.palette.secondary.main} fontFamily="Corinthia">
+                                Villa Três Marias
+                            </Typography>
+                            <Stack>
+                                <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
+                                    RUA TRÊS MARIAS, 20 - MANGUINHOS
+                                </Typography>
+                                <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
+                                    ARMAÇÃO DE BÚZIOS, RJ. BRASIL.
+                                </Typography>
+                            </Stack>
+                            <Box my={5}>
+                                <img src={sargatana} alt="Lagartixa marron" />
+                            </Box>
+                            <Stack direction="row" gap={4} alignItems='baseline'>
+                                <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main} fontWeight={400}>
+                                    Dress Code:
+                                </Typography>
+                                <Typography color={theme.palette.gray['500']} fontWeight={300} fontFamily="Open Sans">
+                                    SEMI-FORMAL BEACH
+                                </Typography>
+                            </Stack>
+                        </Stack>
+                        <Stack>
+                            <img src={brMap} alt="Mapa geográfico do Brasil" />
+                        </Stack>
+                    </Stack>
+                </CeremonyContainer>
+                <Box width="50%">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.946544808715!2d-41.91187708872573!3d-22.76736497926735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ff1202fcdb65%3A0xa27673cadca1dc57!2sVilla%20Tres%20Marias%20Buzios!5e0!3m2!1sen!2sch!4v1689846300672!5m2!1sen!2sch"
-                        width="600"
-                        height="450"
+                        width="100%"
+                        height="100%"
                         allowfullscreen=""
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
@@ -32,15 +89,10 @@ export const LocationAndWeather = () => {
                     ></iframe>
                 </Box>
             </Stack>
-            <Stack width="100%" mt={8}>
-                {/* <div class="tomorrow" data-location-id="010607" data-language="EN" data-unit-system="METRIC" data-skin="light" data-widget-type="summary">
-                    <a href="https://www.tomorrow.io/weather-api/" rel="nofollow noopener noreferrer" target="_blank">
-                        <img alt="Powered by the Tomorrow.io Weather API" src="https://weather-website-client.tomorrow.io/img/powered-by.svg" width="250" height="18" />
-                    </a>
-                </div> */}
-                {!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js')}
-                <a class="weatherwidget-io" href="https://forecast7.com/pt/n22d76n41d89/armacao-dos-buzios/" data-label_1="Búzios" data-label_2="Previsão do Tempo" data-icons="Climacons" data-mode="Forecast" data-theme="pure" >Búzios Previsão do Tempo</a>
+            <Stack width="100%" height='100%' mt={8}>
+            <a class="weatherwidget-io" href={urlLanguage} data-label_1="BUZIOS" data-label_2="WEATHER" data-theme="original" data-basecolor="#9C4522" >BUZIOS WEATHER</a>
             </Stack>
+            
         </Stack>
     );
 };

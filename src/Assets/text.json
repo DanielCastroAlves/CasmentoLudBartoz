@@ -2,52 +2,52 @@
     "MenuHeaderLinks": {
         "home": {
             "pt": "Home",
-            "pol": "Home",
-            "eng": "Home",
+            "pl": "Home",
+            "en": "Home",
             "es": "Início"
         },
         "wedding": {
             "pt": "Casamento",
-            "pol": "Ślub",
-            "eng": "Wedding",
+            "pl": "Ślub",
+            "en": "Wedding",
             "es": "Boda"
         },
         "travel": {
             "pt": "Viagem",
-            "pol": "Travel",
-            "eng": "Travel",
+            "pl": "Travel",
+            "en": "Travel",
             "es": "Viaje"
         },
         "qea": {
             "pt": "Q&A",
-            "pol": "Q&A",
-            "eng": "Q&A",
+            "pl": "Q&A",
+            "en": "Q&A",
             "es": "Q&A"
         }
     },
     "Wedding": {
         "title": {
             "pt": "Casamento Ludmilla & Bartosz",
-            "pol": "Ślub Ludmilly & Bartosza",
-            "eng": "Ludmilla & Bartosz's wedding",
+            "pl": "Ślub Ludmilly & Bartosza",
+            "en": "Ludmilla & Bartosz's wedding",
             "es": "Casamento Ludmilla & Bartosz em espanhol"
         },
         "subTitle": {
             "pt": "BORA NOS EMOCIONAR JUNTOS E CURTIR UM DIA INESQUECÍVEL COM A GENTE?",
-            "pol": "DAJMY SIĘ PONIEŚĆ EMOCJOM I PRZEŻYJMY RAZEM NIEZAPOMNIANY DZIEŃ",
-            "eng": "subtitle eng",
+            "pl": "DAJMY SIĘ PONIEŚĆ EMOCJOM I PRZEŻYJMY RAZEM NIEZAPOMNIANY DZIEŃ",
+            "en": "subtitle en",
             "es": "subtitle es"
         },
         "introP1": {
             "pt": "Nada contra quem case em igreja, mas ter o fundo do mar como vista para dizer 'yes, I do!' é muito mais incrível! Portanto, encontramos o lugar perfeito para unir a Cerimônia Religiosa para abençoar nossa união e, em seguida, teremos a festa no mesmo lugar, ao som do DJ Tilulu pra aproveitar o dia, com o melhor pôr-do-sol de Búzios e o cair da noite com a brisa fresca do mar...",
-            "pol": "Nie ma nic przeciwko ślubom w kościele ale widok na morze jako tło do powiedzenia  'yes, I do!' jest o wiele bardziej niesamowite! Dlatego znaleźliśmy idealne miejsce gdzie będziemy mogli odbyć ceremonię religijną, aby pobłogosławić nasz związek, a następnie zorganizujemy imprezę przy dźwiękach DJ Tilulu, aby cieszyć się dniem, z najlepszym zachodem słońca w Búzios i nocą przy świeżej morskiej bryzie ...",
-            "eng": "intro p1 eng",
+            "pl": "Nie ma nic przeciwko ślubom w kościele ale widok na morze jako tło do powiedzenia  'yes, I do!' jest o wiele bardziej niesamowite! Dlatego znaleźliśmy idealne miejsce gdzie będziemy mogli odbyć ceremonię religijną, aby pobłogosławić nasz związek, a następnie zorganizujemy imprezę przy dźwiękach DJ Tilulu, aby cieszyć się dniem, z najlepszym zachodem słońca w Búzios i nocą przy świeżej morskiej bryzie ...",
+            "en": "intro p1 en",
             "es": "intro p1 es"
         },
         "introP2": {
             "pt": "Só não se esqueça de confirmar presença!",
-            "pol": "Tylko nie zapomnij potwierdzić swojej obecności!",
-            "eng": "intro p3 eng",
+            "pl": "Tylko nie zapomnij potwierdzić swojej obecności!",
+            "en": "intro p3 en",
             "es": "intro p3 es"
         }
     }
