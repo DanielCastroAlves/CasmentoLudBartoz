@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Stack, Typography, useTheme, Divider } from "@mui/material";
 import { useState } from "react";
 
-import { BodyContainer } from "./style.js";
 import { Main } from "./Main";
 import { Header } from "./Header/index.jsx";
 import { Footer } from "./Footer/index.jsx";

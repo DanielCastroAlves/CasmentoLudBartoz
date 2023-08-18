@@ -4,6 +4,7 @@ import { useLanguage } from "../../hooks/useLanguage";
 import { WeddingInvitation } from "./components/WeddingInvitation";
 import { LocationAndWeather } from "./components/LocationAndWeather";
 import { Gallery } from "./components/Gallery";
+import { Navigation } from "./components/Navigation";
 
 export const Wedding = () => {
     const theme = useTheme();

@@ -1,5 +1,4 @@
 import { Avatar, Stack, styled } from "@mui/material";
-import bgImage from "../../../../../Assets/Images/bgmain.jpg";
 import { Link } from "react-router-dom";
 
 const HeaderMenuDrawerContainer = styled(Stack)(({ theme }) => ({
