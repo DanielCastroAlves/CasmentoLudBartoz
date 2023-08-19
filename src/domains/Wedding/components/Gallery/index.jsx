@@ -22,7 +22,7 @@ export const Gallery = () => {
                         </GalleryTextContainer>
                     </GalleryContainer>
                 </GaleryLink>
-                <GaleryLink to="/home">
+                <GaleryLink to="/wedding/dresscode">
                     <GalleryContainer>
                         <img src={preWedding2} width="100%" alt="Mulher de vestido amarelo na praia com flor no cabelo" />
                         <GalleryTextContainer>
