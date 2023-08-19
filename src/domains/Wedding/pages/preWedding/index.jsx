@@ -8,7 +8,7 @@ import { useLanguage } from "../../../../hooks/useLanguage";
 export const PreWedding = () => {
     const path = [
         { label: "Casamento", url: "/wedding" },
-        { label: "Dress Code", url: "/dresscode" },
+        { label: "Dress Code", url: "/wedding/dresscode" },
     ];
 
     const { language } = useLanguage();
