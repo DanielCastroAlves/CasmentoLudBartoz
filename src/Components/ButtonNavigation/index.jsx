@@ -17,7 +17,7 @@ export const ButtonNavigation = ({ path }) => {
                     {path[0].label}
                 </Typography>
             </BtnNavigation>
-            <BtnNavigation variant="contained" endIcon={<Stack className="icon-container"> <ArrowRight size={32} color={theme.palette.gray["500"]} /> </Stack> }>
+            <BtnNavigation variant="contained"  onClick={() => navigate(path[1].url)} endIcon={<Stack className="icon-container"> <ArrowRight size={32} color={theme.palette.gray["500"]} /> </Stack> }>
                 <Typography fontFamily="Open Sans" color={theme.palette.gray["500"]}>
                     {path[1].label}
                 </Typography>

@@ -16,7 +16,7 @@ export const PreWedding = () => {
         <Stack width="100%" height="100%" mb={10}>
             <FirstSection title={text.preWedding.title[language]} subtitle={text.preWedding.subtitle[language]} paragraph1={text.preWedding.introP1[language]} paragraph2={text.preWedding.introP2[language]} />
             <LocationAndWeather />
-            <ButtonNavigation path={path} url />
+            <ButtonNavigation path={path} />
         </Stack>
     );
 };
