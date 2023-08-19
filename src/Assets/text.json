@@ -150,84 +150,84 @@
             "en": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor.",
             "es": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor."
         },
-        "li1": {
-            "pt": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
-            "pl": "Lekki, matowy makijaż (bez nadmiernej ilości brokatu czy błyszczyka) jest trwalszy na plaży, a skóra lepiej wygląda na zdjęciu.",
-            "en": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
-            "es": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele"
-        },
-        "li2": {
-            "pt": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
-            "pl": "Jeśli twoje włosy zmieniają się w wilgotnych miejscach, warto postawić na fryzurę taką jak warkocze lub koki (zobacz opcje salonów ślubnych w Búzios w Destination Wedding).",
-            "en": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
-            "es": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)"
-        },
-        "li3": {
-            "pt": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
-            "pl": "Perfumy i pot nie idą w parze. Idealnie jest użycie niewielkiej ilości perfum, najlepiej świeżych zapachów. Aby wydłużyć czas działania perfum, rozważ nałożenie ich na ubrania zamiast na skórę. (Pamiętaj: panna młoda jest uczulona na perfumy)",
-            "en": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
-            "es": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)"
-        },
-        "li4": {
-            "pt": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
-            "pl": "Luźne, krótkie spódniczki mogą być piękne na zdjęciu, ale niepraktyczne w pobliżu plaży z wiatrem.",
-            "en": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
-            "es": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento."
-        },
-        "li5": {
-            "pt": "Saltos finos não servem para andar na grama nem na areia.",
-            "pl": "Cienkie obcasy nie nadają się do chodzenia po trawie lub piasku.",
-            "en": "Saltos finos não servem para andar na grama nem na areia.",
-            "es": "Saltos finos não servem para andar na grama nem na areia.."
-        },
+        "tipsList": [
+            {
+                "pt": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+                "pl": "Lekki, matowy makijaż (bez nadmiernej ilości brokatu czy błyszczyka) jest trwalszy na plaży, a skóra lepiej wygląda na zdjęciu.",
+                "en": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+                "es": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele"
+            },
+            {
+                "pt": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
+                "pl": "Jeśli twoje włosy zmieniają się w wilgotnych miejscach, warto postawić na fryzurę taką jak warkocze lub koki (zobacz opcje salonów ślubnych w Búzios w Destination Wedding).",
+                "en": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
+                "es": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)"
+            },
+            {
+                "pt": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
+                "pl": "Perfumy i pot nie idą w parze. Idealnie jest użycie niewielkiej ilości perfum, najlepiej świeżych zapachów. Aby wydłużyć czas działania perfum, rozważ nałożenie ich na ubrania zamiast na skórę. (Pamiętaj: panna młoda jest uczulona na perfumy)",
+                "en": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
+                "es": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)"
+            },
+            {
+                "pt": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
+                "pl": "Luźne, krótkie spódniczki mogą być piękne na zdjęciu, ale niepraktyczne w pobliżu plaży z wiatrem.",
+                "en": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
+                "es": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento."
+            },
+            {
+                "pt": "Saltos finos não servem para andar na grama nem na areia.",
+                "pl": "Cienkie obcasy nie nadają się do chodzenia po trawie lub piasku.",
+                "en": "Saltos finos não servem para andar na grama nem na areia.",
+                "es": "Saltos finos não servem para andar na grama nem na areia.."
+            }
+        ],
+
         "heading5": {
             "pt": "O que não é permitido:",
             "pl": "Co nie jest dozwolone:",
             "en": "O que não é permitido:",
             "es": "O que não é permitido:"
         },
-        "body5": {
-            "pt": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
-            "pl": "Zdecydowaliśmy się nazwać Team Bride and Groom wszystkich tych, którzy będą uczestniczyć w ceremonii, czyli: członków rodziny panny młodej i pana młodego, którzy będą obecni, druhny i drużbów, druhnę/drużbę honorowego. W związku z tym będą oni odgrywać główną rolę w wydarzeniu i powinni przestrzegać określonych formalności, w tym zasad dotyczących ubioru. Wszystkie szczegóły zostaną przesłane pocztą elektroniczną.",
-            "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
-            "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
-        },
-        "li6": {
-            "pt": "jeans ou malhas",
-            "pl": "dżinsy lub dzianina",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
-        "li7": {
-            "pt": "camisa polo",
-            "pl": "koszulka polo",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
-        "li8": {
-            "pt": "roupas de cores fluorescentes",
-            "pl": "ubrania w kolorach fluorescencyjnych",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
-        "li9": {
-            "pt": "chinelos ou raider",
-            "pl": "japonki lub klapki",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
-        "li10": {
-            "pt": "tênis esportivo",
-            "pl": "buty sportowe",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
-        "li11": {
-            "pt": "alpargata",
-            "pl": "espadryle",
-            "en": "jeans ou malhas",
-            "es": "jeans ou malhas"
-        },
+        "notAllowed": [
+            {
+                "pt": "jeans ou malhas",
+                "pl": "dżinsy lub dzianina",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            },
+            {
+                "pt": "camisa polo",
+                "pl": "koszulka polo",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            },
+            {
+                "pt": "roupas de cores fluorescentes",
+                "pl": "ubrania w kolorach fluorescencyjnych",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            },
+            {
+                "pt": "chinelos ou raider",
+                "pl": "japonki lub klapki",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            },
+            {
+                "pt": "tênis esportivo",
+                "pl": "buty sportowe",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            },
+            {
+                "pt": "alpargata",
+                "pl": "espadryle",
+                "en": "jeans ou malhas",
+                "es": "jeans ou malhas"
+            }
+        ],
+
         "heading6": {
             "pt": "Team Bride & Groom",
             "pl": "Team Bride & Groom",
@@ -240,6 +240,5 @@
             "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
             "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
         }
-
     }
 }

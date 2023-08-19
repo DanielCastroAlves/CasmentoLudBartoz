@@ -7,14 +7,22 @@ import text from "../../../../../../Assets/text.json";
 import dressCodeMobile2 from "../../../../../../Assets/Images/dresscode/dressCodeMobile2.png";
 import dressCodeMobile3 from "../../../../../../Assets/Images/dresscode/dressCodeMobile3.png";
 import dressCodeMobile4 from "../../../../../../Assets/Images/dresscode/dressCodeMobile4.png";
+import dressCodeMobile5 from "../../../../../../Assets/Images/dresscode/dressCodeMobile5.png";
 import dressCodeDesktop2 from "../../../../../../Assets/Images/dresscode/dressCodeDesktop2.png";
 import dressCodeDesktop3 from "../../../../../../Assets/Images/dresscode/dressCodeDesktop3.png";
 import dressCodeDesktop4 from "../../../../../../Assets/Images/dresscode/dressCodeDesktop4.png";
+import dressCodeDesktop5 from "../../../../../../Assets/Images/dresscode/dressCodeDesktop5.png";
 import { CheckCircle, Dot } from "@phosphor-icons/react";
 export const DressCodeInfo = () => {
+
     const theme = useTheme();
     const { language } = useLanguage();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+    const path = [
+        { label: "Casamento", url: "/wedding" },
+        { label: "Presente", url: "/wedding/gift" },
+    ];
     return (
         <Grid container height="100%" justifyContent="center" alignItems="space-between" px={8} mt={15}>
             <Grid xs={12} sm={6}>
@@ -52,79 +60,136 @@ export const DressCodeInfo = () => {
             <Grid xs={12} sm={6.2}>
                 <img src={isMobile ? dressCodeMobile3 : dressCodeDesktop3} width="100%" alt="Amigos brindando" />
             </Grid>
-            <Grid xs={12} sm={6}>
-                <img src={isMobile ? dressCodeMobile4 : dressCodeDesktop4} width="100%" alt="Praia vista de cima" />
-            </Grid>
-            <Grid xs={12} sm={6} a>
-                <Stack p={4} gap={2} height="100%" justifyContent='center'>
-                    <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
-                        {text.dressCode.heading4[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body4[language]}
-                    </Typography>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li1[language]}
+            {isMobile ? (
+                <>
+                    {" "}
+                    <Grid xs={12} sm={6} a>
+                        <Stack p={4} gap={2} height="100%" justifyContent="center">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading4[language]}
                             </Typography>
-                        </ListItem>
-                    </List>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
                             <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li2[language]}
+                                {text.dressCode.body4[language]}
                             </Typography>
-                        </ListItem>
-                    </List>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
+                            <List component="nav">
+                                {text.dressCode.tipsList.map((item, i) => {
+                                    return (
+                                        <ListItem key={i + item}>
+                                            <ListItemIcon>
+                                                <Dot size={40} />
+                                            </ListItemIcon>
+                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                                {item[language]}
+                                            </Typography>
+                                        </ListItem>
+                                    );
+                                })}
+                            </List>
+                        </Stack>
+                    </Grid>
+                    <Grid xs={12} sm={6}>
+                        <img src={isMobile ? dressCodeMobile4 : dressCodeDesktop4} width="100%" alt="Amigas ao redor da noiva" />
+                    </Grid>
+                </>
+            ) : (
+                <>
+                    {" "}
+                    <Grid xs={12} sm={6}>
+                        <img src={isMobile ? dressCodeMobile4 : dressCodeDesktop4} width="100%" alt="Amigas ao redor da noiva" />
+                    </Grid>
+                    <Grid xs={12} sm={6} a>
+                        <Stack p={4} gap={2} height="100%" justifyContent="center">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading4[language]}
+                            </Typography>
                             <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li3[language]}
+                                {text.dressCode.body4[language]}
                             </Typography>
-                        </ListItem>
-                    </List>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
+                            <List component="nav">
+                                {text.dressCode.tipsList.map((item, i) => {
+                                    return (
+                                        <ListItem key={i + item}>
+                                            <ListItemIcon>
+                                                <Dot size={40} />
+                                            </ListItemIcon>
+                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                                {item[language]}
+                                            </Typography>
+                                        </ListItem>
+                                    );
+                                })}
+                            </List>
+                        </Stack>
+                    </Grid>
+                </>
+            )}
+            {isMobile ? (
+                <>
+                    <Grid xs={12} sm={5.8}>
+                        <Stack p={4} gap={8} height="100%" justifyContent="center">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading5[language]}
+                            </Typography>
+                            <List component="nav">
+                                {text.dressCode.notAllowed.map((item, i) => {
+                                    return (
+                                        <ListItem key={i + item}>
+                                            <ListItemIcon>
+                                                <Dot size={40} />
+                                            </ListItemIcon>
+                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                                {item[language]}
+                                            </Typography>
+                                        </ListItem>
+                                    );
+                                })}
+                            </List>
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading6[language]}
+                            </Typography>
                             <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li4[language]}
+                                {text.dressCode.body6[language]}
                             </Typography>
-                        </ListItem>
-                    </List>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
+                        </Stack>
+                    </Grid>
+                    <Grid xs={12} sm={6.2}>
+                        <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
+                    </Grid>
+                </>
+            ) : (
+                <>
+                    <Grid xs={12} sm={5.8}>
+                        <Stack p={4} gap={8} height="100%" justifyContent="center">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading5[language]}
+                            </Typography>
+                            <List component="nav">
+                                {text.dressCode.notAllowed.map((item, i) => {
+                                    return (
+                                        <ListItem key={i + item}>
+                                            <ListItemIcon>
+                                                <Dot size={40} />
+                                            </ListItemIcon>
+                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                                {item[language]}
+                                            </Typography>
+                                        </ListItem>
+                                    );
+                                })}
+                            </List>
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading6[language]}
+                            </Typography>
                             <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li5[language]}
+                                {text.dressCode.body6[language]}
                             </Typography>
-                        </ListItem>
-                    </List>
-                    <List component="nav">
-                        <ListItem>
-                            <ListItemIcon>
-                                <Dot size={40} />
-                            </ListItemIcon>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                                {text.dressCode.li6[language]}
-                            </Typography>
-                        </ListItem>
-                    </List>
-                </Stack>
-            </Grid>
+                        </Stack>
+                    </Grid>
+                    <Grid xs={12} sm={6.2}>
+                        <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
+                    </Grid>
+                </>
+            )}
         </Grid>
     );
 };
