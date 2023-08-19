@@ -7,6 +7,7 @@ import { Home } from "./domains/Home/index.jsx";
 import { LanguageContextProvider } from "./context/LanguageContext.jsx";
 import { Wedding } from "./domains/Wedding/index.jsx";
 import { PreWedding } from "./domains/Wedding/pages/preWedding/index.jsx";
+import { DressCode } from "./domains/Wedding/pages/dressCode/index.jsx";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,15 @@ const router = createBrowserRouter([
                     {
                         path: "wedding/prewedding",
                         element: <PreWedding />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/dresscode",
+                        element: <DressCode />,
                     },
                 ],
             },

@@ -7,11 +7,11 @@ const WeddingContainer = styled(Stack)(({ theme }) => ({
     // padding: `${theme.spacing(15)} ${theme.spacing(30)}`,
     width: "100%",
 }));
-const WeddingText = styled(Typography)(({ theme }) => ({
+const StyledText = styled(Typography)(({ theme }) => ({
     textAlign: "center", 
     wordWrap: "break-word", 
     hyphens: "auto", 
 }));
 
 
-export { WeddingContainer, WeddingText };
+export { WeddingContainer, StyledText };

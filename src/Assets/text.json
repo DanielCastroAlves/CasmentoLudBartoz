@@ -56,6 +56,190 @@
             "en": "Weather Forecast",
             "es": "Pronóstico del Tiempo"
         }
-    }
+    },
+    "preWedding": {
+        "title": {
+            "pt": "Pre Wedding",
+            "pl": "Pre Wedding",
+            "en": "Pre Wedding",
+            "es": "Pre Wedding"
+        },
+        "subtitle": {
+            "pt": "QUE TAL APRECIAR O PÔR-DO-SOL JUNTOS?",
+            "pl": "CO POWIESZ NA PODZIWIANIE ZACHODU SŁOŃCA Z ODROBINĄ SAMBY W TLE?",
+            "en": "QUE TAL APRECIAR O PÔR-DO-SOL JUNTOS?",
+            "es": "QUE TAL APRECIAR O PÔR-DO-SOL JUNTOS?"
+        },
+        "introP1": {
+            "pt": "Pre-Wedding é uma confraternização mais simples antes do casamento para que os convidados possam se conhecer antes da festa. Decidimos fazer algo bem informal mas em um lugar especial em Búzios para unir um pouco a galera presente para apreciar o pôr-do-sol.",
+            "pl": "Pre-Wedding to skromniejsze przyjęcie przed ślubem, aby goście mogli się poznać przed główną imprezą. Postanowiliśmy zrobić coś bardzo nieformalnego ale w szczególnym miejscu w Búzios, aby zapoznać ze sobą trochę zaproszonych gości i cieszyć się zachodem słońca.",
+            "en": "intro p1 en",
+            "es": "intro p1 es"
+        },
+        "introP2": {
+            "pt": "Mais informações por e-mail depois da confirmação de presença.",
+            "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
+            "en": "intro p2 en",
+            "es": "intro p2 es"
+        }
+    },
+    "dressCode": {
+        "title": {
+            "pt": "Dress Code",
+            "pl": "Dress Code",
+            "en": "Dress Code",
+            "es": "Dress Code"
+        },
+        "subtitle": {
+            "pt": "SEMI-FORMAL BEACH: LEVE, CONFORTÁVEL E ELEGANTE!",
+            "pl": "SEMI-FORMAL BEACH: LEKKO, WYGODNIE I ELEGANCKO!",
+            "en": "SEMI-FORMAL BEACH: LEVE, CONFORTÁVEL E ELEGANTE!",
+            "es": "SEMI-FORMAL BEACH: LEVE, CONFORTÁVEL E ELEGANTE!"
+        },
+        "introP1": {
+            "pt": "O que vestir em um Casamento na praia? Essa é a dúvida de muita gente, principalmente quando se trata de um evento multicultural em um lugar que não estamos habituados. A maior diferença entre um casamento na praia e um tradicional é em relação aos tecidos e calçados devido ao local e clima. Em síntese: é importante que seja com roupas leves e frescas, confortável mas elegante - afinal de contas é um casamento!",
+            "pl": "Co założyć na ślub na plaży? Stanowi to pytanie wielu osób, zwłaszcza gdy jest to wydarzenie wielokulturowe w miejscu, do którego nie jesteśmy przyzwyczajeni. Największa różnica między ślubem na plaży a tradycyjnym ślubem dotyczy tkanin i obuwia ze względu na lokalizację i klimat. Krótko mówiąc: ważne jest, aby były to lekkie i przewiewne ubrania, wygodne, ale eleganckie - w końcu to ślub!",
+            "en": "O que vestir em um Casamento na praia? Essa é a dúvida de muita gente, principalmente quando se trata de um evento multicultural em um lugar que não estamos habituados. A maior diferença entre um casamento na praia e um tradicional é em relação aos tecidos e calçados devido ao local e clima. Em síntese: é importante que seja com roupas leves e frescas, confortável mas elegante - afinal de contas é um casamento!",
+            "es": "O que vestir em um Casamento na praia? Essa é a dúvida de muita gente, principalmente quando se trata de um evento multicultural em um lugar que não estamos habituados. A maior diferença entre um casamento na praia e um tradicional é em relação aos tecidos e calçados devido ao local e clima. Em síntese: é importante que seja com roupas leves e frescas, confortável mas elegante - afinal de contas é um casamento!"
+        },
+        "heading1": {
+            "pt": "Local do Evento",
+            "pl": "Miejscu wydarzenia",
+            "en": "Local do Evento",
+            "es": "Local do Evento"
+        },
+        "body1": {
+            "pt": "O casamento vai começar às 15:00 à céu aberto e, se São Pedro colaborar, teremos um dia agradavelmente quente com céu azul e sol. Não será literalmente 'pé na areia', mas o espaço é de frente para o mar, com áreas de grama, deck de madeira ou cimento.",
+            "pl": "Ślub rozpocznie się o godzinie 15:00 pod gołym niebem, a przy współpracy ze Świętym Piotrem będziemy mieli przyjemny, ciepły dzień z błękitnym niebem i słońcem. Nie będzie to dosłownie 'stopą na piasku' ale przestrzeń znajduje się nad morzem, na trawniku, z drewnianym lub cementowym pomostem.",
+            "en": "O casamento vai começar às 15:00 à céu aberto e, se São Pedro colaborar, teremos um dia agradavelmente quente com céu azul e sol. Não será literalmente 'pé na areia', mas o espaço é de frente para o mar, com áreas de grama, deck de madeira ou cimento.",
+            "es": "O casamento vai começar às 15:00 à céu aberto e, se São Pedro colaborar, teremos um dia agradavelmente quente com céu azul e sol. Não será literalmente 'pé na areia', mas o espaço é de frente para o mar, com áreas de grama, deck de madeira ou cimento."
+        },
+        "heading2": {
+            "pt": "Clima de Búzios",
+            "pl": "Klimat w Búzios",
+            "en": "Clima de Búzios",
+            "es": "Clima de Búzios"
+        },
+        "body2": {
+            "pt": "Maio é outono no Brasil, o auge do verão de quase 40ºC já passou mas não é inverno. Durante o dia, você pode esperar por volta dos 26ºC e à noite cair para a sensação de 18ºC com a brisa do mar.",
+            "pl": "Maj to jesień w Brazylii, szczyt lata z temperaturą prawie 40ºC już minął, ale nie jest to zima. W ciągu dnia można spodziewać się około 26ºC, a w nocy temperatura spada do 18ºC z morską bryzą.",
+            "en": "Maio é outono no Brasil, o auge do verão de quase 40ºC já passou mas não é inverno. Durante o dia, você pode esperar por volta dos 26ºC e à noite cair para a sensação de 18ºC com a brisa do mar.",
+            "es": "Maio é outono no Brasil, o auge do verão de quase 40ºC já passou mas não é inverno. Durante o dia, você pode esperar por volta dos 26ºC e à noite cair para a sensação de 18ºC com a brisa do mar."
+        },
+        "heading3": {
+            "pt": "Recomendação aos convidados",
+            "pl": "Zalecenia dla gości",
+            "en": "Recomendação aos convidados",
+            "es": "Recomendação aos convidados"
+        },
+        "body3": {
+            "pt": "Tecidos arejados e leves, de cores claras, estampas sofisticadas e calçados confortáveis porém casuais. Traje para mulheres pode ser vestidos longos ou curtos, macacão formal, conjunto de saia longa ou calça pantalona e top com tecidos finos. Quando aos sapatos, é melhor que sejam abertos e arejados, não tem problema em ter saltos grossos altos ou baixos para garantir maior conforto e dar um aspecto mais praiano, rasteirinhas elegantes também são permitidas! Traje para homens pode ser calças com material mais leve, camisas de mangas longas de tecido fino e fresco. Não é necessário gravata nem blazer, mas fica à critério de cada um. Quanto aos sapatos, é permitido sapatênis, mocassin e sapatos sociais. No Brasil não é comum o uso de acessórios como chapéu, luvas nem muito brilho - especialmente em casamentos de dia na praia. Contudo, temos algumas restrições como: não é permitido que mulheres usem roupas nos tons branco, off white, pastel, champagne ou preto em casamentos.",
+            "pl": "Lekkie i przewiewne tkaniny, jasne kolory, wyrafinowane wzory i wygodne i swobodne buty. Propozycją stroju dla kobiet mogą być długie lub krótkie sukienki, formalne kombinezony, długie spódnice lub pantalony i topy z delikatnych tkanin. Jeśli chodzi o buty, najlepiej, aby były otwarte i przewiewne, dobrze jest mieć grube wysokie lub niskie obcasy, aby zapewnić większy komfort i nadać bardziej plażowy wygląd, eleganckie szale są również dozwolone! Strojem męskim mogą być spodnie z lżejszego materiału, koszule z długim lub średnim rękawem z cienkiego i przewiewnego materiału. Krawat lub marynarka nie są wymagane, ale zależy to od uznania każdej osoby. Obuwie: dozwolone są buty sportowe, mokasyny i półbuty. W Brazylii nie jest powszechne noszenie akcesoriów, takich jak kapelusze, rękawiczki lub dużo brokatu - szczególnie na ślubach dziennych na plaży. Mamy jednak pewne ograniczenia, takie jak: na wesela kobiety nie powinny zakładać ubrań w kolorach bieli, off white, pastelowych, szampańskich lub czarnych.",
+            "en": "Tecidos arejados e leves, de cores claras, estampas sofisticadas e calçados confortáveis porém casuais. Traje para mulheres pode ser vestidos longos ou curtos, macacão formal, conjunto de saia longa ou calça pantalona e top com tecidos finos. Quando aos sapatos, é melhor que sejam abertos e arejados, não tem problema em ter saltos grossos altos ou baixos para garantir maior conforto e dar um aspecto mais praiano, rasteirinhas elegantes também são permitidas! Traje para homens pode ser calças com material mais leve, camisas de mangas longas de tecido fino e fresco. Não é necessário gravata nem blazer, mas fica à critério de cada um. Quanto aos sapatos, é permitido sapatênis, mocassin e sapatos sociais. No Brasil não é comum o uso de acessórios como chapéu, luvas nem muito brilho - especialmente em casamentos de dia na praia. Contudo, temos algumas restrições como: não é permitido que mulheres usem roupas nos tons branco, off white, pastel, champagne ou preto em casamentos.",
+            "es": "Tecidos arejados e leves, de cores claras, estampas sofisticadas e calçados confortáveis porém casuais. Traje para mulheres pode ser vestidos longos ou curtos, macacão formal, conjunto de saia longa ou calça pantalona e top com tecidos finos. Quando aos sapatos, é melhor que sejam abertos e arejados, não tem problema em ter saltos grossos altos ou baixos para garantir maior conforto e dar um aspecto mais praiano, rasteirinhas elegantes também são permitidas! Traje para homens pode ser calças com material mais leve, camisas de mangas longas de tecido fino e fresco. Não é necessário gravata nem blazer, mas fica à critério de cada um. Quanto aos sapatos, é permitido sapatênis, mocassin e sapatos sociais. No Brasil não é comum o uso de acessórios como chapéu, luvas nem muito brilho - especialmente em casamentos de dia na praia. Contudo, temos algumas restrições como: não é permitido que mulheres usem roupas nos tons branco, off white, pastel, champagne ou preto em casamentos."
+        },
+        "heading4": {
+            "pt": "Dica extra para mulheres",
+            "pl": "Dodatkowa wskazówka dla kobiet",
+            "en": "Dica extra para mulheres",
+            "es": "Dica extra para mulheres"
+        },
+        "body4": {
+            "pt": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor.",
+            "pl": "Impreza na świeżym powietrzu, która rozpoczyna się w ciągu dnia obok plaży, może oznaczać włosy bardziej puszące się, wiatr, słońce i prawdopodobnie pot.",
+            "en": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor.",
+            "es": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor."
+        },
+        "li1": {
+            "pt": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+            "pl": "Lekki, matowy makijaż (bez nadmiernej ilości brokatu czy błyszczyka) jest trwalszy na plaży, a skóra lepiej wygląda na zdjęciu.",
+            "en": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+            "es": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele"
+        },
+        "li2": {
+            "pt": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
+            "pl": "Jeśli twoje włosy zmieniają się w wilgotnych miejscach, warto postawić na fryzurę taką jak warkocze lub koki (zobacz opcje salonów ślubnych w Búzios w Destination Wedding).",
+            "en": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)",
+            "es": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques. (Veja em Destination Wedding as opções de salão em Búzios)"
+        },
+        "li3": {
+            "pt": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
+            "pl": "Perfumy i pot nie idą w parze. Idealnie jest użycie niewielkiej ilości perfum, najlepiej świeżych zapachów. Aby wydłużyć czas działania perfum, rozważ nałożenie ich na ubrania zamiast na skórę. (Pamiętaj: panna młoda jest uczulona na perfumy)",
+            "en": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)",
+            "es": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes)"
+        },
+        "li4": {
+            "pt": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
+            "pl": "Luźne, krótkie spódniczki mogą być piękne na zdjęciu, ale niepraktyczne w pobliżu plaży z wiatrem.",
+            "en": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento.",
+            "es": "Saias soltas e curtas podem ser lindas na foto, mas pouco práticas próximo da praia com vento."
+        },
+        "li5": {
+            "pt": "Saltos finos não servem para andar na grama nem na areia.",
+            "pl": "Cienkie obcasy nie nadają się do chodzenia po trawie lub piasku.",
+            "en": "Saltos finos não servem para andar na grama nem na areia.",
+            "es": "Saltos finos não servem para andar na grama nem na areia.."
+        },
+        "heading5": {
+            "pt": "O que não é permitido:",
+            "pl": "Co nie jest dozwolone:",
+            "en": "O que não é permitido:",
+            "es": "O que não é permitido:"
+        },
+        "body5": {
+            "pt": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+            "pl": "Zdecydowaliśmy się nazwać Team Bride and Groom wszystkich tych, którzy będą uczestniczyć w ceremonii, czyli: członków rodziny panny młodej i pana młodego, którzy będą obecni, druhny i drużbów, druhnę/drużbę honorowego. W związku z tym będą oni odgrywać główną rolę w wydarzeniu i powinni przestrzegać określonych formalności, w tym zasad dotyczących ubioru. Wszystkie szczegóły zostaną przesłane pocztą elektroniczną.",
+            "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+            "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
+        },
+        "li6": {
+            "pt": "jeans ou malhas",
+            "pl": "dżinsy lub dzianina",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "li7": {
+            "pt": "camisa polo",
+            "pl": "koszulka polo",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "li8": {
+            "pt": "roupas de cores fluorescentes",
+            "pl": "ubrania w kolorach fluorescencyjnych",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "li9": {
+            "pt": "chinelos ou raider",
+            "pl": "japonki lub klapki",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "li10": {
+            "pt": "tênis esportivo",
+            "pl": "buty sportowe",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "li11": {
+            "pt": "alpargata",
+            "pl": "espadryle",
+            "en": "jeans ou malhas",
+            "es": "jeans ou malhas"
+        },
+        "heading6": {
+            "pt": "Team Bride & Groom",
+            "pl": "Team Bride & Groom",
+            "en": "Team Bride & Groom",
+            "es": "Team Bride & Groom"
+        },
+        "body6": {
+            "pt": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+            "pl": "Zdecydowaliśmy się nazwać Team Bride and Groom wszystkich tych, którzy będą uczestniczyć w ceremonii, czyli: członków rodziny panny młodej i pana młodego, którzy będą obecni, druhny i drużbów, druhnę/drużbę honorowego. W związku z tym będą oni odgrywać główną rolę w wydarzeniu i powinni przestrzegać określonych formalności, w tym zasad dotyczących ubioru. Wszystkie szczegóły zostaną przesłane pocztą elektroniczną.",
+            "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+            "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
+        }
 
+    }
 }
