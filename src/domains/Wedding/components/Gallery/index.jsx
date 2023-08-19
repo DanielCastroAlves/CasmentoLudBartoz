@@ -11,9 +11,8 @@ export const Gallery = () => {
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
     return (
         <Stack width="100%" mt={15}>
-            {/* <Grid container></Grid> */}
             <Stack width="100%" direction="row" gap={2}>
-                <GaleryLink to="/home">
+                <GaleryLink to="/wedding/prewedding">
                     <GalleryContainer>
                         <img src={preWedding1} width="100%" alt="Capirinha na praia" />
                         <GalleryTextContainer>

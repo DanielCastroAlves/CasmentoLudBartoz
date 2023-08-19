@@ -49,6 +49,12 @@
             "pl": "Tylko nie zapomnij potwierdzić swojej obecności!",
             "en": "intro p3 en",
             "es": "intro p3 es"
+        },
+        "weatherLabel": {
+            "pt": "Previsão do Tempo",
+            "pl": "Prognoza Pogody",
+            "en": "Weather Forecast",
+            "es": "Pronóstico del Tiempo"
         }
     }
 

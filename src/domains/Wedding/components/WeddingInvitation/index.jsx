@@ -14,7 +14,7 @@ export const WeddingInvitation = () => {
                 <WeddingText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(6)} fontWeight={800} color={theme.palette.primary.main}>
                     {text.Wedding.title[language]}
                 </WeddingText>
-                <WeddingText fontSize={theme.spacing(4)} fontWeight={300} color={theme.palette.primary.main}>
+                <WeddingText fontSize={theme.spacing(4)} fontWeight={300} color={theme.palette.primary.main} fontFamily='Open Sans'>
                     {text.Wedding.subTitle[language]}
                 </WeddingText>
             </Stack>

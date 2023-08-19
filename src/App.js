@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./domains/Home/index.jsx";
 import { LanguageContextProvider } from "./context/LanguageContext.jsx";
 import { Wedding } from "./domains/Wedding/index.jsx";
+import { PreWedding } from "./domains/Wedding/pages/preWedding/index.jsx";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,15 @@ const router = createBrowserRouter([
                     {
                         path: "wedding",
                         element: <Wedding />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/prewedding",
+                        element: <PreWedding />,
                     },
                 ],
             },

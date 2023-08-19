@@ -14,6 +14,8 @@ export const LanguageContextProvider = ({ children }) => {
         setLanguage(lang);
     };
 
+    
+
     const [menuOptions, setMenuOptions] = useState([
         {
             alt: "Bandeira do Brasil",
@@ -40,6 +42,7 @@ export const LanguageContextProvider = ({ children }) => {
             language: "es",
         },
     ]);
+
 
     const handleFormLanguage = (lang) => {
         switch(lang) {

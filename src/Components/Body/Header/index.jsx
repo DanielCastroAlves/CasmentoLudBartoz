@@ -37,32 +37,6 @@ export const Header = () => {
         setOpen(!open);
     };
 
-    // const [menuOptions, setMenuOptions] = useState([
-    //     {
-    //         alt: "Bandeira do Brasil",
-    //         image: brIcon,
-    //         selected: true,
-    //         language: "pt",
-    //     },
-    //     {
-    //         alt: "Bandeira da Polônia",
-    //         image: polIcon,
-    //         selected: false,
-    //         language: "pol",
-    //     },
-    //     {
-    //         alt: "Bandeira do Reino Unido",
-    //         image: engIcon,
-    //         selected: false,
-    //         language: "eng",
-    //     },
-    //     {
-    //         alt: "Bandeira da Espanha",
-    //         image: esIcon,
-    //         selected: false,
-    //         language: "es",
-    //     },
-    // ]);
 
     const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -82,22 +56,22 @@ export const Header = () => {
                             {!isMobile && (
                                 <Stack direction="row" alignItems="center" gap={9}>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/home" ? 700 : 400} color={url === "/home" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes('home') ? 700 : 400} color={url.includes('home') ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             {text.MenuHeaderLinks.home[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/wedding">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/wedding" ? 700 : 400} color={url === "/wedding" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes('wedding') ? 700 : 400} color={url.includes('wedding') ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             {text.MenuHeaderLinks.wedding[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/travel" ? 700 : 400} color={url === "/travel" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes('travel') ? 700 : 400} color={url.includes('travel') ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             {text.MenuHeaderLinks.travel[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url === "/qea" ? 700 : 400} color={url === "/qea" ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes('qea') ? 700 : 400} color={url.includes('qea') ? theme.palette.secondary.main : theme.palette.primary.main}>
                                             {text.MenuHeaderLinks.qea[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { CeremonyContainer, CeremonyContainerMobile } from "./style";
 import sargatana from "../../../../Assets/Images/Sargatana.png";
 import brMap from "../../../../Assets/Images/brMap.png";
+import text from '../../../../Assets/text.json'
 
 export const LocationAndWeather = () => {
     const { language } = useLanguage();
@@ -29,8 +30,8 @@ export const LocationAndWeather = () => {
     }, [language]);
 
     return (
-        <Stack width="100%" alignItems="center" px={!isMobile && 30}>
-            <Stack direction={!isMobile ? 'row' : 'column'} width="100%" gap={!isMobile && 8}>
+        <Stack width="100%" alignItems="center" px={!isMobile && 30} mt={!isMobile && 15}>
+            <Stack direction={!isMobile ? "row" : "column"} width="100%" gap={!isMobile && 8}>
                 {!isMobile ? (
                     <CeremonyContainer width="50%">
                         <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
@@ -83,6 +84,9 @@ export const LocationAndWeather = () => {
                 ) : (
                     <CeremonyContainerMobile>
                         <Stack width="100%" gap={2} alignItems="center">
+                            <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                Cerimônia & Festa
+                            </Typography>
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
                                 <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
                                     Save
@@ -123,7 +127,7 @@ export const LocationAndWeather = () => {
                         </Stack>
                     </CeremonyContainerMobile>
                 )}
-                <Box width={!isMobile ? '50%' : '100%'} height={isMobile && '315px'} px={isMobile && 4} mt={isMobile && 4}>
+                <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} px={isMobile && 4} mt={isMobile && 4}>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.946544808715!2d-41.91187708872573!3d-22.76736497926735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ff1202fcdb65%3A0xa27673cadca1dc57!2sVilla%20Tres%20Marias%20Buzios!5e0!3m2!1sen!2sch!4v1689846300672!5m2!1sen!2sch"
                         width="100%"
@@ -136,8 +140,17 @@ export const LocationAndWeather = () => {
                 </Box>
             </Stack>
             <Stack width="100%" height="100%" mt={!isMobile ? 8 : 4} px={isMobile && 4}>
-                <a class="weatherwidget-io" href={urlLanguage} data-label_1="BUZIOS" data-label_2="WEATHER" data-theme="original" data-basecolor="#9C4522">
-                    BUZIOS WEATHER
+                <a
+                    class="weatherwidget-io"
+                    href={urlLanguage}
+                    data-label_1="Búzios"
+                    data-label_2={text.Wedding.weatherLabel[language]}
+                    data-icons="Climacons Animated"
+                    data-theme="pure"
+                    data-highcolor="#9C4522"
+                    data-lowcolor="#04405F"
+                >
+                    Búzios {text.Wedding.weatherLabel[language]}
                 </a>
             </Stack>
         </Stack>
