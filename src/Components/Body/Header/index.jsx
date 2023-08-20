@@ -4,7 +4,6 @@ import AppBar from "@mui/material/AppBar";
 import Container from "@mui/material/Container";
 import { Avatar, Box, Button, IconButton, Stack, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { Alarm, Heart, Cube, List } from "@phosphor-icons/react";
-import headerLogo from "../../../Assets/Images/smallLogo.png";
 import brIcon from "../../../Assets/Images/brIcon.png";
 import { HeaderContainer, MenuAvatar, MenuLink } from "./style";
 import { MenuDrawer } from "./components/MenuDrawer";
@@ -15,6 +14,8 @@ import esIcon from "../../../Assets/Images/esIcon.png";
 import { useLanguage } from "../../../hooks/useLanguage";
 import { useLocation } from "react-router-dom";
 import text from "../../../Assets/text.json";
+import mobileLogo from "../../../Assets/Images/logoMobile.svg";
+import desktopLogo from "../../../Assets/Images/logoDesktop.svg";
 
 export const Header = () => {
     const theme = useTheme();
@@ -46,11 +47,11 @@ export const Header = () => {
 
     return (
         <Box>
-            <AppBar position="static" width="100%" sx={{ background: "transparent !important", boxShadow: "none" }}>
+            <AppBar position="static" width="100%" sx={{ background: "transparent !important", boxShadow: "none", position: 'fixed' }}>
                 <Box sx={{ paddingLeft: "0px" }}>
                     <HeaderContainer>
                         <Box sx={{ paddingLeft: !isMobile && 15 }}>
-                            <img src={headerLogo} alt="Logo Ludmila e Bartosz" />
+                            <img src={mobileLogo} height={!isMobile && '64px'} alt="Logo Ludmila e Bartosz" />
                         </Box>
                         <Stack direction="row" alignItems="center" gap={18} sx={{ paddingRight: !isMobile && 15 }}>
                             {!isMobile && (

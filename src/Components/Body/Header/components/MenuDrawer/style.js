@@ -8,7 +8,7 @@ const HeaderMenuDrawerContainer = styled(Stack)(({ theme }) => ({
     borderLeft: `1px solid ${theme.palette.primary.main}`,
     borderRight: `1px solid ${theme.palette.primary.main}`,
     justifyContent: 'flex-start',
-    height: "100%",
+    height: "auto",
     // marginTop: theme.spacing(8),
     width: "100%",
 }));

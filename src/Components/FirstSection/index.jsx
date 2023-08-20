@@ -21,11 +21,11 @@ export const FirstSection = ({ title, subtitle, paragraph1, paragraph2, paragrap
             {paragraph1 && (
                 <Stack width="100%" alignItems="center" gap={6}>
                     <StyledText fontSize={theme.spacing(3.5)} fontWeight={300} color={theme.palette.secondary.main} fontFamily="Open Sans">
-                        {text.Wedding.introP1[language]}
+                        {paragraph1}
                     </StyledText>
                     {paragraph2 && (
                         <StyledText fontSize={theme.spacing(3.5)} fontWeight={300} color={theme.palette.secondary.main} fontFamily="Open Sans">
-                            {text.Wedding.introP2[language]}
+                            {paragraph2}
                         </StyledText>
                     )}
                 </Stack>

@@ -7,7 +7,7 @@ const HomeContainer = styled(Stack)(({theme}) => ({
     width: "100%",
     height: "100vh",
     backgroundImage: `linear-gradient(360deg, #FFF 0%, rgba(255, 255, 255, 0.78) 1.87%, rgba(255, 255, 255, 0.00) 51.77%), url(${bgDesktop})`,
-    // backgroundPosition: "center",
+    backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     maxWidth: "-webkit-fill-available",

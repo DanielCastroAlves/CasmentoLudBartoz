@@ -240,5 +240,31 @@
             "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
             "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
         }
+    },
+    "gifts": {
+        "title": {
+            "pl": "Presente de Casamento",
+            "en": "Prezent ślubny",
+            "pt": "Presente de Casamento",
+            "es": "Presente de Casamento"
+        },
+        "subtitle": {
+            "pl": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
+            "en": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
+            "pt": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
+            "es": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!"
+        },
+        "introP1": {
+            "pt": "Contudo, sabemos que há aqueles convidados muito queridos que gostariam de fazer um agrado de qualquer jeito. Por ser um Destination Wedding, não teremos condições de levar nada na mala ou transportar qualquer presente do Brasil para a Suíça. Portanto não aceitaremos nenhum tipo de presente físico, por melhor que seja a intenção. Também não aceitaremos dinheiro em espécie já que estaremos viajando pelo Brasil e não é seguro andar com grandes quantidades em dinheiro em espécie. Caso queira nos presentear, apenas aceitaremos transferência com cartão de crédito/débito ou pix em uma das opções abaixo que fique mais cômodo para você! Caso você queira dar um presente fora das opções abaixo, entre em contato com os noivos!",
+            "pl": "Wiemy jednak, że są tacy drodzy goście, którzy i tak chcieliby przygotować podarunek. A ponieważ jest to ślub w konwencji Destination Wedding, nie będziemy w stanie przewieźć niczego w walizce ani przewieźć żadnego prezentu z Brazylii do Europy. W związku z tym nie będziemy przyjmować żadnych fizycznych upominków, niezależnie od tego, jak dobre są ich intencje. Nie będziemy też rekomendować gotówki jako prezentu,, ponieważ będziemy podróżować po Brazylii, a noszenie przy sobie dużych ilości gotówki nie jest bezpieczne. Właśnie dlatego stworzyliśmy listę z pomysłami na prezenty w zabawny sposób, podobnie jak w sklepie internetowym, z możliwością pozostawienia osobistej wiadomości i dodania dowolnej wysokości kwot. Jeśli chcesz podarować prezent spoza poniższych opcji, daj nam znać!",
+            "en": "intro p1 en",
+            "es": "intro p1 es"
+        },
+        "introP2": {
+            "pt": "Mais informações por e-mail depois da confirmação de presença.",
+            "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
+            "en": "intro p2 en",
+            "es": "intro p2 es"
+        }
     }
 }

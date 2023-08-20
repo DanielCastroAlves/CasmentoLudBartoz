@@ -8,6 +8,7 @@ import { LanguageContextProvider } from "./context/LanguageContext.jsx";
 import { Wedding } from "./domains/Wedding/index.jsx";
 import { PreWedding } from "./domains/Wedding/pages/preWedding/index.jsx";
 import { DressCode } from "./domains/Wedding/pages/dressCode/index.jsx";
+import { Gifts } from "./domains/Wedding/pages/gifts/index.jsx";
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,15 @@ const router = createBrowserRouter([
                     {
                         path: "wedding/dresscode",
                         element: <DressCode />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/gifts",
+                        element: <Gifts />,
                     },
                 ],
             },

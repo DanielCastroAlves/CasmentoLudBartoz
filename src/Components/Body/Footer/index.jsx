@@ -1,6 +1,7 @@
 import { Box, Divider, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { FooterContainer, MenuLink } from "./style";
-import smallLogo from "../../../Assets/Images/smallLogo.png";
+import mobileLogo from "../../../Assets/Images/logoMobile.svg";
+import desktopLogo from "../../../Assets/Images/logoDesktop.svg";
 import { Link } from "react-router-dom";
 import Grid from "@mui/material/Unstable_Grid2";
 
@@ -13,7 +14,7 @@ export const Footer = () => {
             {isMobile ? (
                 <Stack justifyContent="center" alignItems='center' width="100%" height='96px'>
                     <Stack direction="row" height='100%'>
-                        <Box component="img" src={smallLogo} height='45px'></Box>
+                        <Box component="img" src={isMobile ? mobileLogo : desktopLogo} height='45px'></Box>
                         <Stack width="100%" height="100%" alignItems='center'>
                                 <Typography fontSize={"18px"} color={theme.palette.primary.main}>
                                     LUDMILLA & BARTOSZ | 12.05.2024
@@ -45,7 +46,7 @@ export const Footer = () => {
                         </Stack>
                     </Grid>
                     <Grid xs={2} style={{ display: "flex", justifyContent: "center" }}>
-                        <Box component="img" src={smallLogo}></Box>
+                        <Box component="img" src={isMobile ? mobileLogo : desktopLogo}></Box>
                     </Grid>
                     <Grid xs={5} style={{ display: "flex", justifyContent: "flex-end" }} height="100%">
                         <Stack justifyContent="space-between" height="100%" py={5} gap={5}>

@@ -1,8 +1,9 @@
 import React from "react";
 import Drawer from "@mui/material/Drawer";
-import { Box, Divider, Stack, Typography, useTheme } from "@mui/material";
+import { Box, Divider, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { HeaderMenuDrawerContainer, MenuAvatar, MenuLink } from "./style";
-import smallLogo from "../../../../../Assets/Images/smallLogo.png";
+import mobileLogo from "../../../../../Assets/Images/logoMobile.svg";
+import desktopLogo from "../../../../../Assets/Images/logoDesktop.svg";
 import { X } from "@phosphor-icons/react";
 import { useLocation } from "react-router-dom";
 import { useLanguage } from "../../../../../hooks/useLanguage";
@@ -12,11 +13,12 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
     const { menuOptions } = useLanguage();
     const location = useLocation();
     const url = location.pathname;
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     return (
-        <div>
+        <Stack height='100%'>
             <Drawer
-                anchor="top"
+                anchor="right"
                 open={open}
                 onClose={handleDrawerOpen}
                 PaperProps={{
@@ -33,19 +35,20 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                 <Divider sx={{ borderColor: theme.palette.primary.main }} />
                             </Box>
                             <img
-                                src={smallLogo}
+                                src={isMobile ? mobileLogo : desktopLogo}
                                 alt="Logo"
+                                // height='92px'
                                 style={{
                                     position: "absolute",
                                     top: 55,
-                                    left: `calc(50% - ${theme.spacing(6)})`,
+                                    left: `45%`,
                                     right: 0,
                                     bottom: 0,
                                     objectFit: "cover",
                                     zIndex: -1,
                                 }}
                             />
-                            <Box width={`calc(51% - ${theme.spacing(8)})`}>
+                            <Box width={`calc(48% - ${theme.spacing(8)})`}>
                                 <Divider sx={{ borderColor: theme.palette.primary.main }} />
                             </Box>
                         </Stack>
@@ -95,6 +98,6 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                     </HeaderMenuDrawerContainer>
                 </Stack>
             </Drawer>
-        </div>
+        </Stack>
     );
 };

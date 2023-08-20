@@ -11,7 +11,7 @@ export const DressCode = () => {
 
     const path = [
         { label: "Casamento", url: "/wedding" },
-        { label: "Presente", url: "/wedding/gift" },
+        { label: "Presente", url: "/wedding/gifts" },
     ];
 
     return (
