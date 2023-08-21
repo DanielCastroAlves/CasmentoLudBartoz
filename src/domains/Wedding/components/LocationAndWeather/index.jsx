@@ -149,7 +149,7 @@ export const LocationAndWeather = () => {
                     data-theme="pure"
                     data-highcolor="#9C4522"
                     data-lowcolor="#04405F"
-                    style={{ zIndex: -1 }}
+                    // style={{ zIndex: -1 }}
                 >
                     Búzios {text.Wedding.weatherLabel[language]}
                 </a>

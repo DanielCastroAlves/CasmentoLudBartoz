@@ -46,8 +46,8 @@ export const Header = () => {
     };
 
     return (
-        <Box>
-            <AppBar position="static" width="100%" sx={{ background: "transparent !important", boxShadow: "none", position: 'fixed' }}>
+        <Box width='100%' height={isMobile ? theme.spacing(20.2) : theme.spacing(21.5)} mb={isMobile ? theme.spacing(20.2) : theme.spacing(21.5)} sx={{zIndex: '99'}}>
+            <AppBar position="static" width="100%"  top={0} zIndex={100} sx={{ background: "transparent !important", boxShadow: "none", position: 'fixed' }}>
                 <Box sx={{ paddingLeft: "0px" }}>
                     <HeaderContainer>
                         <Box sx={{ paddingLeft: !isMobile && 15 }}>
