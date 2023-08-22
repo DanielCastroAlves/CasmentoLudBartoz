@@ -22,7 +22,7 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
     };
 
     return (
-        <Stack gap={8}>
+        <Stack>
             <MenuContainer
                 id="demo-positioned-menu"
                 aria-labelledby="demo-positioned-button"
@@ -32,21 +32,21 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
                 onClose={handleClose}
                 anchorOrigin={{
                     vertical: "top",
-                    horizontal: "left",
+                    horizontal: "center",
                 }}
                 transformOrigin={{
                     vertical: "top",
-                    horizontal: "left",
+                    horizontal: "center",
                 }}
             >
-                {menuOptions.map(
+                {/* {menuOptions.map(
                     (option, index) =>
                         option.selected && (
                             <MenuItem key={option.language} onClick={(e) => handleClose(e, index, option.language)} sx={{ marginBottom: theme.spacing(15) }}>
                                 <MenuAvatar alt={option.alt} src={option.image} />
                             </MenuItem>
                         )
-                )}
+                )} */}
                 {menuOptions.map((item, i) => {
                     return (
                         <MenuItem key={item.language} onClick={(e) => handleClose(e, i, item.language)}>

@@ -5,7 +5,7 @@ const HeaderContainer = styled(Stack)(({ theme }) => ({
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
-    padding: `${theme.spacing(4)} ${theme.spacing(4)}`,
+    padding: `${theme.spacing(4)} ${theme.spacing(0)}`,
     width: "100%",
     boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
     backgroundColor: "rgba(255, 255, 255, 0.25);",
