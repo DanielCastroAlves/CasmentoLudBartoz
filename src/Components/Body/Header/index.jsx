@@ -3,9 +3,9 @@ import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Container from "@mui/material/Container";
 import { Avatar, Box, Button, IconButton, Stack, Toolbar, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { Alarm, Heart, Cube, List } from "@phosphor-icons/react";
+import { Alarm, Heart, Cube, List, Globe } from "@phosphor-icons/react";
 import brIcon from "../../../Assets/Images/brIcon.png";
-import { HeaderContainer, MenuAvatar, MenuLink } from "./style";
+import { BoxTeste, HeaderContainer, LanguageIconContainer, MenuAvatar, MenuLink } from "./style";
 import { MenuDrawer } from "./components/MenuDrawer";
 import { HeaderMenu } from "./components/HeaderMenu";
 import { useLanguage } from "../../../hooks/useLanguage";
@@ -48,7 +48,7 @@ export const Header = () => {
             <AppBar position="static" width="100%" top={0} zIndex={100} sx={{ background: "transparent !important", boxShadow: "none", position: "fixed" }}>
                 <Box sx={{ paddingLeft: "0px" }}>
                     <HeaderContainer>
-                        <Link to='/home'>
+                        <Link to="/home">
                             <Box sx={{ paddingLeft: !isMobile && 15 }}>
                                 <img src={logoHovered} height={!isMobile && "64px"} alt="Logo Ludmila e Bartosz" onMouseEnter={() => setLogoHovered(olivaLogo)} onMouseLeave={() => setLogoHovered(mobileLogo)} />
                             </Box>
@@ -86,7 +86,11 @@ export const Header = () => {
                                     </MenuAvatar>
                                 </Box>
                             ) : (
-                                menuOptions.map((item, i) => item.selected && <MenuAvatar key={i} alt={item.alt} src={item.image} onClick={(e) => handleClick(e, i)} />)
+                                <LanguageIconContainer sx={{ cursor: "pointer" }}>
+                                    <Globe size={42} weight="thin" color={theme.palette.primary.main} onClick={(e) => handleClick(e, 0)} />
+                                </LanguageIconContainer>
+
+                                // menuOptions.map((item, i) => item.selected && <MenuAvatar key={i} alt={item.alt} src={item.image} onClick={(e) => handleClick(e, i)} />)
                             )}
                         </Stack>
                     </HeaderContainer>

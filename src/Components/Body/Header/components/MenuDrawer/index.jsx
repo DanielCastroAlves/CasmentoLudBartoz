@@ -83,15 +83,15 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                     <MenuAvatar key={item.language} alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} onClick={(_) => handleDrawerOpen(i, item.language)} />
                                 ))}
                             </Stack>
-                            <Stack gap={4}>
+                            <Stack gap={4}alignItems='center'>
                                 <MenuLink to="/home">
                                     <Typography color={theme.palette.primary.secondary}>PRESENTE DE CASAMENTO</Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography color={theme.palette.primary.secondary}>PLANEJAMENTO DE VIAGEM</Typography>
+                                    <Typography color={theme.palette.primary.secondary}>TEAM BRIDE & GROOM</Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
-                                    <Typography color={theme.palette.primary.secondary}>PERGUNTAS E RESPOSTAS</Typography>
+                                    <Typography color={theme.palette.primary.secondary}>CONFIRME PRESENÇA</Typography>
                                 </MenuLink>
                             </Stack>
                         </Stack>

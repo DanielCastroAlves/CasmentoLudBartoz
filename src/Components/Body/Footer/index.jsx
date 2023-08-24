@@ -1,5 +1,5 @@
 import { Box, Divider, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
-import { FooterContainer, MenuLink } from "./style";
+import { ContentContainer, FooterContainer, MenuLink, MobileFooterContainer } from "./style";
 import mobileLogo from "../../../Assets/Images/logoMobile.svg";
 import desktopLogo from "../../../Assets/Images/logoDesktop.svg";
 import { Link } from "react-router-dom";
@@ -12,59 +12,52 @@ export const Footer = () => {
     return (
         <>
             {isMobile ? (
-                <Stack justifyContent="center" alignItems='center' width="100%" height='96px'>
-                    <Stack direction="row" height='100%'>
-                        <Box component="img" src={isMobile ? mobileLogo : desktopLogo} height='45px'></Box>
-                        <Stack width="100%" height="100%" alignItems='center'>
-                                <Typography fontSize={"18px"} color={theme.palette.primary.main}>
-                                    LUDMILLA & BARTOSZ | 12.05.2024
-                                </Typography>
-                                <Typography fontWeight={300} fontSize={"8px"} color={theme.palette.gray["500"]}>
-                                    Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
-                                </Typography>
-                            <Typography fontWeight={300} fontSize={"8px"} color={theme.palette.gray["500"]} sx={{marginTop: 4}}>
+                <MobileFooterContainer>
+                    <ContentContainer direction='row' gap={3}>
+                        <Box component="img" height={theme.spacing(12.5)} src={isMobile ? mobileLogo : desktopLogo}></Box>
+                        <Stack width="100%" height="100%" alignItems="center">
+                            <Typography fontSize={theme.spacing(4)} color={theme.palette.primary.main}>
+                                LUDMILLA & BARTOSZ | 12.05.2024
+                            </Typography>
+                            <Typography fontSize={theme.spacing(2.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily='Open Sans'>
+                                Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
+                            </Typography>
+                            <Typography fontSize={theme.spacing(2.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily='Open Sans' sx={{ marginTop: 4 }}>
                                 Ludmilla & Bartosz | © 2023 All rights reserved
                             </Typography>
                         </Stack>
-                    </Stack>
-                </Stack>
+                    </ContentContainer>
+                </MobileFooterContainer>
             ) : (
-                <Grid container justifyContent="center" alignItems="center" px={8} py={4} height="172px" sx={{ backgroundColor: "#fff" }}>
+                <Grid container justifyContent="center" alignItems="center" px={15} py={6} height="172px" sx={{ backgroundColor: "#fff" }}>
                     <Grid xs={5} height="100%">
                         <Stack height="100%" width="100%" justifyContent="space-between">
                             <Box>
                                 <Typography fontSize={theme.spacing(5.5)} color={theme.palette.primary.main}>
                                     LUDMILLA & BARTOSZ | 12.05.2024
                                 </Typography>
-                                <Typography fontSize={theme.spacing(3.8)} color={theme.palette.secondary.main}>
+                                <Typography fontSize={theme.spacing(3.5)} fontWeight={300} color={theme.palette.secondary.main} fontFamily='Open Sans'>
                                     Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
                                 </Typography>
                             </Box>
-                            <Typography fontSize={theme.spacing(3)} color={theme.palette.secondary.main}>
+                            <Typography fontSize={theme.spacing(3)} fontWeight={300} color={theme.palette.secondary.main}>
                                 Ludmilla & Bartosz © 2023 All rights reserved | Site desenvolvido pela noiva e seus amigos
                             </Typography>
                         </Stack>
                     </Grid>
                     <Grid xs={2} style={{ display: "flex", justifyContent: "center" }}>
-                        <Box component="img" src={isMobile ? mobileLogo : desktopLogo}></Box>
+                        <Box component="img" height={theme.spacing(14.75)} src={isMobile ? mobileLogo : desktopLogo}></Box>
                     </Grid>
                     <Grid xs={5} style={{ display: "flex", justifyContent: "flex-end" }} height="100%">
                         <Stack justifyContent="space-between" height="100%" py={5} gap={5}>
                             <MenuLink to="/home">
-                                <Typography fontSize="13.5px" color={theme.palette.primary.main}>
-                                    PRESENTE DE CASAMENTO
-                                </Typography>
+                                <Typography>PRESENTE DE CASAMENTO</Typography>
                             </MenuLink>
                             <MenuLink to="/home">
-                                {" "}
-                                <Typography fontSize="13.5px" color={theme.palette.primary.main}>
-                                    PLANEJAMENTO DE VIAGEM
-                                </Typography>
+                                <Typography>TEAM BRIDE & GROOM</Typography>
                             </MenuLink>
                             <MenuLink to="/home">
-                                <Typography fontSize="13.5px" color={theme.palette.primary.main}>
-                                    PERGUNTAS E RESPOSTAS
-                                </Typography>
+                                <Typography>CONFIRME PRESENÇA</Typography>
                             </MenuLink>
                         </Stack>
                     </Grid>

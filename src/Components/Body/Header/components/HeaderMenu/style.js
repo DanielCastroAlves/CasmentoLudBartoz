@@ -1,13 +1,18 @@
-import { Avatar, Menu, Stack, styled } from "@mui/material";
+import { Avatar, Menu, Stack, MenuItem, styled } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const MenuAvatar = styled(Avatar)(() => ({
+const StyledAvatar = styled(Avatar)(() => ({
     backgroundColor: "transparent",
     cursor: "pointer",
+    transition: "box-shadow 0.3s ease-in-out",
+
+    "&:hover": {
+        boxShadow: "0px 4px 10px 0px rgba(84, 84, 84, 0.40)",
+    },
 }));
 const MenuContainer = styled(Menu)(({ theme }) => ({
     "& .MuiPaper-root": {
-        borderRadius: '12px',
+        borderRadius: "12px",
         // borderBottomLeftRadius: theme.spacing(8),
         // borderBottomRightRadius: theme.spacing(8),
         boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
@@ -19,4 +24,13 @@ const MenuContainer = styled(Menu)(({ theme }) => ({
     },
 }));
 
-export { MenuAvatar, MenuContainer };
+const MenuItemContainer = styled(MenuItem)(({ theme }) => ({
+    "&:hover": {
+        backgroundColor: "transparent",
+    },
+    "&:focus": {
+        backgroundColor: "transparent",
+    },
+}));
+
+export { StyledAvatar, MenuContainer, MenuItemContainer };

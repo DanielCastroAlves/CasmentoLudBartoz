@@ -1,4 +1,4 @@
-import { Avatar, Stack, styled } from "@mui/material";
+import { Avatar, Stack, Box, styled } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const HeaderContainer = styled(Stack)(({ theme }) => ({
@@ -12,6 +12,12 @@ const HeaderContainer = styled(Stack)(({ theme }) => ({
     zIndex: 1,
 }));
 
+const LanguageIconContainer = styled(Box)(({ theme }) => ({
+    "&:hover svg": {
+        fill: theme.palette.secondary.main, // Defina a cor desejada para o ícone quando estiver no estado de hover
+    },
+}));
+
 const MenuAvatar = styled(Avatar)(({ theme }) => ({
     backgroundColor: "transparent",
     cursor: "pointer",
@@ -21,4 +27,4 @@ const MenuLink = styled(Link)(({ theme }) => ({
     textDecoration: "none",
 }));
 
-export { HeaderContainer, MenuAvatar, MenuLink };
+export { HeaderContainer, MenuAvatar, MenuLink, LanguageIconContainer };

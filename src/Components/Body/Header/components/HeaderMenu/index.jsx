@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { Stack, useTheme } from "@mui/material";
-import { MenuAvatar, MenuContainer } from "./style";
+import { MenuAvatar, MenuContainer, MenuItemContainer, StyledAvatar } from "./style";
 import { useLanguage } from "../../../../../hooks/useLanguage";
 
 export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
@@ -49,9 +49,9 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
                 )} */}
                 {menuOptions.map((item, i) => {
                     return (
-                        <MenuItem key={item.language} onClick={(e) => handleClose(e, i, item.language)}>
-                            <MenuAvatar alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} />
-                        </MenuItem>
+                        <MenuItemContainer key={item.language} onClick={(e) => handleClose(e, i, item.language)}>
+                            <StyledAvatar alt={item.alt} src={item.image} sx={item.selected ? { border: `1px solid ${theme.palette.primary.main}` } : {}} />
+                        </MenuItemContainer>
                     );
                 })}
             </MenuContainer>
