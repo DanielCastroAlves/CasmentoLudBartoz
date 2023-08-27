@@ -40,7 +40,7 @@ export const Footer = () => {
                                     Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
                                 </Typography>
                             </Box>
-                            <Typography fontSize={theme.spacing(3)} fontWeight={300} color={theme.palette.secondary.main}>
+                            <Typography fontSize={theme.spacing(3)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily='Open Sans'>
                                 Ludmilla & Bartosz © 2023 All rights reserved | Site desenvolvido pela noiva e seus amigos
                             </Typography>
                         </Stack>

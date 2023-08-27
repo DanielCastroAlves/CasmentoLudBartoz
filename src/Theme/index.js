@@ -19,7 +19,7 @@ export const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: "Cinzel, sans-serif",
+        fontFamily: "Cinzel",
     },
 
     spacing: (factor) => `${0.25 * factor}rem`,

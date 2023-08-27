@@ -58,22 +58,58 @@ export const Header = () => {
                             {!isMobile && (
                                 <Stack direction="row" alignItems="center" gap={9}>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes("home") ? 700 : 400} color={url.includes("home") ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography
+                                            fontSize={theme.spacing(5)}
+                                            fontWeight={url.includes("home") ? 700 : 400}
+                                            color={url.includes("home") ? theme.palette.secondary.main : theme.palette.primary.main}
+                                            sx={{
+                                                "&:hover": {
+                                                    textShadow: "0px 4px 6px rgba(84, 84, 84, 0.50)",
+                                                },
+                                            }}
+                                        >
                                             {text.MenuHeaderLinks.home[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/wedding">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes("wedding") ? 700 : 400} color={url.includes("wedding") ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography
+                                            fontSize={theme.spacing(5)}
+                                            fontWeight={url.includes("wedding") ? 700 : 400}
+                                            color={url.includes("wedding") ? theme.palette.secondary.main : theme.palette.primary.main}
+                                            sx={{
+                                                "&:hover": {
+                                                    textShadow: "0px 4px 6px rgba(84, 84, 84, 0.50)",
+                                                },
+                                            }}
+                                        >
                                             {text.MenuHeaderLinks.wedding[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes("travel") ? 700 : 400} color={url.includes("travel") ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography
+                                            fontSize={theme.spacing(5)}
+                                            fontWeight={url.includes("travel") ? 700 : 400}
+                                            color={url.includes("travel") ? theme.palette.secondary.main : theme.palette.primary.main}
+                                            sx={{
+                                                "&:hover": {
+                                                    textShadow: "0px 4px 6px rgba(84, 84, 84, 0.50)",
+                                                },
+                                            }}
+                                        >
                                             {text.MenuHeaderLinks.travel[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>
                                     <MenuLink to="/home">
-                                        <Typography fontSize={theme.spacing(5)} fontWeight={url.includes("qea") ? 700 : 400} color={url.includes("qea") ? theme.palette.secondary.main : theme.palette.primary.main}>
+                                        <Typography
+                                            fontSize={theme.spacing(5)}
+                                            fontWeight={url.includes("qea") ? 700 : 400}
+                                            color={url.includes("qea") ? theme.palette.secondary.main : theme.palette.primary.main}
+                                            sx={{
+                                                "&:hover": {
+                                                    textShadow: "0px 4px 6px rgba(84, 84, 84, 0.50)",
+                                                },
+                                            }}
+                                        >
                                             {text.MenuHeaderLinks.qea[language].toUpperCase()}
                                         </Typography>
                                     </MenuLink>

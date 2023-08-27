@@ -11,6 +11,10 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
     const { handleFormLanguage, handleLanguage, menuOptions, setMenuOptions } = useLanguage();
     const open = Boolean(anchorEl);
     const handleClose = (e, index, lang) => {
+        if (!lang) {
+            setAnchorEl(null);
+            return;
+        }
         const updatedMenuOptions = menuOptions.map((option, i) => ({
             ...option,
             selected: i === index ? true : false,
@@ -27,7 +31,7 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
                 id="demo-positioned-menu"
                 aria-labelledby="demo-positioned-button"
                 anchorEl={anchorEl}
-                hideBackdrop
+                // hideBackdrop
                 open={open}
                 onClose={handleClose}
                 anchorOrigin={{
