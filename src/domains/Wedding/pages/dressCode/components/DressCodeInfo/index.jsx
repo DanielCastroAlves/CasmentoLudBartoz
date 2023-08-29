@@ -14,7 +14,6 @@ import dressCodeDesktop4 from "../../../../../../Assets/Images/dresscode/dressCo
 import dressCodeDesktop5 from "../../../../../../Assets/Images/dresscode/dressCodeDesktop5.png";
 import { CheckCircle, Dot } from "@phosphor-icons/react";
 export const DressCodeInfo = () => {
-
     const theme = useTheme();
     const { language } = useLanguage();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
@@ -24,7 +23,7 @@ export const DressCodeInfo = () => {
         { label: "Presente", url: "/wedding/gift" },
     ];
     return (
-        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={8} mt={15}>
+        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={13} mt={15}>
             <Grid xs={12} sm={6}>
                 <img src={isMobile ? dressCodeMobile1 : dressCodeDesktop1} width="100%" alt="Praia vista de cima" />
             </Grid>
@@ -47,7 +46,7 @@ export const DressCodeInfo = () => {
                     </Stack>
                 </Stack>
             </Grid>
-            <Grid xs={12} sm={5.8}>
+            <Grid xs={12} sm={6} mt={15}>
                 <Stack p={4} gap={8} height="100%">
                     <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                         {text.dressCode.heading3[language]}
@@ -57,12 +56,11 @@ export const DressCodeInfo = () => {
                     </Typography>
                 </Stack>
             </Grid>
-            <Grid xs={12} sm={6.2}>
+            <Grid xs={12} sm={6} mt={15}>
                 <img src={isMobile ? dressCodeMobile3 : dressCodeDesktop3} width="100%" alt="Amigos brindando" />
             </Grid>
             {isMobile ? (
                 <>
-                    {" "}
                     <Grid xs={12} sm={6} a>
                         <Stack p={4} gap={2} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
@@ -93,11 +91,10 @@ export const DressCodeInfo = () => {
                 </>
             ) : (
                 <>
-                    {" "}
-                    <Grid xs={12} sm={6}>
+                    <Grid xs={12} sm={6} mt={15}>
                         <img src={isMobile ? dressCodeMobile4 : dressCodeDesktop4} width="100%" alt="Amigas ao redor da noiva" />
                     </Grid>
-                    <Grid xs={12} sm={6} a>
+                    <Grid xs={12} sm={6} mt={15}>
                         <Stack p={4} gap={2} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading4[language]}
@@ -125,7 +122,7 @@ export const DressCodeInfo = () => {
             )}
             {isMobile ? (
                 <>
-                    <Grid xs={12} sm={5.8}>
+                    <Grid xs={12} sm={6}>
                         <Stack p={4} gap={8} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading5[language]}
@@ -144,6 +141,13 @@ export const DressCodeInfo = () => {
                                     );
                                 })}
                             </List>
+                        </Stack>
+                    </Grid>
+                    <Grid xs={12} sm={6}>
+                        <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
+                    </Grid>
+                    <Grid xs={12} sm={6}>
+                        <Stack p={4} gap={8} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading6[language]}
                             </Typography>
@@ -151,14 +155,11 @@ export const DressCodeInfo = () => {
                                 {text.dressCode.body6[language]}
                             </Typography>
                         </Stack>
-                    </Grid>
-                    <Grid xs={12} sm={6.2}>
-                        <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
                     </Grid>
                 </>
             ) : (
                 <>
-                    <Grid xs={12} sm={5.8}>
+                    <Grid xs={12} sm={6} mt={15}>
                         <Stack p={4} gap={8} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading5[language]}
@@ -185,7 +186,7 @@ export const DressCodeInfo = () => {
                             </Typography>
                         </Stack>
                     </Grid>
-                    <Grid xs={12} sm={6.2}>
+                    <Grid xs={12} sm={6} mt={15}>
                         <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
                     </Grid>
                 </>

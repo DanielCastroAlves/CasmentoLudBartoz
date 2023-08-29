@@ -9,7 +9,7 @@ export const FirstSection = ({ title, subtitle, paragraph1, paragraph2, paragrap
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     return (
-        <WeddingContainer px={isMobile ? theme.spacing(4) : theme.spacing(30)}>
+        <WeddingContainer px={isMobile ? theme.spacing(4) : theme.spacing(42.75)}>
             <Stack width="100%" alignItems="center">
                 <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(6)} fontWeight={800} color={theme.palette.primary.main}>
                     {title}

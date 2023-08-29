@@ -9,12 +9,13 @@ const HeaderContainer = styled(Stack)(({ theme }) => ({
     width: "100%",
     boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
     backgroundColor: "rgba(255, 255, 255, 0.25);",
+    backdropFilter: 'blur(12px)',
     zIndex: 1,
 }));
 
 const LanguageIconContainer = styled(Box)(({ theme }) => ({
     "&:hover svg": {
-        fill: theme.palette.secondary.main, // Defina a cor desejada para o ícone quando estiver no estado de hover
+        fill: theme.palette.secondary.main,
     },
 }));
 
