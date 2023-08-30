@@ -10,68 +10,69 @@ import { PreWedding } from "./domains/Wedding/pages/preWedding/index.jsx";
 import { DressCode } from "./domains/Wedding/pages/dressCode/index.jsx";
 import { Gifts } from "./domains/Wedding/pages/gifts/index.jsx";
 
+//teste
+
 const router = createBrowserRouter([
-    {
-        element: <Body />,
+  {
+    element: <Body />,
+    children: [
+      {
+        path: "/",
         children: [
-            {
-                path: "/",
-                children: [
-                    {
-                        path: "home",
-                        element: <Home />,
-                    },
-                ],
-            },
-            {
-                path: "/",
-                children: [
-                    {
-                        path: "wedding",
-                        element: <Wedding />,
-                    },
-                ],
-            },
-            {
-                path: "/",
-                children: [
-                    {
-                        path: "wedding/prewedding",
-                        element: <PreWedding />,
-                    },
-                ],
-            },
-            {
-                path: "/",
-                children: [
-                    {
-                        path: "wedding/dresscode",
-                        element: <DressCode />,
-                    },
-                ],
-            },
-            {
-                path: "/",
-                children: [
-                    {
-                        path: "wedding/gifts",
-                        element: <Gifts />,
-                    },
-                ],
-            },
+          {
+            path: "home",
+            element: <Home />,
+          },
         ],
-    },
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "wedding",
+            element: <Wedding />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "wedding/prewedding",
+            element: <PreWedding />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "wedding/dresscode",
+            element: <DressCode />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "wedding/gifts",
+            element: <Gifts />,
+          },
+        ],
+      },
+    ],
+  },
 ]);
 
-
 function App() {
-    return (
-        <ThemeProvider theme={theme}>
-            <LanguageContextProvider>
-                <RouterProvider router={router} />
-            </LanguageContextProvider>
-        </ThemeProvider>
-    );
+  return (
+    <ThemeProvider theme={theme}>
+      <LanguageContextProvider>
+        <RouterProvider router={router} />
+      </LanguageContextProvider>
+    </ThemeProvider>
+  );
 }
 
 export default App;
