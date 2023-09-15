@@ -4,14 +4,17 @@ import {
   CardWeddingDescription,
   CardWeddingImage,
   CardWeddingTitle,
+  ContainerTitleDescription,
 } from "./style";
 
 const CardWedding = ({ image, title, description }) => {
   return (
     <CardWeddingContainer key={title}>
       <CardWeddingImage src={image} alt="Imagem do item" />
-      <CardWeddingTitle>{title}</CardWeddingTitle>
-      <CardWeddingDescription>{description}</CardWeddingDescription>
+      <ContainerTitleDescription>
+        <CardWeddingTitle>{title}</CardWeddingTitle>
+        <CardWeddingDescription>{description}</CardWeddingDescription>
+      </ContainerTitleDescription>
     </CardWeddingContainer>
   );
 };

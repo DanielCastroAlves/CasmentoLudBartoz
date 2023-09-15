@@ -14,16 +14,16 @@ const ContainerCarousel = styled("div")(({ theme }) => ({
   width: "90%",
   height: 530,
   margin: "50px auto",
-  [createMediaQuery("sm")]: {
-    width: "90%",
-  },
-  [createMediaQuery("md")]: {
-    width: "90%",
-  },
   [createMediaQuery("lg")]: {
     width: "90%",
   },
   [createMediaQuery("xl")]: {
+    width: "80%",
+  },
+  [createMediaQuery("sm")]: {
+    width: "90%",
+  },
+  [createMediaQuery("md")]: {
     width: "90%",
   },
 }));
@@ -37,7 +37,12 @@ const CustomButtonGroup = styled("div")(({ theme }) => ({
   top: "-95%",
   transform: "translateX(auto)",
   zIndex: 1,
-
+  [createMediaQuery("lg")]: {
+    width: "100%",
+  },
+  [createMediaQuery("xl")]: {
+    width: "100%",
+  },
   [createMediaQuery("sm")]: {
     top: "-50%",
   },

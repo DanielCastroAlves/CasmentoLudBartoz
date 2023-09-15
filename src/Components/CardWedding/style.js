@@ -12,8 +12,7 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const CardWeddingContainer = styled("div")(({ theme }) => ({
   display: "flex",
-  width: "358px",
-  height: "458px",
+
   padding: "16px",
   flexDirection: "column",
   alignItems: "flex-start",
@@ -21,6 +20,33 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
   flexShrink: 0,
   border: "1px solid var(--terracota, #9C4522)",
   background: "#FFF",
+
+  [createMediaQuery("lg")]: {
+    display: "flex",
+    width: "552px",
+   
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
+  [createMediaQuery("xl")]: {
+    display: "flex",
+    width: "552px",
+   
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
 
   [createMediaQuery("sm")]: {
     display: "flex",
@@ -34,31 +60,8 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     border: "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
   },
+
   [createMediaQuery("md")]: {
-    display: "flex",
-    width: "335px",
-    height: "458px",
-    padding: "16px",
-    flexDirection: "column",
-    alignItems: "center",
-    gap: "16px",
-    flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
-    background: "#FFF",
-  },
-  [createMediaQuery("lg")]: {
-    display: "flex",
-    width: "335px",
-    height: "458px",
-    padding: "16px",
-    flexDirection: "column",
-    alignItems: "center",
-    gap: "16px",
-    flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
-    background: "#FFF",
-  },
-  [createMediaQuery("xl")]: {
     display: "flex",
     width: "335px",
     height: "458px",
@@ -73,23 +76,42 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
 }));
 
 const CardWeddingImage = styled("img")({
-  width: "326px",
-  height: "326px",
+ 
   flexShrink: 0,
-
+  [createMediaQuery("lg")]: {
+    width: "412px",
+    height: "412px",
+  },
+  [createMediaQuery("xl")]: {
+    width: "412px",
+    height: "412px",
+  },
   [createMediaQuery("sm")]: {
     width: "306px",
   },
   [createMediaQuery("md")]: {
     width: "306px",
   },
+
+});
+
+
+const ContainerTitleDescription = styled("div")(({ theme }) => ({
   [createMediaQuery("lg")]: {
-    width: "306px",
+    width: "412px",
+    height: "412px",
   },
   [createMediaQuery("xl")]: {
+    width: "412px",
+    height: "412px",
+  },
+  [createMediaQuery("sm")]: {
     width: "306px",
   },
-});
+  [createMediaQuery("md")]: {
+    width: "306px",
+  },
+}));
 
 const CardWeddingTitle = styled("h6")(({ theme }) => ({
   color: "var(--terracota, #9C4522)",
@@ -114,6 +136,7 @@ const CardWeddingDescription = styled("p")(({ theme }) => ({
 export {
   CardWeddingContainer,
   CardWeddingImage,
+  ContainerTitleDescription,
   CardWeddingTitle,
   CardWeddingDescription,
 };

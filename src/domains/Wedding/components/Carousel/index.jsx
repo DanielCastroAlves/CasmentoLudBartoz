@@ -48,9 +48,9 @@ const CarouselWedding = ({ dataInfo }) => {
               max: 3000,
               min: 1024,
             },
-            items: 2.8,
-            partialVisibilityGutter: 8,
-            centerMode: true,
+            items: 3,
+            partialVisibilityGutter: 90,
+            centerMode: false,
           },
           mobile: {
             breakpoint: {

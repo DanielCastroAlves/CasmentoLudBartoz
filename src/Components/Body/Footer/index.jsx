@@ -50,7 +50,7 @@ export const Footer = () => {
                     </Grid>
                     <Grid xs={5} style={{ display: "flex", justifyContent: "flex-end" }} height="100%">
                         <Stack justifyContent="space-between" height="100%" py={5} gap={5}>
-                            <MenuLink to="/home">
+                            <MenuLink to="/wedding/gifts">
                                 <Typography>PRESENTE DE CASAMENTO</Typography>
                             </MenuLink>
                             <MenuLink to="/teamBG">
