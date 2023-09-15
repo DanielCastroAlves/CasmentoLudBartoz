@@ -7,7 +7,7 @@ import {
   ContainerTitleDescription,
 } from "./style";
 
-const CardWedding = ({ image, title, description }) => {
+const CardWedding = ({ image, title, description, link }) => {
   return (
     <CardWeddingContainer key={title}>
       <CardWeddingImage src={image} alt="Imagem do item" />

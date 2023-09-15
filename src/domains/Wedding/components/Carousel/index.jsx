@@ -11,7 +11,6 @@ import {
   CustomButtonGroup,
 } from "./style.js";
 import CardWedding from "../../../../Components/CardWedding";
-import { Link } from "@mui/material";
 
 const CarouselWedding = ({ dataInfo }) => {
   const CustomButtonGroupAsArrows = ({ next, previous }) => {
@@ -80,12 +79,7 @@ const CarouselWedding = ({ dataInfo }) => {
         infinite={true}
       >
         {dataInfo.map((data, index) => (
-          <Link
-            href={`${data.link}`}
-            style={{ cursor: "pointer", textDecoration: "none" }}
-          >
-            <CardWedding {...data} />
-          </Link>
+          <CardWedding {...data} />
         ))}
       </Carousel>
     </ContainerCarousel>

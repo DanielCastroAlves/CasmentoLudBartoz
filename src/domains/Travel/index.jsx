@@ -1,11 +1,24 @@
 import React, { useState } from "react";
-import { Typography, Container, Box } from "@mui/material";
+import { Typography, Container, Box, Stack } from "@mui/material";
+import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
 import TimelineCard from "./components/TimelineCard";
 import PageCity from "./components/PageCity";
-import rioImage from '../../Assets/Images/background-rio.svg';
-import buziosImage from '../../Assets/Images/background-buzios.svg';
+import rioImage from "../../Assets/Images/background-rio.svg";
+import buziosImage from "../../Assets/Images/background-buzios.svg";
+import { FirstSection } from "../../Components/FirstSection";
+import { useLanguage } from "../../hooks/useLanguage";
 
+import iconR from "../../Assets/Images/iconRt.svg";
+import iconL from "../../Assets/Images/iconLf.svg";
+import Carousel from "react-multi-carousel";
+import {
+  ContainerCarouselTravel,
+  CustomArrowButtonLeftTravel,
+  CustomArrowButtonRightTravel,
+  CustomArrowButtonTravel,
+  CustomButtonGroupTravel,
+} from "./components/PageCity/style";
 
 const Travel = () => {
   const [timelineItem, setTimelineItem] = useState(null);
@@ -13,6 +26,8 @@ const Travel = () => {
   const handleTimelineItemClick = (item) => {
     setTimelineItem(item);
   };
+
+  const { language } = useLanguage();
 
   const topics = [
     {
@@ -83,94 +98,41 @@ const Travel = () => {
   const citys = [
     {
       id: 1,
-      name: "Rio de Janeiro",
-      imagem: rioImage,
+      title: "Rio de Janeiro",
+      image: rioImage,
       destination: "travel/rio-de-janeiro",
+      description: "EVERYTHING YOU SHOULD KNOW BEFORE ARRIVE THERE!",
     },
     {
       id: 2,
-      name: "Buzios",
-      imagem: buziosImage,
+      title: "Buzios",
+      image: buziosImage,
       destination: "travel/buzios",
+      description: "EVERYTHING YOU SHOULD KNOW BEFORE ARRIVE THERE!",
     },
   ];
 
+  const CustomButtonGroupAsArrowsTravel = ({ next, previous }) => {
+    return (
+      <CustomButtonGroupTravel>
+        <CustomArrowButtonLeftTravel onClick={() => previous()}>
+          <CustomArrowButtonTravel src={iconL} alt="Left Arrow" />
+        </CustomArrowButtonLeftTravel>
+        <CustomArrowButtonRightTravel onClick={() => next()}>
+          <CustomArrowButtonTravel src={iconR} alt="Right Arrow" />
+        </CustomArrowButtonRightTravel>
+      </CustomButtonGroupTravel>
+    );
+  };
+
   return (
-    <Container
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        minWidth: "100vh",
-      }}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Typography
-          variant="h4"
-          component="h1"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Cinzel",
-            fontSize: 38,
-            fontWeight: 700,
-          }}
-        >
-          Lorem ipsum
-        </Typography>
-        <Typography
-          variant="h6"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 20,
-            fontWeight: 300,
-            textTransform: "uppercase",
-          }}
-        >
-          Lorem ipsum dolor sit amet consectetur. Volutpat mattis massa turpis
-          adipiscing dignissim nibh non habitant a.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non
-          urna ut enim rhoncus dapibus.
-        </Typography>
-        <Typography
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Phasellus vitae eros vitae risus malesuada pulvinar. Sed vehicula odio
-          in lectus fermentum, non mollis ipsum ullamcorper.
-        </Typography>
-      </Box>
+    <Stack width="100%" height="100%" mb={10}>
+      <FirstSection
+        title={text.Wedding.title[language]}
+        subtitle={text.Wedding.subTitle[language]}
+        paragraph1={text.Wedding.introP1[language]}
+        paragraph2={text.Wedding.introP2[language]}
+      />
 
       <Box
         sx={{
@@ -187,17 +149,69 @@ const Travel = () => {
 
         {timelineItem && <TimelineCard item={timelineItem} />}
       </Box>
-      <Box sx={{
-          display: "flex",
-          flexDirection: "row",
-          marginTop: "60px",
-          
-        }}>
-      {citys.map((city) => (
-        <PageCity key={city.id} imagem={city.imagem} destination={city.destination} name={city.name}/>
-      ))}
-    </Box>
-    </Container>
+      <ContainerCarouselTravel>
+        <Carousel
+          additionalTransfrom={0}
+          arrows={false}
+          autoPlaySpeed={3000}
+           customButtonGroup={<CustomButtonGroupAsArrowsTravel />}
+          draggable
+          focusOnSelect={false}
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 2,
+              partialVisibilityGutter: 90,
+              centerMode: false,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+
+              centerMode: true,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 465,
+              },
+              items: 1,
+              partialVisibilityGutter: 30,
+            },
+          }}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          sliderClass=""
+          slidesToSlide={1}
+          swipeable
+          infinite={true}
+        >
+          {citys.map((city) => (
+            <PageCity
+              key={city.id}
+              image={city.image}
+              destination={city.destination}
+              description={city.description}
+              title={city.title}
+            />
+          ))}
+        </Carousel>
+      </ContainerCarouselTravel>
+    </Stack>
   );
 };
 

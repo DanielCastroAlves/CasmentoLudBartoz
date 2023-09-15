@@ -1,15 +1,21 @@
 import React from "react";
-import { ButtonContainer, ButtonImage } from "./style";
+import {
+  PageCityContainer,
+  PageCityDescription,
+  PageCityImage,
+  PageCityTitle,
+  ContainerTitleDescription,
+} from "./style";
 
-const PageCity = ({ imagem, destination }) => {
-  const handleButtonClick = () => {
-    window.location.href = destination;
-  };
-
+const PageCity = ({ image, title, description, link }) => {
   return (
-    <ButtonContainer onClick={handleButtonClick}>
-      <ButtonImage src={imagem} alt="Button" />
-    </ButtonContainer>
+    <PageCityContainer key={title}>
+      <PageCityImage src={image} alt="Imagem do item" />
+      <ContainerTitleDescription>
+        <PageCityTitle>{title}</PageCityTitle>
+        <PageCityDescription>{description}</PageCityDescription>
+      </ContainerTitleDescription>
+    </PageCityContainer>
   );
 };
 
