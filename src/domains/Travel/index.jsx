@@ -3,9 +3,9 @@ import { Typography, Container, Box, Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
 import TimelineCard from "./components/TimelineCard";
-import PageCity from "./components/PageCity";
-import rioImage from "../../Assets/Images/background-rio.svg";
-import buziosImage from "../../Assets/Images/background-buzios.svg";
+import CardPage from "./components/CardPage";
+import rioImage from "../../Assets/Images/cardImage/B_Nossa História=Enabled.png";
+import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
 import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 
@@ -18,7 +18,7 @@ import {
   CustomArrowButtonRightTravel,
   CustomArrowButtonTravel,
   CustomButtonGroupTravel,
-} from "./components/PageCity/style";
+} from "./components/CardPage/style";
 
 const Travel = () => {
   const [timelineItem, setTimelineItem] = useState(null);
@@ -201,7 +201,7 @@ const Travel = () => {
           infinite={true}
         >
           {citys.map((city) => (
-            <PageCity
+            <CardPage
               key={city.id}
               image={city.image}
               destination={city.destination}
