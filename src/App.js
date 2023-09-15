@@ -9,6 +9,12 @@ import { Wedding } from "./domains/Wedding/index.jsx";
 import { PreWedding } from "./domains/Wedding/pages/preWedding/index.jsx";
 import { DressCode } from "./domains/Wedding/pages/dressCode/index.jsx";
 import { Gifts } from "./domains/Wedding/pages/gifts/index.jsx";
+import Travel from "./domains/Travel/index.jsx";
+import RioDeJaneiro from "./domains/RJ/index.jsx";
+import Buzios from "./domains/Buzios/index.jsx";
+import QeA from "./domains/Q&A/index.jsx";
+import Historia from "./domains/Historia/index.jsx";
+import { TeamBrideGroom } from "./domains/TeamBrideGroom/index.jsx";
 
 //teste
 
@@ -58,6 +64,60 @@ const router = createBrowserRouter([
           {
             path: "wedding/gifts",
             element: <Gifts />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "travel",
+            element: <Travel />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "travel/rio-de-janeiro",
+            element: <RioDeJaneiro />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "travel/buzios",
+            element: <Buzios />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "qea",
+            element: <QeA />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "nossa-historia",
+            element: <Historia />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "teamBG",
+            element: <TeamBrideGroom />,
           },
         ],
       },
