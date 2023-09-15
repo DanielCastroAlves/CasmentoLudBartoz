@@ -18,7 +18,7 @@ const ContainerCarousel = styled("div")(({ theme }) => ({
     width: "90%",
   },
   [createMediaQuery("xl")]: {
-    width: "80%",
+    width: "90%",
   },
   [createMediaQuery("sm")]: {
     width: "90%",
@@ -34,7 +34,8 @@ const CustomButtonGroup = styled("div")(({ theme }) => ({
   alignItems: "center",
   position: "relative",
   width: "100%",
-  top: "-95%",
+
+  top: "-104%",
   transform: "translateX(auto)",
   zIndex: 1,
   [createMediaQuery("lg")]: {
@@ -54,7 +55,7 @@ const CustomButtonGroup = styled("div")(({ theme }) => ({
 const CustomArrowButtonBase = {
   display: "flex",
   width: "50px",
-  height: "530px",
+  height: "552px",
   padding: "8px 11px",
   justifyContent: "center",
   alignItems: "center",
@@ -72,14 +73,14 @@ const CustomArrowButtonRight = styled("div")(({ theme }) => ({
   [createMediaQuery("sm")]: {
     width: "50px",
     height: "50px",
-    borderRadius: "22px", 
+    borderRadius: "22px",
     background:
       "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
   },
   [createMediaQuery("xs")]: {
     width: "50px",
     height: "50px",
-    borderRadius: "22px", 
+    borderRadius: "22px",
     background:
       "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
   },
@@ -91,15 +92,15 @@ const CustomArrowButtonLeft = styled("div")(({ theme }) => ({
     top: "-90%",
     width: "50px",
     height: "50px",
-    borderRadius: "22px", 
+    borderRadius: "22px",
     background:
       "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
   },
   [createMediaQuery("xs")]: {
-    top: "-90%", 
+    top: "-90%",
     width: "50px",
     height: "50px",
-    borderRadius: "22px", 
+    borderRadius: "22px",
     background:
       "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
   },
