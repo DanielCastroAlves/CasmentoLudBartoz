@@ -14,6 +14,7 @@ import RioDeJaneiro from "./domains/RJ/index.jsx";
 import Buzios from "./domains/Buzios/index.jsx";
 import QeA from "./domains/Q&A/index.jsx";
 import Historia from "./domains/Historia/index.jsx";
+import { TeamBrideGroom } from "./domains/TeamBrideGroom/index.jsx";
 
 //teste
 
@@ -108,6 +109,15 @@ const router = createBrowserRouter([
           {
             path: "nossa-historia",
             element: <Historia />,
+          },
+        ],
+      },
+      {
+        path: "/",
+        children: [
+          {
+            path: "teamBG",
+            element: <TeamBrideGroom />,
           },
         ],
       },
