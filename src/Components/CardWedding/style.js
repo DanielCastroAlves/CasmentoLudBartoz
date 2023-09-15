@@ -40,7 +40,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     display: "flex",
-    width: "335px",
+    width: "358px",
     height: "458px",
     padding: "16px",
     flexDirection: "column",
@@ -53,7 +53,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
 
   [createMediaQuery("md")]: {
     display: "flex",
-    width: "335px",
+    width: "358px",
     height: "458px",
     padding: "16px",
     flexDirection: "column",
@@ -76,12 +76,12 @@ const CardWeddingImage = styled("img")({
     height: "412px",
   },
   [createMediaQuery("sm")]: {
-    width: "306px",
-    height: "306px",
+    width: "326px",
+    height: "326px",
   },
   [createMediaQuery("md")]: {
-    width: "306px",
-    height: "306px",
+    width: "326px",
+    height: "326px",
   },
 });
 

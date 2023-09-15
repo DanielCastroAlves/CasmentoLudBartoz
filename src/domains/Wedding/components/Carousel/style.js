@@ -21,10 +21,10 @@ const ContainerCarousel = styled("div")(({ theme }) => ({
     width: "90%",
   },
   [createMediaQuery("sm")]: {
-    width: "90%",
+    width: "100%",
   },
   [createMediaQuery("md")]: {
-    width: "90%",
+    width: "96%",
   },
 }));
 
@@ -33,7 +33,6 @@ const CustomButtonGroup = styled("div")(({ theme }) => ({
   justifyContent: "space-between",
   alignItems: "center",
   position: "relative",
-  width: "100%",
 
   top: "-104%",
   transform: "translateX(auto)",
@@ -46,9 +45,10 @@ const CustomButtonGroup = styled("div")(({ theme }) => ({
   },
   [createMediaQuery("sm")]: {
     top: "-50%",
+    width: "90%",
   },
-  [createMediaQuery("xs")]: {
-    top: "-50%",
+  [createMediaQuery("md")]: {
+    width: "100%",
   },
 }));
 
@@ -71,13 +71,7 @@ const CustomArrowButtonRight = styled("div")(({ theme }) => ({
   background:
     "var(--backround-linear-gradient-l, linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FFF 52.60%))",
   [createMediaQuery("sm")]: {
-    width: "50px",
-    height: "50px",
-    borderRadius: "22px",
-    background:
-      "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
-  },
-  [createMediaQuery("xs")]: {
+    margin: -10,
     width: "50px",
     height: "50px",
     borderRadius: "22px",
@@ -89,21 +83,14 @@ const CustomArrowButtonRight = styled("div")(({ theme }) => ({
 const CustomArrowButtonLeft = styled("div")(({ theme }) => ({
   ...CustomArrowButtonBase,
   [createMediaQuery("sm")]: {
-    top: "-90%",
+    margin: -10,
     width: "50px",
     height: "50px",
     borderRadius: "22px",
     background:
       "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
   },
-  [createMediaQuery("xs")]: {
-    top: "-90%",
-    width: "50px",
-    height: "50px",
-    borderRadius: "22px",
-    background:
-      "var(--Background-Arrow-Radial, radial-gradient(50% 50% at 50% 50%, #FFF 47.4%, rgba(255, 255, 255, 0.00) 100%))", // Adicione o background aqui
-  },
+
   background:
     "var(--backround-linear-gradient-l, linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, #FFF 52.60%))",
 }));

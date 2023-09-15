@@ -11,6 +11,7 @@ import {
   CustomButtonGroup,
 } from "./style.js";
 import CardWedding from "../../../../Components/CardWedding";
+import { Link } from "@mui/material";
 
 const CarouselWedding = ({ dataInfo }) => {
   const CustomButtonGroupAsArrows = ({ next, previous }) => {
@@ -32,7 +33,6 @@ const CarouselWedding = ({ dataInfo }) => {
         additionalTransfrom={0}
         arrows={false}
         autoPlaySpeed={3000}
-
         customButtonGroup={<CustomButtonGroupAsArrows />}
         draggable
         focusOnSelect={false}
@@ -58,8 +58,8 @@ const CarouselWedding = ({ dataInfo }) => {
               min: 0,
             },
             items: 1,
-            partialVisibilityGutter: 30,
-            centerMode: false,
+
+            centerMode: true,
           },
           tablet: {
             breakpoint: {
@@ -78,10 +78,14 @@ const CarouselWedding = ({ dataInfo }) => {
         slidesToSlide={1}
         swipeable
         infinite={true}
-        /*   showDots={true} */
       >
         {dataInfo.map((data, index) => (
-          <CardWedding {...data} />
+          <Link
+            href={`${data.link}`}
+            style={{ cursor: "pointer", textDecoration: "none" }}
+          >
+            <CardWedding {...data} />
+          </Link>
         ))}
       </Carousel>
     </ContainerCarousel>

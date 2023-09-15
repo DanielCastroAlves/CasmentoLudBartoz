@@ -19,33 +19,39 @@ export const Wedding = () => {
 
   const dataWedding = [
     {
+      link: "/wedding/dresscode",
       image: DressCodeImage,
       title: "Dress Code",
       description: "Com que roupa eu vou?",
     },
     {
+      link: "/wedding/prewedding",
       image: PreWeddingImage,
       title: "Pre Wedding",
       description: "Vamos ver o pôr-do-sol mais bonito da cidade juntos?",
     },
     {
+      link: "/travel/rio-de-janeiro",
       image: RioDeJaneiroImage,
       title: "Rio de Janeiro",
       description:
         "Detalhes sobre o destino mais famoso do Brasil, passeios e hospedagem.",
     },
     {
+      link: "/nossa-historia",
       image: NossaHistoriaImage,
       title: "Nossa História",
       description: "Tudo começou há um tempo atrás, na ilha do sol...",
     },
     {
+      link: "/wedding/gifts",
       image: PresenteImage,
       title: "Presente",
       description:
         "Quer fazer um agrado para os noivos? Saiba sobre a 'lista de presentes' aqui!",
     },
     {
+      link: "/travel/buzios",
       image: BuziosImage,
       title: "Búzios",
       description:
