@@ -53,7 +53,7 @@ export const Footer = () => {
                             <MenuLink to="/home">
                                 <Typography>PRESENTE DE CASAMENTO</Typography>
                             </MenuLink>
-                            <MenuLink to="/home">
+                            <MenuLink to="/teamBG">
                                 <Typography>TEAM BRIDE & GROOM</Typography>
                             </MenuLink>
                             <MenuLink to="/home">
