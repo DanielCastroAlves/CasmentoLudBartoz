@@ -1,5 +1,15 @@
 import { styled } from "@mui/material";
 
+const breakpoints = {
+  xs: "0px",
+  sm: "600px",
+  md: "960px",
+  lg: "1280px",
+  xl: "1920px",
+};
+
+const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
+
 const CardWeddingContainer = styled("div")(({ theme }) => ({
   display: "flex",
   width: "358px",
@@ -11,12 +21,74 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
   flexShrink: 0,
   border: "1px solid var(--terracota, #9C4522)",
   background: "#FFF",
+
+  [createMediaQuery("sm")]: {
+    display: "flex",
+    width: "335px",
+    height: "458px",
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
+  [createMediaQuery("md")]: {
+    display: "flex",
+    width: "335px",
+    height: "458px",
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
+  [createMediaQuery("lg")]: {
+    display: "flex",
+    width: "335px",
+    height: "458px",
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
+  [createMediaQuery("xl")]: {
+    display: "flex",
+    width: "335px",
+    height: "458px",
+    padding: "16px",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    flexShrink: 0,
+    border: "1px solid var(--terracota, #9C4522)",
+    background: "#FFF",
+  },
 }));
 
 const CardWeddingImage = styled("img")({
   width: "326px",
   height: "326px",
   flexShrink: 0,
+
+  [createMediaQuery("sm")]: {
+    width: "306px",
+  },
+  [createMediaQuery("md")]: {
+    width: "306px",
+  },
+  [createMediaQuery("lg")]: {
+    width: "306px",
+  },
+  [createMediaQuery("xl")]: {
+    width: "306px",
+  },
 });
 
 const CardWeddingTitle = styled("h6")(({ theme }) => ({

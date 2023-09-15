@@ -61,8 +61,6 @@ export const Wedding = () => {
         paragraph2={text.Wedding.introP2[language]}
       />
       <LocationAndWeather />
-      {/*  <Gallery /> */}
-
       <CarouselWedding dataInfo={dataWedding} />
     </Stack>
   );

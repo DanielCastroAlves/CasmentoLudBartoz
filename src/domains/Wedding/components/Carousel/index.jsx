@@ -32,7 +32,7 @@ const CarouselWedding = ({ dataInfo }) => {
         additionalTransfrom={0}
         arrows={false}
         autoPlaySpeed={3000}
-        centerMode={true}
+
         customButtonGroup={<CustomButtonGroupAsArrows />}
         draggable
         focusOnSelect={false}
@@ -50,6 +50,7 @@ const CarouselWedding = ({ dataInfo }) => {
             },
             items: 2.8,
             partialVisibilityGutter: 8,
+            centerMode: true,
           },
           mobile: {
             breakpoint: {
@@ -58,13 +59,14 @@ const CarouselWedding = ({ dataInfo }) => {
             },
             items: 1,
             partialVisibilityGutter: 30,
+            centerMode: false,
           },
           tablet: {
             breakpoint: {
               max: 1024,
-              min: 464,
+              min: 465,
             },
-            items: 2,
+            items: 1,
             partialVisibilityGutter: 30,
           },
         }}
