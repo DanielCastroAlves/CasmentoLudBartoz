@@ -11,16 +11,16 @@ const breakpoints = {
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const BannerImage = styled("div")(({ theme }) => ({
-  margin: "20px",
-  padding: "20px",
+  margin: "20px 0 20px 0",
+  padding: "20px 0 20px 0",
 
   "& > .imgBuziosMb": {
     display: "none",
   },
 
   [createMediaQuery("sm")]: {
-    margin: "0",
-    padding: "0",
+    margin: "32px 0 52px 0",
+    padding: "32px 0 32px 0",
     width: "390px",
     height: "358px",
     "& > .imgBuzios": {
@@ -28,12 +28,11 @@ const BannerImage = styled("div")(({ theme }) => ({
     },
     "& > .imgBuziosMb": {
       display: "block",
-      margin: "32px 0 32px 0",
     },
   },
   [createMediaQuery("md")]: {
-    margin: "0",
-    padding: "0",
+    margin: "32px 0 52px 0",
+    padding: "32px 0 32px 0",
     width: "390px",
     height: "358px",
     "& > .imgBuzios": {
@@ -41,7 +40,6 @@ const BannerImage = styled("div")(({ theme }) => ({
     },
     "& > .imgBuziosMb": {
       display: "block",
-      margin: "32px 0 32px 0",
     },
   },
 }));

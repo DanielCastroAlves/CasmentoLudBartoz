@@ -1,189 +1,135 @@
 import React from "react";
-import { Container, Box } from "@mui/material";
+import text from "../../Assets/text.json";
+import { useLanguage } from "../../hooks/useLanguage";
+import { Stack } from "@mui/material";
 import rio from "../../Assets/Images/Picture-RJ.png";
-import {
-  BannerImage,
-  BannerImageRJ,
-  ContainerPageCity,
-  Description,
-  TituloDescription,
-  Topicos,
-} from "./style";
+import rioMb from "../../Assets/Images/cardImage/IMG=Mobile.png";
+
+import { FirstSection } from "../../Components/FirstSection";
 import IMG_2905 from "../../Assets/Images/hoteis/IMG_2905.png";
 import ipanemaHotel from "../../Assets/Images/hoteis/ipanemaHotel.png";
-
-
+import {
+  Description,
+  BannerImage,
+  BannerImageBuzios,
+  ContainerBanner,
+  ContainerPageCity,
+  ContainerTitleBanner,
+  TituloDescription,
+} from "./style";
 
 const RioDeJaneiro = () => {
-
+  const { language } = useLanguage();
   const hoteis = [
     { nome: "hotel", imagem: IMG_2905 },
     { nome: "hotel ipanema", imagem: ipanemaHotel },
-  
   ];
-  
+
   return (
-    <Container
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        minWidth: "100vh",
-      }}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Description
-          variant="h4"
-          component="h1"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Cinzel",
-            fontSize: 38,
-            fontWeight: 700,
-          }}
-        >
-          Lorem ipsum
-        </Description>
-        <Description
-          variant="h6"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 20,
-            fontWeight: 300,
-            textTransform: "uppercase",
-          }}
-        >
-          Lorem ipsum dolor sit amet consectetur. Volutpat mattis massa turpis
-          adipiscing dignissim nibh non habitant a.
-        </Description>
-        <Description
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Accumsan sit tempus lorem ut lorem sem at mauris turpis. Augue eget
-          placerat turpis pellentesque. Fusce consequat non sed senectus urna
-          aliquam. Pharetra ipsum consequat tincidunt pharetra id vestibulum
-          semper. Senectus congue amet nibh enim eget amet habitasse. Sagittis
-          justo malesuada nec magna nunc. Egestas lectus vitae in enim
-          sollicitudin senectus ullamcorper sed. Est lacinia tortor lectus purus
-          fusce viverra sed neque accumsan. Ultrices arcu gravida id nulla
-          molestie ut. Nulla amet in pretium in neque purus. Neque dolor
-          sagittis felis ultricies commodo. Aliquam in pretium lacus arcu. In
-          morbi rhoncus dictumst vestibulum diam amet. Quis elit ut risus
-          tristique euismod lobortis suspendisse maecenas mauris. Leo nisi
-          pretium cras massa. Tellus mauris sit sit faucibus. Neque dapibus nisi
-          risus consequat vivamus. Augue magna cursus feugiat cras. Pellentesque
-          amet diam mi consectetur pellentesque lectus sed velit aenean.
-        </Description>
-        <Description
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Libero vitae amet porttitor mattis amet tellus ultrices libero id.
-          Consectetur nulla auctor nunc dolor lorem congue semper. Pharetra
-          porta lacus quis eget. Elementum auctor commodo eget integer sed
-          dignissim. Ullamcorper urna nibh nec neque consequat et vulputate. Ut
-          nec sollicitudin lectus mi blandit dui diam morbi. Faucibus felis
-          etiam in at vitae nunc nec. Dictum mattis convallis fringilla nulla
-          nunc. Non suspendisse vitae ut faucibus fames nulla sit ultrices diam.
-          Morbi pellentesque semper mi sed a nunc. In velit elementum luctus
-          nunc. Interdum egestas lectus dis tempor etiam suspendisse volutpat.
-          At et non odio amet iaculis.
-        </Description>
-      </Box>
+    <Stack width="100%" height="100%" mb={10}>
+      <FirstSection
+        title={text.Wedding.title[language]}
+        subtitle={text.Wedding.subTitle[language]}
+        paragraph1={text.Wedding.introP1[language]}
+        paragraph2={text.Wedding.introP2[language]}
+      />
       <BannerImage>
-        <div>
-          <img src={rio} alt="Rio de Janeiro" style={{ maxWidth: "100%" }} />
+        <div className="imgBuzios">
+          <img src={rio} alt="buzios" style={{ maxWidth: "100%" }} />
+        </div>
+        <div className="imgBuziosMb">
+          <img src={rioMb} alt="buzios" style={{ maxWidth: "100%" }} />
         </div>
       </BannerImage>
 
       <ContainerPageCity>
         <TituloDescription>Lorem ipsum</TituloDescription>
         <Description>
-          A erat in at nunc tempor tristique sem orci lacus. Leo enim quis et
-          interdum sapien suspendisse eget arcu. At curabitur vitae adipiscing
-          orci. Eget scelerisque iaculis dignissim amet tincidunt blandit elit.
-          Risus at cras euismod mi vel. Eget ut eu aliquam nisl. Nibh blandit
-          est nec risus. Egestas nisi sit proin id. Condimentum augue tristique
-          faucibus nulla massa. Turpis in varius nisl risus integer semper urna
-          semper at. Eu nunc volutpat risus nunc pulvinar.
+          At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
+          mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
+          pellentesque consectetur lacus habitant. In faucibus massa augue
+          pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
+          pellentesque blandit integer. Sed massa turpis proin nulla quam id.
+          Etiam amet massa vulputate pretium sed. Lectus fames quam purus
+          vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
+          Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
+          facilisis vel nisi nisl sapien egestas a pharetra. Volutpat malesuada
+          viverra nisi adipiscing.
         </Description>
-        <Description> Nisl sed sit tempus in egestas elementum</Description>
-        <Topicos>
-          <ul>
-            <li>Feugiat</li>
-            <li>pellentesque</li>
-            <li>eget</li>
-            <li>tincidunt</li>
-            <li>malesuada</li>
-          </ul>
-        </Topicos>
         <Description>
-          in egestas elementum in. Egestas feugiat laoreet velit elit. Sagittis
-          tristique amet elementum placerat urna libero. Auctor quis scelerisque
-          enim eget ut. Amet morbi ipsum dolor proin fringilla. Sollicitudin
-          consequat sit et augue. Adipiscing odio ac cras non. Ac nascetur
-          accumsan in nec ultricies. Porttitor neque blandit ultrices cursus.
-          Non proin in faucibus dui cras sed rhoncus. Volutpat tempor tortor
-          amet nunc purus bibendum vitae. Turpis nec velit etiam eleifend elit
-          euismod. Id cursus imperdiet mauris.
+          {" "}
+          Quisque cras turpis proin nunc enim. Tellus odio tellus quam sit
+          maecenas pellentesque consequat.
+        </Description>
+        <Description>
+          <ul>
+            <li>Sed</li>
+            <li>consectetur</li>
+            <li>sapien</li>
+            <li>sed</li>
+            <li>amet</li>
+            <li>dolor</li>
+          </ul>
+        </Description>
+        <Description>
+          Orci sapien arcu lectus sed. In id porttitor interdum montes. Euismod
+          maecenas eu amet consectetur in sed eget id risus. Nibh eu risus
+          ornare viverra velit viverra purus. At tincidunt pulvinar elementum
+          arcu maecenas tincidunt.
         </Description>
       </ContainerPageCity>
-
       <ContainerPageCity>
         <TituloDescription>Lorem ipsum</TituloDescription>
         <Description>
-          Eros pharetra eget fermentum dapibus quam. At non tellus egestas
-          massa. Quisque praesent facilisis dictum odio non iaculis etiam nullam
-          id. Nulla tortor facilisis commodo cras. Cras mauris accumsan viverra
-          dolor vulputate volutpat. Dolor ultrices eu in viverra morbi sed mus
-          tristique. Mauris mauris faucibus dictumst odio facilisis ultricies
-          scelerisque pellentesque. Consectetur ullamcorper nam rhoncus nibh.
-          Euismod dictum pharetra a blandit ipsum sed diam sed. Sed dolor
-          maecenas quam integer mauris malesuada ultrices vitae. Adipiscing
-          condimentum lacus erat morbi quam orci.
+          Sed sed pellentesque volutpat nisl varius curabitur vulputate neque.
+          Pellentesque duis magna nisl odio posuere neque facilisi quisque
+          faucibus. Libero id sed tristique sit eget tellus. Viverra egestas
+          neque diam quis consectetur mauris nunc et semper. Sed morbi enim
+          auctor vestibulum sagittis ornare placerat. Et at nisl rhoncus ut duis
+          nec habitasse viverra sit. Cursus nam nullam urna in faucibus et
+          varius parturient. Ullamcorper volutpat duis in sagittis. Cursus est
+          habitant venenatis porta odio vel justo consequat. Proin nibh varius
+          sagittis egestas. Integer posuere nibh id ac odio. Eleifend facilisis
+          consectetur velit volutpat diam. Scelerisque phasellus et tristique id
+          mi vitae. Et et sed diam arcu tristique est pellentesque eu sed.
         </Description>
 
         <Description>
-          Proin eget vitae congue varius diam sed suspendisse. Hendrerit sit mi
-          arcu tincidunt sodales et nunc blandit nam. Et velit eget consequat.
+          Gravida risus nunc amet sapien risus diam. Semper lorem natoque
+          suscipit sem.
         </Description>
-        <BannerImageRJ>
-          {hoteis.map((hotel, index) => (
-            <div key={index} >
-              <img src={hotel.imagem} alt={hotel.nome} />
-            </div>
-          ))}
-        </BannerImageRJ>
       </ContainerPageCity>
-    </Container>
+
+      <ContainerBanner>
+        {hoteis.map((hotel, index) => (
+          <BannerImageBuzios
+            style={{
+              position: "relative",
+              backgroundImage: `url(${hotel.imagem})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                backgroundColor: "rgba(211, 211, 211, 0.5)",
+              }}
+            >
+              <ContainerTitleBanner>
+                <h1>{hotel.nome}</h1>
+                <p>Conheça o hotel</p>
+              </ContainerTitleBanner>
+            </div>
+          </BannerImageBuzios>
+        ))}
+      </ContainerBanner>
+    </Stack>
   );
 };
 
