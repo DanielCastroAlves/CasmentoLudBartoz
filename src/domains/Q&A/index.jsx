@@ -1,13 +1,9 @@
 import React from "react";
-import {
-  ContainerQeA,
-  IntroPage,
-  Paragraph,
-  Subtitle,
-  Title,
-} from "./style.js";
-
 import QAAccordion from "./componets/index.jsx";
+import { Stack } from "@mui/material";
+import { useLanguage } from "../../hooks/useLanguage.jsx";
+import text from "../../Assets/text.json";
+import { FirstSection } from "../../Components/FirstSection/index.jsx";
 
 const QeA = () => {
   const data = [
@@ -69,29 +65,19 @@ const QeA = () => {
     },
   ];
 
+  const { language } = useLanguage();
+
   return (
-    <ContainerQeA>
-      <IntroPage>
-        <div className="title-sub-title">
-          <Title>Lorem ipsum</Title>
-          <Subtitle>Lorem ipsum dolor sit amet consectetur.</Subtitle>
-        </div>
-        <div className="description">
-          <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Risus non non vitae est.
-            Tincidunt arcu nisl non volutpat pretium scelerisque est diam. Risus
-            nec amet libero diam.
-          </Paragraph>
-          <Paragraph>
-            {" "}
-            Senectus at donec quam euismod vitae laoreet metus porttitor.
-          </Paragraph>
-        </div>
-      </IntroPage>
-      <div>
-        <QAAccordion data={data} />
-      </div>
-    </ContainerQeA>
+    <Stack width="100%" height="100%" mb={0}>
+      <FirstSection
+        title={text.Wedding.title[language]}
+        subtitle={text.Wedding.subTitle[language]}
+        paragraph1={text.Wedding.introP1[language]}
+        paragraph2={text.Wedding.introP2[language]}
+      />
+
+      <QAAccordion data={data} />
+    </Stack>
   );
 };
 
