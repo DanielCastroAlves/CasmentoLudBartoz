@@ -1,47 +1,111 @@
-import { Button } from "@mui/base";
-import TimelineConnector from "@mui/lab/TimelineConnector/TimelineConnector";
 import { styled } from "@mui/material";
 
-const ContainerTimeline = styled("div")(() => ({
+const breakpoints = {
+  xs: "0px",
+  sm: "600px",
+  md: "960px",
+  lg: "1280px",
+  xl: "1920px",
+};
+
+const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
+
+export const ContainerTimeline = styled("div")(() => ({
   display: "flex",
+  width: "540px",
+  height: "900px",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "flex-start",
+  gap: "32px",
+
+  [createMediaQuery("sm")]: {
+    alignItems: "center",
+  },
+  [createMediaQuery("md")]: {
+    alignItems: "center",
+  },
+}));
+
+export const PlanTravel = styled("div")(() => ({
+  display: "flex",
+  width: "540px",
+  height: "73px",
+  alignItems: "center",
+  gap: "32px",
+  flexShrink: 0,
+  border: "1px solid var(--Terracota, #9C4522)",
+  [createMediaQuery("sm")]: {
+    width: "358px",
+    height: "",
+  },
+  [createMediaQuery("md")]: {
+    width: "358px",
+    height: "",
+  },
+}));
+export const ContainerData = styled("div")(() => ({
+  display: "flex",
+  flexDirection: "column",
+  width: "125px",
+  alignItems: "center",
+  justifyContent: "center",
+  textAlign: "center",
+
+  [createMediaQuery("sm")]: {
+    width: "",
+    height: "",
+  },
+  [createMediaQuery("md")]: {
+    width: "",
+    height: "",
+  },
+}));
+export const TitleDay = styled("h1")(() => ({
+  alignSelf: "stretch",
+  color: "var(--Terracota, #9C4522)",
+  textAlign: "center",
+  fontFamily: "Open Sans",
+  fontSize: "22px",
+  fontStyle: "normal",
+  fontWeight: 300,
+  lineHeight: "normal",
+  textTransform: "uppercase",
+}));
+
+export const NumberDay = styled("h2")(() => ({
+  alignSelf: "stretch",
+  color: "var(--Green-Olive, #52736B)",
+  fontFamily: "Cinzel",
+  fontSize: "20px",
+  fontStyle: "normal",
+  fontWeight: 400,
+  lineHeight: "normal",
+}));
+
+export const ContainerDescription = styled("div")(() => ({
+  display: "flex",
+  padding: "4px 8px",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  height: "0",
-  width: "0",
-  transform: "rotate(90deg)",
-  padding: "0",
-  margin: "0",
+  gap: "10px",
+  flex: "1 0 0",
+
+  [createMediaQuery("sm")]: {
+    alignItems: "center",
+  },
+  [createMediaQuery("md")]: {
+    alignItems: "center",
+  },
 }));
 
-const ButtonTimeLine = styled(Button)(({ theme }) => ({
-  backgroundColor: "#ffff",
-  padding: 0,
-  margin: 0,
-  border: "none",
-  cursor: "pointer",
-}));
-
-const RotatedLabel = styled(ButtonTimeLine)(({ theme }) => ({
-  transform: "rotate(-90deg)",
-  fontFamily: "Cinzel, Arial, sans-serif",
-  fontSize: "16px",
-  fontWeight: 700,
+export const TravelDescription = styled("h6")(() => ({
+  alignSelf: "stretch",
+  color: "var(--Black, #545454)",
+  fontFamily: "Open Sans",
+  fontSize: "14px",
   fontStyle: "normal",
+  fontWeight: 400,
   lineHeight: "normal",
-  color: "var(--terracota, #9C4522)",
 }));
-
-const StyledTimelineConnector = styled(TimelineConnector)(({ theme }) => ({
-  height: "0px",
-  flexShrink: 0,
-  strokeWidth: "2px",
-  stroke: "var(--terracota, #9C4522)",
-}));
-
-export {
-  ContainerTimeline,
-  ButtonTimeLine,
-  RotatedLabel,
-  StyledTimelineConnector,
-};

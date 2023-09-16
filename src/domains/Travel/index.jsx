@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Typography, Container, Box, Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
-import TimelineCard from "./components/TimelineCard";
 import CardPage from "./components/CardPage";
 import rioImage from "../../Assets/Images/cardImage/B_Nossa História=Enabled.png";
 import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
@@ -21,75 +20,69 @@ import {
 } from "./components/CardPage/style";
 
 const Travel = () => {
-  const [timelineItem, setTimelineItem] = useState(null);
-
-  const handleTimelineItemClick = (item) => {
-    setTimelineItem(item);
-  };
-
   const { language } = useLanguage();
 
   const topics = [
     {
       label: "09.05.2024",
-      content: "Quinta-feira",
-      programacao: ["Chegada em Armação de Búzios"],
+      content: "Quinta",
+      programacao: "Chegada em Armação de Búzios",
       id: 1,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "10.05.2024",
-      content: "Sexta-feira",
-      programacao: ["Passeio em Arraial do Cabo"],
+      content: "Sexta",
+      programacao: "Passeio em Arraial do Cabo",
       id: 2,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "11.05.2024",
       content: "Sábado",
-      programacao: ["Pre Wedding"],
+      programacao: "Pre Wedding",
       id: 3,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "12.05.2024",
       content: "Domingo",
-      programacao: ["Casamento"],
+      programacao: "Casamento",
       id: 4,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "13.05.2024",
-      content: "Segunda-feira",
-      programacao: ["Passeio em Búzios"],
+      content: "Segunda",
+      programacao: "Passeio em Búzios",
       id: 5,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "14.05.2024",
-      content: "Terça-feira",
-      programacao: ["Transfer para o Rio de Janeiro e Passeio na cidade"],
+      content: "Terça",
+      programacao: "Transfer para o Rio de Janeiro e Passeio na cidade",
       id: 6,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "15.05.2024",
-      content: "Quarta-feira",
-      programacao: ["Passeio no Rio de Janeiro"],
+      content: "Quarta",
+      programacao: "Passeio no Rio de Janeiro",
       id: 7,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "16.05.2024",
-      content: "Quinta-feira",
-      programacao: ["Passeio no Rio de Janeiro"],
+      content: "Quinta",
+      programacao: "Passeio no Rio de Janeiro",
       id: 8,
       icon: "CheckCircleOutlineIcon",
     },
     {
       label: "17.05.2024",
-      content: "Sexta-feira",
-      programacao: ["Passeio no Rio de Janeiro"],
+      content: "Sexta",
+      programacao: "Passeio no Rio de Janeiro",
       id: 9,
       icon: "CheckCircleOutlineIcon",
     },
@@ -142,19 +135,14 @@ const Travel = () => {
           marginTop: "80px",
         }}
       >
-        <CustomTimeline
-          topics={topics}
-          onTimelineItemClick={handleTimelineItemClick}
-        />
-
-        {timelineItem && <TimelineCard item={timelineItem} />}
+        <CustomTimeline topics={topics} />
       </Box>
       <ContainerCarouselTravel>
         <Carousel
           additionalTransfrom={0}
           arrows={false}
           autoPlaySpeed={3000}
-           customButtonGroup={<CustomButtonGroupAsArrowsTravel />}
+          customButtonGroup={<CustomButtonGroupAsArrowsTravel />}
           draggable
           focusOnSelect={false}
           keyBoardControl

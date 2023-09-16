@@ -6,16 +6,19 @@ import {
   CardWeddingTitle,
   ContainerTitleDescription,
 } from "./style";
+import { Link } from "@mui/material";
 
-const CardWedding = ({ image, title, description, link }) => {
+const CardWedding = ({ image, title, description, destination }) => {
   return (
-    <CardWeddingContainer key={title}>
-      <CardWeddingImage src={image} alt="Imagem do item" />
-      <ContainerTitleDescription>
-        <CardWeddingTitle>{title}</CardWeddingTitle>
-        <CardWeddingDescription>{description}</CardWeddingDescription>
-      </ContainerTitleDescription>
-    </CardWeddingContainer>
+    <Link href={destination} underline="none">
+      <CardWeddingContainer key={title}>
+        <CardWeddingImage src={image} alt="Imagem do item" />
+        <ContainerTitleDescription>
+          <CardWeddingTitle>{title}</CardWeddingTitle>
+          <CardWeddingDescription>{description}</CardWeddingDescription>
+        </ContainerTitleDescription>
+      </CardWeddingContainer>
+    </Link>
   );
 };
 
