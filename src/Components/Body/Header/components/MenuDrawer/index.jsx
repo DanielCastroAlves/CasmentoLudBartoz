@@ -67,12 +67,12 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                         CASAMENTO
                                     </Typography>
                                 </MenuLink>
-                                <MenuLink to="/home">
+                                <MenuLink to="/travel">
                                     <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/travel" ? 700 : 400} color={url === "/travel" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         VIAGEM
                                     </Typography>
                                 </MenuLink>
-                                <MenuLink to="/home">
+                                <MenuLink to="/qea">
                                     <Typography fontSize={theme.spacing(5)} onClick={_ => setOpen()} fontWeight={url === "/qea" ? 700 : 400} color={url === "/qea" ? theme.palette.primary.main : theme.palette.secondary.main}>
                                         Q&A
                                     </Typography>
@@ -84,10 +84,10 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                 ))}
                             </Stack>
                             <Stack gap={4}alignItems='center'>
-                                <MenuLink to="/home">
+                                <MenuLink to="/wedding/gifts">
                                     <Typography color={theme.palette.primary.secondary}>PRESENTE DE CASAMENTO</Typography>
                                 </MenuLink>
-                                <MenuLink to="/home">
+                                <MenuLink to="/teamBG">
                                     <Typography color={theme.palette.primary.secondary}>TEAM BRIDE & GROOM</Typography>
                                 </MenuLink>
                                 <MenuLink to="/home">
