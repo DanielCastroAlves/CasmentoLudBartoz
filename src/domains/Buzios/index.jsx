@@ -1,113 +1,44 @@
 import React from "react";
-import { Container, Box } from "@mui/material";
+import text from "../../Assets/text.json";
+import { useLanguage } from "../../hooks/useLanguage";
+import { Stack } from "@mui/material";
 import buzios from "../../Assets/Images/Picture-Buzios.png";
-import alforria from "../../Assets/Images/hoteis/Alforria 140723.png";
+import buziosMb from "../../Assets/Images/cardImage/Picture Buzios mobile.png";
+import alforria from "../../Assets/Images/hoteis/Alforria.png";
 import blueMarlin from "../../Assets/Images/hoteis/blueMarlin.png";
 import Sable from "../../Assets/Images/hoteis/Sable.png";
-
 import {
   BannerImage,
+  ContainerBanner,
   ContainerPageCity,
+  ContainerTitleBanner,
   Description,
   TituloDescription,
-  Topicos,
 } from "./style";
 import { BannerImageBuzios } from "../Buzios/style";
-
-const hoteis = [
-  { nome: "Alforria", imagem: alforria },
-  { nome: "Blue Marlin", imagem: blueMarlin },
-  { nome: "Sable", imagem: Sable },
-];
+import { FirstSection } from "../../Components/FirstSection";
 
 const Buzios = () => {
+  const hoteis = [
+    { nome: "Alforria", imagem: alforria },
+    { nome: "Blue Marlin", imagem: blueMarlin },
+    { nome: "Sable", imagem: Sable },
+  ];
+  const { language } = useLanguage();
   return (
-    <Container
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        minWidth: "100vh",
-      }}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Description
-          variant="h4"
-          component="h1"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Cinzel",
-            fontSize: 38,
-            fontWeight: 700,
-          }}
-        >
-          Ipsum
-        </Description>
-        <Description
-          variant="h6"
-          gutterBottom
-          sx={{
-            color: "var(--terracota, #9C4522)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 20,
-            fontWeight: 300,
-            textTransform: "uppercase",
-          }}
-        >
-          Diam fusce urna in neque sagittis commodo in tristique. Nunc volutpat.
-        </Description>
-        <Description
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Cursus porttitor nunc pharetra lectus massa tristique scelerisque.
-          Velit mattis varius cras at mi duis. Fermentum ullamcorper id orci
-          odio rhoncus. Bibendum malesuada volutpat volutpat orci penatibus
-          tellus morbi mauris blandit. Interdum velit massa in nisl sed vel.
-          Tortor aenean duis morbi consequat pretium bibendum pharetra ut. Et
-          nunc sed eu tincidunt. Mi aliquet in venenatis interdum eros nunc.
-          Placerat condimentum donec eu sit mattis. Enim urna tortor donec
-          proin.
-        </Description>
-        <Description
-          variant="body1"
-          paragraph
-          sx={{
-            color: "var(--automtico-padro, #545454)",
-            textAlign: "center",
-            fontFamily: "Open Sans",
-            fontSize: 18,
-            fontWeight: 300,
-          }}
-        >
-          Quisque habitasse quam scelerisque posuere suspendisse platea sit
-          aenean ultricies. Posuere id tristique velit diam eget ipsum urna.
-          Enim urna massa condimentum condimentum nisi bibendum at. Fames
-          volutpat nibh amet suspendisse fusce arcu in. Ipsum nulla fusce orci
-          amet. Egestas volutpat ac at et.
-        </Description>
-      </Box>
+    <Stack width="100%" height="100%" mb={10}>
+      <FirstSection
+        title={text.Wedding.title[language]}
+        subtitle={text.Wedding.subTitle[language]}
+        paragraph1={text.Wedding.introP1[language]}
+        paragraph2={text.Wedding.introP2[language]}
+      />
       <BannerImage>
-        <div>
+        <div className="imgBuzios">
           <img src={buzios} alt="buzios" style={{ maxWidth: "100%" }} />
+        </div>
+        <div className="imgBuziosMb">
+          <img src={buziosMb} alt="buzios" style={{ maxWidth: "100%" }} />
         </div>
       </BannerImage>
 
@@ -130,7 +61,7 @@ const Buzios = () => {
           Quisque cras turpis proin nunc enim. Tellus odio tellus quam sit
           maecenas pellentesque consequat.
         </Description>
-        <Topicos>
+        <Description>
           <ul>
             <li>Sed</li>
             <li>consectetur</li>
@@ -139,7 +70,7 @@ const Buzios = () => {
             <li>amet</li>
             <li>dolor</li>
           </ul>
-        </Topicos>
+        </Description>
         <Description>
           Orci sapien arcu lectus sed. In id porttitor interdum montes. Euismod
           maecenas eu amet consectetur in sed eget id risus. Nibh eu risus
@@ -147,7 +78,6 @@ const Buzios = () => {
           arcu maecenas tincidunt.
         </Description>
       </ContainerPageCity>
-
       <ContainerPageCity>
         <TituloDescription>Lorem ipsum</TituloDescription>
         <Description>
@@ -168,15 +98,38 @@ const Buzios = () => {
           Gravida risus nunc amet sapien risus diam. Semper lorem natoque
           suscipit sem.
         </Description>
-        <BannerImageBuzios>
-          {hoteis.map((hotel, index) => (
-            <div key={index} >
-              <img src={hotel.imagem} alt={hotel.nome} />
-            </div>
-          ))}
-        </BannerImageBuzios>
       </ContainerPageCity>
-    </Container>
+
+      <ContainerBanner>
+        {hoteis.map((hotel, index) => (
+          <BannerImageBuzios
+            style={{
+              position: "relative",
+              backgroundImage: `url(${hotel.imagem})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                backgroundColor: "rgba(211, 211, 211, 0.5)",
+              }}
+            >
+              <ContainerTitleBanner>
+                <h1>{hotel.nome}</h1>
+                <p>Conheça o hotel</p>
+              </ContainerTitleBanner>
+            </div>
+          </BannerImageBuzios>
+        ))}
+      </ContainerBanner>
+    </Stack>
   );
 };
 
