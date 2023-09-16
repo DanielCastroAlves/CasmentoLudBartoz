@@ -14,12 +14,12 @@ const MenuLink = styled(Link)(({ theme }) => ({
         textTransform: "uppercase",
     },
     "&:hover .MuiTypography-root": {
-        color: theme.palette.primary.main, // Defina a cor desejada para o hover
+        color: theme.palette.primary.main, 
         fontWeight: 400,
     },
 
     "&:focus .MuiTypography-root": {
-        color: theme.palette.secondary.main, // Defina a cor desejada para o hover
+        color: theme.palette.secondary.main, 
         fontWeight: 600,
     },
 }));

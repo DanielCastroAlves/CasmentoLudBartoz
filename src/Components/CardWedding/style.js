@@ -23,6 +23,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     flexShrink: 0,
     border: "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
+    cursor: 'pointer'
   },
   [createMediaQuery("xl")]: {
     display: "flex",
@@ -36,6 +37,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     flexShrink: 0,
     border: "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
+    cursor: 'pointer'
   },
 
   [createMediaQuery("sm")]: {
@@ -49,6 +51,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     flexShrink: 0,
     border: "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
+    cursor: 'pointer'
   },
 
   [createMediaQuery("md")]: {
@@ -62,6 +65,7 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     flexShrink: 0,
     border: "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
+    cursor: 'pointer'
   },
 }));
 
