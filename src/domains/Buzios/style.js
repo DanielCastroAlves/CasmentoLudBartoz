@@ -158,7 +158,7 @@ const TituloDescription = styled("h2")(({ theme }) => ({
 const Description = styled("p")(({ theme }) => ({
   color: "var(--Black, #545454)",
   fontFamily: "Open Sans",
-  fontSize: "18px",
+  fontSize: "14px",
   fontStyle: "normal",
   fontWeight: 300,
   lineHeight: "normal",
@@ -171,7 +171,7 @@ const Description = styled("p")(({ theme }) => ({
     paddingLeft: "5px",
     color: "var(--Black, #545454)",
     fontFamily: "Open Sans",
-    fontSize: "18px",
+    fontSize: "14px",
     fontStyle: "normal",
     fontWeight: 300,
     lineHeight: "normal",
