@@ -22,20 +22,22 @@ export const SectionText = styled("div")(({ theme }) => ({
   margin: 60,
 
   [createMediaQuery("sm")]: {
-    width: "390px",
+    width: "342px",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
     gap: "16px",
+    margin: "30px 15px 30px 15px",
   },
   [createMediaQuery("md")]: {
-    width: "390px",
+    width: "342px",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
     gap: "16px",
+    margin: "30px 15px 30px 15px",
   },
 }));
 
@@ -51,6 +53,33 @@ export const CustomParagraph = styled("div")(({ theme }) => ({
   fontStyle: "normal",
   fontWeight: 300,
   lineHeight: "normal",
+
+  [createMediaQuery("sm")]: {
+    width: "342px",
+
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    fontSize: "12px",
+    fontStyle: "normal",
+    fontWeight: 400,
+    lineHeight: "normal",
+  },
+  [createMediaQuery("md")]: {
+    width: "342px",
+
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    fontSize: "12px",
+    fontStyle: "normal",
+    fontWeight: 400,
+    lineHeight: "normal",
+  },
 }));
 
 export const CustomImage = ({ src, alt }) => (
@@ -60,7 +89,6 @@ export const CustomImage = ({ src, alt }) => (
       alt={alt}
       style={{
         width: "100%",
-        
         marginTop: 60,
       }}
     />
@@ -74,7 +102,6 @@ export const CustomMB = ({ src, alt }) => (
       alt={alt}
       style={{
         width: "100%",
-       
         marginTop: 60,
       }}
     />
@@ -87,6 +114,33 @@ export const CustomVideo = styled("div")(({ theme }) => ({
   "& iframe": {
     width: "100%",
     height: "100%",
+  },
+  [createMediaQuery("sm")]: {
+    width: "350px",
+    height: "219px",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+
+    "& iframe": {
+      width: "100%",
+      height: "100%",
+    },
+  },
+  [createMediaQuery("md")]: {
+    width: "350px",
+    height: "219px",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "16px",
+    "& iframe": {
+      width: "100%",
+      height: "100%",
+    },
   },
 }));
 
