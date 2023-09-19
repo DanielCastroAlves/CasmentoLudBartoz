@@ -8,6 +8,25 @@ import {
 } from "./style";
 import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 
+function formatData(data) {
+  const formattedData = [];
+
+  data.forEach((item) => {
+    const formattedItem = {
+      Q: item.Q,
+      A: item.A.map((paragraph) =>
+        Array.isArray(paragraph)
+          ? paragraph.map((p) => `${p}`)
+          : [`${paragraph}`]
+      ),
+    };
+
+    formattedData.push(formattedItem);
+  });
+
+  return formattedData;
+}
+
 export default function QAAccordion({ data }) {
   const [expandedIndex, setExpandedIndex] = React.useState(null);
 
@@ -15,10 +34,12 @@ export default function QAAccordion({ data }) {
     setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
+  const formattedData = formatData(data);
+
   return (
     <ContainerAcc>
-      {data.map((item, index) => (
-        <AccordionStyled>
+      {formattedData.map((item, index) => (
+        <AccordionStyled key={index}>
           <AccordionSummaryStyled
             id={`panel${index + 1}-header`}
             onClick={() => handleChangeIndex(index)}
@@ -40,13 +61,21 @@ export default function QAAccordion({ data }) {
                 }}
               />
             )}
-              <TypographyStyled
+            <TypographyStyled
               className={expandedIndex === index ? "pergunta-aberta" : ""}
-            >{item.Q}</TypographyStyled>
+            >
+              {item.Q}
+            </TypographyStyled>
           </AccordionSummaryStyled>
           {expandedIndex === index && (
             <AccordionDetailsStyled>
-              <TypographyStyled className="resposta">{item.A}</TypographyStyled>
+              <TypographyStyled className="resposta">
+                <ul>
+                  {item.A.map((paragraph, i) => (
+                    <li key={i}>{paragraph}</li>
+                  ))}
+                </ul>
+              </TypographyStyled>
             </AccordionDetailsStyled>
           )}
         </AccordionStyled>

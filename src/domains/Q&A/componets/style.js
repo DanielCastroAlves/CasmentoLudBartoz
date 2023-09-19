@@ -77,13 +77,21 @@ export const TypographyStyled = styled(Typography)`
   &.pergunta-aberta {
     color: var(--Terracota, #9c4522) !important;
   }
+
   &.resposta {
     fill: none !important;
     color: #545454;
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  }
+  & ul {
+    list-style-type: none;
+    padding: 10px;
+    & ul li {
+      margin-bottom: 10px;
+      font-family: "Open Sans" !important;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 `;
