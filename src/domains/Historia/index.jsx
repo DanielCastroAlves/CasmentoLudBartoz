@@ -1,54 +1,48 @@
-import { Box, Container } from "@mui/material";
+import { Stack, useMediaQuery, useTheme } from "@mui/material";
 import React from "react";
 import {
   CustomImage,
+  CustomMB,
   CustomParagraph,
-  CustomSubtitle,
-  CustomTitle,
   CustomVideo,
+  SectionText,
 } from "./style";
 import ibiza from "./imagens/Picture Ibiza [01].png";
 import civil from "./imagens/Galeria Civil Wedding 2021 Desktop.png";
 import galeria from "./imagens/Galeria Engagement 2021 Desktop.png";
 import viagem from "./imagens/Galeria Viagem Desktop.png";
 import original from "./imagens/Original.png";
-import youtu from "./imagens/_YOUTUBE_ Claptone.png";
+
+import originalMB from "./imagens/mobile/Ibiza 02 [Desktop].png";
+import ibizaMB from "./imagens/mobile/Picture IbizaMB.png";
+import civilMB from "./imagens/mobile/Galeria Civil Wedding 2021MB.png";
+import galeriaMB from "./imagens/mobile/Galeria Engagement 2021MB.png";
+import viagemMB from "./imagens/mobile/Galeria ViagemMB.png";
+
+import { FirstSection } from "../../Components/FirstSection";
+import { useLanguage } from "../../hooks/useLanguage";
+import text from "../../Assets/text.json";
 
 const Historia = () => {
+  const { language } = useLanguage();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
-    <Container
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        minWidth: "100vh",
-      }}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
-        <CustomTitle>Ludmilla & Bartosz</CustomTitle>
-        <CustomSubtitle>
-          Volutpat mattis massa turpis adipiscing...
-        </CustomSubtitle>
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
+    <Stack width="100%" height="100%" mb={10}>
+      <FirstSection
+        title={text.Wedding.title[language]}
+        subtitle={text.Wedding.subTitle[language]}
+        paragraph1={text.Wedding.introP1[language]}
+        paragraph2={text.Wedding.introP2[language]}
+      />
+      {!isMobile ? (
         <CustomImage src={ibiza} alt="Descrição da imagem" />
+      ) : (
+        <CustomMB src={originalMB} alt="Descrição da imagem" />
+      )}
+
+      <SectionText>
         <CustomParagraph>
           Non diam in pharetra sodales odio ornare sit. Pharetra non amet lacus
           ipsum non volutpat convallis. Arcu amet sagittis egestas nisl cras
@@ -83,28 +77,22 @@ const Historia = () => {
           blandit at at scelerisque. A vestibulum posuere pellentesque
           scelerisque. Eget donec a fames dui tempus vitae ac.
         </CustomParagraph>
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
+      </SectionText>
 
-          marginBottom: 10,
-        }}
-      >
-        <CustomVideo />
-        <CustomImage src={youtu} alt="Descrição da imagem" />
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
+      <SectionText>
+        <CustomVideo>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/fIWuD1b4xNI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </CustomVideo>
+      </SectionText>
+      <SectionText>
         <CustomParagraph>
           Ac arcu venenatis ullamcorper pulvinar. Consectetur eget blandit at
           gravida facilisis ut nulla odio. Aliquam donec turpis quisque amet
@@ -147,18 +135,14 @@ const Historia = () => {
           scelerisque purus facilisis lobortis vel molestie vitae. Consectetur
           integer elementum.
         </CustomParagraph>
+        {!isMobile ? (
+          <CustomImage src={original} alt="Descrição da imagem" />
+        ) : (
+          <CustomMB src={ibizaMB} alt="Descrição da imagem" />
+        )}
+      </SectionText>
 
-        <CustomImage src={original} alt="Descrição da imagem" />
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
+      <SectionText>
         <CustomParagraph>
           Laoreet semper etiam malesuada enim nam volutpat ipsum. Scelerisque
           semper ac faucibus a pellentesque. Fermentum non egestas nec ut.
@@ -191,17 +175,13 @@ const Historia = () => {
           luctus nulla. Eros quis sed eget urna accumsan. Ut tellus sed faucibus
           eget purus ut.
         </CustomParagraph>
-        <CustomImage src={viagem} alt="Descrição da imagem" />
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
+        {!isMobile ? (
+          <CustomImage src={viagem} alt="Descrição da imagem" />
+        ) : (
+          <CustomImage src={viagemMB} alt="Descrição da imagem" />
+        )}
+      </SectionText>
+      <SectionText>
         <CustomParagraph>
           Odio tincidunt ullamcorper diam eget lacus justo tempor posuere eget.
           Non placerat ullamcorper ultricies accumsan ligula. Porta pretium
@@ -250,17 +230,19 @@ const Historia = () => {
           nunc suspendisse egestas. Nisl mi ornare netus mauris morbi lobortis
           mauris elementum. Ornare sed.
         </CustomParagraph>
-        <CustomImage src={youtu} alt="Descrição da imagem" />
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-
-          marginBottom: 10,
-        }}
-      >
+        <CustomVideo>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/z-602UWUcMc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </CustomVideo>
+      </SectionText>
+      <SectionText>
         <CustomParagraph>
           Facilisis dignissim eget dui dignissim aliquam commodo adipiscing. Dui
           id id molestie sed. Ullamcorper dignissim mattis nascetur mi semper
@@ -281,18 +263,42 @@ const Historia = () => {
           porttitor.
         </CustomParagraph>
         <CustomParagraph> - Nulla in arcu turpis.</CustomParagraph>
+      </SectionText>
+      {!isMobile ? (
         <CustomImage src={galeria} alt="Descrição da imagem" />
-      </Box>
+      ) : (
+        <CustomImage src={galeriaMB} alt="Descrição da imagem" />
+      )}
 
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
+      <SectionText>
+        <CustomParagraph>
+          Facilisis dignissim eget dui dignissim aliquam commodo adipiscing. Dui
+          id id molestie sed. Ullamcorper dignissim mattis nascetur mi semper
+          consequat sit tempor. Vestibulum ridiculus consectetur etiam risus sed
+          viverra pharetra volutpat. Id egestas mi enim porta imperdiet netus.
+          Neque amet netus integer a convallis nec aliquam.
+        </CustomParagraph>
+        <CustomParagraph>
+          {" "}
+          Etiam pharetra dolor donec elit augue maecenas ipsum. Vivamus maecenas
+          in faucibus at. Et tellus sed tempor eleifend pellentesque mattis
+          facilisis non tellus. Ipsum porttitor in sit nisl ac. Tincidunt varius
+          felis odio et. Eget sapien sit diam nullam. Odio nisi laoreet turpis
+          mauris libero imperdiet at. Aliquam vel cursus eget gravida. Lobortis
+          mi at sem pulvinar. Sed vel sit non iaculis. Euismod enim in at
+          bibendum auctor. Eget mauris morbi facilisi volutpat parturient. Sed
+          egestas enim arcu id enim. Vel et quis facilisis ornare sed venenatis
+          porttitor.
+        </CustomParagraph>
+        <CustomParagraph> - Nulla in arcu turpis.</CustomParagraph>
+      </SectionText>
+      {!isMobile ? (
+        <CustomImage src={civil} alt="Descrição da imagem" />
+      ) : (
+        <CustomImage src={civilMB} alt="Descrição da imagem" />
+      )}
 
-          marginBottom: 10,
-        }}
-      >
+      <SectionText>
         <CustomParagraph>
           Nibh velit tristique augue pellentesque pulvinar commodo eget. Egestas
           elementum cras porttitor fermentum tincidunt suscipit integer ante
@@ -301,18 +307,8 @@ const Historia = () => {
           lobortis aliquam. Nibh urna nibh et sagittis sem eget mauris. Risus
           purus interdum lorem sit quis in vulputate cursus adipiscing.
         </CustomParagraph>
-        <CustomParagraph>
-          Condimentum semper et est amet urna ut sed lacus ullamcorper.
-          Vulputate sit congue eget dapibus mi arcu vestibulum nunc lacus. Dolor
-          sed vitae et mauris. Et fringilla cursus et condimentum. Est laoreet
-          non lacus eu. Nullam viverra facilisi semper nam consectetur nibh sit
-          dapibus. Leo justo vel amet eu nulla donec tempus ultricies.
-          Vestibulum nisi in volutpat aenean ut donec nunc amet urna.
-        </CustomParagraph>
-
-        <CustomImage src={civil} alt="Descrição da imagem" />
-      </Box>
-    </Container>
+      </SectionText>
+    </Stack>
   );
 };
 
