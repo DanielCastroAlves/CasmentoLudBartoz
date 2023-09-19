@@ -15,6 +15,7 @@ export const PreWedding = () => {
     ];
 
     const data = [
+        { label: text.MenuHeaderLinks.home[language], url: "/home" },
         { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
         { label: text.preWedding.title[language], url: "/wedding/prewedding" },
     ];

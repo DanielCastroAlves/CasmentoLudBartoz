@@ -81,6 +81,36 @@
             "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
             "en": "intro p2 en",
             "es": "intro p2 es"
+        },
+        "boxTitle": {
+            "pt": "Cerimônia & Festa",
+            "pl": "Ceremonia i Przyjęcie",
+            "en": "Ceremony and Party",
+            "es": "Ceremonia y Fiesta"
+        },
+        "addressP1": {
+            "pt": "Rua Três Marias, 20 - Manguinhos.",
+            "pl": "Rua Três Marias, 20 - Manguinhos.",
+            "en": "Rua Três Marias, 20 - Manguinhos.",
+            "es": "Rua Três Marias, 20 - Manguinhos."
+        },
+        "addressP2": {
+            "pt": "Armacão de Búzios, RJ. Brasil",
+            "pl": "Armacão de Búzios, RJ. Brazylia.",
+            "en": "Armacao de Búzios, RJ. Brazil",
+            "es": "Armacao de Buzios, RJ. Brasil"
+        },
+        "dateTime": {
+            "pt": "12 de Maio de 2024 às 15:10",
+            "pl": "12 may 2024 at 15:10",
+            "en": "May 12, 2024 at 3:10 pm",
+            "es": "12 de mayo de 2024 a las 15:10"
+        },
+        "dressCode": {
+            "pt": "Semi-Formal Beach",
+            "pl": "Pół formalny (lekkie odzienie)",
+            "en": "Semi-Formal Beach",
+            "es": "Playa semiformal"
         }
     },
     "dressCode": {

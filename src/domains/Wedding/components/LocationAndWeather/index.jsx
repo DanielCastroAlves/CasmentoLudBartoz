@@ -1,10 +1,10 @@
-import { Box, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Stack, Typography, dividerClasses, useMediaQuery, useTheme } from "@mui/material";
 import { useLanguage } from "../../../../hooks/useLanguage";
 import { useEffect, useState } from "react";
 import { CeremonyContainer, CeremonyContainerMobile } from "./style";
 import sargatana from "../../../../Assets/Images/Sargatana.png";
 import brMap from "../../../../Assets/Images/brMap.png";
-import text from '../../../../Assets/text.json'
+import text from "../../../../Assets/text.json";
 
 export const LocationAndWeather = () => {
     const { language } = useLanguage();
@@ -35,44 +35,52 @@ export const LocationAndWeather = () => {
                 {!isMobile ? (
                     <CeremonyContainer width="50%">
                         <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
-                            Cerimônia & Festa
+                            {text.preWedding.boxTitle[language]}
                         </Typography>
                         <Stack width="100%" gap={2} alignItems="center">
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
-                                <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
-                                    Save
-                                </Typography>
-                                <Typography fontSize={theme.spacing(6.5)} color={theme.palette.secondary.main} fontFamily="Corinthia">
-                                    the
-                                </Typography>
-                                <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
-                                    Date
-                                </Typography>
+                                {language === "es" ? (
+                                    <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                        Reserva
+                                    </Typography>
+                                ) : (
+                                    <>
+                                        <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                            Save
+                                        </Typography>
+                                        <Typography fontSize={theme.spacing(6.5)} color={theme.palette.secondary.main} fontFamily="Corinthia">
+                                            the
+                                        </Typography>
+                                        <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
+                                            Date
+                                        </Typography>
+                                    </>
+                                )}
                             </Stack>
-                            <Typography color={theme.palette.secondary.main}>WEEK-DAY, DD.MM.YYYY às HH:MM</Typography>
+                            <Typography color={theme.palette.secondary.main}>{text.preWedding.dateTime[language]}</Typography>
                         </Stack>
                         <Stack direction="row" width="100%" height="100%" justifyContent="space-between" gap={4} my={5}>
-                            <Stack gap={4} alignItems="center">
+                            <Stack gap={4} alignItems="center" width="100%">
                                 <Typography fontSize={theme.spacing(12)} color={theme.palette.secondary.main} fontFamily="Corinthia">
                                     Villa Três Marias
                                 </Typography>
                                 <Stack>
                                     <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                        RUA TRÊS MARIAS, 20 - MANGUINHOS
+                                        {text.preWedding.addressP1[language]}
                                     </Typography>
                                     <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                        ARMAÇÃO DE BÚZIOS, RJ. BRASIL.
+                                        {text.preWedding.addressP2[language]}
                                     </Typography>
                                 </Stack>
                                 <Box my={5}>
                                     <img src={sargatana} alt="Lagartixa marron" />
                                 </Box>
-                                <Stack direction="row" gap={4} alignItems="baseline">
+                                <Stack direction="row" width="100%" gap={4} alignItems="baseline">
                                     <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main} fontWeight={400}>
-                                        Dress Code:
+                                        {language === "es" ? "Código de vestimenta:" : "Dress Code:"}
                                     </Typography>
                                     <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                        SEMI-FORMAL BEACH
+                                        {text.preWedding.dressCode[language]}
                                     </Typography>
                                 </Stack>
                             </Stack>
