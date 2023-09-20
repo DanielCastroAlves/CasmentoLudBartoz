@@ -10,9 +10,7 @@ import {
   ButtonTimeLine,
   ContainerTimeline,
   RotatedLabel,
-  //StyledTimelineContent,
   StyledTimelineConnector,
-  //ContainerImagem,
   ContainerLabel,
   CenteredImagem,
   StyledTimelineDot,
@@ -63,6 +61,9 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
                         left: -40,
                       }}
                     />
+                    <ContainerLabel>
+                      <RotatedLabel>{item.label}</RotatedLabel>
+                    </ContainerLabel>
                   </StyledTimelineDot>
                   <StyledTimelineConnector
                     sx={{
@@ -73,10 +74,6 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
               )}
               <ButtonTimeLine variant="outlined" color="primary" />
             </TimelineSeparator>
-
-            <ContainerLabel>
-              <RotatedLabel>{item.label}</RotatedLabel>
-            </ContainerLabel>
           </TimelineItem>
         ))}
       </Timeline>
