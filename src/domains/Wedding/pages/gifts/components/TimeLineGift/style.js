@@ -75,6 +75,21 @@ const StyledTimelineContent = styled(TimelineContent)(({ theme }) => ({
   padding: 0,
 }));
 
+
+
+const DotSelected = styled("img")(({ theme }) => ({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "40px",
+  height: "40px",
+  transform: "rotate(-270deg)",
+
+  margin: "0 auto",
+  marginBottom: -50,
+  zIndex: 9999,
+}));
+
 const ContainerImagemBartoz = styled("img")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
@@ -87,6 +102,7 @@ const ContainerImagemBartoz = styled("img")(({ theme }) => ({
   marginBottom: -50,
   zIndex: 9999,
 }));
+
 const ContainerImagemLud = styled("img")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
@@ -143,4 +159,5 @@ export {
   ContainerLabel,
   CenteredImagem,
   ContainerDotLabel,
+  DotSelected,
 };
