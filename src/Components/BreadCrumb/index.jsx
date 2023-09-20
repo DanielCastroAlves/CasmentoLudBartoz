@@ -1,12 +1,13 @@
-import { Box, Breadcrumbs, Stack, Typography, useTheme } from "@mui/material";
+import { Box, Breadcrumbs, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { Link, useMatch } from "react-router-dom";
 import { BreadCrumbLink, LastLinkText, LinkText } from "./style";
 
 export const BreadCrumb = ({ data }) => {
     const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     return (
-        <Stack direction="row" width="100%" marginLeft={36} mb={20}>
+        <Stack direction="row" width="100%" justifyContent={isMobile && "center"} marginLeft={!isMobile && 36} px={isMobile && 4} mb={20}>
             <Breadcrumbs separator=">" aria-label="breadcrumb">
                 {data.map((link, index) => {
                     return (
