@@ -296,5 +296,13 @@
             "en": "intro p2 en",
             "es": "intro p2 es"
         }
+    },
+    "story": {
+        "title": {
+            "pt": "Nossa História",
+            "pl": "Nasza historia",
+            "en": "Our Story",
+            "es": "Nuestra Historia"
+        }
     }
 }

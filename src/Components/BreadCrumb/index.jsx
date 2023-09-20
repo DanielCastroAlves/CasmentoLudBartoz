@@ -1,6 +1,6 @@
 import { Box, Breadcrumbs, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { Link, useMatch } from "react-router-dom";
-import { BreadCrumbLink, LastLinkText, LinkText } from "./style";
+import { BreadCrumbContainer, BreadCrumbLink, LastLinkText, LinkText } from "./style";
 
 export const BreadCrumb = ({ data }) => {
     const theme = useTheme();
@@ -8,7 +8,7 @@ export const BreadCrumb = ({ data }) => {
 
     return (
         <Stack direction="row" width="100%" justifyContent={isMobile && "center"} marginLeft={!isMobile && 36} px={isMobile && 4} mb={20}>
-            <Breadcrumbs separator=">" aria-label="breadcrumb">
+            <BreadCrumbContainer separator=">" aria-label="breadcrumb">
                 {data.map((link, index) => {
                     return (
                         <BreadCrumbLink underline="hover" color="inherit" to={link.url}>
@@ -18,7 +18,7 @@ export const BreadCrumb = ({ data }) => {
                         </BreadCrumbLink>
                     );
                 })}
-            </Breadcrumbs>
+            </BreadCrumbContainer>
         </Stack>
     );
 };
