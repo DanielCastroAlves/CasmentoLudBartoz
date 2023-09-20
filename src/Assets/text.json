@@ -273,15 +273,15 @@
     },
     "gifts": {
         "title": {
-            "pl": "Presente de Casamento",
-            "en": "Prezent ślubny",
             "pt": "Presente de Casamento",
-            "es": "Presente de Casamento"
+            "pl": "Prezent ślubny",
+            "en": "Wedding gift",
+            "es": "Regalo de boda"
         },
         "subtitle": {
-            "pl": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
-            "en": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
             "pt": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
+            "pl": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
+            "en": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
             "es": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!"
         },
         "introP1": {

@@ -7,6 +7,7 @@ import { useLanguage } from "../../../../hooks/useLanguage";
 import TimeLineGift from "./components/TimeLineGift";
 import { useState } from "react";
 import { CardGifts } from "./components/CardTimeLine";
+import { BreadCrumb } from "../../../../Components/BreadCrumb";
 
 export const Gifts = () => {
   const path = [
@@ -63,8 +64,12 @@ export const Gifts = () => {
       ],
     },
   ];
-
   const [timelineItem, setTimelineItem] = useState(null);
+  const data = [
+    { label: text.MenuHeaderLinks.home[language], url: "/home" },
+    { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
+    { label: text.gifts.title[language], url: "/wedding/gifts" },
+  ];
 
   const handleTimelineItemClick = (item) => {
     setTimelineItem(item);
@@ -74,6 +79,7 @@ export const Gifts = () => {
 
   return (
     <Stack width="100%" height="100%" mb={10}>
+      <BreadCrumb data={data} />
       <FirstSection
         title={text.gifts.title[language]}
         subtitle={text.gifts.subtitle[language]}
