@@ -3,10 +3,12 @@ import { styled } from "@mui/material";
 import { TimelineConnector, TimelineDot, TimelineContent } from "@mui/lab";
 
 const ContainerTimeline = styled("div")(() => ({
+  position: "relative",
+  top: -350,
   width: 100,
-  height: 1000,
+  height: "100%",
   transform: "rotate(270deg)",
-  /* background: "red", */
+ /*  background: "red", */
   margin: "0 auto",
 }));
 
@@ -74,8 +76,6 @@ const StyledTimelineContent = styled(TimelineContent)(({ theme }) => ({
   margin: 0,
   padding: 0,
 }));
-
-
 
 const DotSelected = styled("img")(({ theme }) => ({
   display: "flex",
@@ -145,7 +145,6 @@ const ContainerDotLabel = styled("div")(({ theme }) => ({
     boxShadow: "0px 0px 0px 5px #52736B",
   },
 }));
-
 
 export {
   ContainerTimeline,

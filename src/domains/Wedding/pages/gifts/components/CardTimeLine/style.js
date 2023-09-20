@@ -4,7 +4,8 @@ export const ContainerCardGift = styled("div")(() => ({
   display: "flex",
   width: "1096px",
   height: "308px",
-
+  position: "relative",
+  top:"-350px",
   justifyContent: "center",
   alignItems: "center",
   gap: "300px",
