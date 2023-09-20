@@ -1,47 +1,34 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import iconR from "../../../../Assets/Images/iconRt.svg";
-import iconL from "../../../../Assets/Images/iconLf.svg";
+
 import {
   ContainerCarousel,
-  CustomArrowButton,
-  CustomArrowButtonLeft,
-  CustomArrowButtonRight,
-  CustomButtonGroup,
+ 
 } from "./style.js";
-
 import CardBG from "../../../../Components/CardBG";
+//import { useMediaQuery, useTheme } from "@mui/material";
 
 const CarouselBG = ({ dataInfo }) => {
-  const CustomButtonGroupAsArrows = ({ next, previous }) => {
-    return (
-      <CustomButtonGroup>
-        <CustomArrowButtonLeft onClick={() => previous()}>
-          <CustomArrowButton src={iconL} alt="Left Arrow" />
-        </CustomArrowButtonLeft>
-        <CustomArrowButtonRight onClick={() => next()}>
-          <CustomArrowButton src={iconR} alt="Right Arrow" />
-        </CustomArrowButtonRight>
-      </CustomButtonGroup>
-    );
-  };
+//  const theme = useTheme();
+  //const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  
+  
 
   return (
     <ContainerCarousel>
       <Carousel
         additionalTransfrom={0}
-        arrows={false}
-    
-        autoPlaySpeed={3000}
-        customButtonGroup={<CustomButtonGroupAsArrows />}
-        draggable
-        focusOnSelect={true}
-        keyBoardControl
-        minimumTouchDrag={80}
-        pauseOnHover
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside
+        //arrows={isMobile}
+        autoPlaySpeed={3000}      
+        // draggable
+        // focusOnSelect={false}
+        // keyBoardControl
+        // minimumTouchDrag={80}
+        // pauseOnHover
+        // renderArrowsWhenDisabled={false}
+        // renderButtonGroupOutside
+        // showDots={true}
         renderDotsOutside={false}
         responsive={{
           desktop: {
@@ -50,25 +37,25 @@ const CarouselBG = ({ dataInfo }) => {
               min: 1024,
             },
             items: 2,
-            partialVisibilityGutter: 8,
-            centerMode: true,
+            partialVisibilityGutter: 90,
+            centerMode: false,
           },
           mobile: {
             breakpoint: {
               max: 464,
               min: 0,
             },
-            items: 1.2,
-            partialVisibilityGutter: 50,
-            centerMode: true,
+            items: 1.7,
+
+            centerMode: false,
           },
           tablet: {
             breakpoint: {
               max: 1024,
               min: 465,
             },
-            items: 1,
-            partialVisibilityGutter: 30,
+            items: 3,
+            partialVisibilityGutter: 90,
           },
         }}
         rewind={false}
@@ -79,7 +66,6 @@ const CarouselBG = ({ dataInfo }) => {
         slidesToSlide={1}
         swipeable
         infinite={true}
-        /*   showDots={true} */
       >
         {dataInfo.map((data, index) => (
           <CardBG {...data} />

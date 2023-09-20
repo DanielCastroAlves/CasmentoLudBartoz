@@ -1,13 +1,43 @@
 import { Button } from "@mui/base";
 import { styled } from "@mui/material";
-import { TimelineConnector, TimelineDot, TimelineContent } from "@mui/lab";
+import { TimelineConnector, TimelineDot } from "@mui/lab";
+
+const breakpoints = {
+  xs: "0px",
+  sm: "600px",
+  md: "960px",
+  lg: "1280px",
+  xl: "1920px",
+};
+
+const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const ContainerTimeline = styled("div")(() => ({
+  position: "relative",
+  top: -350,
   width: 100,
-  height: 1000,
-  transform: "rotate(270deg)",
-  /* background: "red", */
+  height: "100%",
   margin: "0 auto",
+  transform: "rotate(270deg)",
+
+  [createMediaQuery("sm")]: {
+    position: "relative",
+    alignItems: "center",
+    top: 30,
+    left: -80,
+    height: "100%",
+    margin: "0 auto",
+    transform: "rotate(0deg)",
+  },
+  [createMediaQuery("md")]: {
+    position: "relative",
+    alignItems: "center",
+    top: 30,
+    left: -80,
+    height: "100%",
+    margin: "0 auto",
+    transform: "rotate(0deg)",
+  },
 }));
 
 const ButtonTimeLine = styled(Button)(({ theme }) => ({
@@ -15,7 +45,6 @@ const ButtonTimeLine = styled(Button)(({ theme }) => ({
   margin: 0,
   border: "none",
   cursor: "pointer",
-  /*   background: "blue", */
 }));
 
 const RotatedLabel = styled(ButtonTimeLine)(({ theme }) => ({
@@ -36,7 +65,14 @@ const RotatedLabel = styled(ButtonTimeLine)(({ theme }) => ({
     fontWeight: 600,
     lineHeight: "normal",
     textTransform: "uppercase",
-    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+    textShadow: "0px 4px 4px 40px rgba(0, 0, 0, 0.25)",
+  },
+
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+  },
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
   },
 }));
 
@@ -44,35 +80,62 @@ const StyledTimelineConnector = styled(TimelineConnector)(({ theme }) => ({
   height: "70px",
   flexShrink: 0,
   strokeWidth: "2px",
-  /*   background: "red", */
   stroke: "var(--terracota, #52736B)",
   zIndex: -9999,
+
+  [createMediaQuery("sm")]: {
+    height: "30px",
+  },
+  [createMediaQuery("md")]: {
+    height: "30px",
+  },
 }));
 
 const StyledTimelineDot = styled(TimelineDot)(({ theme }) => ({
-  width: "32px",
-  height: "32px",
+  width: "26px",
+  height: "26px",
   flexShrink: 0,
   background: "var(--terracota, #52736B)",
   transition: "background 0.3s",
   margin: 0,
+  padding: 0,
 
   "&:hover": {
-    backgroundColor: "#fff",
-    boxShadow: "0px 0px 0px 5px #52736B",
-    width: "32px",
-    height: "32px",
+    background: "#fff",
+    boxShadow: "0px 0px 0px 4px #52736B",
     margin: 0,
     padding: 0,
   },
 }));
 
-const StyledTimelineContent = styled(TimelineContent)(({ theme }) => ({
-  width: "32px",
-  height: "32px",
-  background: "green",
-  margin: 0,
-  padding: 0,
+const DotSelected = styled("img")(({ theme }) => ({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "40px",
+  height: "40px",
+  transform: "rotate(-270deg)",
+  margin: "0 auto",
+  marginBottom: -50,
+  zIndex: 9999,
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+    width: "50px",
+    height: "50px",
+
+    marginBottom: 0,
+    marginTop: 30,
+    marginLeft: 25,
+  },
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
+    width: "50px",
+    height: "50px",
+
+    marginBottom: 0,
+    marginTop: 30,
+    marginLeft: 25,
+  },
 }));
 
 const ContainerImagemBartoz = styled("img")(({ theme }) => ({
@@ -82,11 +145,25 @@ const ContainerImagemBartoz = styled("img")(({ theme }) => ({
   width: "134px",
   height: "167px",
   transform: "rotate(-270deg)",
-
   margin: "0 auto",
   marginBottom: -50,
   zIndex: 9999,
+
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+    width: "95px",
+    height: "122.46",
+    marginLeft: 25,
+  },
+
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
+    width: "95px",
+    height: "122.46",
+    marginLeft: 25,
+  },
 }));
+
 const ContainerImagemLud = styled("img")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
@@ -94,9 +171,21 @@ const ContainerImagemLud = styled("img")(({ theme }) => ({
   width: "134px",
   height: "167px",
   transform: "rotate(-270deg)",
-  /*  background: "orange", */
   margin: "0 auto",
   marginTop: -50,
+
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+    width: "95px",
+    height: "122.46",
+    marginLeft: 25,
+  },
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
+    width: "95px",
+    height: "122.46",
+    marginLeft: 25,
+  },
 }));
 
 const ContainerLabel = styled("div")(({ theme }) => ({
@@ -104,10 +193,18 @@ const ContainerLabel = styled("div")(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   width: "32px",
-  height: "32px",
   transform: "rotate(0deg)",
-  /*  background: "brown", */
-  marginTop: 70,
+  marginTop: 0,
+  marginLeft: 30,
+
+  [createMediaQuery("sm")]: {
+    position: "absolute",
+    right: 60,
+  },
+  [createMediaQuery("md")]: {
+    position: "absolute",
+    right: 60,
+  },
 }));
 
 const CenteredImagem = styled("div")(({ theme }) => ({
@@ -116,20 +213,34 @@ const CenteredImagem = styled("div")(({ theme }) => ({
   marginLeft: -30,
   width: 100,
   height: 100,
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+    height: 20,
+    margin: "0 auto",
+    marginLeft: -13,
+    "& img": {
+      width: 70,
+      height: 70,
+    },
+  },
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
+    height: 20,
+    margin: "0 auto",
+    marginLeft: -13,
+    "& img": {
+      width: 70,
+      height: 70,
+    },
+  },
 }));
 
 const ContainerDotLabel = styled("div")(({ theme }) => ({
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
   "&:hover": {
-    // Defina os estilos de hover desejados aqui
-    // Por exemplo, você pode definir a cor de fundo para ambos os elementos
     backgroundColor: "#fff",
     boxShadow: "0px 0px 0px 5px #52736B",
   },
 }));
-
 
 export {
   ContainerTimeline,
@@ -137,10 +248,10 @@ export {
   RotatedLabel,
   StyledTimelineConnector,
   StyledTimelineDot,
-  StyledTimelineContent,
   ContainerImagemLud,
   ContainerImagemBartoz,
   ContainerLabel,
   CenteredImagem,
   ContainerDotLabel,
+  DotSelected,
 };
