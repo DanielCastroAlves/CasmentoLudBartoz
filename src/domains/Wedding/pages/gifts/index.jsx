@@ -6,88 +6,86 @@ import { useLanguage } from "../../../../hooks/useLanguage";
 
 import TimeLineGift from "./components/TimeLineGift";
 import { useState } from "react";
-
+import { BreadCrumb } from "../../../../Components/BreadCrumb";
 
 export const Gifts = () => {
-  const path = [
-    { label: "Casamento", url: "/wedding" },
-    { label: "Nossa História", url: "/wedding/ourhistory" },
-  ];
+    const path = [
+        { label: "Casamento", url: "/wedding" },
+        { label: "Nossa História", url: "/wedding/ourhistory" },
+    ];
 
-  const { language } = useLanguage();
+    const { language } = useLanguage();
 
-  const topics = [
-    /* {
+    const topics = [
+        /* {
       label: "",
       content: "",
       programacao: [""],
       id: 0,
       icon: "",
     }, */
-    {
-      label: "CARTÃO",
-      content: "Quinta-feira",
-      programacao: ["Presente para o noivo!"],
-      id: 1,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "BLIK",
-      content: "Sexta-feira",
-      programacao: ["Presente para o noivo!"],
-      id: 2,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "",
-      content: "Segunda-feira",
-      programacao: ["Que tal colaborar com a lua de mel dos noivos?"],
-      id: "icone",
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "PIX",
-      content: "Sábado",
-      programacao: ["Presente para a noiva!"],
-      id: 3,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "CARTÃO",
-      content: "Domingo",
-      programacao: ["Presente para a noiva!"],
-      id: 4,
-      icon: "CheckCircleOutlineIcon",
-    },
-    /* {
+        {
+            label: "CARTÃO",
+            content: "Quinta-feira",
+            programacao: ["Presente para o noivo!"],
+            id: 1,
+            icon: "CheckCircleOutlineIcon",
+        },
+        {
+            label: "BLIK",
+            content: "Sexta-feira",
+            programacao: ["Presente para o noivo!"],
+            id: 2,
+            icon: "CheckCircleOutlineIcon",
+        },
+        {
+            label: "",
+            content: "Segunda-feira",
+            programacao: ["Que tal colaborar com a lua de mel dos noivos?"],
+            id: "icone",
+            icon: "CheckCircleOutlineIcon",
+        },
+        {
+            label: "PIX",
+            content: "Sábado",
+            programacao: ["Presente para a noiva!"],
+            id: 3,
+            icon: "CheckCircleOutlineIcon",
+        },
+        {
+            label: "CARTÃO",
+            content: "Domingo",
+            programacao: ["Presente para a noiva!"],
+            id: 4,
+            icon: "CheckCircleOutlineIcon",
+        },
+        /* {
       label: "",
       content: "",
       programacao: [""],
       id: 5,
       icon: "",
     }, */
-   
-    
-  ];
+    ];
 
-  const [timelineItem, setTimelineItem] = useState(null);
+    const [timelineItem, setTimelineItem] = useState(null);
 
-  const handleTimelineItemClick = (item) => {
-    setTimelineItem(item);
-  };
-  return (
-    <Stack width="100%" height="100%" mb={10}>
-      <FirstSection
-        title={text.gifts.title[language]}
-        subtitle={text.gifts.subtitle[language]}
-        paragraph1={text.gifts.introP1[language]}
-      />
-      <TimeLineGift
-        topics={topics}
-        onTimelineItemClick={handleTimelineItemClick}
-      />
+    const data = [
+        { label: text.MenuHeaderLinks.home[language], url: "/home" },
+        { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
+        { label: text.gifts.title[language], url: "/wedding/gifts" },
+    ];
 
-      <ButtonNavigation path={path} />
-    </Stack>
-  );
+    const handleTimelineItemClick = (item) => {
+        setTimelineItem(item);
+    };
+    return (
+        <Stack width="100%" height="100%" mb={10}>
+            <BreadCrumb data={data} />
+            <FirstSection title={text.gifts.title[language]} subtitle={text.gifts.subtitle[language]} paragraph1={text.gifts.introP1[language]} />
+            <TimeLineGift topics={topics} onTimelineItemClick={handleTimelineItemClick} />
+
+            <ButtonNavigation path={path} />
+        </Stack>
+    );
 };

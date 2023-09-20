@@ -136,7 +136,6 @@ export const Header = () => {
                                     <Globe size={42} weight="thin" color={theme.palette.primary.main} onClick={(e) => handleClick(e, 0)} />
                                 </LanguageIconContainer>
 
-                                // menuOptions.map((item, i) => item.selected && <MenuAvatar key={i} alt={item.alt} src={item.image} onClick={(e) => handleClick(e, i)} />)
                             )}
                         </Stack>
                     </HeaderContainer>
