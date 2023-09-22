@@ -9,21 +9,25 @@ import {
   TitleDay,
   TravelDescription,
 } from "./style";
+import { useLanguage } from "../../../../hooks/useLanguage";
 
 export default function CustomTimeline({ topics }) {
+  debugger;
+  const { language } = useLanguage();
   return (
     <ContainerTimeline>
       {topics.map((item) => (
-        <PlanTravel>
+        <PlanTravel key={item.id}>
           <ContainerData>
-            <TitleDay>{item.content}</TitleDay>
-            <NumberDay>{item.label}</NumberDay>
+            <TitleDay>{item.date[language]}</TitleDay>
+            <NumberDay>{item.day[language]}</NumberDay>
           </ContainerData>
           <ContainerDescription>
-            <TravelDescription>• {item.programacao}</TravelDescription>
+            <TravelDescription>• {item.description[language]}</TravelDescription>
           </ContainerDescription>
         </PlanTravel>
       ))}
     </ContainerTimeline>
   );
 }
+

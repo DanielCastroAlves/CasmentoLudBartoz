@@ -135,7 +135,7 @@ const Travel = () => {
           marginTop: "80px",
         }}
       >
-        <CustomTimeline topics={topics} />
+        <CustomTimeline topics={text.Travel.itinerary} />
       </Box>
       <ContainerCarouselTravel>
         <Carousel
