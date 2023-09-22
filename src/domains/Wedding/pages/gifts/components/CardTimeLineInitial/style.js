@@ -10,7 +10,7 @@ const breakpoints = {
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
-export const ContainerCardGift = styled("div")(() => ({
+export const ContainerCardGiftInitial = styled("div")(() => ({
   display: "flex",
   width: "1096px",
   height: "308px",
@@ -22,6 +22,10 @@ export const ContainerCardGift = styled("div")(() => ({
   flexShrink: 0,
   border: "1px solid var(--Green-Olive, #52736B)",
   background: "var(--White, #FFF)",
+
+  "& .apresentacao": {
+    display: "none",
+  },
 
   [createMediaQuery("sm")]: {
     display: "flex",
@@ -59,13 +63,13 @@ export const ContainerCardGift = styled("div")(() => ({
     [createMediaQuery("sm")]: {
       display: "flex",
       flexDirection: "column",
-      justifyContent: "center",
+      justifyContent: "spaceAround",
       alignItems: "center",
     },
     [createMediaQuery("md")]: {
       display: "flex",
       flexDirection: "column",
-      justifyContent: "center",
+      justifyContent: "spaceAround",
       alignItems: "center",
     },
 
@@ -109,14 +113,12 @@ export const ContainerCardGift = styled("div")(() => ({
         [createMediaQuery("sm")]: {
           fontSize: "24px",
           position: "relative",
-          top: "-40px",
-          
+          top: -40,
         },
         [createMediaQuery("md")]: {
           fontSize: "24px",
           position: "relative",
-          top: "-40px",
-          
+          top: -40,
         },
       },
     },
@@ -178,14 +180,8 @@ export const ContainerCardGift = styled("div")(() => ({
         fontWeight: 600,
         lineHeight: "normal",
         textTransform: "uppercase",
-        [createMediaQuery("sm")]: {
-          position: "relative",
-          top: "50px",
-        },
-        [createMediaQuery("md")]: {
-          position: "relative",
-          top: "50px",
-        },
+        [createMediaQuery("sm")]: { position: "relative", bottom: -60 },
+        [createMediaQuery("md")]: { position: "relative", bottom: -60 },
       },
     },
   },

@@ -84,10 +84,10 @@ const StyledTimelineConnector = styled(TimelineConnector)(({ theme }) => ({
   zIndex: -9999,
 
   [createMediaQuery("sm")]: {
-    height: "30px",
+    height: "22px",
   },
   [createMediaQuery("md")]: {
-    height: "30px",
+    height: "22px",
   },
 }));
 
@@ -151,16 +151,18 @@ const ContainerImagemBartoz = styled("img")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     transform: "rotate(0deg)",
-    width: "95px",
-    height: "122.46",
+     width: "90px",
+    height: "117.46",
     marginLeft: 25,
+    marginBottom: -40,
   },
 
   [createMediaQuery("md")]: {
     transform: "rotate(0deg)",
-    width: "95px",
-    height: "122.46",
+     width: "90px",
+    height: "117.46",
     marginLeft: 25,
+    marginBottom: -40,
   },
 }));
 
@@ -176,15 +178,17 @@ const ContainerImagemLud = styled("img")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     transform: "rotate(0deg)",
-    width: "95px",
-    height: "122.46",
+     width: "90px",
+    height: "117.46",
     marginLeft: 25,
+    marginTop: -40,
   },
   [createMediaQuery("md")]: {
     transform: "rotate(0deg)",
-    width: "95px",
-    height: "122.46",
+     width: "90px",
+    height: "117.46",
     marginLeft: 25,
+    marginTop: -40,
   },
 }));
 

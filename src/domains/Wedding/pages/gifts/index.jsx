@@ -8,6 +8,7 @@ import TimeLineGift from "./components/TimeLineGift";
 import { useState } from "react";
 import { CardGifts } from "./components/CardTimeLine";
 import { BreadCrumb } from "../../../../Components/BreadCrumb";
+import { CardGiftsInitial } from "./components/CardTimeLineInitial";
 
 export const Gifts = () => {
   const path = [
@@ -103,7 +104,7 @@ export const Gifts = () => {
             id={selectedItem.id}
           />
         ) : (
-          <CardGifts
+          <CardGiftsInitial
             grupo={"Entrar no grupo"}
             title={"Que tal colaborar com a lua de mel dos noivos?"}
             describe={[

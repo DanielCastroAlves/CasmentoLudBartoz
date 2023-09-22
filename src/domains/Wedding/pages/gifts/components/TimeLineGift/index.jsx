@@ -31,6 +31,11 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
   return (
     <ContainerTimeline>
       <ContainerImagemBartoz src={bartoz} alt="" />
+      <StyledTimelineConnector
+                    sx={{
+                      bgcolor: "#52736B",
+                    }}
+                  />
       <Timeline position="right">
         {topics.map((item, index) => (
           <TimelineItem key={item.id}>
@@ -77,6 +82,11 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
           </TimelineItem>
         ))}
       </Timeline>
+      <StyledTimelineConnector
+                    sx={{
+                      bgcolor: "#52736B",
+                    }}
+                  />
       <ContainerImagemLud src={lud} alt="" />
     </ContainerTimeline>
   );
