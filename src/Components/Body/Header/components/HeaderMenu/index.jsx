@@ -31,7 +31,6 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
                 id="demo-positioned-menu"
                 aria-labelledby="demo-positioned-button"
                 anchorEl={anchorEl}
-                // hideBackdrop
                 open={open}
                 onClose={handleClose}
                 anchorOrigin={{
@@ -43,14 +42,6 @@ export const HeaderMenu = ({ anchorEl, setAnchorEl }) => {
                     horizontal: "center",
                 }}
             >
-                {/* {menuOptions.map(
-                    (option, index) =>
-                        option.selected && (
-                            <MenuItem key={option.language} onClick={(e) => handleClose(e, index, option.language)} sx={{ marginBottom: theme.spacing(15) }}>
-                                <MenuAvatar alt={option.alt} src={option.image} />
-                            </MenuItem>
-                        )
-                )} */}
                 {menuOptions.map((item, i) => {
                     return (
                         <MenuItemContainer key={item.language} onClick={(e) => handleClose(e, i, item.language)}>

@@ -10,8 +10,8 @@ export const DressCode = () => {
     const { language } = useLanguage();
 
     const path = [
-        { label: "Casamento", url: "/wedding" },
-        { label: "Presente", url: "/wedding/gifts" },
+        { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
+        { label: text.gifts.title[language], url: "/wedding/gifts" },
     ];
 
     const data = [
