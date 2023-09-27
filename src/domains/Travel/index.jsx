@@ -3,7 +3,7 @@ import { Box, Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
 import CardPage from "./components/CardPage";
-import rioImage from "../../Assets/Images/cardImage/B_Nossa História=Enabled.png";
+import rioImage from "../../Assets/Images/cardImage/RiodeJaneiroCard.png";
 import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
 import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";

@@ -21,9 +21,7 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
     justifyContent: "center",
     gap: "16px",
     flexShrink: 0,
-    border: isSelected
-      ? "1px solid var(--Green-Olive, #52736B)"
-      : "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
     cursor: "pointer",
     marginBottom: 5,
@@ -38,9 +36,7 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
     justifyContent: "center",
     gap: "16px",
     flexShrink: 0,
-    border: isSelected
-      ? "1px solid var(--Green-Olive, #52736B)"
-      : "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
     cursor: "pointer",
     marginBottom: 5,
@@ -55,9 +51,7 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: isSelected
-      ? "1px solid var(--Green-Olive, #52736B)"
-      : "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
     cursor: "pointer",
   },
@@ -71,12 +65,14 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: isSelected
-      ? "1px solid var(--Green-Olive, #52736B)"
-      : "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
     cursor: "pointer",
   },
+
+  border: isSelected
+    ? "1px solid var(--Green-Olive, #52736B)"
+    : "1px solid var(--terracota, #9C4522)",
 
   "& img": {
     border: isSelected

@@ -10,7 +10,7 @@ const breakpoints = {
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
-const PageCityContainer = styled("div")(({ theme }) => ({
+const PageCityContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("lg")]: {
     display: "flex",
     width: "444px",
@@ -20,8 +20,9 @@ const PageCityContainer = styled("div")(({ theme }) => ({
     alignItems: "flexStart",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
+    marginBottom: 10,
   },
   [createMediaQuery("xl")]: {
     display: "flex",
@@ -32,8 +33,9 @@ const PageCityContainer = styled("div")(({ theme }) => ({
     alignItems: "flexStart",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
+    marginBottom: 10,
   },
 
   [createMediaQuery("sm")]: {
@@ -45,8 +47,9 @@ const PageCityContainer = styled("div")(({ theme }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
+    marginBottom: 10,
   },
 
   [createMediaQuery("md")]: {
@@ -58,8 +61,39 @@ const PageCityContainer = styled("div")(({ theme }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+
     background: "#FFF",
+    marginBottom: 10,
+  },
+
+  border: isSelected
+    ? "1px solid var(--Green-Olive, #52736B)"
+    : "1px solid var(--terracota, #9C4522)",
+
+  "& img": {
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
+  },
+  "& h6": {
+    color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
+  },
+  "&:hover": {
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
+    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+
+    "& img": {},
+    "& h6": {
+      color: "var(--terracota, #9C4522)",
+      textAlign: "center",
+      fontFamily: "Cinzel",
+      fontSize: 28,
+      fontStyle: "normal",
+      fontWeight: 700,
+      lineHeight: "normal",
+    },
   },
 }));
 

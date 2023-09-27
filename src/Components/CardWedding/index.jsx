@@ -11,7 +11,7 @@ import { Link } from "@mui/material";
 const CardWedding = ({ image, title, description, destination }) => {
   const [isSelected, setIsSelected] = useState(false);
 
-  // Função para alternar o estado de seleção
+
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };

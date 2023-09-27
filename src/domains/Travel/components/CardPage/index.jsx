@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   PageCityContainer,
   PageCityDescription,
@@ -9,9 +9,18 @@ import {
 import { Link } from "@mui/material";
 
 const PageCity = ({ image, title, description, destination }) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const toggleSelection = () => {
+    setIsSelected(!isSelected);
+  };
   return (
     <Link href={destination} underline="none">
-      <PageCityContainer key={title}>
+      <PageCityContainer
+        key={title}
+        isSelected={isSelected}
+        onClick={toggleSelection}
+      >
         <PageCityImage src={image} alt="Imagem do item" />
         <ContainerTitleDescription>
           <PageCityTitle>{title}</PageCityTitle>
