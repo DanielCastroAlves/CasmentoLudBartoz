@@ -23,7 +23,7 @@ export const DressCodeInfo = () => {
         { label: "Presente", url: "/wedding/gift" },
     ];
     return (
-        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={13} mt={15}>
+        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={isMobile ? 13 : 42.75} mt={15}>
             <Grid xs={12} sm={6}>
                 <img src={isMobile ? dressCodeMobile1 : dressCodeDesktop1} width="100%" alt="Praia vista de cima" />
             </Grid>
@@ -130,7 +130,7 @@ export const DressCodeInfo = () => {
                             <List component="nav">
                                 {text.dressCode.notAllowed.map((item, i) => {
                                     return (
-                                        <ListItem key={i + item}>
+                                        <ListItem key={i + item} sx={{height: theme.spacing(6.25)}}>
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>
@@ -167,7 +167,7 @@ export const DressCodeInfo = () => {
                             <List component="nav">
                                 {text.dressCode.notAllowed.map((item, i) => {
                                     return (
-                                        <ListItem key={i + item}>
+                                        <ListItem key={i + item} sx={{height: theme.spacing(6.25)}}>
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>

@@ -7,7 +7,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { useState } from "react";
 import olivaLogo from "../../../Assets/Images/logoOliva.svg";
 import { useLanguage } from "../../../hooks/useLanguage";
-import text from '../../../Assets/text.json'
+import text from "../../../Assets/text.json";
 
 export const Footer = () => {
     const theme = useTheme();
@@ -66,16 +66,12 @@ export const Footer = () => {
                             <MenuLink to="/wedding/gifts">
                                 <Typography>{text.gifts.title[language]}</Typography>
                             </MenuLink>
-                            <MenuLink to="/qea">
-                                <Typography>Q&A</Typography>
-                            </MenuLink>
                             <MenuLink to="/home">
                                 <Typography>RSVP</Typography>
                             </MenuLink>
                         </Stack>
                     </Grid>
                 </Grid>
-                // </Stack>
             )}
             <Divider />
         </>

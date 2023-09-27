@@ -23,7 +23,7 @@ export const Home = () => {
         >
           <Typography
             fontSize={!isMobile ? theme.spacing(9.5) : theme.spacing(7)}
-            fontWeight={700}
+            fontWeight={400}
             color={theme.palette.primary.main}
           >
             LUDMILLA & BARTOSZ
@@ -48,14 +48,15 @@ export const Home = () => {
         <Typography
           fontSize={theme.spacing(8)}
           fontWeight={700}
-          color={theme.palette.secondary.main}
+          color={theme.palette.primary.main}
         >
           RSVP
         </Typography>
         <Typography
           fontSize={theme.spacing(4.5)}
           fontFamily={"Open Sans"}
-          color={theme.palette.gray["500"]}
+          fontWeight={300}
+          color={theme.palette.primary.main}
         >
           RESPOND SIL VOUS PLAIT
         </Typography>
