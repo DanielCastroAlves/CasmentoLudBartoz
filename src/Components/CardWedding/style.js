@@ -10,7 +10,7 @@ const breakpoints = {
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
-const CardWeddingContainer = styled("div")(({ theme }) => ({
+const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("lg")]: {
     display: "flex",
     width: "444px",
@@ -21,9 +21,12 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     justifyContent: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
-    cursor: 'pointer'
+    cursor: "pointer",
+    marginBottom: 5,
   },
   [createMediaQuery("xl")]: {
     display: "flex",
@@ -35,9 +38,12 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     justifyContent: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
-    cursor: 'pointer'
+    cursor: "pointer",
+    marginBottom: 5,
   },
 
   [createMediaQuery("sm")]: {
@@ -49,9 +55,11 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
-    cursor: 'pointer'
+    cursor: "pointer",
   },
 
   [createMediaQuery("md")]: {
@@ -63,9 +71,36 @@ const CardWeddingContainer = styled("div")(({ theme }) => ({
     alignItems: "center",
     gap: "16px",
     flexShrink: 0,
-    border: "1px solid var(--terracota, #9C4522)",
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
     background: "#FFF",
-    cursor: 'pointer'
+    cursor: "pointer",
+  },
+
+  "& img": {
+    border: isSelected
+      ? "1px solid var(--Green-Olive, #52736B)"
+      : "1px solid var(--terracota, #9C4522)",
+  },
+  "& h6": {
+    color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
+  },
+  "&:hover": {
+    border: "1px solid var(--Terracota, #9C4522)",
+    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
+
+    "& img": {},
+    "& h6": {
+      color: "var(--terracota, #9C4522)",
+      textAlign: "center",
+      fontFamily: "Cinzel",
+      fontSize: 28,
+      fontStyle: "normal",
+      fontWeight: 700,
+      lineHeight: "normal",
+    },
+    "& p": {},
   },
 }));
 
@@ -105,7 +140,7 @@ const CardWeddingTitle = styled("h6")(({ theme }) => ({
   color: "var(--terracota, #9C4522)",
   textAlign: "center",
   fontFamily: "Cinzel",
-  fontSize: 22,
+  fontSize: 28,
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: "normal",

@@ -2,26 +2,22 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import {
-  ContainerCarousel,
- 
-} from "./style.js";
+import { ContainerCarousel } from "./style.js";
 import CardWedding from "../../../../Components/CardWedding";
 //import { useMediaQuery, useTheme } from "@mui/material";
 
 const CarouselWedding = ({ dataInfo }) => {
-//  const theme = useTheme();
+  //  const theme = useTheme();
   //const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  
-  
 
   return (
     <ContainerCarousel>
       <Carousel
         additionalTransfrom={0}
         //arrows={isMobile}
-        autoPlaySpeed={3000}      
-        // draggable
+        autoPlaySpeed={3000}
+        draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
+        swipeable={true} // Tornar o scroll mais suave
         // focusOnSelect={false}
         // keyBoardControl
         // minimumTouchDrag={80}
@@ -34,11 +30,18 @@ const CarouselWedding = ({ dataInfo }) => {
           desktop: {
             breakpoint: {
               max: 3000,
+              min: 1441,
+            },
+            items: 3.4,
+          },
+          desktopOld: {
+            breakpoint: {
+              max: 1440,
               min: 1024,
             },
-            items: 3.2,
-            partialVisibilityGutter: 90,
-            centerMode: false,
+            items: 2.65,
+            partialVisibilityGutter: 50,
+            centerMode: true,
           },
           mobile: {
             breakpoint: {
@@ -46,7 +49,6 @@ const CarouselWedding = ({ dataInfo }) => {
               min: 0,
             },
             items: 1,
-
             centerMode: true,
           },
           tablet: {
@@ -64,7 +66,6 @@ const CarouselWedding = ({ dataInfo }) => {
         shouldResetAutoplay
         sliderClass=""
         slidesToSlide={1}
-        swipeable
         infinite={true}
       >
         {dataInfo.map((data, index) => (
