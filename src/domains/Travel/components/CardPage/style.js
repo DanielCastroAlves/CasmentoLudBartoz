@@ -6,6 +6,7 @@ const breakpoints = {
   md: "960px",
   lg: "1280px",
   xl: "1920px",
+  custom: "1400px",
 };
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
@@ -71,9 +72,7 @@ const PageCityContainer = styled("div")(({ theme, isSelected }) => ({
     : "1px solid var(--terracota, #9C4522)",
 
   "& img": {
-    border: isSelected
-      ? "1px solid var(--Green-Olive, #52736B)"
-      : "none",
+    border: isSelected ? "1px solid var(--Green-Olive, #52736B)" : "none",
   },
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
@@ -157,9 +156,19 @@ export const ContainerCarouselTravel = styled("div")(({ theme }) => ({
   [createMediaQuery("lg")]: {
     width: "50%",
   },
+
   [createMediaQuery("xl")]: {
-    width: "50%",
-    
+    width: "100%",
+    display: "flex",
+    margin: "0px 50px 0px 50px",
+    justifyContent: "center",
+    height: 630,
+    "& .tees": {
+      display: "flex",
+      justifyContent: "center",
+      width: "70%",
+      margin: 0,
+    },
   },
   [createMediaQuery("sm")]: {
     width: "100%",

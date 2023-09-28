@@ -122,6 +122,7 @@ const Travel = () => {
       </Box>
       <ContainerCarouselTravel>
         <Carousel
+        className="tees"
           additionalTransfrom={0}
           arrows={false}
           autoPlaySpeed={3000}
@@ -139,18 +140,18 @@ const Travel = () => {
                 max: 3000,
                 min: 1441,
               },
-              items: 2,
-              partialVisibilityGutter: 20,
-              centerMode: false,
+              items: 2.8,
+              partialVisibilityGutter: 100,
+              centerMode: true,
             },
             desktopOld: {
               breakpoint: {
                 max: 1440,
-                min: 1024,
+                min: 1280,
               },
-              items: 2.1,
-              partialVisibilityGutter: 90,
-              centerMode: false,
+              items: 2.2,
+            //partialVisibilityGutter: 100,
+              //centerMode: true,
             },
             mobile: {
               breakpoint: {
