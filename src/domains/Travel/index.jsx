@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
@@ -18,75 +18,10 @@ import {
   CustomArrowButtonTravel,
   CustomButtonGroupTravel,
 } from "./components/CardPage/style";
+import { ContainerPageCity, Description, TituloDescription } from "../RJ/style";
 
 const Travel = () => {
   const { language } = useLanguage();
-
-  const topics = [
-    {
-      label: "09.05.2024",
-      content: "Quinta",
-      programacao: "Chegada em Armação de Búzios",
-      id: 1,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "10.05.2024",
-      content: "Sexta",
-      programacao: "Passeio em Arraial do Cabo",
-      id: 2,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "11.05.2024",
-      content: "Sábado",
-      programacao: "Pre Wedding",
-      id: 3,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "12.05.2024",
-      content: "Domingo",
-      programacao: "Casamento",
-      id: 4,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "13.05.2024",
-      content: "Segunda",
-      programacao: "Passeio em Búzios",
-      id: 5,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "14.05.2024",
-      content: "Terça",
-      programacao: "Transfer para o Rio de Janeiro e Passeio na cidade",
-      id: 6,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "15.05.2024",
-      content: "Quarta",
-      programacao: "Passeio no Rio de Janeiro",
-      id: 7,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "16.05.2024",
-      content: "Quinta",
-      programacao: "Passeio no Rio de Janeiro",
-      id: 8,
-      icon: "CheckCircleOutlineIcon",
-    },
-    {
-      label: "17.05.2024",
-      content: "Sexta",
-      programacao: "Passeio no Rio de Janeiro",
-      id: 9,
-      icon: "CheckCircleOutlineIcon",
-    },
-  ];
 
   const citys = [
     {
@@ -137,13 +72,60 @@ const Travel = () => {
       >
         <CustomTimeline topics={text.Travel.itinerary} />
       </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          margin: "80px 0 -60px 0",
+        }}
+      >
+        <ContainerPageCity>
+          <TituloDescription>Lorem ipsum</TituloDescription>
+          <Description>
+            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
+            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
+            pellentesque consectetur lacus habitant. In faucibus massa augue
+            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
+            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
+            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
+            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
+            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
+            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
+            malesuada viverra nisi adipiscing.
+          </Description>
+          <Description>
+            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
+            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
+            pellentesque consectetur lacus habitant. In faucibus massa augue
+            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
+            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
+            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
+            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
+            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
+            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
+            malesuada viverra nisi adipiscing.
+          </Description>
+          <Description>
+            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
+            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
+            pellentesque consectetur lacus habitant. In faucibus massa augue
+            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
+            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
+            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
+            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
+            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
+            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
+            malesuada viverra nisi adipiscing.
+          </Description>
+        </ContainerPageCity>
+      </Box>
       <ContainerCarouselTravel>
         <Carousel
           additionalTransfrom={0}
           arrows={false}
           autoPlaySpeed={3000}
           customButtonGroup={<CustomButtonGroupAsArrowsTravel />}
-          draggable
           focusOnSelect={false}
           keyBoardControl
           minimumTouchDrag={80}
@@ -155,9 +137,18 @@ const Travel = () => {
             desktop: {
               breakpoint: {
                 max: 3000,
-                min: 1024,
+                min: 1441,
               },
               items: 2,
+              partialVisibilityGutter: 20,
+              centerMode: false,
+            },
+            desktopOld: {
+              breakpoint: {
+                max: 1440,
+                min: 1024,
+              },
+              items: 2.1,
               partialVisibilityGutter: 90,
               centerMode: false,
             },
@@ -185,7 +176,8 @@ const Travel = () => {
           shouldResetAutoplay
           sliderClass=""
           slidesToSlide={1}
-          swipeable
+          draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
+          swipeable={true}
           infinite={true}
         >
           {citys.map((city) => (

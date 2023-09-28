@@ -73,7 +73,7 @@ const PageCityContainer = styled("div")(({ theme, isSelected }) => ({
   "& img": {
     border: isSelected
       ? "1px solid var(--Green-Olive, #52736B)"
-      : "1px solid var(--terracota, #9C4522)",
+      : "none",
   },
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
@@ -158,7 +158,8 @@ export const ContainerCarouselTravel = styled("div")(({ theme }) => ({
     width: "50%",
   },
   [createMediaQuery("xl")]: {
-    width: "70%",
+    width: "50%",
+    
   },
   [createMediaQuery("sm")]: {
     width: "100%",
