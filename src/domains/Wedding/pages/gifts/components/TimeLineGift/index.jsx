@@ -6,6 +6,7 @@ import bartoz from "../../gifit/Bartosz [RJ].svg";
 import lud from "../../gifit/Ludmilla [RJ].svg";
 import present from "../../gifit/circlegift.svg";
 import presentSelected from "../../gifit/circlegiftwhite.svg";
+import central from "../../../../../../Assets/Images/gifts/Ellipse 8.svg";
 import {
   ButtonTimeLine,
   ContainerTimeline,
@@ -17,6 +18,7 @@ import {
   ContainerImagemLud,
   ContainerImagemBartoz,
   DotSelected,
+  Centered,
 } from "./style";
 
 export default function TimeLineGift({ topics, onTimelineItemClick }) {
@@ -32,19 +34,37 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
     <ContainerTimeline>
       <ContainerImagemBartoz src={bartoz} alt="" />
       <StyledTimelineConnector
-                    sx={{
-                      bgcolor: "#52736B",
-                    }}
-                  />
+        sx={{
+          bgcolor: "#52736B",
+        }}
+      />
       <Timeline position="right">
         {topics.map((item, index) => (
           <TimelineItem key={item.id}>
             <TimelineSeparator>
               {item.id === "icone" ? (
                 <>
-                  <CenteredImagem>
-                    <img src={present} alt="" />
-                  </CenteredImagem>
+                  {selectedItem === null ? (
+                    <CenteredImagem>
+                      <img src={present} alt="" />
+                    </CenteredImagem>
+                  ) : (
+                    <>
+                      <StyledTimelineConnector
+                        sx={{
+                          bgcolor: "#52736B",
+                        }}
+                      />
+                      <Centered>
+                        <img src={central} alt="" />
+                      </Centered>
+                      <StyledTimelineConnector
+                        sx={{
+                          bgcolor: "#52736B",
+                        }}
+                      />
+                    </>
+                  )}
                 </>
               ) : (
                 <>
@@ -83,10 +103,10 @@ export default function TimeLineGift({ topics, onTimelineItemClick }) {
         ))}
       </Timeline>
       <StyledTimelineConnector
-                    sx={{
-                      bgcolor: "#52736B",
-                    }}
-                  />
+        sx={{
+          bgcolor: "#52736B",
+        }}
+      />
       <ContainerImagemLud src={lud} alt="" />
     </ContainerTimeline>
   );

@@ -151,7 +151,7 @@ const ContainerImagemBartoz = styled("img")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     transform: "rotate(0deg)",
-     width: "90px",
+    width: "90px",
     height: "117.46",
     marginLeft: 25,
     marginBottom: -40,
@@ -159,7 +159,7 @@ const ContainerImagemBartoz = styled("img")(({ theme }) => ({
 
   [createMediaQuery("md")]: {
     transform: "rotate(0deg)",
-     width: "90px",
+    width: "90px",
     height: "117.46",
     marginLeft: 25,
     marginBottom: -40,
@@ -178,14 +178,14 @@ const ContainerImagemLud = styled("img")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     transform: "rotate(0deg)",
-     width: "90px",
+    width: "90px",
     height: "117.46",
     marginLeft: 25,
     marginTop: -40,
   },
   [createMediaQuery("md")]: {
     transform: "rotate(0deg)",
-     width: "90px",
+    width: "90px",
     height: "117.46",
     marginLeft: 25,
     marginTop: -40,
@@ -200,6 +200,7 @@ const ContainerLabel = styled("div")(({ theme }) => ({
   transform: "rotate(0deg)",
   marginTop: 0,
   marginLeft: 30,
+  position: "absolute",
 
   [createMediaQuery("sm")]: {
     position: "absolute",
@@ -239,6 +240,33 @@ const CenteredImagem = styled("div")(({ theme }) => ({
   },
 }));
 
+const Centered = styled("div")(({ theme }) => ({
+  transform: "rotate(-270deg)",
+  marginLeft: -7,
+
+  
+
+  [createMediaQuery("sm")]: {
+    transform: "rotate(0deg)",
+    height: 20,
+    margin: "0 auto",
+    marginLeft: -13,
+    "& img": {
+      width: 70,
+      height: 70,
+    },
+  },
+  [createMediaQuery("md")]: {
+    transform: "rotate(0deg)",
+    height: 20,
+    margin: "0 auto",
+    marginLeft: -13,
+    "& img": {
+      width: 70,
+      height: 70,
+    },
+  },
+}));
 const ContainerDotLabel = styled("div")(({ theme }) => ({
   "&:hover": {
     backgroundColor: "#fff",
@@ -256,6 +284,7 @@ export {
   ContainerImagemBartoz,
   ContainerLabel,
   CenteredImagem,
+  Centered,
   ContainerDotLabel,
   DotSelected,
 };
