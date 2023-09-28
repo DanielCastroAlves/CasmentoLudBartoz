@@ -74,8 +74,9 @@ export const Gifts = () => {
             <TimeLineGift topics={topics} onTimelineItemClick={handleTimelineItemClick} />
             <Box
                 sx={{
+                    margin: "50% auto",
                     marginTop: "-300px",
-                    marginLeft: "23%",
+                    marginBottom: -70
                 }}
             >
                 {timelineItem !== null ? (

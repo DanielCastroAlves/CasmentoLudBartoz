@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   CardWeddingContainer,
   CardWeddingDescription,
@@ -10,11 +10,16 @@ import { Link } from "@mui/material";
 
 const CardWedding = ({ image, title, description, destination }) => {
   const [isSelected, setIsSelected] = useState(false);
-
+  const [selectedValue, setSelectedValue] = useState("");
 
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
+
+  useEffect(() => {
+    setSelectedValue(""); // Redefina o valor selecionado quando a página mudar
+  }, [destination]);
+
   return (
     <Link href={destination} underline="none">
       <CardWeddingContainer
