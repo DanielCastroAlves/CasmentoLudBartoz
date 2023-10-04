@@ -55,8 +55,9 @@ export const AccordionDetailsStyled = styled(AccordionDetails)`
   padding: 8px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   border: 1px solid var(--Terracota, #9c4522) !important;
+
   ${createMediaQuery("sm")} {
     width: 336px;
   }
@@ -85,13 +86,66 @@ export const TypographyStyled = styled(Typography)`
   & ul {
     list-style-type: none;
     padding: 10px;
-    & ul li {
-      margin-bottom: 10px;
+    & li {
       font-family: "Open Sans" !important;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      margin-bottom: 10px;
     }
   }
+`;
+
+export const CustomList = styled.ul`
+  color: var(--Black, #545454);
+  margin: 12px;
+  list-style: none !important;
+`;
+
+export const ListItem = styled.li``;
+
+export const Description = styled.p`
+  list-style: none !important;
+
+  font-family: "Open Sans" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+`;
+
+export const SubList = styled.ul`
+  list-style: none !important;
+  font-family: "Open Sans" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin: 12px;
+  list-style-type: disc !important;
+`;
+
+export const SubListItem = styled.li`
+  font-family: "Open Sans" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin: 12px;
+`;
+
+export const EmprAir = styled.div``;
+
+export const Text = styled.p`
+  font-family: "Open Sans" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 8px;
+  font-size: 16px !important;
 `;

@@ -5,23 +5,43 @@ import {
   AccordionSummaryStyled,
   AccordionDetailsStyled,
   TypographyStyled,
+  ListItem,
+  Description,
+  SubList,
+  SubListItem,
+  CustomList,
+  EmprAir,
+  Text,
 } from "./style";
 import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 
 function formatData(data) {
-  const formattedData = [];
-
-  data.forEach((item) => {
-    const formattedItem = {
+  const formattedData = data.map((item, index) => {
+    return {
+      id: index, // Usamos o índice como identificador único
       Q: item.Q,
-      A: item.A.map((paragraph) =>
-        Array.isArray(paragraph)
-          ? paragraph.map((p) => `${p}`)
-          : [`${paragraph}`]
-      ),
-    };
+      A: item.A.map((paragraph) => {
+        if (typeof paragraph === "string") {
+          return { text: paragraph };
+        } else if (typeof paragraph === "object") {
+          const formattedParagraph = {
+            description: paragraph.description || null,
+            lista: paragraph.lista || null,
+            emprAir: paragraph.emprAir || null,
+            descriptionData: paragraph.descriptionData || null,
+            additionalInfo: paragraph.additionalInfo || null,
+            additionalInfoemprAir: paragraph.additionalInfoemprAir || null,
+            additionalInfodescriptionData:
+              paragraph.additionalInfodescriptionData || null,
+            additionalInfodescription:
+              paragraph.additionalInfodescription || null,
+          };
 
-    formattedData.push(formattedItem);
+          return formattedParagraph;
+        }
+        return null;
+      }),
+    };
   });
 
   return formattedData;
@@ -38,13 +58,13 @@ export default function QAAccordion({ data }) {
 
   return (
     <ContainerAcc>
-      {formattedData.map((item, index) => (
-        <AccordionStyled key={index}>
+      {formattedData.map((item) => (
+        <AccordionStyled key={item.id}>
           <AccordionSummaryStyled
-            id={`panel${index + 1}-header`}
-            onClick={() => handleChangeIndex(index)}
+            id={`panel${item.id}-header`}
+            onClick={() => handleChangeIndex(item.id)}
           >
-            {expandedIndex === index ? (
+            {expandedIndex === item.id ? (
               <KeyboardArrowUp
                 style={{
                   fill: "var(--Terracota, #9c4522)",
@@ -62,20 +82,72 @@ export default function QAAccordion({ data }) {
               />
             )}
             <TypographyStyled
-              className={expandedIndex === index ? "pergunta-aberta" : ""}
+              className={expandedIndex === item.id ? "pergunta-aberta" : ""}
             >
               {item.Q}
             </TypographyStyled>
           </AccordionSummaryStyled>
-          {expandedIndex === index && (
+          {expandedIndex === item.id && (
             <AccordionDetailsStyled>
-              <TypographyStyled className="resposta">
-                <ul>
-                  {item.A.map((paragraph, i) => (
-                    <li key={i}>{paragraph}</li>
-                  ))}
-                </ul>
-              </TypographyStyled>
+              <CustomList>
+                {item.A.map((paragraph, i) => (
+                  <ListItem key={i}>
+                    {paragraph.description && (
+                      <Description>{paragraph.description}</Description>
+                    )}
+                    {paragraph.lista && (
+                      <SubList>
+                        {paragraph.lista.map((p, j) => (
+                          <SubListItem key={j}>{p}</SubListItem>
+                        ))}
+                      </SubList>
+                    )}
+                    {paragraph.emprAir && (
+                      <EmprAir>
+                        <Text>{paragraph.emprAir[0]}</Text>
+                        <SubList>
+                          {paragraph.emprAir.slice(1).map((p, j) => (
+                            <SubListItem key={j}>{p}</SubListItem>
+                          ))}
+                        </SubList>
+                      </EmprAir>
+                    )}
+                    {paragraph.text && <Text>{paragraph.text}</Text>}
+                    {paragraph.descriptionData && (
+                      <Text>{paragraph.descriptionData[0]}</Text>
+                    )}
+                    {paragraph.additionalInfo && (
+                      <SubList>
+                        {paragraph.additionalInfo.map((info, k) => (
+                          <SubListItem key={k}>{info}</SubListItem>
+                        ))}
+                      </SubList>
+                    )}
+                    {paragraph.additionalInfoemprAir && (
+                      <EmprAir>
+                        <Text>{paragraph.additionalInfoemprAir[0]}</Text>
+                        <SubList>
+                          {paragraph.additionalInfoemprAir
+                            .slice(1)
+                            .map((info, k) => (
+                              <SubListItem key={k}>{info}</SubListItem>
+                            ))}
+                        </SubList>
+                      </EmprAir>
+                    )}
+                    {paragraph.additionalInfodescriptionData && (
+                      <Text>{paragraph.additionalInfodescriptionData[0]}</Text>
+                    )}
+                    {paragraph.additionalInfodescription && (
+                      <SubList>
+                        {paragraph.additionalInfodescription.map((info, k) => (
+                          <SubListItem key={k}>{info}</SubListItem>
+                        ))}
+                      </SubList>
+                    )}
+                  </ListItem>
+                ))}
+              </CustomList>
             </AccordionDetailsStyled>
           )}
         </AccordionStyled>
