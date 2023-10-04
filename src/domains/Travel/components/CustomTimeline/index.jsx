@@ -12,7 +12,6 @@ import {
 import { useLanguage } from "../../../../hooks/useLanguage";
 
 export default function CustomTimeline({ topics }) {
-  debugger;
   const { language } = useLanguage();
   return (
     <ContainerTimeline>
@@ -23,11 +22,12 @@ export default function CustomTimeline({ topics }) {
             <NumberDay>{item.day[language]}</NumberDay>
           </ContainerData>
           <ContainerDescription>
-            <TravelDescription>• {item.description[language]}</TravelDescription>
+            <TravelDescription>
+              • {item.description[language]}
+            </TravelDescription>
           </ContainerDescription>
         </PlanTravel>
       ))}
     </ContainerTimeline>
   );
 }
-

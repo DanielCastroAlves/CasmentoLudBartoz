@@ -159,8 +159,8 @@ const Travel = () => {
                 min: 0,
               },
               items: 1,
-
-              centerMode: true,
+              centerMode: false,
+          
             },
             tablet: {
               breakpoint: {

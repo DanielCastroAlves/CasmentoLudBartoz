@@ -21,9 +21,11 @@ export const ContainerTimeline = styled("div")(() => ({
 
   [createMediaQuery("sm")]: {
     alignItems: "center",
+    width: "100%",
   },
   [createMediaQuery("md")]: {
     alignItems: "center",
+    width: "100%",
   },
 }));
 
