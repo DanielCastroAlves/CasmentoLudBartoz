@@ -1,3 +1,4 @@
+import { KeyboardArrowDown } from "@mui/icons-material";
 import { AccordionDetails, AccordionSummary, Typography } from "@mui/material";
 import styled from "styled-components";
 
@@ -47,8 +48,58 @@ export const AccordionSummaryStyled = styled(AccordionSummary)`
   box-shadow: none !important;
   border: none !important;
   border-bottom: none !important;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    .icon-typography-container {
+    }
+
+    .icon {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+      fill: var(--green-olive, #52736b);
+    }
+
+    .typography {
+      color: var(--green-olive, #52736b);
+    }
+  }
+
+  .icon-typography-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    color: #52736b;
+    margin-right: 10px;
+  }
+
+  .typography {
+    color: var(--green-olive, #52736b);
+    font-family: Cinzel;
+    font-size: 20.631px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 `;
 
+export const IconContainer = styled.div`
+  display: inline-block;
+  margin-right: 10px;
+
+  &:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+`;
+
+export const ArrowDownIcon = styled(KeyboardArrowDown)`
+  color: #52736b; /* Cor do ícone */
+  margin-right: 10px;
+`;
 export const AccordionDetailsStyled = styled(AccordionDetails)`
   display: flex;
   width: 1032px;
@@ -74,6 +125,11 @@ export const TypographyStyled = styled(Typography)`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  &:hover {
+    background-color: #ffffff;
+    box-shadow: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
   &.pergunta-aberta {
     color: var(--Terracota, #9c4522) !important;

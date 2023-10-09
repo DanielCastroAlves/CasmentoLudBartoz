@@ -13,7 +13,7 @@ import {
   EmprAir,
   Text,
 } from "./style";
-import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
+import { KeyboardArrowUp, KeyboardArrowDown } from "@mui/icons-material";
 
 function formatData(data) {
   const formattedData = data.map((item, index) => {
@@ -63,29 +63,32 @@ export default function QAAccordion({ data }) {
           <AccordionSummaryStyled
             id={`panel${item.id}-header`}
             onClick={() => handleChangeIndex(item.id)}
+            isExpanded={expandedIndex === item.id}
           >
-            {expandedIndex === item.id ? (
-              <KeyboardArrowUp
-                style={{
-                  fill: "var(--Terracota, #9c4522)",
-                  filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
-                  marginRight: "10px",
-                }}
-              />
-            ) : (
-              <KeyboardArrowDown
-                style={{
-                  fill: "var(--green-olive, #52736B)",
-                  filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
-                  marginRight: "10px",
-                }}
-              />
-            )}
-            <TypographyStyled
-              className={expandedIndex === item.id ? "pergunta-aberta" : ""}
-            >
-              {item.Q}
-            </TypographyStyled>
+            <div className="icon-typography-container">
+              {expandedIndex === item.id ? (
+                <KeyboardArrowUp
+                  style={{
+                    fill: "var(--Terracota, #9c4522)",
+                    filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+                    marginRight: "10px",
+                  }}
+                  className="icon"
+                />
+              ) : (
+                <KeyboardArrowDown
+                  style={{ fill: "var(--green-olive, #52736b)" }}
+                  className="icon"
+                />
+              )}
+              <TypographyStyled
+                className={`typography ${
+                  expandedIndex === item.id ? "pergunta-aberta" : ""
+                }`}
+              >
+                {item.Q}
+              </TypographyStyled>
+            </div>
           </AccordionSummaryStyled>
           {expandedIndex === item.id && (
             <AccordionDetailsStyled>

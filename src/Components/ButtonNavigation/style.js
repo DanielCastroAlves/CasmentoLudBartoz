@@ -1,4 +1,4 @@
-import { Button, Typography, styled } from "@mui/material";
+import { Button, styled } from "@mui/material";
 
 const LeftBtnNavigation = styled(Button)(({ theme }) => ({
     backgroundColor: "#FFFFFF",

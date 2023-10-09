@@ -30,7 +30,7 @@ const RioDeJaneiro = () => {
             <FirstSection title={text.Wedding.title[language]} subtitle={text.Wedding.subTitle[language]} paragraph1={text.Wedding.introP1[language]} paragraph2={text.Wedding.introP2[language]} />
             <BannerImage>
                 <div className="imgBuzios">
-                    <img src={rio} alt="buzios" style={{ maxWidth: "100%" }} />
+                    <img src={rio} alt="buzios" style={{ width: "100%" }} />
                 </div>
                 <div className="imgBuziosMb">
                     <img src={rioMb} alt="buzios" style={{ maxWidth: "100%" }} />
