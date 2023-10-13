@@ -160,7 +160,7 @@ export const DressCodeInfo = () => {
             ) : (
                 <>
                     <Grid xs={12} sm={6} mt={15}>
-                        <Stack p={4} gap={8} height="100%" justifyContent="center">
+                        <Stack p={4} gap={8} height="100%" justifyContent="space-around">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading5[language]}
                             </Typography>

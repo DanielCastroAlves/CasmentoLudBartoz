@@ -156,8 +156,8 @@ export const LocationAndWeather = () => {
                 </Box>
             </Stack>
             <Stack width="100%" height="100%" mt={!isMobile ? 8 : 4} px={isMobile && 4}>
-                <a class="weatherwidget-io" href={urlLanguage} data-label_1="Búzios" data-label_2={text.Wedding.weatherLabel[language]} data-icons="Climacons Animated" data-theme="pure" data-highcolor="#9C4522" data-lowcolor="#04405F">
-                    Búzios {text.Wedding.weatherLabel[language]}
+                <a class="weatherwidget-io" href={urlLanguage} data-accent="" data-raincolor="#04405F" data-suncolor="#D4AE60" data-textcolor="#545454" data-font="Open Sans" data-label_1="BÚZIOS" data-label_2={text.Wedding.weatherLabel[language]} data-icons="Climacons Animated" data-theme="pure" data-highcolor="#9C4522" data-lowcolor="#04405F">
+                    {text.Wedding.weatherLabel[language]}
                 </a>
             </Stack>
         </Stack>

@@ -34,7 +34,7 @@ export const Header = () => {
         setMenuOptions(updatedMenuOptions);
         handleLanguage(lang);
         handleFormLanguage(lang);
-        setOpen(!open);
+        // setOpen(!open);
     };
 
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -57,14 +57,14 @@ export const Header = () => {
                 }}
             >
                 <Box sx={{ paddingLeft: "0px" }}>
-                    <HeaderContainer>
+                    <HeaderContainer py={20}>
                         <Link to="/home">
-                            <Box sx={{ paddingLeft: !isMobile && 15 }}>
+                            <Box sx={{ paddingLeft: !isMobile ? 15 : 5 }}>
                                 <img src={logoHovered} height={!isMobile && "64px"} alt="Logo Ludmila e Bartosz" onMouseEnter={() => setLogoHovered(olivaLogo)} onMouseLeave={() => setLogoHovered(mobileLogo)} />
                             </Box>
                         </Link>
 
-                        <Stack direction="row" alignItems="center" gap={18} sx={{ marginRight: !isMobile && 15 }}>
+                        <Stack direction="row" alignItems="center" gap={18} sx={{ marginRight: !isMobile ? 15 : 5 }}>
                             {!isMobile && (
                                 <Stack direction="row" alignItems="center" gap={9}>
                                     <MenuLink to="/home">

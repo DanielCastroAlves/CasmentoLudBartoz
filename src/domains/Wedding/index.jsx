@@ -35,13 +35,13 @@ export const Wedding = () => {
       description: "THINGS YOU SHOULD KNOW BEFORE GIFTING THE BRIDE AND GROOM",
     },
     {
-      destination: "/nossa-historia",
+      destination: "/wedding/ourhistory",
       image: historiacard,
       title: "Our Love Story",
       description: "Our wedding party",
     },
     {
-      destination: "/teamBG",
+      destination: "/wedding/teamBG",
       image: teambrideGroom,
       title: "Team Bride & Groom",
       description: "Our wedding party",
