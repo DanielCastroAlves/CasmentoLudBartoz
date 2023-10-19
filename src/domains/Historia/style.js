@@ -3,10 +3,10 @@ import { styled } from "@mui/material";
 
 const breakpoints = {
   xs: "0px",
-  sm: "600px",
-  md: "960px",
-  lg: "1280px",
-  xl: "1920px",
+  sm: "37.5rem", // 600px / 16px
+  md: "60rem",   // 960px / 16px
+  lg: "80rem",   // 1280px / 16px
+  xl: "120rem",  // 1920px / 16px
 };
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
@@ -16,66 +16,66 @@ export const SectionText = styled("div")(({ theme }) => ({
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  gap: "32px",
+  gap: "2rem",     // 32px / 16px
   alignSelf: "stretch",
   width: "100%",
-  margin: 60,
+  margin: "3.75rem", // 60px / 16px
 
   [createMediaQuery("sm")]: {
-    width: "342px",
+    width: "21.375rem",         // 342px / 16px
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
-    margin: "30px 15px 30px 15px",
+    gap: "1rem",               // 16px / 16px
+    margin: "1.875rem 0.9375rem 1.875rem 0.9375rem", // 30px / 16px, 15px / 16px
   },
   [createMediaQuery("md")]: {
-    width: "342px",
+    width: "21.375rem",         // 342px / 16px
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
-    margin: "30px 15px 30px 15px",
+    gap: "1rem",               // 16px / 16px
+    margin: "1.875rem 0.9375rem 1.875rem 0.9375rem", // 30px / 16px, 15px / 16px
   },
 }));
 
 export const CustomParagraph = styled("div")(({ theme }) => ({
-  width: 1088,
+  width: "68rem",   // 1088px / 16px
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "flexStart",
   color: "var(--Black, #545454)",
   fontFamily: "Open Sans",
-  fontSize: "18px",
+  fontSize: "1.125rem", // 18px / 16px
   fontStyle: "normal",
   fontWeight: 300,
   lineHeight: "normal",
 
   [createMediaQuery("sm")]: {
-    width: "342px",
+    width: "21.375rem", // 342px / 16px
 
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
-    fontSize: "12px",
+    gap: "1rem",               // 16px / 16px
+    fontSize: "0.75rem",        // 12px / 16px
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
   },
   [createMediaQuery("md")]: {
-    width: "342px",
+    width: "21.375rem", // 342px / 16px
 
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
-    fontSize: "12px",
+    gap: "1rem",               // 16px / 16px
+    fontSize: "0.75rem",        // 12px / 16px
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
@@ -89,7 +89,7 @@ export const CustomImage = ({ src, alt }) => (
       alt={alt}
       style={{
         width: "100%",
-        marginTop: 60,
+        marginTop: "3.75rem", // 60px / 16px
       }}
     />
   </div>
@@ -102,27 +102,27 @@ export const CustomMB = ({ src, alt }) => (
       alt={alt}
       style={{
         width: "100%",
-        marginTop: 60,
+        marginTop: "3.75rem", // 60px / 16px
       }}
     />
   </div>
 );
 
 export const CustomVideo = styled("div")(({ theme }) => ({
-  width: 1097,
-  height: 614,
+  width: "68.5625rem", // 1097px / 16px
+  height: "38.375rem",  // 614px / 16px
   "& iframe": {
     width: "100%",
     height: "100%",
   },
   [createMediaQuery("sm")]: {
-    width: "350px",
-    height: "219px",
+    width: "21.875rem",  // 350px / 16px
+    height: "13.6875rem", // 219px / 16px
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
+    gap: "1rem",           // 16px / 16px
 
     "& iframe": {
       width: "100%",
@@ -130,13 +130,13 @@ export const CustomVideo = styled("div")(({ theme }) => ({
     },
   },
   [createMediaQuery("md")]: {
-    width: "350px",
-    height: "219px",
+    width: "21.875rem",  // 350px / 16px
+    height: "13.6875rem", // 219px / 16px
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "16px",
+    gap: "1rem",           // 16px / 16px
     "& iframe": {
       width: "100%",
       height: "100%",
