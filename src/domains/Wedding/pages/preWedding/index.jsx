@@ -1,4 +1,4 @@
-import { Breadcrumbs, Stack } from "@mui/material";
+import { Breadcrumbs, Stack, useMediaQuery, useTheme } from "@mui/material";
 import { LocationAndWeather } from "../../components/LocationAndWeather";
 import { ButtonNavigation } from "../../../../Components/ButtonNavigation";
 import { FirstSection } from "../../../../Components/FirstSection";
@@ -19,9 +19,11 @@ export const PreWedding = () => {
         { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
         { label: text.preWedding.title[language], url: "/wedding/prewedding" },
     ];
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     return (
-        <Stack width="100%" height="100%" mb={10}>
+        <Stack width="100%" height="100%" mb={!isMobile && 10}>
             <BreadCrumb data={data} />
             <FirstSection title={text.preWedding.title[language]} subtitle={text.preWedding.subtitle[language]} paragraph1={text.preWedding.introP1[language]} paragraph2={text.preWedding.introP2[language]} />
             <LocationAndWeather />

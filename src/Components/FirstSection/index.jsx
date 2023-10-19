@@ -10,21 +10,39 @@ export const FirstSection = ({ title, subtitle, paragraph1, paragraph2, paragrap
 
     return (
         <WeddingContainer px={isMobile ? theme.spacing(4) : theme.spacing(42.75)}>
-            <Stack width="100%" alignItems="center">
-                <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
-                    {title}
-                </StyledText>
-                <StyledText fontSize={theme.spacing(5.5)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans">
-                    {subtitle}
-                </StyledText>
-            </Stack>
+            {isMobile ? (
+                <Stack width="100%" alignItems="center">
+                    <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
+                        {text.MenuHeaderLinks.wedding[language]}
+                    </StyledText>
+                    <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
+                        {title}
+                    </StyledText>
+                    <StyledText fontSize={theme.spacing(4)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans" sx={{marginTop: 5}}>
+                        {subtitle}
+                    </StyledText>
+                    {/* <StyledText fontSize={theme.spacing(5.5)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans">
+                        {subtitle}
+                    </StyledText> */}
+                </Stack>
+            ) : (
+                <Stack width="100%" alignItems="center">
+                    <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
+                        {`${text.MenuHeaderLinks.wedding[language]} ${title}`}
+                    </StyledText>
+                    <StyledText fontSize={theme.spacing(5.5)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans">
+                        {subtitle}
+                    </StyledText>
+                </Stack>
+            )}
+
             {paragraph1 && (
                 <Stack width="100%" alignItems="center" gap={6}>
-                    <StyledText fontSize={theme.spacing(4.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
+                    <StyledText fontSize={!isMobile ? theme.spacing(4.5) : theme.spacing(3.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
                         {paragraph1}
                     </StyledText>
                     {paragraph2 && (
-                        <StyledText fontSize={theme.spacing(4.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
+                        <StyledText fontSize={!isMobile ? theme.spacing(4.5) : theme.spacing(3.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
                             {paragraph2}
                         </StyledText>
                     )}

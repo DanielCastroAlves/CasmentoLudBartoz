@@ -21,23 +21,22 @@ export const Footer = () => {
         <>
             {isMobile ? (
                 <MobileFooterContainer>
-                    <ContentContainer direction="row" gap={3}>
+                    <Stack direction="row" width="100%" height="100%" justifyContent="center" alignItems="center" gap={3}>
                         <Link to="/home">
                             <Box component="img" height={theme.spacing(12.5)} src={logoHovered} onMouseEnter={() => setLogoHovered(olivaLogo)} onMouseLeave={() => setLogoHovered(mobileLogo)}></Box>{" "}
                         </Link>
-
-                        <Stack width="100%" height="100%" alignItems="center">
+                        <Stack alignItems='center'>
                             <Typography fontSize={theme.spacing(4)} color={theme.palette.primary.main}>
                                 LUDMILLA & BARTOSZ | 12.05.2024
                             </Typography>
                             <Typography fontSize={theme.spacing(2.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
                                 Villa Três Marias. Armação de Búzios, Rio de Janeiro - Brasil
                             </Typography>
-                            <Typography fontSize={theme.spacing(2.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans" sx={{ marginTop: 4 }}>
+                            <Typography fontSize={theme.spacing(2)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans" sx={{ marginTop: 4 }}>
                                 Ludmilla & Bartosz | © 2023 All rights reserved
                             </Typography>
                         </Stack>
-                    </ContentContainer>
+                    </Stack>
                 </MobileFooterContainer>
             ) : (
                 <Grid container justifyContent="center" alignItems="center" px={15} py={6} height="172px" sx={{ backgroundColor: "#fff" }}>

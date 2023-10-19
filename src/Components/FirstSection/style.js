@@ -2,7 +2,7 @@ import { Stack, Typography, styled } from "@mui/material";
 
 const WeddingContainer = styled(Stack)(({ theme }) => ({
     alignItems: "center",
-    gap: theme.spacing(10),
+    gap: theme.spacing(9),
     width: "100%",
 }));
 const StyledText = styled(Typography)(({ theme }) => ({

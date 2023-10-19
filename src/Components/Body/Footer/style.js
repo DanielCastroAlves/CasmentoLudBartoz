@@ -31,8 +31,8 @@ const MobileFooterContainer = styled(Stack)(({ theme }) => ({
     width: '100%'
 }));
 const ContentContainer = styled(Stack)(({ theme }) => ({
-    // width: '100%',
-    // height: '100%',
+    width: '100%',
+    height: '100%',
     margin: `${theme.spacing(5)} ${theme.spacing(9.75)} ${theme.spacing(5)} ${theme.spacing(9.75)}`
 }));
 

@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, useMediaQuery, useTheme } from "@mui/material";
 import { ButtonNavigation } from "../../../../Components/ButtonNavigation";
 import { FirstSection } from "../../../../Components/FirstSection";
 import text from "../../../../Assets/text.json";
@@ -67,8 +67,11 @@ export const Gifts = () => {
 
     const selectedItem = topics.find((item) => item.id === timelineItem);
 
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
     return (
-        <Stack width="100%" height="100%" mb={10}>
+        <Stack width="100%" height="100%" mb={!isMobile && 10}>
             <BreadCrumb data={data} />
             <FirstSection title={text.gifts.title[language]} subtitle={text.gifts.subtitle[language]} paragraph1={text.gifts.introP1[language]} />
             <TimeLineGift topics={topics} onTimelineItemClick={handleTimelineItemClick} />
