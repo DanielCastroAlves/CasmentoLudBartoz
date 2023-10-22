@@ -68,11 +68,30 @@ const ContainerBanner = styled("div")(({ theme }) => ({
   },
 }));
 
-const BannerImageBuzios = styled("div")(({ theme }) => ({
-  width: "22.271rem",
-  height: "14.875rem",
-  border: "0.0625rem solid var(--Terracota, #9C4522)",
+const CardBanner = styled("div")(({ theme }) => ({
+  display: "flex",
+  height: "552px",
+  padding: "10px",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  gap: "16px",
   flexShrink: 0,
+  border: "1px solid var(--Terracota, #9C4522)",
+  background: "#FFF",
+  [createMediaQuery("sm")]: {
+    // Estilos específicos para "sm" aqui
+  },
+  [createMediaQuery("md")]: {
+    // Estilos específicos para "md" aqui
+  },
+}));
+
+
+const BannerImageBuzios = styled("div")(({ theme }) => ({
+  width: "412px",
+  height: "410px",
+  border: "0.0625rem solid var(--Terracota, #9C4522)",
+  
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -192,4 +211,5 @@ export {
   BannerImageBuzios,
   ContainerTitleBanner,
   ContainerBanner,
+  CardBanner
 };

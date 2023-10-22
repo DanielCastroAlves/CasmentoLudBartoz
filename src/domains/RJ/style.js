@@ -1,28 +1,28 @@
 import { styled } from "@mui/material";
 
 const breakpoints = {
-  xs: "0px",
-  sm: "37.5rem", // 600px / 16px
-  md: "60rem",   // 960px / 16px
-  lg: "80rem",   // 1280px / 16px
-  xl: "120rem",  // 1920px / 16px
+  xs: "0rem",
+  sm: "37.5rem",
+  md: "60rem",
+  lg: "80rem",
+  xl: "120rem",
 };
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const BannerImage = styled("div")(({ theme }) => ({
-  margin: "1.25rem 0 1.25rem 0", // 20px / 16px
-  padding: "1.25rem 0 1.25rem 0", // 20px / 16px
+  margin: "1.25rem 0 1.25rem 0",
+  padding: "1.25rem 0 1.25rem 0",
 
   "& > .imgBuziosMb": {
     display: "none",
   },
 
   [createMediaQuery("sm")]: {
-    margin: "2rem 0 3.25rem 0",   // 32px / 16px
-    padding: "2rem 0 2rem 0",     // 32px / 16px
-    width: "24.375rem",           // 390px / 16px
-    height: "22.375rem",          // 358px / 16px
+    margin: "2rem 0 3.25rem 0",
+    padding: "2rem 0 2rem 0",
+    width: "24.375rem",
+    height: "22.375rem",
     "& > .imgBuzios": {
       display: "none",
     },
@@ -31,10 +31,10 @@ const BannerImage = styled("div")(({ theme }) => ({
     },
   },
   [createMediaQuery("md")]: {
-    margin: "2rem 0 3.25rem 0",   // 32px / 16px
-    padding: "2rem 0 2rem 0",     // 32px / 16px
-    width: "24.375rem",           // 390px / 16px
-    height: "22.375rem",          // 358px / 16px
+    margin: "2rem 0 3.25rem 0",
+    padding: "2rem 0 2rem 0",
+    width: "24.375rem",
+    height: "22.375rem",
     "& > .imgBuzios": {
       display: "none",
     },
@@ -48,7 +48,7 @@ const ContainerBanner = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  gap: "1rem", // 16px / 16px
+  gap: "1rem",
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -56,7 +56,7 @@ const ContainerBanner = styled("div")(({ theme }) => ({
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "1rem", // 16px / 16px
+    gap: "1rem",
   },
   [createMediaQuery("md")]: {
     width: "",
@@ -64,15 +64,34 @@ const ContainerBanner = styled("div")(({ theme }) => ({
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "center",
-    gap: "1rem", // 16px / 16px
+    gap: "1rem",
   },
 }));
 
-const BannerImageBuzios = styled("div")(({ theme }) => ({
-  width: "22.272rem",   // 356.344px / 16px
-  height: "14.875rem",  // 238px / 16px
-  border: "0.0625rem solid var(--Terracota, #9C4522)", // 1px / 16px
+const CardBanner = styled("div")(({ theme }) => ({
+  display: "flex",
+  height: "552px",
+  padding: "10px",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  gap: "16px",
   flexShrink: 0,
+  border: "1px solid var(--Terracota, #9C4522)",
+  background: "#FFF",
+  [createMediaQuery("sm")]: {
+    // Estilos específicos para "sm" aqui
+  },
+  [createMediaQuery("md")]: {
+    // Estilos específicos para "md" aqui
+  },
+}));
+
+
+const BannerImageBuzios = styled("div")(({ theme }) => ({
+  width: "412px",
+  height: "410px",
+  border: "0.0625rem solid var(--Terracota, #9C4522)",
+  
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -87,20 +106,20 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  gap: "0.9375rem", // 15px / 16px
+  gap: "0.9375rem",
 
-  margin: "25% auto",
+  margin: "1.5625rem auto",
 
   "& > h1": {
     display: "flex",
-    padding: "0.25rem 0.5rem", // 4px / 16px, 8px / 16px
+    padding: "0.25rem 0.5rem",
     justifyContent: "center",
     alignItems: "center",
-    gap: "0.625rem", // 10px / 16px
+    gap: "0.625rem",
     color: "var(--Terracota, #9C4522)",
     textAlign: "center",
     fontFamily: "Cinzel",
-    fontSize: "1.75rem", // 28px / 16px
+    fontSize: "1.75rem",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
@@ -109,7 +128,7 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
     color: "var(--Black, #545454)",
     textAlign: "center",
     fontFamily: "Open Sans",
-    fontSize: "0.875rem", // 14px / 16px
+    fontSize: "0.875rem",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
@@ -127,8 +146,8 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
 const ContainerPageCity = styled("div")(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
-  margin: "auto 0.75rem", // 12px / 16px
-  marginBottom: "3.75rem", // 60px / 16px
+  margin: "auto 0.75rem",
+  marginBottom: "3.75rem",
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -141,9 +160,9 @@ const ContainerPageCity = styled("div")(({ theme }) => ({
 const TituloDescription = styled("h2")(({ theme }) => ({
   color: "var(--verde-oliva, #52736B);",
   fontFamily: "Cinzel",
-  fontSize: "1.25rem", // 20px / 16px
+  fontSize: "1.25rem",
   fontWeight: 400,
-  marginBottom: "2rem", // 32px / 16px
+  marginBottom: "2rem",
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -156,25 +175,25 @@ const TituloDescription = styled("h2")(({ theme }) => ({
 const Description = styled("p")(({ theme }) => ({
   color: "var(--Black, #545454)",
   fontFamily: "Open Sans",
-  fontSize: "0.875rem", // 14px / 16px
+  fontSize: "0.875rem",
   fontStyle: "normal",
   fontWeight: 300,
   lineHeight: "normal",
   ul: {
-    paddingLeft: "1.25rem", // 20px / 16px
+    paddingLeft: "1.25rem",
   },
   li: {
     position: "relative",
-    marginBottom: "0.3125rem", // 5px / 16px
-    paddingLeft: "0.3125rem",   // 5px / 16px
+    marginBottom: "0.625rem",
+    paddingLeft: "0.3125rem",
     color: "var(--Black, #545454)",
     fontFamily: "Open Sans",
-    fontSize: "0.875rem", // 14px / 16px
+    fontSize: "0.875rem",
     fontStyle: "normal",
     fontWeight: 300,
     lineHeight: "normal",
   },
-  marginBottom: "1.25rem", // 20px / 16px
+  marginBottom: "1.25rem",
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -192,4 +211,5 @@ export {
   BannerImageBuzios,
   ContainerTitleBanner,
   ContainerBanner,
+  CardBanner
 };
