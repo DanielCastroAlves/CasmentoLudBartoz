@@ -47,12 +47,21 @@ export const DressCodeInfo = () => {
                 </Stack>
             </Grid>
             <Grid xs={12} sm={6} mt={15}>
-                <Stack p={4} gap={8} height="100%">
+                <Stack p={4} gap={2} height="100%">
                     <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                         {text.dressCode.heading3[language]}
                     </Typography>
                     <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body3[language]}
+                        {text.dressCode.body31[language]}
+                    </Typography>
+                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                        {text.dressCode.body32[language]}
+                    </Typography>
+                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                        {text.dressCode.body33[language]}
+                    </Typography>
+                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                        {text.dressCode.body34[language]}
                     </Typography>
                 </Stack>
             </Grid>
