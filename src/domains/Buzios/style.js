@@ -1,13 +1,11 @@
 import { styled } from "@mui/material";
 
-const baseRem = 16; // Defina o valor base em pixels (1rem = 16px)
-
 const breakpoints = {
   xs: "0rem",
-  sm: "37.5rem", // 600px / 16px = 37.5rem
-  md: "60rem",   // 960px / 16px = 60rem
-  lg: "80rem",   // 1280px / 16px = 80rem
-  xl: "120rem",  // 1920px / 16px = 120rem
+  sm: "37.5rem",
+  md: "60rem",
+  lg: "80rem",
+  xl: "120rem",
 };
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
@@ -50,9 +48,10 @@ const ContainerBanner = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  gap: "1rem", // 16px / 16px = 1rem
+  gap: "1rem",
 
   [createMediaQuery("sm")]: {
+    width: "",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
@@ -60,6 +59,7 @@ const ContainerBanner = styled("div")(({ theme }) => ({
     gap: "1rem",
   },
   [createMediaQuery("md")]: {
+    width: "",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
@@ -69,16 +69,16 @@ const ContainerBanner = styled("div")(({ theme }) => ({
 }));
 
 const BannerImageBuzios = styled("div")(({ theme }) => ({
-  width: "22.271rem", // 356.344px / 16px = 22.271rem
-  height: "14.875rem", // 238px / 16px = 14.875rem
-  border: "1px solid var(--Terracota, #9C4522)",
+  width: "22.271rem",
+  height: "14.875rem",
+  border: "0.0625rem solid var(--Terracota, #9C4522)",
   flexShrink: 0,
 
   [createMediaQuery("sm")]: {
-    width: "24.375rem",
+    width: "",
   },
   [createMediaQuery("md")]: {
-    width: "24.375rem",
+    width: "",
   },
 }));
 
@@ -87,19 +87,20 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  gap: "0.9375rem", // 15px / 16px = 0.9375rem
-  margin: "1.5625rem auto", // 25px / 16px = 1.5625rem
+  gap: "0.9375rem",
+
+  margin: "1.5625rem auto",
 
   "& > h1": {
     display: "flex",
-    padding: "0.25rem 0.5rem", // 4px / 16px = 0.25rem, 8px / 16px = 0.5rem
+    padding: "0.25rem 0.5rem",
     justifyContent: "center",
     alignItems: "center",
-    gap: "0.625rem", // 10px / 16px = 0.625rem
+    gap: "0.625rem",
     color: "var(--Terracota, #9C4522)",
     textAlign: "center",
     fontFamily: "Cinzel",
-    fontSize: "1.75rem", // 28px / 16px = 1.75rem
+    fontSize: "1.75rem",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
@@ -108,7 +109,7 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
     color: "var(--Black, #545454)",
     textAlign: "center",
     fontFamily: "Open Sans",
-    fontSize: "0.875rem", // 14px / 16px = 0.875rem
+    fontSize: "0.875rem",
     fontStyle: "normal",
     fontWeight: 400,
     lineHeight: "normal",
@@ -116,70 +117,70 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
   },
 
   [createMediaQuery("sm")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
   [createMediaQuery("md")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
 }));
 
 const ContainerPageCity = styled("div")(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
-  margin: "auto 0.75rem", // 12px / 16px = 0.75rem
-  marginBottom: "3.75rem", // 60px / 16px = 3.75rem
+  margin: "auto 0.75rem",
+  marginBottom: "3.75rem",
 
   [createMediaQuery("sm")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
   [createMediaQuery("md")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
 }));
 
 const TituloDescription = styled("h2")(({ theme }) => ({
   color: "var(--verde-oliva, #52736B);",
   fontFamily: "Cinzel",
-  fontSize: "1.25rem", // 20px / 16px = 1.25rem
+  fontSize: "1.25rem",
   fontWeight: 400,
-  marginBottom: "2rem", // 32px / 16px = 2rem
+  marginBottom: "2rem",
 
   [createMediaQuery("sm")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
   [createMediaQuery("md")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
 }));
 
 const Description = styled("p")(({ theme }) => ({
   color: "var(--Black, #545454)",
   fontFamily: "Open Sans",
-  fontSize: "0.875rem", // 14px / 16px = 0.875rem
+  fontSize: "0.875rem",
   fontStyle: "normal",
   fontWeight: 300,
   lineHeight: "normal",
   ul: {
-    paddingLeft: "1.25rem", // 20px / 16px = 1.25rem
+    paddingLeft: "1.25rem",
   },
   li: {
     position: "relative",
-    marginBottom: "0.3125rem", // 5px / 16px = 0.3125rem
-    paddingLeft: "0.3125rem", // 5px / 16px = 0.3125rem
+    marginBottom: "0.625rem",
+    paddingLeft: "0.3125rem",
     color: "var(--Black, #545454)",
     fontFamily: "Open Sans",
-    fontSize: "0.875rem", // 14px / 16px = 0.875rem
+    fontSize: "0.875rem",
     fontStyle: "normal",
     fontWeight: 300,
     lineHeight: "normal",
   },
-  marginBottom: "1.25rem", // 20px / 16px = 1.25rem
+  marginBottom: "1.25rem",
 
   [createMediaQuery("sm")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
   [createMediaQuery("md")]: {
-    // Ajuste os valores em rem conforme necessário
+    width: "",
   },
 }));
 
