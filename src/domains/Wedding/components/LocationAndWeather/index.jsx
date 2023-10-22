@@ -49,7 +49,7 @@ export const LocationAndWeather = () => {
                 {!isMobile ? (
                     <CeremonyContainer width="50%">
                         <Typography fontSize={theme.spacing(7)} color={theme.palette.primary.main}>
-                            {text.preWedding.boxTitle[language]}
+                            {text.preWedding.BoxEvent.boxTitle[language]}
                         </Typography>
                         <Stack width="100%" gap={2} alignItems="center">
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
@@ -72,7 +72,7 @@ export const LocationAndWeather = () => {
                                 )}
                             </Stack>
                             <Typography fontSize={theme.spacing(4.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
-                                {text.preWedding.dateTime[language]}
+                                {text.preWedding.BoxEvent.dateTime[language]}
                             </Typography>
                         </Stack>
                         <Stack direction="row" width="100%" height="100%" px={2} gap={4} my={5}>
@@ -83,10 +83,10 @@ export const LocationAndWeather = () => {
                                     </Typography>
                                     <Stack>
                                         <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                            {text.preWedding.addressP1[language]}
+                                            {text.preWedding.BoxEvent.addressP1[language]}
                                         </Typography>
                                         <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                            {text.preWedding.addressP2[language]}
+                                            {text.preWedding.BoxEvent.addressP2[language]}
                                         </Typography>
                                     </Stack>
                                 </Stack>
@@ -143,7 +143,7 @@ export const LocationAndWeather = () => {
                                 )}
                             </Stack>
                             <Typography color={theme.palette.secondary.main} sx={{ marginBottom: theme.spacing(4) }}>
-                                {text.preWedding.dateTime[language]}
+                                {text.preWedding.BoxEvent.dateTime[language]}
                             </Typography>
                         </Stack>
                         <img src={brMap} alt="Mapa geográfico do Brasil" />
@@ -152,10 +152,10 @@ export const LocationAndWeather = () => {
                                 Villa Três Marias
                             </Typography>
                             <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                {text.preWedding.addressP1[language]}
+                                {text.preWedding.BoxEvent.addressP1[language]}
                             </Typography>
                             <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                {text.preWedding.addressP2[language]}
+                                {text.preWedding.BoxEvent.addressP2[language]}
                             </Typography>
                         </Stack>
                         <Box my={8}>

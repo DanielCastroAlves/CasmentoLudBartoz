@@ -73,7 +73,7 @@ export const Gifts = () => {
     return (
         <Stack width="100%" height="100%" mb={!isMobile && 10}>
             <BreadCrumb data={data} />
-            <FirstSection title={text.gifts.title[language]} subtitle={text.gifts.subtitle[language]} paragraph1={text.gifts.introP1[language]} />
+            <FirstSection title={text.gifts.title[language]} subtitle={text.gifts.subtitle[language]} paragraph1={text.gifts.introP1[language]} paragraph2={text.gifts.introP2[language]} paragraph3={text.gifts.introP3[language]} paragraph4={text.gifts.introP4[language]} />
             <TimeLineGift topics={topics} onTimelineItemClick={handleTimelineItemClick} />
             <Box
                 sx={{
