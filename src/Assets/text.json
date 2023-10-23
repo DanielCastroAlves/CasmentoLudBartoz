@@ -1758,7 +1758,13 @@
           "en": "Option 1: KLM:",
           "es": "Opción 1: KLM:"
         },
-        "flight-KLM": [
+        "answer3": {
+          "pt": "Opção 1: Lufthansa:",
+          "pl": "Opcja 1: Lufthansa:",
+          "en": "Option 1: LUFTHANSA:",
+          "es": "Opción 1: LUFTHANSA:"
+        },
+        "flightKLM": [
           {
             "pt": "Cracóvia - Amsterdam - Rio de Janeiro. Saindo dia 09.05.2024 às 06:35. Chegada no mesmo dia às 19:45.",
             "pl": "Kraków - Amsterdam - Rio de Janeiro. Wylot 09.05.2024 o 06:35. Przylot tego samego dnia o 19:45.",
@@ -1778,79 +1784,8 @@
             "es": "Costo total por persona: alrededor de PLN 4.300"
           }
         ],
-        "Lufthansapt": "Opção 2: Lufthansa",
-        "Lufthansapl": "Opcja 2: Lufthansa:",
-        "Lufthansaen": "Option 2: LUFTHANSA:",
-        "Lufthansaes": "Opción 2: LUFTHANSA:",
-        "flight-LUFTHANSA1": [
-          {
-            "pt": "Cracóvia - Frankfurt -  Rio de Janeiro. Saindo dia 09.05.2024 às 14:05. Chegada no dia seguinte às 05:35.",
-            "pl": "Kraków - Frankfurt -  Rio de Janeiro. Wylot 08.05.2024 o 14:05. Przylot następnego dnia o 05:35.",
-            "en": "Cracow - Frankfurt - Rio de Janeiro. Leaving on 08.05.2024 at 14:05. Arrival on the next day at 05:35.",
-            "es": "Cracovia - Frankfurt - Río de Janeiro. Saliendo en el día 09.05.2024 a las 14:05. Llegada en el dia seguinte a las 05:35"
-          },
-          {
-            "pt": "Rio de Janeiro - Frankfurt - Cracóvia. Saindo dia 19.05.2024 às 16:30. Chegada no dia seguinte às 13:20.",
-            "pl": "Rio de Janeiro - Frankfurt - Kraków. Wylot 19.05.2024 o 16:30. Przylot następnego dnia o 13:20.",
-            "en": "Rio de Janeiro - Frankfurt - Cracow. Leaving on 19.05.2024 at 16:30. Arrival on the next day at 13:20.",
-            "es": "Río de Janeiro - Frankfurt - Cracovia. Saliendo en el día 19.05.2024 a las 16:30. Llegada en el día seguinte a las 13:20."
-          },
-          {
-            "pt": "Custo total por pessoa: cerca de PLN 4.300",
-            "pl": "Całkowity koszt na osobę: około 4 300 zł",
-            "en": "Total cost per person: around PLN 4.300",
-            "es": "Costo total por persona: alrededor de PLN 4.300"
-          }
-        ],
-        "pt": "[Visto pela última vez em Outubro 2023]",
-        "pl": "[Ceny aktualne na Październik 2023]",
-        "en": "[Last seen in October 2023]",
-        "es": "[Visto la última vez en Octobre2023]"
-      },
-      {
-        "questions": {
-          "pt": "Nossa recomendação da melhor rota para voar de/para Cracóvia",
-          "pl": "Nasza rekomendacja najlepszej trasy lotu z/do Krakowa",
-          "en": "Our recommendation of the best route to fly from/to Cracow",
-          "es": "Nuestra recomendación sobre la mejor ruta para volar a/desde Cracovia"
-        },
-        "answers": {
-          "pt": "Existem dois roteiros que podem ser a melhor opção e a escolha do noivo para ir ao Brasil.",
-          "pl": "Istnieją dwie trasy, które mogą być najlepszą opcją na wyjazd do Brazylii.",
-          "en": "There are two routes that might be the best option and the choice of the groom to go to Brazil.",
-          "es": "Hay dos rutas que pueden ser la mejor opción y la elección del novio para ir a Brasil."
-        },
-        "answer2": {
-          "pt": "Opção 1: KLM:",
-          "pl": "Opcja 1: KLM:",
-          "en": "Option 1: KLM:",
-          "es": "Opción 1: KLM:"
-        },
-        "flight-KLM": [
-          {
-            "pt": "Cracóvia - Amsterdam - Rio de Janeiro. Saindo dia 09.05.2024 às 06:35. Chegada no mesmo dia às 19:45.",
-            "pl": "Kraków - Amsterdam - Rio de Janeiro. Wylot 09.05.2024 o 06:35. Przylot tego samego dnia o 19:45.",
-            "en": "Cracow - Amsterdam - Rio de Janeiro. Leaving on 09.05.2024 at 06:35. Arrival on the same day at 19:45.",
-            "es": "Cracovia - Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
-          },
-          {
-            "pt": "Rio de Janeiro - Amsterdam - Cracóvia. Saindo dia 19.05.2024 às 21:55. Chegada no dia seguinte às 22:25.",
-            "pl": "Rio de Janeiro - Amsterdam - Kraków. Wylot 19.05.2024 o 21:55. Przylot następnego dnia o 22:25.",
-            "en": "Rio de Janeiro - Amsterdam - Cracow. Leaving on 19.05.2024 at 21:55. Arrival on the next day at 22:25.",
-            "es": "Cracovia - Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
-          },
-          {
-            "pt": "Custo total por pessoa: cerca de PLN 4.300",
-            "pl": "Całkowity koszt na osobę: około 4 300 zł",
-            "en": "Total cost per person: around PLN 4.300",
-            "es": "Costo total por persona: alrededor de PLN 4.300"
-          }
-        ],
-        "Lufthansapt": "Opção 2: Lufthansa",
-        "Lufthansapl": "Opcja 2: Lufthansa:",
-        "Lufthansaen": "Option 2: LUFTHANSA:",
-        "Lufthansaes": "Opción 2: LUFTHANSA:",
-        "flight-LUFTHANSA1": [
+
+        "flightLUFTHANSA1": [
           {
             "pt": "Cracóvia - Frankfurt -  Rio de Janeiro. Saindo dia 09.05.2024 às 14:05. Chegada no dia seguinte às 05:35.",
             "pl": "Kraków - Frankfurt -  Rio de Janeiro. Wylot 08.05.2024 o 14:05. Przylot następnego dnia o 05:35.",
