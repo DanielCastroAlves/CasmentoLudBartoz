@@ -1489,7 +1489,7 @@
       },
       {
         "questions": {
-          "pt": "Todos os passeio são gratuitos?",
+          "pt": "Todos os passeios são gratuitos?",
           "pl": "Czy wszystkie wycieczki są bezpłatne?",
           "en": "Are all tours free?",
           "es": "¿Todos los tours son gratuitos?"
@@ -1555,7 +1555,7 @@
           "es": "¿Dónde puedo comprar boletos para vuelos a Río de Janeiro?"
         },
         "answers": {
-          "pt": "Rio de Janeiro tem dois aeroportos: Galeão (GIG) e Santos Dumont (SDU). Santos Dumont atende apenas a voos nacionais, enquanto Galeão atende a voos internacionais. O transfer gratuito parte de Galeão (GIG).",
+          "pt": "O Rio de Janeiro possui dois aeroportos: Galeão (GIG) e Santos Dumont (SDU). O Santos Dumont é somente para vôos domésticos e o Galeão inclui vôos internacionais. O transfer gratuito sairá do Galeão (GIG).",
           "pl": "Rio de Janeiro ma dwa lotniska: Galeão (GIG) i Santos Dumont (SDU). Santos Dumont obsługuje tylko loty krajowe, a Galeão loty międzynarodowe. Bezpłatny transfer odlatuje z Galeão (GIG).",
           "en": "Rio de Janeiro has two airports: Galeão (GIG) and Santos Dumont (SDU). Santos Dumont serves only domestic flights, while Galeão includes international flights. The free transfer we offer will depart from Galeão (GIG).",
           "es": "Río de Janeiro tiene dos aeropuertos: Galeão (GIG) y Santos Dumont (SDU). Santos Dumont es solo para vuelos domésticos, y Galeão incluye vuelos internacionales. El traslado gratuito partirá de Galeão (GIG)."
@@ -1587,10 +1587,10 @@
           "es": "¿Hay algún traslado desde el aeropuerto de Cabo Frio?"
         },
         "answers": {
-          "pt": "O Aeroporto de Cabo Frio é o mais próximo de Búzios e só recebe vôos de Belo Horizonte pela companhía aérea Azul e raramente alguns de São Paulo, mas não recebe vôos internacionais. Portanto, à princípio não é o nossa prioridade em fornecer transfer do Aeroporto de Cabo Frio, porém se houver muita demanda podemos orçar um valor mais próximo da data. De qualquer forma, um Uber (ou App 99) geralmente cobram em torno de R$100,00 para fazer o trajeto de Cabo Frio a Búzios (até região de Manguinhos ou Geribá).",
-          "pl": "Lotnisko Cabo Frio jest najbliższym lotniskiem do Búzios i przyjmuje tylko loty z Belo Horizonte operowane przez Azul,i rzadko niektóre z São Paulo, ale nie przyjmuje lotów międzynarodowych. Dlatego na początku nie jest naszym priorytetem zapewnienie transferu z lotniska Cabo Frio, ale jeśli jest duże zapotrzebowanie, możemy podać wartość bliżej daty. Tak czy inaczej, Uber (lub App 99) zwykle pobiera około 100,00 R $ za podróż z Cabo Frio do Buzios (do regionu Manguinhos lub Geribá).",
-          "en": "Cabo Frio Airport is the closest to Búzios and only receives flights from Belo Horizonte by the Azul airline and rarely some from São Paulo, but does not receive international flights. Therefore, at first it is not our priority to provide transfer from Cabo Frio Airport, however if there is a lot of demand we can quote a value closer to the date. Anyway, an Uber (or App 99) usually charges around R$100.00 to make the trip from Cabo Frio to Búzios (up to the Manguinhos or Geribá region).",
-          "es": "El Aeropuerto de Cabo Frio es el más cercano a Búzios y solo recibe vuelos desde Belo Horizonte de la aerolínea Azul y raramente algunos desde São Paulo, pero no recibe vuelos internacionales. Por lo tanto, al principio no es nuestra prioridad proporcionar traslado desde el aeropuerto de Cabo Frio, sin embargo, si hay mucha demanda, podemos cotizar un valor más cercano a la fecha. De todos modos, un Uber (o App 99) suele cobrar alrededor de R$ 100,00 para hacer el viaje de Cabo Frio a Búzios (hasta la región de Manguinhos o Geribá)."
+          "pt": "O Aeroporto de Cabo Frio é o mais próximo de Búzios e só recebe vôos de Belo Horizonte pela companhia aérea Azul e raramente alguns de São Paulo, mas não recebe vôos internacionais. Portanto, a princípio, não é nossa prioridade fornecer transfer do Aeroporto de Cabo Frio. No entanto, se houver muita demanda, podemos fornecer um orçamento mais próximo da data. De qualquer forma, um Uber (ou App 99) geralmente cobra em torno de R$100,00 para fazer o trajeto de Cabo Frio a Búzios (até a região de Manguinhos ou Geribá).",
+          "pl": "Lotnisko Cabo Frio jest najbliższym lotniskiem do Búzios i przyjmuje tylko loty z Belo Horizonte obsługiwane przez linię lotniczą Azul i rzadko kilka z São Paulo, ale nie obsługuje lotów międzynarodowych. Dlatego początkowo nie jest to naszym priorytetem, aby zapewnić transfer z lotniska Cabo Frio. Jeśli jednak istnieje duże zapotrzebowanie, możemy podać cenę bliżej daty. W każdym razie Uber (lub aplikacja 99) zazwyczaj pobiera około R$100,00 za podróż z Cabo Frio do Búzios (do regionu Manguinhos lub Geribá).",
+          "en": "Cabo Frio Airport is the closest to Búzios and only receives flights from Belo Horizonte by the Azul airline and rarely some from São Paulo, but does not receive international flights. Therefore, initially, it is not our priority to provide transfer from Cabo Frio Airport. However, if there is a high demand, we can provide a quote closer to the date. In any case, an Uber (or App 99) usually charges around R$100.00 to make the trip from Cabo Frio to Búzios (up to the Manguinhos or Geribá region).",
+          "es": "El Aeropuerto de Cabo Frio es el más cercano a Búzios y solo recibe vuelos desde Belo Horizonte de la aerolínea Azul y raramente algunos desde São Paulo, pero no recibe vuelos internacionales. Por lo tanto, al principio no es nuestra prioridad proporcionar traslado desde el aeropuerto de Cabo Frio. Sin embargo, si hay mucha demanda, podemos proporcionar un presupuesto más cercano a la fecha. De todos modos, un Uber (o la aplicación 99) suele cobrar alrededor de R$100,00 para realizar el viaje desde Cabo Frio a Búzios (hasta la región de Manguinhos o Geribá)."
         }
       },
       {
@@ -1601,9 +1601,9 @@
           "es": "¿Alguien podría llevarme desde BH?"
         },
         "answers": {
-          "pt": "",
-          "pl": "Wielu gości będzie wolało pojechać z Belo Horizonte samochodem i może pokryć koszty wspólnego przejazdu. Zachęcamy do śledzenia wiadomości e-mail, a później udostępniona zostanie specjalna grupa WhatsApp w celu omówienia tej logistyki.",
-          "en": "Many guests will prefer to leave Belo Horizonte by car and could share the costs. Keep an eye on your email and a specific WhatsApp Group will be released later to discuss these logistics.",
+          "pt": "Muitos convidados vão preferir sair de Belo Horizonte de carro e poderiam dar carona dividindo custos. Fique atento ao seu e-mail e posteriormente será liberado um Grupo no WhatsApp específico para discutir essas logísticas.",
+          "pl": "Wielu gości będzie wolało opuścić Belo Horizonte samochodem i mogłoby podzielić się kosztami. Bądź czujny w swojej skrzynce e-mailowej, a później zostanie utworzona specjalna grupa na WhatsAppie w celu omówienia tych logistyk.",
+          "en": "Many guests will prefer to leave Belo Horizonte by car and could share the costs. Keep an eye on your email, and a specific WhatsApp Group will be released later to discuss these logistics.",
           "es": "Muchos invitados preferirán salir de Belo Horizonte en automóvil y podrían compartir los costos. Esté atento a su correo electrónico y más tarde se lanzará un grupo de WhatsApp específico para discutir esta logística."
         }
       },
@@ -1615,32 +1615,26 @@
           "es": "Me gustaría quedarme en otro lugar que no esté en las recomendaciones de viaje, ¿cuáles serían los mejores lugares?"
         },
         "answers": {
-          "pt": "Nasze rekomendacje na tej stronie zostały starannie wybrane, biorąc pod uwagę najlepszy stosunek jakości do ceny (uczciwa cena, zorganizowane i czyste miejsce, blisko miejsca, do którego warto się udać, w tym śniadanie). Istnieją jednak oczywiście inne opcje ładnych kwater i jeszcze bardziej luksusowych hoteli.",
-          "pl": "Our recommendations on this site have been carefully chosen taking into consideration the best value for money (a fair price, an organized and clean place, close to where it is worth going, including breakfast). However, of course there are other options from those more affordable hostel, to even more luxurious hotels.",
-          "en": "Our recommendations on this site have been carefully chosen taking into consideration the best value for money (a fair price, an organized and clean place, close to where it is worth going, including breakfast). However, of course there are other options from those more affordable hostel, to even more luxurious hotels.",
-          "es": "Nuestras recomendaciones en este sitio han sido cuidadosamente seleccionadas teniendo en cuenta la mejor relación calidad-precio (un precio justo, un lugar organizado y limpio, cerca de donde vale la pena ir, desayuno incluido). Sin embargo, por supuesto, hay otras opciones para hostels más asequibles, hostales e incluso hoteles más lujosos."
+          "pt": "Nossas recomendações neste site foram escolhidas atentamente levando em consideração o melhor custo-benefício (um preço justo, um lugar organizado e limpo, próximo de onde vale a pena ir, incluindo café da manhã). Contudo, claro que existem outras opções de pousadas legais mais em conta, hostel e hotéis até de mais luxo.\n\nVale lembrar que Búzios é uma cidade praiana, muito úmida e dependendo do lugar pode ter cheiro de mofo ou presença de insetos indesejáveis por causa do clima. Rio de Janeiro é uma cidade grande e, apesar de muito turística, pode haver lugares que pode ser perigoso. Lembre-se que os passeios sairão da Zona Sul.",
+          "pl": "Nasze rekomendacje na tej stronie zostały starannie wybrane, biorąc pod uwagę najlepszy stosunek jakości do ceny (uczciwa cena, zorganizowane i czyste miejsce, blisko miejsca, do którego warto się udać, w tym śniadanie). Istnieją jednak oczywiście inne opcje ładnych kwater i jeszcze bardziej luksusowych hoteli.\n\nBúzioz to miasto nadmorskie, bardzo wilgotne i w zależności od miejsca może mieć zapach stęchlizny lub obecność niepożądanych owadów ze względu na klimat. Rio de Janeiro to duże miasto i chociaż jest bardzo turystyczne, mogą istnieć miejsca, które mogą być niebezpieczne. Pamiętaj, że wycieczki wyruszają ze strefy południowej (Zona Sul).",
+          "en": "Our recommendations on this site have been carefully chosen taking into consideration  the best value for money (a fair price, an organized and clean place, close to where it is worth going, including breakfast). However, of course there are other options from those more affordable hostel, to even more luxurious hotels.\n\nIt is worth remembering that Búzios is a beach town, very humid and depending on the place, it can have a musty smell or the presence of undesirable insects due to the climate. Rio de Janeiro is a big city and, despite being very touristy, there can be places that can be dangerous. Remember that the tours will depart from those hotels in the Zona Sul.",
+          "es": "Nuestras recomendaciones en este sitio han sido cuidadosamente seleccionadas teniendo en cuenta la mejor relación calidad-precio (un precio justo, un lugar organizado y limpio, cerca de donde vale la pena ir, desayuno incluido). Sin embargo, por supuesto, hay otras opciones para hostels más asequibles, hostales e incluso hoteles más lujosos.\n\nVale recordar que Búzios es un pueblo de playa, muy húmedo y dependiendo del lugar, puede tener olor a humedad o presencia de insectos indeseables debido al clima. Río de Janeiro es una ciudad grande y, a pesar de ser muy turística, puede haber lugares que pueden ser peligrosos. Recuerda que los tours partirán desde la Zona Sur."
         },
         "answer1": {
-          "pt": "Búzioz to miasto nadmorskie, bardzo wilgotne i w zależności od miejsca może mieć zapach stęchlizny lub obecność niepożądanych owadów ze względu na klimat. Rio de Janeiro to duże miasto i chociaż jest bardzo turystyczne, mogą istnieć miejsca, które mogą być niebezpieczne. Pamiętaj, że wycieczki wyruszają ze strefy południowej (Zona Sul).",
-          "pl": "Búzioz is a beach town, very humid and depending on the place, it can have a musty smell or the presence of undesirable insects due to the climate. Rio de Janeiro is a big city and, despite being very touristy, there can be places that can be dangerous. Remember that the tours will depart from those hotels in the Zona Sul.",
+          "pt": "Vale lembrar que Búzios é uma cidade praiana, muito úmida e dependendo do lugar pode ter cheiro de mofo ou presença de insetos indesejáveis por causa do clima. Rio de Janeiro é uma cidade grande e, apesar de muito turística, pode haver lugares que podem ser perigosos. Lembre-se que os passeios sairão da Zona Sul.",
+          "pl": "Warto pamiętać, że Búzios to miasto nadmorskie, bardzo wilgotne i w zależności od miejsca może mieć zapach stęchlizny lub obecność niepożądanych owadów ze względu na klimat. Rio de Janeiro to duże miasto i, pomimo że jest bardzo turystyczne, mogą istnieć miejsca, które mogą być niebezpieczne. Pamiętaj, że wycieczki wyruszają ze strefy południowej (Zona Sul).",
           "en": "It is worth remembering that Búzios is a beach town, very humid and depending on the place, it can have a musty smell or the presence of undesirable insects due to the climate. Rio de Janeiro is a big city and, despite being very touristy, there can be places that can be dangerous. Remember that the tours will depart from those hotels in the Zona Sul.",
           "es": "Vale recordar que Búzios es un pueblo de playa, muy húmedo y dependiendo del lugar, puede tener olor a humedad o presencia de insectos indeseables debido al clima. Río de Janeiro es una ciudad grande y, a pesar de ser muy turística, puede haber lugares que pueden ser peligrosos. Recuerda que los tours partirán desde la Zona Sur."
         },
         "answer2": {
-          "pt": "Polecamy poniższe regiony jako miejsca pobytu:",
+          "pt": "Recomendações de regiões para se hospedar:",
           "pl": "Recommendations of the regions to stay:",
           "en": "Recommendations of the regions to stay:",
           "es": "Te recomendamos las regiones para quedarse:"
         },
-        "answer3": {
-          "pt": "Búzioz",
-          "pl": "Búzioz",
-          "en": "Búzioz",
-          "es": "Búzioz"
-        },
         "opcoesBuzios": [
           {
-            "pt": "A região de Manguinhos próximo do Porto da Barra, um centro gastronômico bem legal na cidade. A praia de manguinhos é exclusiva para pesca local.",
+            "pt": "A região de Manguinhos próximo do Porto da Barra, um centro gastronômico bem legal na cidade. A praia de Manguinhos é exclusiva para pesca local.",
             "pl": "Region Manguinhos w pobliżu Porto da Barra. Ma bardzo spokojną i pustą plażę, ale nie zawsze z bardzo długim odcinkiem piasku. Jest to strona o zachodzie słońca.",
             "en": "The Manguinhos region close to Porto da Barra, a very nice gastronomic centre in the city. Manguinhos beach is exclusive for local fishing.",
             "es": "La región de Manguinhos cerca de Porto da Barra, un centro gastronómico muy agradable en la ciudad. La playa de Manguinhos es exclusiva para la pesca local."
@@ -1658,10 +1652,26 @@
             "es": "Otras regiones: puede ser difícil llegar porque la península es ligeramente montañosa y, a menudo, no está pavimentada y está lejos de donde se llevará a cabo el evento."
           }
         ],
-        "pt": "É importante lembrar que há certas regiões no Rio de Janeiro que podem ser perigosas e a Zona Sul é mais turística e, portanto, monitorada com guardas e policiamento local. A Barra é mais residencial.",
-        "pl": "Ważne jest, aby pamiętać, że niektóre regiony Rio de Janeiro mogą nie być najbardziej bezpiecznymi o każdej porze dnia, a strefa południowa jest bardziej monitorowana przez strażników i lokalną policję.",
-        "en": "It is important to remember that there are certain regions in Rio de Janeiro that can be dangerous and the South Zone is more touristic and therefore monitored with guards and local police. Barra is more residential.",
-        "es": "Es importante recordar que hay ciertas regiones en Río de Janeiro que pueden ser peligrosas y la Zona Sur es más turística y por lo tanto vigilada con guardias y policía local. Barra es más residencial."
+        "opcoesRioDeJaneiro": [
+          {
+            "pt": "Zona Sul: Copacabana, Arpoador, Ipanema ou Leblon. Preferencialmente até três quadras da praia para manter a segurança.",
+            "pl": "Strefa południowa: Copacabana, Arpoador, Ipanema lub Leblon. Najlepiej w odległości trzech przecznic od plaży w celu zachowania bezpieczeństwa.",
+            "en": "South Zone: Copacabana, Arpoador, Ipanema, or Leblon. Preferably within three blocks of the beach to maintain security.",
+            "es": "Zona Sur: Copacabana, Arpoador, Ipanema o Leblon. Preferiblemente a tres cuadras de la playa para mantener la seguridad."
+          },
+          {
+            "pt": "Barra da Tijuca: próximo à praia da Barra pode ser interessante para quem quiser aproveitar as praias para surfar, curtir calmaria da Praia da Reserva e ir em outros passeios no Parque Nacional da Tijuca ou trilhas para a famosa Pedra do Telégrafo. Porém é uma região bem longe do centro, da Zona Sul e do aeroporto. Para fazer qualquer passeio turístico recomendamos ir com empresas de turismo local e não sozinhos.",
+            "pl": "Barra da Tijuca: w pobliżu plaży Barra może być interesująca dla tych, którzy chcą korzystać z plaż do surfowania, cieszyć się spokojem na plaży Reserva i wybierać się na wycieczki po Parku Narodowym Tijuca lub szlaki w kierunku słynnej Pedra do Telégrafo. Jest to jednak region bardzo oddalony od centrum, strefy południowej i lotniska. W celu skorzystania z wycieczek turystycznych zalecamy skorzystanie z lokalnych firm turystycznych i nie podróżowanie samodzielnie.",
+            "en": "Barra da Tijuca: close to Praia da Barra, it can be interesting for those who want to enjoy the beaches to surf, enjoy the calm vibe of Praia da Reserva and go on other walks in the Tijuca National Park or trails to the famous Pedra do Telégrafo. However, it is a region far from the centre, the South Zone and the airport. To go on any sightseeing tour, we recommend going with local tourism companies and not alone.",
+            "es": "Barra da Tijuca: cerca de Praia da Barra, puede ser interesante para aquellos que desean disfrutar de las playas para hacer surf, disfrutar de la tranquilidad de Praia da Reserva e ir a otras caminatas en el Parque Nacional de Tijuca o rutas a la famosa Pedra do Telégrafo. Sin embargo, es una región alejada del centro, la Zona Sur y el aeropuerto. Para hacer cualquier recorrido turístico, recomendamos ir con empresas de turismo locales y no hacerlo solos."
+          }
+        ],
+        "answer3": {
+          "pt": "É importante lembrar que há certas regiões no Rio de Janeiro que podem ser perigosas e a Zona Sul é mais turística e, portanto, monitorada com guardas e policiamento local. A Barra é mais residencial.",
+          "pl": "Ważne jest, aby pamiętać, że niektóre regiony Rio de Janeiro mogą nie być najbardziej bezpiecznymi o każdej porze dnia, a strefa południowa jest bardziej monitorowana przez strażników i lokalną policję.",
+          "en": "It is important to remember that there are certain regions in Rio de Janeiro that can be dangerous and the South Zone is more touristic and therefore monitored with guards and local police. Barra is more residential.",
+          "es": "Es importante recordar que hay ciertas regiones en Río de Janeiro que pueden ser peligrosas y la Zona Sur es más turística y por lo tanto vigilada con guardias y policía local. Barra es más residencial."
+        }
       },
       {
         "questions": {
@@ -1694,7 +1704,7 @@
           "pt": "Para viajar para o Brasil é obrigatório ter comprovante de vacinação completa contra COVID-19 para pessoas acima de 12 anos. Além disso é necessário confirmar com as autoridades do seu país, sendo recomendável a vacinação de Febre Amarela e Poliomielite (para crianças entre 3 meses a 6 anos).",
           "pl": "Aby podróżować do Brazylii, obowiązkowe jest posiadanie dowodu pełnego szczepienia przeciwko COVID-19 dla osób powyżej 12 roku życia. Zaleca się szczepienie przeciwko żółtej febrze i polio (dla dzieci w wieku od 3 miesięcy do 6 lat).",
           "en": "To travel to Brazil, it is mandatory to have proof of complete vaccination against COVID-19 for people over 12 years old. In addition, it is necessary to confirm with the authorities in your country, recommending vaccination for Yellow Fever and Poliomyelitis (for children aged between 3 months and 6 years).",
-          "es": "Para viajar a Brasil es obligatorio tener comprobante de vacunación completa contra el COVID-19 para mayores de 12 años. Además, es necesario confirmar con las autoridades de su país, recomendando la vacunación de Fiebre Amarilla y Poliomielitis (para niños de 3 meses a 6 años).               "
+          "es": "Para viajar a Brasil es obligatorio tener comprobante de vacunación completa contra el COVID-19 para mayores de 12 años. Además, es necesario confirmar con las autoridades de su país, recomendando la vacunación de Fiebre Amarilla y Poliomielitis (para niños de 3 meses a 6 años)."
         }
       },
       {
@@ -1707,7 +1717,7 @@
         "answers": {
           "pt": "Pela experiência dos noivos, passagens de avião da Europa para o Rio de Janeiro podem variar bastante, mas se achar valores por volta €800 ída e volta, pode considerar como excelente preço para comprar. As linhas aéreas  KLM e Lufthansa são as melhores opções para quem sai da Polônia, contudo, existem ofertas interessantes para quem sair da Espanha ou Portugal pela Iberia, Latam ou TAP.",
           "pl": "Na podstawie doświadczenia pary młodej, bilety lotnicze z Europy do Rio de Janeiro mogą się bardzo różnić, ale jeśli ceny za podróż w obie strony wynoszą około 800 euro, można uznać to za doskonałą cenę. Linie KLM i Lufthansa to najlepsze opcje dla osób wyjeżdżających z Polski, jednakże istnieją ciekawe oferty dla osób opuszczających Hiszpanię lub Portugalię przez Iberię, Latam lub TAP.",
-          "en": " Based on  the bride and groom’s experiences, flight tickets from Europe to Rio de Janeiro can vary a lot, but if you find prices around €800 round trip, you can consider it an excellent price to buy. KLM and Lufthansa airlines are the best options for those leaving from Poland, however, there are interesting offers for those leaving from Spain or Portugal via Iberia, Latam or TAP.",
+          "en": "Based on the bride and groom’s experiences, flight tickets from Europe to Rio de Janeiro can vary a lot, but if you find prices around €800 round trip, you can consider it an excellent price to buy. KLM and Lufthansa airlines are the best options for those leaving from Poland, however, there are interesting offers for those leaving from Spain or Portugal via Iberia, Latam or TAP.",
           "es": "Por la experiencia que tenemos, los billetes de avión de Europa a Río de Janeiro pueden variar mucho, pero si encuentras precios que rondan los 800€ ida y vuelta, puedes considerarlo un excelente precio para comprar. Las aerolíneas KLM y Lufthansa son las mejores opciones para quienes salen de Polonia, sin embargo, existen ofertas interesantes para quienes salen de España o Portugal a través de Iberia, Latam o TAP."
         }
       },
@@ -1734,7 +1744,7 @@
         },
         "answers": {
           "pt": "Vamos fornecer um transfer gratuito com vagas limitadas do Aeroporto Galeão do Rio de Janeiro com direção à Armação de Búzios passando em uma das hospedagens recomendadas no site. A prioridade será para convidados estrangeiros. Mais informação será compartilhada posteriormente por e-mail, após a confirmação de presença.",
-          "pl": "Zapewniamy bezpłatny transfer z ograniczoną liczbą miejsc z lotniska Galeão w Rio de Janeiro do Armação de Búzios przez jeden z polecanych poniżej hosteli. Pierwszeństwo mają goście z zagranicy. Więcej informacji zostanie przekazanych później za pośrednictwem poczty elektronicznej.",
+          "pl": "Zapewniamy bezpłatny transfer z ograniczoną liczbą miejsc z lotniska Galeão w Rio de Janeiro do Armação de Búzios przez jeden z polecanych poniżej hosteli. Pierwszeństwo mają goście z zagranicy. Więcej informacji zostanie przekazanych później za pośrednictwem poczty elektronicznej, po otrzymaniu potwierdzenia obecności.",
           "en": "We will provide a free transfer with limited spaces from Galeão Airport in Rio de Janeiro towards Armação de Búzios, passing through one of the accommodations recommended on the website. Priority will be given to foreign guests. More information will be shared later by email, after confirmation of attendance.",
           "es": "Brindaremos un traslado gratuito con espacios limitados desde el Aeropuerto de Galeão en Río de Janeiro hacia Armação de Búzios, pasando por uno de los alojamientos recomendados en el sitio web. Se dará prioridad a los huéspedes extranjeros. Se compartirá más información más adelante por correo electrónico, después de la confirmación de asistencia."
         }
@@ -1759,23 +1769,23 @@
           "es": "Opción 1: KLM:"
         },
         "answer3": {
-          "pt": "Opção 1: Lufthansa:",
-          "pl": "Opcja 1: Lufthansa:",
-          "en": "Option 1: LUFTHANSA:",
-          "es": "Opción 1: LUFTHANSA:"
+          "pt": "Opção 2: Lufthansa",
+          "pl": "Opcja 2: Lufthansa",
+          "en": "Option 2: LUFTHANSA",
+          "es": "Opción 2: LUFTHANSA"
         },
         "flightKLM": [
           {
-            "pt": "Cracóvia - Amsterdam - Rio de Janeiro. Saindo dia 09.05.2024 às 06:35. Chegada no mesmo dia às 19:45.",
-            "pl": "Kraków - Amsterdam - Rio de Janeiro. Wylot 09.05.2024 o 06:35. Przylot tego samego dnia o 19:45.",
-            "en": "Cracow - Amsterdam - Rio de Janeiro. Leaving on 09.05.2024 at 06:35. Arrival on the same day at 19:45.",
-            "es": "Cracovia - Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
+            "pt": "Cracóvia – Amsterdam - Rio de Janeiro. Saindo dia 09.05.2024 às 06:35. Chegada no mesmo dia às 19:45.",
+            "pl": "Kraków – Amsterdam - Rio de Janeiro. Wylot 09.05.2024 o 06:35. Przylot tego samego dnia o 19:45.",
+            "en": "Cracow – Amsterdam - Rio de Janeiro. Leaving on 09.05.2024 at 06:35. Arrival on the same day at 19:45.",
+            "es": "Cracovia – Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
           },
           {
-            "pt": "Rio de Janeiro - Amsterdam - Cracóvia. Saindo dia 19.05.2024 às 21:55. Chegada no dia seguinte às 22:25.",
-            "pl": "Rio de Janeiro - Amsterdam - Kraków. Wylot 19.05.2024 o 21:55. Przylot następnego dnia o 22:25.",
-            "en": "Rio de Janeiro - Amsterdam - Cracow. Leaving on 19.05.2024 at 21:55. Arrival on the next day at 22:25.",
-            "es": "Cracovia - Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
+            "pt": "Rio de Janeiro – Amsterdam - Cracóvia. Saindo dia 19.05.2024 às 21:55. Chegada no dia seguinte às 22:25.",
+            "pl": "Rio de Janeiro – Amsterdam - Kraków. Wylot 19.05.2024 o 21:55. Przylot następnego dnia o 22:25.",
+            "en": "Rio de Janeiro – Amsterdam - Cracow. Leaving on 19.05.2024 at 21:55. Arrival on the next day at 22:25.",
+            "es": "Cracovia – Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
           },
           {
             "pt": "Custo total por pessoa: cerca de PLN 4.300",
@@ -1784,19 +1794,18 @@
             "es": "Costo total por persona: alrededor de PLN 4.300"
           }
         ],
-
         "flightLUFTHANSA1": [
           {
-            "pt": "Cracóvia - Frankfurt -  Rio de Janeiro. Saindo dia 09.05.2024 às 14:05. Chegada no dia seguinte às 05:35.",
-            "pl": "Kraków - Frankfurt -  Rio de Janeiro. Wylot 08.05.2024 o 14:05. Przylot następnego dnia o 05:35.",
-            "en": "Cracow - Frankfurt - Rio de Janeiro. Leaving on 08.05.2024 at 14:05. Arrival on the next day at 05:35.",
-            "es": "Cracovia - Frankfurt - Río de Janeiro. Saliendo en el día 09.05.2024 a las 14:05. Llegada en el dia seguinte a las 05:35"
+            "pt": "Cracóvia – Frankfurt -  Rio de Janeiro. Saindo dia 09.05.2024 às 14:05. Chegada no dia seguinte às 05:35.",
+            "pl": "Kraków – Frankfurt -  Rio de Janeiro. Wylot 08.05.2024 o 14:05. Przylot następnego dnia o 05:35.",
+            "en": "Cracow – Frankfurt - Rio de Janeiro. Leaving on 08.05.2024 at 14:05. Arrival on the next day at 05:35.",
+            "es": "Cracovia – Frankfurt - Río de Janeiro. Saliendo en el día 09.05.2024 a las 14:05. Llegada en el día seguinte a las 05:35."
           },
           {
-            "pt": "Rio de Janeiro - Frankfurt - Cracóvia. Saindo dia 19.05.2024 às 16:30. Chegada no dia seguinte às 13:20.",
-            "pl": "Rio de Janeiro - Frankfurt - Kraków. Wylot 19.05.2024 o 16:30. Przylot następnego dnia o 13:20.",
-            "en": "Rio de Janeiro - Frankfurt - Cracow. Leaving on 19.05.2024 at 16:30. Arrival on the next day at 13:20.",
-            "es": "Río de Janeiro - Frankfurt - Cracovia. Saliendo en el día 19.05.2024 a las 16:30. Llegada en el día seguinte a las 13:20."
+            "pt": "Rio de Janeiro – Frankfurt - Cracóvia. Saindo dia 19.05.2024 às 16:30. Chegada no dia seguinte às 13:20.",
+            "pl": "Rio de Janeiro – Frankfurt - Kraków. Wylot 19.05.2024 o 16:30. Przylot następnego dnia o 13:20.",
+            "en": "Rio de Janeiro – Frankfurt - Cracow. Leaving on 19.05.2024 at 16:30. Arrival on the next day at 13:20.",
+            "es": "Río de Janeiro – Frankfurt - Cracovia. Saliendo en el día 19.05.2024 a las 16:30. Llegada en el día seguinte a las 13:20."
           },
           {
             "pt": "Custo total por pessoa: cerca de PLN 4.300",

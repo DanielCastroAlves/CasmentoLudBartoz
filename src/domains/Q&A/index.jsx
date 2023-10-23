@@ -117,15 +117,17 @@ const QeA = () => {
             text.QEA.Accordion[7].answers[language],
             text.QEA.Accordion[7].answer1[language],
             text.QEA.Accordion[7].answer2[language],
-         
           ],
           lista: [
             "Búzios:",
             text.QEA.Accordion[7].opcoesBuzios[0][language],
             text.QEA.Accordion[7].opcoesBuzios[1][language],
             text.QEA.Accordion[7].opcoesBuzios[2][language],
-            
+            "Rio de Janeiro",
+            text.QEA.Accordion[7].opcoesRioDeJaneiro[0][language],
+            text.QEA.Accordion[7].opcoesRioDeJaneiro[1][language],
           ],
+          additionalInfo: [text.QEA.Accordion[7].answer3[language]],
         },
       ],
     },
