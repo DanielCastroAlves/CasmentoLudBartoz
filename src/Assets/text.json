@@ -1481,10 +1481,16 @@
           "es": "Realmente depende de su perfil de viajero. Hay un sitio que es muy interesante para comparar el costo de vida en diferentes ciudades del mundo: Numbeo."
         },
         "answers2": {
-          "pt": "Exemplo: Búzios é a cidade mais cara da Região dos Lagos, e restaurantes em Búzios tendem a ser mais caros do que o Rio de Janeiro. Rio de Janeiro é mais caro que Belo Horizonte. Cracóvia tem um custo de vida mais similar a Armação de Búzios do que Rio de Janeiro. Já os preços do Rio de Janeiro são mais altos de Quito, ainda que a diferença nos restaurantes não seja percebida tão alta.",
-          "pl": "Przykład: Búzios jest najdroższym miastem w regionie Região dos Lago, a restauracje w Búzios są zazwyczaj droższe niż w Rio de Janeiro. Rio de Janeiro jest droższe niż Belo Horizonte. Kraków ma koszty życia bardziej zbliżone do Armação de Búzios niż Rio de Janeiro. Ceny w Rio de Janeiro są wyższe niż w Quito, chociaż różnica w restauracjach nie jest postrzegana jako wysoka.",
-          "en": "Example: Búzios is the most expensive city in the Lagos Region, and restaurants in Búzios tend to be more expensive than Rio de Janeiro. Rio de Janeiro is more expensive than Belo Horizonte. Kraków has a cost of living more similar to Armação de Búzios than Rio de Janeiro. Prices in Rio de Janeiro are higher than in Quito, although the difference in restaurants is not perceived as high.",
-          "es": "Ejemplo: Búzios es la ciudad más cara de la Región de Lagos, y los restaurantes en Búzios tienden a ser más caros que en Río de Janeiro. Río de Janeiro es más caro que Belo Horizonte. Cracovia tiene un costo de vida más similar a Armação de Búzios que a Río de Janeiro. Los precios en Río de Janeiro son más altos que en Quito, aunque la diferencia en los restaurantes no se percibe tan alta."
+          "pt": "Búzios é a cidade mais cara da Região dos Lagos, e restaurantes em Búzios tendem a ser mais caros do que o Rio de Janeiro. Rio de Janeiro é mais caro que Belo Horizonte. Cracóvia tem um custo de vida mais similar a Armação de Búzios do que Rio de Janeiro. Já os preços do Rio de Janeiro são mais altos de Quito, ainda que a diferença nos restaurantes não seja percebida tão alta.",
+          "pl": "Búzios jest najdroższym miastem w regionie Região dos Lago, a restauracje w Búzios są zazwyczaj droższe niż w Rio de Janeiro. Rio de Janeiro jest droższe niż Belo Horizonte. Kraków ma koszty życia bardziej zbliżone do Armação de Búzios niż Rio de Janeiro. Ceny w Rio de Janeiro są wyższe niż w Quito, chociaż różnica w restauracjach nie jest postrzegana jako wysoka.",
+          "en": "Búzios is the most expensive city in the Lagos Region, and restaurants in Búzios tend to be more expensive than Rio de Janeiro. Rio de Janeiro is more expensive than Belo Horizonte. Kraków has a cost of living more similar to Armação de Búzios than Rio de Janeiro. Prices in Rio de Janeiro are higher than in Quito, although the difference in restaurants is not perceived as high.",
+          "es": "Búzios es la ciudad más cara de la Región de Lagos, y los restaurantes en Búzios tienden a ser más caros que en Río de Janeiro. Río de Janeiro es más caro que Belo Horizonte. Cracovia tiene un costo de vida más similar a Armação de Búzios que a Río de Janeiro. Los precios en Río de Janeiro son más altos que en Quito, aunque la diferencia en los restaurantes no se percibe tan alta."
+        },
+        "answers3": {
+          "pt": "Exemplo:",
+          "pl": "Przykład:",
+          "en": "Example: ",
+          "es": "Ejemplo: "
         }
       },
       {
@@ -1524,8 +1530,14 @@
           {
             "pt": "Transfer In Búzios: Nós contratamos uma empresa especializada que possui horários fixos de transporte para Búzios direto do Aeroporto do Rio de Janeiro. Recomendamos muito a empresa por questão de segurança e credibilidade, além de que a empresa terá o nosso contato direto. Mais informação sobre a empresa em Destination Wedding.",
             "pl": "Transfer In Búzios: Wynajęliśmy wyspecjalizowaną firmę, która ma ustalone harmonogramy transportu do Búzios bezpośrednio z lotniska w Rio de Janeiro. Gorąco polecamy tę firmę ze względu na bezpieczeństwo i wiarygodność, a ponadto firma będzie miała nasz bezpośredni kontakt. Więcej informacji o firmie na stronie Destination Wedding.",
-            "en": "Wedding In Búzios: We hired a specialised company that has fixed timetable for transfer from Rio de Janeiror to Búzios directly from the Airport. We highly recommend the company for security and credibility reasons, in addition to the fact that the company will have our direct contact. More information about the company at Destination Wedding.",
-            "es": "Transfer In Búzios: Hemos contratado una empresa especializada que tiene horarios fijos de traslado a Búzios directamente desde el aeropuerto de Río de Janeiro. Recomendamos ampliamente la empresa por razones de seguridad y credibilidad, además del hecho de que la empresa tendrá nuestro contacto directo. Más información sobre la empresa en Destination Wedding."
+            "en": "Transfer In Búzios: We hired a specialized company that has fixed timetables for transport from Rio de Janeiro to Búzios directly from the Airport. We highly recommend the company for security and credibility reasons, in addition to the fact that the company will have our direct contact. More information about the company at Destination Wedding.",
+            "es": "Transfer In Búzios: Hemos contratado una empresa especializada que tiene horarios fijos de traslado a Búzios directamente desde el aeropuerto de Río de Janeiro. Recomendamos ampliamente a empresa por razones de seguridad y credibilidad, además del hecho de que la empresa tendrá nuestro contacto directo. Más información sobre la empresa en Destination Wedding."
+          },
+          {
+            "pt": "Outros Transfers: Não conhecemos, portanto não podemos indicar outros transfers que saem direto do Aeroporto. Porém, existem outras empresas que fazem esse serviço, contudo, fique atento a falsos transfers e táxis no Rio de Janeiro.",
+            "pl": "Inne transfery: Nie znamy więc nie możemy wskazać innych transferów, które odjeżdżają bezpośrednio z lotniska. Istnieją jednak inne firmy, które świadczą takie usługi, jednak należy uważać na fałszywe transfery i taksówki w Rio de Janeiro.",
+            "en": "Other Transfers: We don't know, so we can't recommend other transfers from the Airport. However, there are other companies that provide this service, but be aware of false transfers and taxis in Rio de Janeiro.",
+            "es": "Otros Traslados: No lo sabemos, por lo que no podemos indicar otros traslados que salgan directamente del Aeropuerto. Aunque hay otras empresas que posen este servicio, tenga cuidado con los traslados y taxis falsos en Río de Janeiro."
           },
           {
             "pt": "Transfer do Hotel: Alguns hotéis em Búzios oferecem o serviço de transfer do Aeroporto Galeão, no Rio de Janeiro, até o Hotel. Geralmente acaba ficando mais caro, mas é uma opção mais segura.",
@@ -1538,12 +1550,6 @@
             "pl": "Autobus 1001: Na lotnisku Galeão w Rio de Janeiro można kupić bilety autobusowe firmy Viação 1001, której stacją docelową jest dworzec autobusowy Búzios. Z dworca autobusowego należy wezwać Ubera, aby dojechać do hotelu.",
             "en": "Bus 1001: It is possible to buy bus tickets at Galeão Airport, in Rio de Janeiro, from the company Viação 1001, whose final destination is Buzios Bus Station. From the bus station it would be necessary to call an Uber to go to the Hotel.",
             "es": "Autobús 1001: Es posible comprar billetes de autobús en el Aeropuerto de Galeão, en Río de Janeiro, de la empresa Viação 1001, cuyo destino final es la Terminal de Ómnibus de Buzios. Desde la estación de autobuses sería necesario llamar a un Uber para ir al Hotel."
-          },
-          {
-            "pt": "Outros Transfers: Não conhecemos, portanto não podemos indicar outros transfers que saem direto do Aeroporto. Porém, existem outras empresas que fazem esse serviço, contudo, fique atento a falsos transfers e táxis no Rio de Janeiro.",
-            "pl": "Inne transfery: Nie znamy więc nie możemy wskazać innych transferów, które odjeżdżają bezpośrednio z lotniska. Istnieją jednak inne firmy, które świadczą takie usługi, jednak należy uważać na fałszywe transfery i taksówki w Rio de Janeiro.",
-            "en": "Other Transfers: We don't know, so we can't recommend other transfers from the Airport. However, there are other companies that provide this service, but be aware of false transfers and taxis in Rio de Janeiro.",
-            "es": "Otros Traslados: No lo sabemos, por lo que no podemos indicar otros traslados que salgan directamente del Aeropuerto. Aunque hay otras empresas que posen este servicio, tenga cuidado con los traslados y taxis falsos en Río de Janeiro."
           }
         ]
       },
@@ -1588,9 +1594,9 @@
         },
         "answers": {
           "pt": "O Aeroporto de Cabo Frio é o mais próximo de Búzios e só recebe vôos de Belo Horizonte pela companhia aérea Azul e raramente alguns de São Paulo, mas não recebe vôos internacionais. Portanto, a princípio, não é nossa prioridade fornecer transfer do Aeroporto de Cabo Frio. No entanto, se houver muita demanda, podemos fornecer um orçamento mais próximo da data. De qualquer forma, um Uber (ou App 99) geralmente cobra em torno de R$100,00 para fazer o trajeto de Cabo Frio a Búzios (até a região de Manguinhos ou Geribá).",
-          "pl": "Lotnisko Cabo Frio jest najbliższym lotniskiem do Búzios i przyjmuje tylko loty z Belo Horizonte obsługiwane przez linię lotniczą Azul i rzadko kilka z São Paulo, ale nie obsługuje lotów międzynarodowych. Dlatego początkowo nie jest to naszym priorytetem, aby zapewnić transfer z lotniska Cabo Frio. Jeśli jednak istnieje duże zapotrzebowanie, możemy podać cenę bliżej daty. W każdym razie Uber (lub aplikacja 99) zazwyczaj pobiera około R$100,00 za podróż z Cabo Frio do Búzios (do regionu Manguinhos lub Geribá).",
+          "pl": "Lotnisko Cabo Frio jest najbliższym lotniskiem do Búzios i przyjmuje tylko loty z Belo Horizonte obsługiwane przez linię lotniczą Azul i rzadko kilka z São Paulo, ale nie obsługuje lotów międzynarodowych. Dlatego początkowo nie jest to naszym priorytetem zapewnienie transferu z lotniska Cabo Frio. Jeśli jednak istnieje duże zapotrzebowanie, możemy podać cenę bliżej daty. W każdym razie, Uber (lub aplikacja 99) zazwyczaj pobiera około R$100,00 za podróż z Cabo Frio do Buzios (do regionu Manguinhos lub Geribá).",
           "en": "Cabo Frio Airport is the closest to Búzios and only receives flights from Belo Horizonte by the Azul airline and rarely some from São Paulo, but does not receive international flights. Therefore, initially, it is not our priority to provide transfer from Cabo Frio Airport. However, if there is a high demand, we can provide a quote closer to the date. In any case, an Uber (or App 99) usually charges around R$100.00 to make the trip from Cabo Frio to Búzios (up to the Manguinhos or Geribá region).",
-          "es": "El Aeropuerto de Cabo Frio es el más cercano a Búzios y solo recibe vuelos desde Belo Horizonte de la aerolínea Azul y raramente algunos desde São Paulo, pero no recibe vuelos internacionales. Por lo tanto, al principio no es nuestra prioridad proporcionar traslado desde el aeropuerto de Cabo Frio. Sin embargo, si hay mucha demanda, podemos proporcionar un presupuesto más cercano a la fecha. De todos modos, un Uber (o la aplicación 99) suele cobrar alrededor de R$100,00 para realizar el viaje desde Cabo Frio a Búzios (hasta la región de Manguinhos o Geribá)."
+          "es": "El Aeropuerto de Cabo Frio es el más cercano a Búzios y solo recibe vuelos desde Belo Horizonte de la aerolínea Azul y raramente algunos desde São Paulo, pero no recibe vuelos internacionales. Por lo tanto, al principio no es nuestra prioridad proporcionar traslado desde el aeropuerto de Cabo Frio, sin embargo, si hay mucha demanda, podemos cotizar un valor más cercano a la fecha. De todos modos, un Uber (o App 99) suele cobrar alrededor de R$100,00 para realizar el viaje desde Cabo Frio a Búzios (hasta la región de Manguinhos o Geribá)."
         }
       },
       {
@@ -1775,16 +1781,16 @@
           "es": "Hay dos rutas que pueden ser la mejor opción y la elección del novio para ir a Brasil."
         },
         "answer2": {
-          "pt": "Opção 1: KLM:",
-          "pl": "Opcja 1: KLM:",
-          "en": "Option 1: KLM:",
-          "es": "Opción 1: KLM:"
+          "pt": "- Opção 1: KLM:",
+          "pl": "- Opcja 1: KLM:",
+          "en": "- Option 1: KLM:",
+          "es": "- Opción 1: KLM:"
         },
         "answer3": {
-          "pt": "Opção 2: Lufthansa",
-          "pl": "Opcja 2: Lufthansa",
-          "en": "Option 2: LUFTHANSA",
-          "es": "Opción 2: LUFTHANSA"
+          "pt": "- Opção 2: Lufthansa",
+          "pl": "- Opcja 2: Lufthansa",
+          "en": "- Option 2: LUFTHANSA",
+          "es": "- Opción 2: LUFTHANSA"
         },
         "flightKLM": [
           {
@@ -1826,10 +1832,12 @@
             "es": "Costo total por persona: alrededor de PLN 4.300"
           }
         ],
-        "pt": "[Visto pela última vez em Outubro 2023]",
-        "pl": "[Ceny aktualne na Październik 2023]",
-        "en": "[Last seen in October 2023]",
-        "es": "[Visto la última vez en Octobre2023]"
+        "answer4": {
+          "pt": "[Visto pela última vez em Outubro 2023]",
+          "pl": "[Ceny aktualne na Październik 2023]",
+          "en": "[Last seen in October 2023]",
+          "es": "[Visto la última vez en Octobre2023]"
+        }
       }
     ]
   }
