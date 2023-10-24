@@ -22,7 +22,7 @@ const QeA = () => {
       A: [
         {
           id: 2,
-          description: [
+          lista: [
             text.QEA.Accordion[1].answers[language],
             text.QEA.Accordion[1].answers2[language],
           ],
@@ -34,7 +34,7 @@ const QeA = () => {
       A: [
         {
           id: 3,
-          description: [
+          lista: [
             text.QEA.Accordion[2].answers[language],
             text.QEA.Accordion[2].answers2[language],
           ],
