@@ -182,7 +182,7 @@ const QeA = () => {
     {
       Q: text.QEA.Accordion[13].questions[language],
       A: [
-        {description:text.QEA.Accordion[13].answers[language]},
+        { description: text.QEA.Accordion[13].answers[language] },
         {
           id: 14,
           description: [text.QEA.Accordion[13].answer2[language]],
