@@ -182,34 +182,21 @@ const QeA = () => {
     {
       Q: text.QEA.Accordion[13].questions[language],
       A: [
+        {description:text.QEA.Accordion[13].answers[language]},
         {
           id: 14,
-          description: [text.QEA.Accordion[13].answers[language]],
-          emprAir: ["KLM:"],
-          descriptionData: ["Cracóvia – Rio de Janeiro 09.05.2024"],
+          description: [text.QEA.Accordion[13].answer2[language]],
+          lista: [
+            text.QEA.Accordion[13].flightKLM[0][language],
+            text.QEA.Accordion[13].flightKLM[1][language],
+            text.QEA.Accordion[13].flightKLM[2][language],
+          ],
+
+          emprAir: [text.QEA.Accordion[13].answer3[language]],
           additionalInfo: [
-            "1ª parada: Cracóvia – Amsterdam (06:35 – 08:35; duração: 2h)",
-            "Parada 4h 15 min",
-            "2ª parada: Amsterdã – Rio de Janeiro (12h50 – 19h45; duração: 11h 55min)",
-            "Rio de Janeiro – Cracóvia 19.05.2024 (chegada a Cracóvia em 20.05.2024)",
-            "1ª parada: Rio de Janeiro – Amsterdã (21h55, 19.05.2024 – 14h25, 20.05.2024; duração: 11h 30 min)",
-            "Parada: 6h 10 min",
-            "2ª parada: Amsterdã – Cracóvia (20h35 – 22h25; duração: 1h 50 min)",
-            "Custo total por pessoa: cerca de 3 800 PLN",
-          ],
-          additionalInfoemprAir: ["Lufthansa"],
-          additionalInfodescriptionData: [
-            "Cracóvia – Rio de Janeiro 09.05.2024",
-          ],
-          additionalInfodescription: [
-            "1ª parada: Cracóvia – Munique (06:00 – 07:20; duração: 1h 20 min)",
-            "Parada 4h 55 min",
-            "2ª parada: Munique – Rio de Janeiro (12h15 – 19h05; duração: 11h 50 min)",
-            "Rio de Janeiro – Cracóvia 19.05.2024 (chegada a Cracóvia em 20.05.2024",
-            "1ª parada: Rio de Janeiro – Munique (20h50, 19.05.2024 – 13h15, 20.05.2024; duração: 11h 25 min)",
-            "Parada: 8h 45 min",
-            "2ª parada: Munique – Cracóvia (22:00 – 23h20; duração: 1h 20 min)",
-            "Custo total por pessoa: cerca de 4 800 PLN",
+            text.QEA.Accordion[13].flightLUFTHANSA1[0][language],
+            text.QEA.Accordion[13].flightLUFTHANSA1[1][language],
+            text.QEA.Accordion[13].flightLUFTHANSA1[2][language],
           ],
         },
       ],
