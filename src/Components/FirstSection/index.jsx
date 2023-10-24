@@ -28,7 +28,7 @@ export const FirstSection = ({ title, subtitle, paragraph1, paragraph2, paragrap
             ) : (
                 <Stack width="100%" alignItems="center">
                     <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
-                        {`${text.MenuHeaderLinks.wedding[language]}`}
+                        {`${title}`}
                     </StyledText>
                     <StyledText fontSize={theme.spacing(5.5)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans">
                         {subtitle}

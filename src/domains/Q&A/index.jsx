@@ -211,10 +211,9 @@ const QeA = () => {
   return (
     <Stack width="100%" height="100%" mb={0}>
       <FirstSection
-        title={text.Wedding.title[language]}
-        subtitle={text.Wedding.subTitle[language]}
-        paragraph1={text.Wedding.introP1[language]}
-        paragraph2={text.Wedding.introP2[language]}
+        title={text.QEA.titleP1[language]}
+        subtitle={text.QEA.subTitle[language]}
+        paragraph1={text.QEA.introP1[language]}
       />
 
       <QAAccordion data={data} />

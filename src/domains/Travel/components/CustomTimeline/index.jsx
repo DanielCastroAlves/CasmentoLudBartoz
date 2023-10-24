@@ -18,8 +18,8 @@ export default function CustomTimeline({ topics }) {
       {topics.map((item) => (
         <PlanTravel key={item.id}>
           <ContainerData>
-            <TitleDay>{item.date[language]}</TitleDay>
-            <NumberDay>{item.day[language]}</NumberDay>
+            <TitleDay>{item.day[language]}</TitleDay>
+            <NumberDay>{item.date[language]}</NumberDay>
           </ContainerData>
           <ContainerDescription>
             <TravelDescription>

@@ -26,17 +26,17 @@ const Travel = () => {
   const citys = [
     {
       id: 1,
-      title: "Rio de Janeiro",
+      title: text.Travel.CardsSubPag.Titulo2[language],
       image: rioImage,
       destination: "travel/rio-de-janeiro",
-      description: "EVERYTHING YOU SHOULD KNOW BEFORE ARRIVE THERE!",
+      description: text.Travel.CardsSubPag.Body1[language],
     },
     {
       id: 2,
-      title: "Buzios",
+      title: text.Travel.CardsSubPag.Titulo1[language],
       image: buziosImage,
       destination: "travel/buzios",
-      description: "EVERYTHING YOU SHOULD KNOW BEFORE ARRIVE THERE!",
+      description: text.Travel.CardsSubPag.Body1[language],
     },
   ];
 
@@ -56,10 +56,10 @@ const Travel = () => {
   return (
     <Stack width="100%" height="100%" mb={10}>
       <FirstSection
-        title={text.Wedding.title[language]}
-        subtitle={text.Wedding.subTitle[language]}
-        paragraph1={text.Wedding.introP1[language]}
-        paragraph2={text.Wedding.introP2[language]}
+        title={text.Travel.title[language]}
+        subtitle={text.Travel.subTitle[language]}
+        paragraph1={text.Travel.introP1[language]}
+        paragraph2={text.Travel.introP2[language]}
       />
 
       <Box
@@ -81,48 +81,26 @@ const Travel = () => {
         }}
       >
         <ContainerPageCity>
-          <TituloDescription>Lorem ipsum</TituloDescription>
+          <TituloDescription>
+            {text.Travel.Heading2[language]}
+          </TituloDescription>
+          <Description>{text.Travel.Body2P1[language]}</Description>
           <Description>
-            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
-            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
-            pellentesque consectetur lacus habitant. In faucibus massa augue
-            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
-            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
-            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
-            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
-            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
-            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
-            malesuada viverra nisi adipiscing.
+            {" "}
+            <ul>
+              <li>{text.Travel.storypoints[0][language]}</li>
+              <li>{text.Travel.storypoints[1][language]}</li>
+              <li>{text.Travel.storypoints[2][language]}</li>
+            </ul>
           </Description>
-          <Description>
-            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
-            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
-            pellentesque consectetur lacus habitant. In faucibus massa augue
-            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
-            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
-            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
-            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
-            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
-            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
-            malesuada viverra nisi adipiscing.
-          </Description>
-          <Description>
-            At ultricies scelerisque consequat sed vestibulum. Vel hac aliquet
-            mollis suspendisse auctor ut. Urna volutpat enim in vitae cursus
-            pellentesque consectetur lacus habitant. In faucibus massa augue
-            pretium pellentesque tincidunt. Dolor fringilla vivamus ullamcorper
-            pellentesque blandit integer. Sed massa turpis proin nulla quam id.
-            Etiam amet massa vulputate pretium sed. Lectus fames quam purus
-            vulputate. Urna lectus ut sed posuere amet mauris semper tempus.
-            Feugiat nunc netus nisl iaculis ultrices netus. Varius volutpat
-            facilisis vel nisi nisl sapien egestas a pharetra. Volutpat
-            malesuada viverra nisi adipiscing.
-          </Description>
+
+          <Description>{text.Travel.Body2P2[language]}</Description>
+          <Description>{text.Travel.Body2P3[language]}</Description>
         </ContainerPageCity>
       </Box>
       <ContainerCarouselTravel>
         <Carousel
-        className="tees"
+          className="tees"
           additionalTransfrom={0}
           arrows={false}
           autoPlaySpeed={3000}
@@ -150,7 +128,7 @@ const Travel = () => {
                 min: 1280,
               },
               items: 2.2,
-            //partialVisibilityGutter: 100,
+              //partialVisibilityGutter: 100,
               //centerMode: true,
             },
             mobile: {
@@ -160,7 +138,6 @@ const Travel = () => {
               },
               items: 1,
               centerMode: false,
-          
             },
             tablet: {
               breakpoint: {

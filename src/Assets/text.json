@@ -920,6 +920,13 @@
       "en": "We suggest about 10 days trip to get to know the city of Búzios, the region known as the ‘Brazilian Caribbean’, and get to know Rio de Janeiro. We are still organising some tourism plan with a fair price for transport of transfer and tours ensuring safety and fun. More information available by e-mail after the attendance confirmation!",
       "es": "Sugerimos 10 días para conocer la ciudad de Búzios, la región conocida como el Caribe brasileño, y conocer Río de Janeiro. Todavía estamos planificandoa algunos paseos turísticos con un valor justo de transporte para translados y visitas turísticas, garantizando seguridad y diversión. ¡Pronto más información por correo electrónico después de la confirmación de presencia!"
     },
+
+    "introP2": {
+      "pt": "Nossa sugestão de roteiro será baseado nessas datas:",
+      "pl": "Nasz sugerowany plan podróży będzie oparty następujących datach:",
+      "en": "Our itinerary suggestion will be based on these dates:",
+      "es": "Nuestra sugerencia de itinerario se basará en estas fechas:"
+    },
     "itineraryLabel": {
       "pt": "Linha do Tempo",
       "pl": "Linha do Tempo",
@@ -946,7 +953,7 @@
           "en": "Arrival in Armação de Búzios, Rio de Janeiro",
           "es": "Llegada a Armação de Búzios, Río de Janeiro."
         },
-        "id": 1,
+        "id": 2,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -968,21 +975,21 @@
           "en": "Tour in the Lakes Region",
           "es": "Tour en la Región de los Lagos"
         },
-        "id": 2,
+        "id": 3,
         "icon": "CheckCircleOutlineIcon"
       },
       {
-        "date": {
-          "pt": "11.05.24",
-          "pl": "11.05.24",
-          "en": "11.05.24",
-          "es": "11.05.24"
-        },
         "day": {
           "pt": "Sábado",
           "pl": "Sobota",
           "en": "Saturday",
           "es": "Sábado"
+        },
+        "date": {
+          "pt": "11.05.24",
+          "pl": "11.05.24",
+          "en": "11.05.24",
+          "es": "11.05.24"
         },
         "description": {
           "pt": "Pre Wedding",
@@ -990,7 +997,7 @@
           "en": "Pre-Wedding",
           "es": "Pre-Wedding"
         },
-        "id": 3,
+        "id": 4,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -1012,7 +1019,7 @@
           "en": "Marriage",
           "es": "Casamiento"
         },
-        "id": 4,
+        "id": 5,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -1034,7 +1041,7 @@
           "en": "Walk on the beaches of Búzios",
           "es": "Paseo por las playas de Búzios"
         },
-        "id": 5,
+        "id": 6,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -1056,7 +1063,7 @@
           "en": "Transfer Rio with Tour Rio de Janeiro",
           "es": "Transfer Rio con Tour Rio de Janeiro"
         },
-        "id": 6,
+        "id": 7,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -1078,7 +1085,7 @@
           "en": "Tour of Rio de Janeiro",
           "es": "Tour Río de Janeiro"
         },
-        "id": 7,
+        "id": 8,
         "icon": "CheckCircleOutlineIcon"
       },
       {
@@ -1093,28 +1100,6 @@
           "pl": "16.05.24",
           "en": "16.05.24",
           "es": "16.05.24"
-        },
-        "description": {
-          "pt": "Tour Rio de Janeiro",
-          "pl": "Rio de Janeiro Tour",
-          "en": "Tour of Rio de Janeiro",
-          "es": "Tour Río de Janeiro"
-        },
-        "id": 8,
-        "icon": "CheckCircleOutlineIcon"
-      },
-      {
-        "day": {
-          "pt": "Sexta",
-          "pl": "Piątek",
-          "en": "Friday",
-          "es": "Viernes"
-        },
-        "date": {
-          "pt": "17.05.24",
-          "pl": "17.05.24",
-          "en": "17.05.24",
-          "es": "17.05.24"
         },
         "description": {
           "pt": "Tour Rio de Janeiro",
@@ -1435,7 +1420,7 @@
   },
   "QEA": {
     "titleP1": {
-      "pt": "Perguntas Frequentes",
+      "pt": "Perguntas e Respostas",
       "pl": "Pytania i Odpowiedzi",
       "en": "Questions and Answers",
       "es": "Preguntas Frecuentes"
