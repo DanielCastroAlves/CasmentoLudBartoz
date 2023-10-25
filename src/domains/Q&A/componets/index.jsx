@@ -96,7 +96,9 @@ export default function QAAccordion({ data }) {
                 {item.A.map((paragraph, i) => (
                   <ListItem key={i}>
                     {paragraph.description && (
-                      <Description>{paragraph.description}</Description>
+                        <Description dangerouslySetInnerHTML={ {__html: paragraph.description} } />
+                    //   <Description>{paragraph.description}</Description>
+                    //   <Description>{paragraph.description}</Description>
                     )}
                     {paragraph.lista && (
                       <SubList>

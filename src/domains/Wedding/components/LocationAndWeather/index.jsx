@@ -121,7 +121,7 @@ export const LocationAndWeather = () => {
                     <CeremonyContainerMobile>
                         <Stack width="100%" gap={2} alignItems="center">
                             <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
-                                {text.preWedding.boxTitle[language]}
+                            {text.preWedding.BoxEvent.boxTitle[language]}
                             </Typography>
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
                                 {language === "es" ? (
