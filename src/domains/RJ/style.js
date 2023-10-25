@@ -144,16 +144,17 @@ const ContainerTitleBanner = styled("div")(({ theme }) => ({
 }));
 
 const ContainerPageCity = styled("div")(({ theme }) => ({
+  width:"70rem",
   display: "flex",
   flexDirection: "column",
   margin: "auto 0.75rem",
   marginBottom: "3.75rem",
 
   [createMediaQuery("sm")]: {
-    width: "",
+    width: "80%",
   },
   [createMediaQuery("md")]: {
-    width: "",
+    width: "80%",
   },
 }));
 

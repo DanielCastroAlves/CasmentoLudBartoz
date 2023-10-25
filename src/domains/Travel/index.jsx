@@ -8,15 +8,10 @@ import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
 import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 
-import iconR from "../../Assets/Images/iconRt.svg";
-import iconL from "../../Assets/Images/iconLf.svg";
 import Carousel from "react-multi-carousel";
 import {
   ContainerCarouselTravel,
-  CustomArrowButtonLeftTravel,
-  CustomArrowButtonRightTravel,
-  CustomArrowButtonTravel,
-  CustomButtonGroupTravel,
+ 
 } from "./components/CardPage/style";
 import { ContainerPageCity, Description, TituloDescription } from "../RJ/style";
 
@@ -40,18 +35,7 @@ const Travel = () => {
     },
   ];
 
-  const CustomButtonGroupAsArrowsTravel = ({ next, previous }) => {
-    return (
-      <CustomButtonGroupTravel>
-        <CustomArrowButtonLeftTravel onClick={() => previous()}>
-          <CustomArrowButtonTravel src={iconL} alt="Left Arrow" />
-        </CustomArrowButtonLeftTravel>
-        <CustomArrowButtonRightTravel onClick={() => next()}>
-          <CustomArrowButtonTravel src={iconR} alt="Right Arrow" />
-        </CustomArrowButtonRightTravel>
-      </CustomButtonGroupTravel>
-    );
-  };
+ 
 
   return (
     <Stack width="100%" height="100%" mb={10}>
@@ -100,64 +84,62 @@ const Travel = () => {
       </Box>
       <ContainerCarouselTravel>
         <Carousel
-          className="tees"
-          additionalTransfrom={0}
-          arrows={false}
-          autoPlaySpeed={3000}
-          customButtonGroup={<CustomButtonGroupAsArrowsTravel />}
-          focusOnSelect={false}
-          keyBoardControl
-          minimumTouchDrag={80}
-          pauseOnHover
-          renderArrowsWhenDisabled={false}
-          renderButtonGroupOutside
-          renderDotsOutside={false}
-          responsive={{
-            desktop: {
-              breakpoint: {
-                max: 3000,
-                min: 1441,
-              },
-              items: 2.8,
-              partialVisibilityGutter: 100,
-              centerMode: true,
-            },
-            desktopOld: {
-              breakpoint: {
-                max: 1440,
-                min: 1280,
-              },
-              items: 2.2,
-              //partialVisibilityGutter: 100,
-              //centerMode: true,
-            },
-            mobile: {
-              breakpoint: {
-                max: 464,
-                min: 0,
-              },
-              items: 1,
-              centerMode: false,
-            },
-            tablet: {
-              breakpoint: {
-                max: 1024,
-                min: 465,
-              },
-              items: 1,
-              partialVisibilityGutter: 30,
-            },
-          }}
-          rewind={false}
-          rewindWithAnimation={false}
-          rtl={false}
-          shouldResetAutoplay
-          sliderClass=""
-          slidesToSlide={1}
-          draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
-          swipeable={true}
-          infinite={true}
-        >
+         additionalTransfrom={0}
+         //arrows={isMobile}
+         autoPlaySpeed={3000}
+         draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
+         swipeable={true} // Tornar o scroll mais suave
+         // focusOnSelect={false}
+         // keyBoardControl
+         // minimumTouchDrag={80}
+         // pauseOnHover
+         // renderArrowsWhenDisabled={false}
+         // renderButtonGroupOutside
+         // showDots={true}
+         renderDotsOutside={false}
+         responsive={{
+           desktop: {
+             breakpoint: {
+               max: 3000,
+               min: 1441,
+             },
+             items: 3.4,
+           },
+           desktopOld: {
+             breakpoint: {
+               max: 1440,
+               min: 1024,
+             },
+             items: 2.65,
+             partialVisibilityGutter: 50,
+             centerMode: true,
+           },
+           mobile: {
+             breakpoint: {
+               max: 464,
+               min: 0,
+             },
+             items: 1,
+             centerMode: true,
+             partialVisibilityGutter: 50,
+           },
+           tablet: {
+             breakpoint: {
+               max: 1024,
+               min: 465,
+             },
+             items: 1,
+             partialVisibilityGutter: 30,
+           },
+         }}
+         rewind={false}
+         rewindWithAnimation={false}
+         rtl={false}
+         shouldResetAutoplay
+         sliderClass=""
+         slidesToSlide={1}
+         infinite={true}
+       >
           {citys.map((city) => (
             <CardPage
               key={city.id}
