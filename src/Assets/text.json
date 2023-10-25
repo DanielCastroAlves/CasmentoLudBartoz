@@ -23,6 +23,18 @@
       "pl": "Q&A",
       "en": "Q&A",
       "es": "FAQ"
+    },
+    "weddingGift": {
+      "pt": "Presente de Casamento",
+      "pl": "Prezent Ślubny",
+      "en": "Wedding Gift",
+      "es": "Regalo de Boda"
+    },
+    "teamBrideGroom": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
     }
   },
   "home": {
@@ -642,7 +654,7 @@
       "en": "According to reliable sources (read: the friend who was there confirmed it), Bartosz ran back to the Hotel to pack his bags to return to Poland and have time to be sure it was feasible to travel to Madrid for the next holiday. She, on the other hand, was super suspicious because:",
       "es": "Según fuentes fidedignas (léase: el amigo que estaba allí lo confirmó), Bartosz corrió al Hotel a hacer las maletas para volver a Polonia y asegurarse de que era factible viajar a Madrid para las próximas vacaciones. Ella, por otro lado, estaba súper sospechosa porque:"
     },
-    "storypoints": [
+    "Bloco3Story": [
       {
         "pt": "1- Ele usava somente Facebook: e isso no Brasil é ser muito old school, só pais e tios usam (leia-se: pessoas acima dos 50 anos de idade)... E ele é dois anos mais novo que ela, não era nem de perto um perfil de alguém que usa Facebook.",
         "pl": "1 - Używał tylko Facebooka: a to w Brazylii uważane jest za bardzo oldschoolowe, używają go tylko rodzice i wujkowie (czytaj: ludzie powyżej 50 roku życia)... A on będąc dwa lata młodszy od niej, nie wyglądał zupełnie na kogoś, kto korzysta z Facebooka.",

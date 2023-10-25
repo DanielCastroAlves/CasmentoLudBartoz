@@ -40,7 +40,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("sm")]: {
     display: "flex",
     width: "22.375rem", // 358px
-    height: "28.625rem", // 458px
+    marginLeft: 10,
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "center",
@@ -52,7 +52,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("md")]: {
     display: "flex",
     width: "22.375rem", // 358px
-    height: "28.625rem", // 458px
+    marginLeft: 10,
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "center",
@@ -114,18 +114,28 @@ const ContainerTitleDescription = styled("div")(({ theme }) => ({
   alignItems: "flex-start",
   gap: "1rem", // 16px
   alignSelf: "stretch",
-  [createMediaQuery("lg")]: {},
-  [createMediaQuery("xl")]: {},
-  [createMediaQuery("sm")]: {},
-  [createMediaQuery("md")]: {},
+
+  [createMediaQuery("sm")]: {
+    display: "flex",
+    padding: " 4px 8px",
+
+    gap: "10px",
+    alignSelf: "stretch",
+  },
+  [createMediaQuery("md")]: {
+    display: "flex",
+    padding: " 4px 8px",
+
+    gap: "10px",
+    alignSelf: "stretch",
+  },
 }));
 
 const ContainerLink = styled("div")(({ theme }) => ({
   display: "flex",
   alignItems: "flex-start",
   gap: "1rem", // 16px
-  [createMediaQuery("lg")]: {},
-  [createMediaQuery("xl")]: {},
+
   [createMediaQuery("sm")]: {},
   [createMediaQuery("md")]: {},
 }));
@@ -141,8 +151,8 @@ const ContainerInfo = styled("div")(({ theme }) => ({
   alignSelf: "stretch",
   [createMediaQuery("lg")]: {},
   [createMediaQuery("xl")]: {},
-  [createMediaQuery("sm")]: {},
-  [createMediaQuery("md")]: {},
+  [createMediaQuery("sm")]: { width: "100%" },
+  [createMediaQuery("md")]: { width: "100%" },
 }));
 
 const CardGiftTitle = styled("h6")(({ theme }) => ({
@@ -153,6 +163,8 @@ const CardGiftTitle = styled("h6")(({ theme }) => ({
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: "normal",
+  [createMediaQuery("sm")]: { fontSize: "22px" },
+  [createMediaQuery("md")]: { fontSize: "22px" },
 }));
 
 const CardGiftDescription = styled("p")(({ theme }) => ({
@@ -163,6 +175,8 @@ const CardGiftDescription = styled("p")(({ theme }) => ({
   fontWeight: 400,
   lineHeight: "normal",
   textTransform: "uppercase",
+  [createMediaQuery("sm")]: { fontSize: "14px" },
+  [createMediaQuery("md")]: { fontSize: "14px" },
 }));
 
 const CardGiftMoedas = styled("p")(({ theme }) => ({
