@@ -17,6 +17,7 @@ import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 import text from "../../Assets/text.json";
 import { BreadCrumb } from "../../Components/BreadCrumb";
+import { ButtonNavigation } from "../../Components/ButtonNavigation";
 
 const Historia = () => {
     const { language } = useLanguage();
@@ -27,6 +28,11 @@ const Historia = () => {
         { label: text.MenuHeaderLinks.home[language], url: "/home" },
         { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
         { label: text.story.title[language], url: "/wedding/ourhistory" },
+    ];
+
+    const path = [
+        { label: text.gifts.title[language], url: "/wedding/gifts" },
+        { label: text.dressCode.title[language], url: "/wedding/gifts" },
     ];
 
     return (
@@ -182,6 +188,7 @@ const Historia = () => {
                     urna fermentum sit leo feugiat neque lobortis aliquam. Nibh urna nibh et sagittis sem eget mauris. Risus purus interdum lorem sit quis in vulputate cursus adipiscing.
                 </CustomParagraph>
             </SectionText>
+            <ButtonNavigation path={path} />
         </Stack>
     );
 };
