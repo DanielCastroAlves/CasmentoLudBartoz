@@ -12,9 +12,9 @@ export const FirstSection = ({ title, subtitle, paragraph1, paragraph2, paragrap
         <WeddingContainer px={isMobile ? theme.spacing(4) : theme.spacing(42.75)}>
             {isMobile ? (
                 <Stack width="100%" alignItems="center">
-                    <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
+                  {/*   <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
                         {text.MenuHeaderLinks.wedding[language]}
-                    </StyledText>
+                    </StyledText> */}
                     <StyledText fontSize={isMobile ? theme.spacing(5.5) : theme.spacing(8)} fontWeight={700} color={theme.palette.primary.main}>
                         {title}
                     </StyledText>

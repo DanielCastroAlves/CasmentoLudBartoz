@@ -71,6 +71,7 @@ export const Gifts = () => {
         spacing={2}
         justifyContent={isMobile ? "flex-start" : "center"}
         alignItems="center"
+        marginTop={"20px"}
       >
         {topics.map((item) => (
           <Grid item xs={12} sm={"auto"} key={item.title}>

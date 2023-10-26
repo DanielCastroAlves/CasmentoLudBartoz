@@ -219,99 +219,311 @@
             }
         }
     },
-    "preWedding": {
-        "title": {
-            "pt": "Pre Wedding",
-            "pl": "Pre Wedding",
-            "en": "Pre Wedding",
-            "es": "Pre Wedding"
-        },
-        "subtitle": {
-            "pt": "QUE TAL APRECIAR O PÔR-DO-SOL JUNTOS?",
-            "pl": "CO POWIESZ NA PODZIWIANIE ZACHODU SŁOŃCA Z ODROBINĄ SAMBY W TLE?",
-            "en": "WHAT ABOUT ENJOY THE SUNSET TOGETHER?",
-            "es": "¿QUÉ TAL DESFRUTAR DE LA PUESTA DEL SOL JUNTOS?"
-        },
-        "introP1": {
-            "pt": "Pre-Wedding é uma confraternização mais simples antes do casamento para que os convidados possam se conhecer antes da festa. Decidimos fazer algo bem informal mas em um lugar especial em Búzios para unir um pouco a galera presente para apreciar o pôr-do-sol.",
-            "pl": "Pre-Wedding to skromniejsze przyjęcie przed ślubem, aby goście mogli się poznać przed główną imprezą. Postanowiliśmy zrobić coś bardzo nieformalnego ale w szczególnym miejscu w Búzios, aby zapoznać ze sobą trochę zaproszonych gości i cieszyć się zachodem słońca.",
-            "en": "Pre-Wedding is a get-together before the wedding, so guests have the chance to meet up before the party with other guests. We decided to do something very informal but in a special place in Búzios to unite our people to enjoy the sunset with us.",
-            "es": "La pre-boda es una reunión antes de la boda para que los invitados puedan conocerse antes de la fiesta. Decidimos hacer algo muy informal pero en un lugar especial en Búzios para unir nuestros invitados  para disfrutar del atardecer con nosostros."
-        },
-        "introP2": {
-            "pt": "Mais informações por e-mail depois da confirmação de presença.",
-            "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
-            "en": "More information by email after RSVP.",
-            "es": "Más información por correo electrónico después de la confirmación de asistencia."
-        },
-        "BoxEvent": {
-            "boxTitle": {
-                "pt": "Sunset Party",
-                "pl": "Sunset Party",
-                "en": "Sunset Party",
-                "es": "Sunset Party"
-            },
-            "savethedate1": {
-                "pt": "Save",
-                "pl": "Save",
-                "en": "Save",
-                "es": "Save"
-            },
-            "savethedate2": {
-                "pt": "the",
-                "pl": "the",
-                "en": "the",
-                "es": "the"
-            },
-            "savethedate3": {
-                "pt": "Date",
-                "pl": "Date",
-                "en": "Date",
-                "es": "Date"
-            },
-            "dateTime": {
-                "pt": "11 de Maio de 2024 às 16:00",
-                "pl": "11 maja 2024 roku o godzinie 16:00",
-                "en": "May 11th, 2024 at 16:00 PM",
-                "es": "11 de mayo de 2024 a las 16:00"
-            },
-            "Titlebox": {
-                "pt": "Sirena Gastrobar",
-                "pl": "Sirena Gastrobar",
-                "en": "Sirena Gastrobar",
-                "es": "Sirena Gastrobar"
-            },
-            "addressP1": {
-                "pt": "Armação de Búzios.",
-                "pl": "Miasto Armação de Búzios.",
-                "en": "Armação de Búzios City.",
-                "es": "Ciudad de Armação de Búzios."
-            },
-            "addressP2": {
-                "pt": "Rio de Janeiro, Brasil",
-                "pl": "Stan Rio de Janeiro, Brazylia.",
-                "en": "Rio de Janeiro State, Brazil",
-                "es": "Estado de Rio de Janeiro, Brasil"
-            },
-            "dressCodeTitle": {
-                "pt": "Dress Code",
-                "pl": "Dress Code",
-                "en": "Dress Code",
-                "es": "Dress Code"
-            },
-            "dressCode": {
-                "pt": "Livre",
-                "pl": "Dowolny",
-                "en": "Free",
-                "es": "Libre"
-            }
-        },
-        "dressCode": {
-            "pt": "Livre",
-            "pl": "Dowolny",
-            "en": "Free",
-            "es": "Libre"
-        }
+    "travel": {
+      "pt": "Viagem",
+      "pl": "Podróż",
+      "en": "Travel",
+      "es": "Viaje"
+    },
+    "qea": {
+      "pt": "FAQ",
+      "pl": "Q&A",
+      "en": "Q&A",
+      "es": "FAQ"
+    },
+    "weddingGift": {
+      "pt": "Presente de Casamento",
+      "pl": "Prezent Ślubny",
+      "en": "Wedding Gift",
+      "es": "Regalo de Boda"
+    },
+    "teamBrideGroom": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
+    }
+  },
+  "home": {
+    "TtitleSite": {
+      "pt": "Ludmilla & Bartosz",
+      "pl": "Ludmilla & Bartosz",
+      "en": "Ludmilla & Bartosz",
+      "es": "Ludmilla & Bartosz"
+    },
+    "SubtitleSite": {
+      "pt": "12.05.2024 | BÚZIOS",
+      "pl": "12.05.2024 | BÚZIOS",
+      "en": "12.05.2024 | BÚZIOS",
+      "es": "12.05.2024 | BÚZIOS"
+    },
+    "Title": {
+      "pt": "RSVP",
+      "pl": "RSVP",
+      "en": "RSVP",
+      "es": "RSVP"
+    },
+    "Subtitle": {
+      "pt": "RÉPONDEZ S'IL VOUS PLAÎT",
+      "pl": "RÉPONDEZ S'IL VOUS PLAÎT",
+      "en": "RÉPONDEZ S'IL VOUS PLAÎT",
+      "es": "RÉPONDEZ S'IL VOUS PLAÎT"
+    }
+  },
+  "Wedding": {
+    "title": {
+      "pt": "Casamento",
+      "pl": "Ślub",
+      "en": "Ludmilla & Bartosz's",
+      "es": "Boda"
+    },
+    "titleP2": {
+      "pt": "Ludmilla & Bartosz",
+      "pl": "Ludmilly & Bartosza",
+      "en": "Wedding",
+      "es": "Ludmilla & Bartosz"
+    },
+    "subTitle": {
+      "pt": "BORA NOS EMOCIONAR JUNTOS E CURTIR UM DIA INESQUECÍVEL COM A GENTE?",
+      "pl": "DAJMY SIĘ PONIEŚĆ EMOCJOM I PRZEŻYJMY RAZEM NIEZAPOMNIANY DZIEŃ",
+      "en": "LET'S ENJOY TOGETHER AN UNFORGETTABLE DAY WITH US?",
+      "es": "¿VAMOS DISFRUTAR JUNTOS UN DÍA INOLVIDABLE?"
+    },
+    "introP1": {
+      "pt": "Nada contra quem case em igreja, mas ter o fundo do mar como vista para dizer o esperado 'sim!' no altar é muito mais incrível!",
+      "pl": "Nie ma nic przeciwko ślubom w kościele ale widok na morze jako tło do powiedzenia 'yes, I do!' jest o wiele bardziej niesamowite!",
+      "en": "Getting married in a church has its charm, but having the see view as the background for the ‘yes, I do!’ is unique!",
+      "es": "Nada en contra de casarse en una iglesia, pero tener la vista del mar para decir ¡sí, quiero! es mucho más increíble!"
+    },
+    "introP2": {
+      "pt": "Encontramos um lugar desses para unir a Cerimônia Religiosa para abençoar nossa união e, em seguida, teremos a festa no mesmo lugar, ao som do DJ Tilulu e convidados especiais pra aproveitar o dia, com o melhor pôr-do-sol de Búzios e o cair da noite com a brisa fresca do mar...",
+      "pl": "Dlatego znaleźliśmy idealne miejsce gdzie będziemy mogli odbyć ceremonię religijną, aby pobłogosławić nasz związek, a następnie zorganizujemy imprezę przy dźwiękach DJ Tilulu i Goście-DJ będący niespodzianką, aby cieszyć się dniem, z najlepszym zachodem słońca w Búzios i nocą przy świeżej morskiej bryzie..,",
+      "en": "We found this kind of place to have the Religious Ceremony to bless our union followed by the reception in the same place with DJ Tilulu and Special Guests DJs to make our day unforgettable, feeling the sea breeze in the best sunset spot in Búzios...",
+      "es": "Encontramos un lugar así para unir la Ceremonia Religiosa para bendecir nuestra unión y luego tendremos la recepción en el mismo lugar, con el DJ Tilulu y DJs invitados especiales para disfrutar el día, con el mejor atardecer de Búzios con la brisa fresca del mar..."
+    },
+    "introP3": {
+      "pt": "Só não se esqueça de confirmar presença!",
+      "pl": "Tylko nie zapomnij potwierdzić swojej obecności!",
+      "en": "Just don't forget to RSVP!",
+      "es": "¡Solo no se olvide confirmar tu asistencia!"
+    },
+    "BoxEvent": {
+      "boxTitle": {
+        "pt": "Cerimônia & Festa",
+        "pl": "Ceremonia i Przyjęcie",
+        "en": "eremony and Reception",
+        "es": "Ceremonia y Fiesta"
+      },
+      "savethedate1": {
+        "pt": "Save",
+        "pl": "Save",
+        "en": "Save",
+        "es": "Save"
+      },
+      "savethedate2": {
+        "pt": "the",
+        "pl": "the",
+        "en": "the",
+        "es": "the"
+      },
+      "savethedate3": {
+        "pt": "Date",
+        "pl": "Date",
+        "en": "Date",
+        "es": "Date"
+      },
+      "dateTime": {
+        "pt": "12 de Maio de 2024 às 15:00",
+        "pl": "12 maja 2024 roku o godzinie 15:00",
+        "en": "May 12th, 2024 at 3:00 PM",
+        "es": "12 de mayo de 2024 a las 15:00"
+      },
+      "Titlebox": {
+        "pt": "Villa Três Marias",
+        "pl": "Villa Três Marias",
+        "en": "Villa Três Marias",
+        "es": "Villa Três Marias"
+      },
+      "addressP1": {
+        "pt": "Armação de Búzios.",
+        "pl": "Miasto Armação de Búzios.",
+        "en": "Armação de Búzios City.",
+        "es": "Ciudad de Armação de Búzios."
+      },
+      "addressP2": {
+        "pt": "Rio de Janeiro, Brasil",
+        "pl": "Stan Rio de Janeiro, Brazylia.",
+        "en": "Rio de Janeiro State, Brazil",
+        "es": "Estado de Rio de Janeiro, Brasil"
+      },
+      "dressCodeTitle": {
+        "pt": "Dress Code",
+        "pl": "Dress Code",
+        "en": "Dress Code",
+        "es": "Dress Code"
+      },
+      "dressCode": {
+        "pt": "Semi-Formal Beach",
+        "pl": "Półformalna Plaża",
+        "en": "Semi-Formal Beach",
+        "es": "Playa Semiformal"
+      }
+    },
+    "weatherLabel": {
+      "pt": "Previsão do Tempo",
+      "pl": "Prognoza Pogody",
+      "en": "Weather Forecast",
+      "es": "Pronóstico del Tiempo"
+    },
+    "Cards_Carrousel": {
+      "Card01": {
+        "pt": "Pre Wedding",
+        "pl": "Pre Wedding",
+        "en": "Pre Wedding",
+        "es": "Pre Wedding"
+      },
+      "Content01": {
+        "pt": "Vamos ver o pôr-do-sol mais bonito da cidade juntos?",
+        "pl": "Chcecie obejrzyć razem zachód słońca?",
+        "en": "Let's watch the sunset together?",
+        "es": "¿Qué tal una reunión en la puesta-del-sol?"
+      },
+      "Card02": {
+        "pt": "Dress Code",
+        "pl": "Dress Code",
+        "en": "Dress Code",
+        "es": "Dress Code"
+      },
+      "Content02": {
+        "pt": "Com que roupa eu vou?",
+        "pl": "Co powinienem założyć?",
+        "en": "What should I wear?",
+        "es": "Qué vestir en la boda?"
+      },
+      "Card03": {
+        "pt": "Presente de Casamento",
+        "pl": "Prezent Ślubny",
+        "en": "Wedding Gift",
+        "es": "Regalo de Boda"
+      },
+      "Content03": {
+        "pt": "Antes de presentear, leia isso!",
+        "pl": "Przeczytaj to, zanim podarujesz nam prezent!",
+        "en": "Read this before gifting us!",
+        "es": "Leya antes de regalarnos!"
+      },
+      "Card04": {
+        "pt": "Nossa História",
+        "pl": "Nasza Historia",
+        "en": "Our Story",
+        "es": "Nuestra Historia"
+      },
+      "Content04": {
+        "pt": "Como tudo começou e evoluiu até hoje...",
+        "pl": "Jak to wszystko się zaczęło i jak daleko zaszło...",
+        "en": "How everything began and got so far...",
+        "es": "Cómo todo ha empezado y se desarrolló hasta al día de hoy..."
+      },
+      "Card05": {
+        "pt": "Team Bride & Groom",
+        "pl": "Team Bride & Groom",
+        "en": "Team Bride & Groom",
+        "es": "Team Bride & Groom"
+      },
+      "Content05": {
+        "pt": "Essa é a nossa panelinha!",
+        "pl": "To jest nasza załoga",
+        "en": "This is our crew!",
+        "es": "Esta es nuestra pandilla!"
+      }
+    }
+  },
+  "preWedding": {
+    "title": {
+      "pt": "Pre Wedding",
+      "pl": "Pre Wedding",
+      "en": "Pre Wedding",
+      "es": "Pre Wedding"
+    },
+    "subtitle": {
+      "pt": "QUE TAL APRECIAR O PÔR-DO-SOL JUNTOS?",
+      "pl": "CO POWIESZ NA PODZIWIANIE ZACHODU SŁOŃCA Z ODROBINĄ SAMBY W TLE?",
+      "en": "WHAT ABOUT ENJOY THE SUNSET TOGETHER?",
+      "es": "¿QUÉ TAL DESFRUTAR DE LA PUESTA DEL SOL JUNTOS?"
+    },
+    "introP1": {
+      "pt": "Pre-Wedding é uma confraternização mais simples antes do casamento para que os convidados possam se conhecer antes da festa. Decidimos fazer algo bem informal mas em um lugar especial em Búzios para unir um pouco a galera presente para apreciar o pôr-do-sol.",
+      "pl": "Pre-Wedding to skromniejsze przyjęcie przed ślubem, aby goście mogli się poznać przed główną imprezą. Postanowiliśmy zrobić coś bardzo nieformalnego ale w szczególnym miejscu w Búzios, aby zapoznać ze sobą trochę zaproszonych gości i cieszyć się zachodem słońca.",
+      "en": "Pre-Wedding is a get-together before the wedding, so guests have the chance to meet up before the party with other guests. We decided to do something very informal but in a special place in Búzios to unite our people to enjoy the sunset with us.",
+      "es": "La pre-boda es una reunión antes de la boda para que los invitados puedan conocerse antes de la fiesta. Decidimos hacer algo muy informal pero en un lugar especial en Búzios para unir nuestros invitados  para disfrutar del atardecer con nosostros."
+    },
+    "introP2": {
+      "pt": "Mais informações por e-mail depois da confirmação de presença.",
+      "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
+      "en": "More information by email after RSVP.",
+      "es": "Más información por correo electrónico después de la confirmación de asistencia."
+    },
+    "BoxEvent": {
+      "boxTitle": {
+        "pt": "Sunset Party",
+        "pl": "Sunset Party",
+        "en": "Sunset Party",
+        "es": "Sunset Party"
+      },
+      "savethedate1": {
+        "pt": "Save",
+        "pl": "Save",
+        "en": "Save",
+        "es": "Save"
+      },
+      "savethedate2": {
+        "pt": "the",
+        "pl": "the",
+        "en": "the",
+        "es": "the"
+      },
+      "savethedate3": {
+        "pt": "Date",
+        "pl": "Date",
+        "en": "Date",
+        "es": "Date"
+      },
+      "dateTime": {
+        "pt": "11 de Maio de 2024 às 16:00",
+        "pl": "11 maja 2024 roku o godzinie 16:00",
+        "en": "May 11th, 2024 at 16:00 PM",
+        "es": "11 de mayo de 2024 a las 16:00"
+      },
+      "Titlebox": {
+        "pt": "Sirena Gastrobar",
+        "pl": "Sirena Gastrobar",
+        "en": "Sirena Gastrobar",
+        "es": "Sirena Gastrobar"
+      },
+      "addressP1": {
+        "pt": "Armação de Búzios.",
+        "pl": "Miasto Armação de Búzios.",
+        "en": "Armação de Búzios City.",
+        "es": "Ciudad de Armação de Búzios."
+      },
+      "addressP2": {
+        "pt": "Rio de Janeiro, Brasil",
+        "pl": "Stan Rio de Janeiro, Brazylia.",
+        "en": "Rio de Janeiro State, Brazil",
+        "es": "Estado de Rio de Janeiro, Brasil"
+      },
+      "dressCodeTitle": {
+        "pt": "Dress Code",
+        "pl": "Dress Code",
+        "en": "Dress Code",
+        "es": "Dress Code"
+      },
+      "dressCode": {
+        "pt": "Livre",
+        "pl": "Dowolny",
+        "en": "Free",
+        "es": "Libre"
+      }
     },
     "dressCode": {
         "title": {
@@ -741,165 +953,593 @@
             "es": "Aunque organizar un Destination Wedding  a distancia tiene sus desafíos, para ellos es un sueño reunir a personas tan especiales que fueron parte de sus vidas, en una fiesta para celebrar el amor y la unidad. ¡Así que no olvides confirmar tu presencia!"
         }
     },
-    "TBG": {
-        "title": {
-            "pt": "Team Bride & Groom",
-            "pl": "Team Bride & Groom",
-            "en": "Team Bride & Groom",
-            "es": "Team Bride & Groom"
-        },
-        "subTitle": {
-            "pt": "PODE PARECER CLICHÊ, MAS ESSA GALERA MERECE UM 'STANDING AND OVATION'",
-            "pl": "MOŻE TO ZABRZMI BANALNIE, ALE TA GRUPA ZASŁUGUJE NA OWACJE NA STOJĄCO 'STANDING AND OVATION’",
-            "en": "IT MAY SEEM CLICHE, BUT THESE GUYS DESERVE A 'STANDING AND OVATION'",
-            "es": "PUEDE PARECER CLICHE, PERO ESTOS CHICOS MERECEN UN 'STANDING AND OVATION'"
-        },
-        "introP1": {
-            "pt": "Mesmo que da ideia de casar no Brasil exista desde 2021, quando nos casamos no civil na Dinamarca, só iniciamos esse projeto no ano seguinte.  A maior parte do casamento foi planejado e organizado à distância e graças aos seletos amigos que se dispuseram e se comprometeram a ajudar ativamente na nossa ideia de Destination Wedding, desde a escolha do vestido da noiva, até aquecer a pista de dança no grande dia assim como todo o roteiro de viagem, nosso sonho saiu do papel  - com mais leveza e segurança que podemos contar verdadeiramente com pessoas incríveis ao nosso lado.",
-            "pl": "Chociaż pomysł ślubu w Brazylii pojawił się już w 2021 roku, kiedy wzięliśmy ślub w Danii, rozpoczęliśmy ten projekt dopiero pod koniec 2022 roku. Większość ślubu została zaplanowana i zorganizowana zdalnie, a dzięki wybranym przyjaciołom, którzy zgłosili swoją chęć i zaangażowanie w to by aktywnie pomóc nam w realizacji naszego pomysłu Destination Wedding, od wyboru sukni panny młodej, po rozgrzanie parkietu w wielkim dniu, a także przygotowania całego planu podróży, nasze marzenie się spełniło - z większą lekkością i bezpieczeństwem, że naprawdę możemy liczyć na niesamowitych ludzi u naszego boku.",
-            "en": "Even though the idea of getting married in Brazil has existed since 2021 when we planed our civil wedding in Denmark, we only started organising in fact the ceremony and reception in the following year. Most of the wedding was planned and organised from a distance and thanks to the select friends who were willing and committed to actively help with our idea of Destination Wedding. They gave us a hand from choosing the bride's dress, stand up to be the DJ  to  warm up the dance floor on the big day, or even in every detail of the travel ideas and plan itinerary to make our dream to come to life.",
-            "es": "Aunque nuestra idea de la cerimonia y fiesta ocurre desde 2021 en nuestra boda civil en Dinamarca, sólo empezamos a organizar todo en el año seguinte. La mayor parte de la boda fue planeada y organizada a distancia y gracias a nuestros selectos amigos que estuvieron dispuestas y comprometidas a ayudar activamente con nuestra idea de Destination Wedding, logramos hacerlo., Ellos nos ayudaron desde elegir el vestido de la novia hasta calentar la pista de baile el gran día, o mismo  planeando todo itinerario de viaje, para ayudarnos a transformar nuestro sueño en realidad."
-        },
-        "introP2": {
-            "pt": "Por isso, queremos apresentar o nosso Team Bride & Groom!",
-            "pl": "Dlatego chcielibyśmy przedstawić nasz zespół Bride & Groom!",
-            "en": "Therefore, we want to present our Team Bride & Groom!",
-            "es": "¡Por eso, queremos presentarles a nuestro Team Bride & Groom!"
-        },
-        "Cards": {
-            "Name01": {
-                "pt": "Ana Paula Gomes",
-                "pl": "Ana Paula Gomes",
-                "en": "Ana Paula Gomes",
-                "es": "Ana Paula Gomes"
-            },
-            "Name02": {
-                "pt": "Tiago Mello",
-                "pl": "Tiago Mello",
-                "en": "Tiago Mello",
-                "es": "Tiago Mello"
-            },
-            "Name03": {
-                "pt": "Jeniffer Pimenta",
-                "pl": "Jeniffer Pimenta",
-                "en": "Jeniffer Pimenta",
-                "es": "Jeniffer Pimenta"
-            },
-            "Name04": {
-                "pt": "Łukasz Leja",
-                "pl": "Łukasz Leja",
-                "en": "Łukasz Leja",
-                "es": "Łukasz Leja"
-            },
-            "Name05": {
-                "pt": "Tamara Vieira",
-                "pl": "Tamara Vieira",
-                "en": "Tamara Vieira",
-                "es": "Tamara Vieira"
-            },
-            "Name06": {
-                "pt": "Robert Białas",
-                "pl": "Robert Białas",
-                "en": "Robert Białas",
-                "es": "Tiago Mello"
-            },
-            "Name07": {
-                "pt": "Môrhanna Nogueira",
-                "pl": "Môrhanna Nogueira",
-                "en": "Môrhanna Nogueira",
-                "es": "Môrhanna Nogueira"
-            },
-            "Name08": {
-                "pt": "Luíz Mayrink",
-                "pl": "Luíz Mayrink",
-                "en": "Luíz Mayrink",
-                "es": "Luíz Mayrink"
-            },
-            "Name09": {
-                "pt": "Nayara Ferreira",
-                "pl": "Nayara Ferreira",
-                "en": "Nayara Ferreira",
-                "es": "Nayara Ferreira"
-            },
-            "Name10": {
-                "pt": "Mateusz Augustyniak",
-                "pl": "Mateusz Augustyniak",
-                "en": "Mateusz Augustyniak",
-                "es": "Mateusz Augustyniak"
-            },
-            "Name11": {
-                "pt": "Gilda Lima",
-                "pl": "Gilda Lima",
-                "en": "Gilda Lima",
-                "es": "Gilda Lima"
-            },
-            "Role01": {
-                "pt": "Madrinha",
-                "pl": "Druhna",
-                "en": "Bridesmaid",
-                "es": "Madrina"
-            },
-            "Role02": {
-                "pt": "Padrinho",
-                "pl": "Drużba",
-                "en": "Groomsman",
-                "es": "Padrino"
-            },
-            "Role03": {
-                "pt": "Madrinha",
-                "pl": "Druhna",
-                "en": "Bridesmaid",
-                "es": "Madrina"
-            },
-            "Role04": {
-                "pt": "Padrinho",
-                "pl": "Drużba",
-                "en": "Groomsman",
-                "es": "Padrino"
-            },
-            "Role05": {
-                "pt": "Madrinha",
-                "pl": "Druhna",
-                "en": "Bridesmaid",
-                "es": "Madrina"
-            },
-            "Role06": {
-                "pt": "Padrinho",
-                "pl": "Drużba",
-                "en": "Groomsman",
-                "es": "Padrino"
-            },
-            "Role07": {
-                "pt": "Madrinha",
-                "pl": "Druhna",
-                "en": "Bridesmaid",
-                "es": "Madrina"
-            },
-            "Role08": {
-                "pt": "Padrinho",
-                "pl": "Drużba",
-                "en": "Groomsman",
-                "es": "Padrino"
-            },
-            "Role09": {
-                "pt": "Madrinha",
-                "pl": "Druhna",
-                "en": "Bridesmaid",
-                "es": "Madrina"
-            },
-            "Role10": {
-                "pt": "Padrinho",
-                "pl": "Drużba",
-                "en": "Groomsman",
-                "es": "Padrino"
-            },
-            "Role11": {
-                "pt": "Dama de Honra",
-                "pl": "Osoba niosąca pierścionki",
-                "en": "Ring Bearer",
-                "es": "Dama de Honor"
-            }
-        }
+    "heading1": {
+      "pt": "Local do Evento",
+      "pl": "Miejscu wydarzenia",
+      "en": "Venue",
+      "es": "Lugar del Evento"
+    },
+    "body1": {
+      "pt": "O casamento vai começar às 15:00 à céu aberto e, se São Pedro colaborar, teremos um dia agradavelmente quente com céu azul e sol. Não será literalmente 'pé na areia', mas o espaço é de frente para o mar, com áreas de grama, deck de madeira ou cimento.",
+      "pl": "Ślub rozpocznie się o godzinie 15:00 pod gołym niebem, a przy współpracy ze Świętym Piotrem będziemy mieli przyjemny, ciepły dzień z błękitnym niebem i słońcem. Nie będzie to dosłownie 'stopą na piasku' ale przestrzeń znajduje się nad morzem, na trawniku, z drewnianym lub cementowym pomostem.",
+      "en": "The wedding will start at 3 pm outdoors and hopefully  we will have a pleasantly warm weather with a clear  blue skie  and sun. It won't literally be 'foot in the sand', but the space is facing the sea, with garden with grass and wooden deck or cement.",
+      "es": "La boda comenzará a las 3 pm al aire libre y ojalá tendremos un día agradable, con cielo azul y sol. No será literalmente 'pie en la arena', sino que el espacio está frente al mar, con zonas de jardin verde, deck de madera o cemento."
+    },
+    "heading2": {
+      "pt": "Clima de Búzios",
+      "pl": "Klimat w Búzios",
+      "en": "Local Weather",
+      "es": "Clima en Búzios"
+    },
+    "body2": {
+      "pt": "Maio é outono no Brasil, o auge do verão de quase 40ºC já passou mas não é inverno. Durante o dia, você pode esperar por volta dos 26ºC e à noite cair para a sensação de 18ºC com a brisa do mar.",
+      "pl": "Maj to jesień w Brazylii, szczyt lata z temperaturą prawie 40ºC już minął, ale nie jest to zima. W ciągu dnia można spodziewać się około 26ºC, a w nocy temperatura spada do 18ºC z morską bryzą.",
+      "en": "May is autumn in Brazil, the height of the summer of almost 40ºC has passed but it is not winter. During the day you can expect around 26ºC and at night it drops to the feeling of 18ºC or so with the sea breeze.",
+      "es": "Mayo es otoño en Brasil, ha pasado el pico del verano de casi 40ºC pero no es invierno. Durante el día puedes esperar alrededor de 26ºC y por la noche baja a la sensación de 18ºC con la brisa marina."
+    },
+    "heading3": {
+      "pt": "Recomendação aos convidados",
+      "pl": "Zalecenia dla gości",
+      "en": "Our Recommendations",
+      "es": "Recomendaciones"
+    },
+    "body31": {
+      "pt": "Tecidos arejados e leves, de cores claras, estampas sofisticadas e calçados confortáveis porém casuais.",
+      "pl": "Lekkie i przewiewne tkaniny, jasne kolory, wyrafinowane wzory i wygodne i swobodne buty.",
+      "en": "Opt for breathble and light fabrics, in light or vibrant colour, sophisticated prints or patterns and comfy but casual footwear.",
+      "es": "Escoja tejido  ligeros en colores claros, estampados sofisticados y zapatos cómodos pero casuales."
+    },
+    "body32": {
+      "pt": "Roupas para mulheres pode ser vestidos longos ou curtos, macacão formal, conjunto de saia longa ou calça pantalona e top com tecidos finos. Quando aos sapatos, é melhor que sejam abertos e arejados, não tem problema em ter saltos grossos altos ou baixos para garantir maior conforto e dar um aspecto mais praiano, rasteirinhas elegantes também são permitidas!",
+      "pl": "Propozycją stroju dla kobiet mogą być długie lub krótkie sukienki, formalne kombinezony, długie spódnice lub pantalony i topy z delikatnych tkanin. Jeśli chodzi o buty, najlepiej, aby były otwarte i przewiewne, dobrze jest mieć grube wysokie lub niskie obcasy, aby zapewnić większy komfort i nadać bardziej plażowy wygląd, eleganckie szale są również dozwolone!",
+      "en": "Women wedding clothing can be long or short dresses, formal jumpsuit, long skirt set or casual pants and top with fine fabrics and cuts. Open and breathable shoes are good choice, it's also fine to have high or low chunky heels to ensure greater comfort or even  elegant flats are also allowed toget a beachy look.",
+      "es": "La vestimenta para la mujer puede ser vestidos largos o cortos, mono formal, conjunto de falda larga o pantalón y top con tejidos finos. Lo mejor es que los zapatos sean abiertos y aireados, está bien tener tacones gruesos altos o bajos para garantizar una mayor comodidad y dar un aspecto más playero, ¡también se permiten zapatos planos elegantes!"
+    },
+    "body33": {
+      "pt": "Traje para homens pode ser calças com material mais leve, camisas de mangas longas de tecido fino e fresco. Não é necessário gravata nem blazer, mas fica à critério de cada um. Quanto aos sapatos, opte por mocassin e sapatos sociais.",
+      "pl": "Strojem męskim mogą być spodnie z lżejszego materiału, koszule z długim lub średnim rękawem z cienkiego i przewiewnego materiału. Krawat lub marynarka nie są wymagane, ale zależy to od uznania każdej osoby. Obuwie: mokasyny i półbuty.",
+      "en": "Attire for men can be pants made of lighter material, long-sleeved shirts made of fine, cool fabric. No tie or blazer is required, but it's up to you. Loafers are a good idea for this kind of wedding, but any formal shoes are fine.",
+      "es": "Traje para los hombres puede ser pantalones hechos de un material más ligero, camisas de manga larga hechas de tejido fino y frescos. No se requiere corbata ni blazer, pero depende de cada uno. Los mocasines son super chulos en bodas en la playa, pero se acepta cualquer zapato formal."
+    },
+    "body34": {
+      "pt": "No Brasil não é comum o uso de acessórios como chapéu, luvas nem muito brilho - especialmente em casamentos de dia na praia. Contudo, temos algumas restrições como: não é permitido que mulheres usem roupas nos tons branco, off white, pastel, champagne ou preto em casamentos.",
+      "pl": "W Brazylii nie jest powszechne noszenie akcesoriów, takich jak kapelusze, rękawiczki lub dużo brokatu - szczególnie na ślubach dziennych na plaży. Mamy jednak pewne ograniczenia, takie jak: na wesela kobiety nie powinny zakładać ubrań w kolorach bieli, off white, pastelowych, szampańskich lub czarnych.",
+      "en": "In Brazil, it is not common to use accessories such as a hat, gloves or shiny fabrics- especially in beach day weddings, but feel free to use if you like it. However, we have some restrictions such as: women are not allowed to wear clothes in white, off white, pastel, champagne or black at weddings.",
+      "es": "En Brasil, no es común usar accesorios como sombrero, guantes o mucho brillo, especialmente en bodas de día en la playa. Sin embargo, tenemos algunas restricciones como: las mujeres invitadas no pueden usar ropa blanca, off white, pastel, champaña o negra en las bodas."
+    },
+    "heading4": {
+      "pt": "Dica extra para mulheres",
+      "pl": "Dodatkowa wskazówka dla kobiet",
+      "en": "Extra tip for women",
+      "es": "Consejo extra para mujeres"
+    },
+    "body4": {
+      "pt": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor.",
+      "pl": "Impreza na świeżym powietrzu, która rozpoczyna się w ciągu dnia obok plaży, może oznaczać włosy bardziej puszące się, wiatr, słońce i prawdopodobnie pot.",
+      "en": "An outdoor event that begins during the day beside the beach can mean hair with more frizz, wind, sun and, eventually, sweat.",
+      "es": "Un evento al aire libre que comienza durante el día cerca de la playa puede significar un cabello con más frizz, viento, sol y, eventualmente, sudor."
+    },
+    "tipsList": [
+      {
+        "pt": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+        "pl": "Lekki, matowy makijaż (bez nadmiernej ilości brokatu czy błyszczyka) jest trwalszy na plaży, a skóra lepiej wygląda na zdjęciu.",
+        "en": "Light and matte makeup (without too much shine or gloss) lasts longer on the beach and the skin comes out better in the photo.",
+        "es": "El maquillaje ligero y mate (sin demasiados brillos ni brillos) dura más en la playa y la piel sale mejor en la foto."
+      },
+      {
+        "pt": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques.",
+        "pl": "Jeśli twoje włosy zmieniają się w wilgotnych miejscach, warto postawić na fryzurę taką jak warkocze lub koki.",
+        "en": "If your hair changes in humid places, it is worth betting on a hairstyle such as braids or buns.",
+        "es": "Si tu cabello cambia en lugares húmedos, vale la pena apostar por un peinado como trenzas o moños."
+      },
+      {
+        "pt": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes, evite perfumes muito forte se puder.)",
+        "pl": "Perfumy i pot nie idą w parze. Idealnie jest użycie niewielkiej ilości perfum, najlepiej świeżych zapachów. Aby wydłużyć czas działania perfum, rozważ nałożenie ich na ubrania zamiast na skórę.",
+        "en": "Perfume and sweat don't mix that well. Chose fragrances that promote more freshness. To improve the duration of the perfume, consider putting it on clothing instead of the skin itself. (Remember: the bride is allergic to perfum, avoid strong fragances if you can).",
+        "es": "El perfume y el sudor no se mezclan bien. Lo ideal es apostar por poco perfume, preferiblemente fragancias que promuevan una mayor frescura. Para mejorar la duración del perfume, considera ponerlo en la ropa en lugar de en la piel misma. (Recuerda: la novia es alérgica al perfume, si puedes, mejor evitar las fragancias mas fuertes)"
+      }
+    ],
+    "heading5": {
+      "pt": "O que não é permitido:",
+      "pl": "Co nie jest dozwolone:",
+      "en": "What is not allowed:",
+      "es": "Lo que no está permitido:"
+    },
+    "notAllowed": [
+      {
+        "pt": "Jeans ou malhas",
+        "pl": "Dżinsy i t-shirt",
+        "en": "Jeans or t shirts",
+        "es": "Vaqueros o camisetas"
+      },
+      {
+        "pt": "Camisa polo",
+        "pl": "Koszulka polo",
+        "en": "Polo Shirt",
+        "es": "Camisa Polo"
+      },
+      {
+        "pt": "Roupas de cores fluorescentes",
+        "pl": "Ubrania w kolorach fluorescencyjnych",
+        "en": "Fluorescent colour clothes",
+        "es": "Ropas de colores fluorescentes"
+      },
+      {
+        "pt": "chinelos de dedo, crocs ou raider",
+        "pl": "japonki, crocs lub klapki",
+        "en": "slippers, crocs or raider",
+        "es": "chanclas, crocs o zuecos"
+      },
+      {
+        "pt": "tênis esportivo",
+        "pl": "buty sportowe",
+        "en": "sport tennis",
+        "es": "tenis deportivo"
+      },
+      {
+        "pt": "alpargata",
+        "pl": "espadryle",
+        "en": "espadrille",
+        "es": "alpargata"
+      }
+    ],
+    "heading6": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
+    },
+    "body6": {
+      "pt": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+      "pl": "Zdecydowaliśmy się nazwać Team Bride and Groom wszystkich tych, którzy będą uczestniczyć w ceremonii, czyli: członków rodziny panny młodej i pana młodego, którzy będą obecni, druhny i drużbów, druhnę/drużbę honorowego. W związku z tym będą oni odgrywać główną rolę w wydarzeniu i powinni przestrzegać określonych formalności, w tym zasad dotyczących ubioru. Wszystkie szczegóły zostaną przesłane pocztą elektroniczną.",
+      "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+      "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
+    }
+  },
+  "gifts": {
+    "title": {
+      "pt": "Presente de Casamento",
+      "pl": "Prezent Ślubny",
+      "en": "Wedding Gift",
+      "es": "Regalo de Boda"
+    },
+    "subtitle": {
+      "pt": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
+      "pl": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
+      "en": "IT'S NOT A CLICHE: OUR GREATEST GIFT IS YOUR PRESENCE!",
+      "es": "NO ES UN CLICHE: ¡NUESTRO MAYOR REGALO ES TU PRESENCIA!"
+    },
+    "introP1": {
+      "pt": "Mesmo assim, sabemos que há aqueles convidados muito queridos que gostariam de fazer um agrado de qualquer jeito.",
+      "pl": "Wiemy jednak, że są tacy drodzy goście, którzy i tak chcieliby przygotować podarunek.",
+      "en": "However, we know that there are those very dear guests who would like to give us something anyway.",
+      "es": "Sin embargo, sabemos que hay esos invitados muy queridos que quieren  regalar algo de todo mods."
+    },
+    "introP2": {
+      "pt": "Por ser um Destination Wedding, não teremos condições de levar nada na mala ou transportar qualquer presente do Brasil para a Suíça. Portanto não aceitaremos nenhum tipo de presente físico, por melhor que seja a intenção. Também não aceitaremos dinheiro em espécie já que estaremos viajando pelo Brasil e não é seguro andar com grandes quantidades em dinheiro em espécie.",
+      "pl": "Ponieważ jest to ślub docelowy, nie będziemy mogli zabrać ze sobą niczego w walizce ani przewieźć żadnych prezentów z Brazylii do Szwajcarii. Dlatego nie przyjmujemy żadnych prezentów fizycznych, niezależnie od tego, jak dobre są nasze intencje. Nie przyjmujemy również gotówki, ponieważ będziemy podróżować po Brazylii i noszenie dużych ilości gotówki nie jest bezpieczne.",
+      "en": "As it is a Destination Wedding, we will not be able to carry anything in our suitcase or transport any gift from Brazil to Switzerland. Therefore, we will not accept any kind of physical gift, no matter how good the intention will be. We will also not accept cash since we will be travelling in Brazil and it is not safe to carry large amounts of cash with us.",
+      "es": "Al tratarse de un Destination Wedding, no podremos llevar nada en la maleta ni transportar ningún regalo de Brasil a Suiza. Por lo tanto, no aceptaremos ningún tipo de regalo físico, por muy buena que sea la intención. Tampoco aceptaremos efectivo ya que viajaremos en Brasil y no es seguro llevar grandes cantidades de efectivo."
+    },
+    "introP3": {
+      "pt": "Caso queira nos presentear, apenas aceitaremos transferência com cartão de crédito/débito ou pix em uma das opções abaixo que fique mais cômodo para você!",
+      "pl": "Jeśli chcesz podarować nam prezent, akceptujemy wyłącznie przelewy kartami kredytowymi/debetowymi w różnych walutach, więc możesz wybrać opcję, która najbardziej Ci odpowiada.",
+      "en": "If you want to gift us, we will only accept credit / debit card transfer with a variety of currencies, so you can pick the option that best suits you.",
+      "es": "Si quieres regalarnos algo, solo aceptaremos transferencia con tarjeta de crédito/débito con opciones de moneda  que te resulte más cómoda!"
+    },
+    "introP4": {
+      "pt": "Caso você queira dar um presente fora das opções abaixo, entre em contato com os noivos!",
+      "pl": "Jeśli chcesz podarować prezent spoza poniższych opcji, daj nam znać!",
+      "en": "If you want to give a gift outside the options below, get in touch with the bride and groom!",
+      "es": "Si quieres darnos  un regalo fuera de las siguientes opciones, ¡ponte en contacto con los novios!"
+    },
+    "Cards_Gift": {
+      "TitleGiftBox1": {
+        "pt": "Presenteie o noivo",
+        "pl": "Podaruj panu młodemu",
+        "en": "Gift the Groom",
+        "es": "Regala al Novio"
+      },
+      "TitleGiftBox2": {
+        "pt": "Presenteie a noiva",
+        "pl": "Podaruj pannie młodej",
+        "en": "Gift the Bride",
+        "es": "Regala la Novia"
+      },
+      "Body1": {
+        "pt": "Você pode presentear com qualquer valor, efetuando o pagamento com seu cartão de crédito ou débito nas seguintes moedas:",
+        "pl": "Prezent o dowolnej wartości za pośrednictwem karty debetowej lub kredytowej w następujących walutach:",
+        "en": "Gift with any value through debit or credit card in the following currencies:",
+        "es": "Puedes regalar cualquier cantidad haciendo el pago con tarjeta de credito en las seguintes monedas:"
+      },
+      "Body2": {
+        "pt": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "pl": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "en": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "es": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN."
+      },
+      "Body3G": {
+        "pt": "Ou se preferir pagar em zlotys, através do blik.",
+        "pl": "Lub przez blik, jeśli Wam to bardziej odpowiada.",
+        "en": "Or through blik if it suits you better.",
+        "es": "O através del blik si es mejor para ti."
+      },
+      "Body3B": {
+        "pt": "Ou se preferir pagar em zlotys, através do pix.",
+        "pl": "Lub przez pix, jeśli Wam to bardziej odpowiada.",
+        "en": "Or through pix if it suits you better.",
+        "es": "O através del pix si es mejor para ti."
+      },
+      "BUTTON1": {
+        "pt": "CARTÃO",
+        "pl": "KARTA",
+        "en": "CARD",
+        "es": "TARJETA"
+      },
+      "BUTTON2": {
+        "pt": "BLIK",
+        "pl": "BLIK",
+        "en": "BLIK",
+        "es": "BLIK"
+      },
+      "BUTTON3": {
+        "pt": "PIX",
+        "pl": "PIX",
+        "en": "PIX",
+        "es": "PIX"
+      }
+    }
+  },
+  "story": {
+    "title": {
+      "pt": "Ludmilla & Bartosz",
+      "pl": "Ludmilla & Bartosz",
+      "en": "Ludmilla & Bartosz",
+      "es": "Ludmilla & Bartosz"
+    },
+    "subtitle": {
+      "pt": "ERA UMA VEZ EM IBIZA…",
+      "pl": "PEWNEGO RAZU NA IBIZIE …",
+      "en": "ONCE UPON A TIME IN IBIZA…",
+      "es": "ÉRASE UNA VEZ EN IBIZA…"
+    },
+    "Bloco1body1": {
+      "pt": "Em uma festa que ela quase não foi, com um DJ famoso que não era necessariamente o preferido deles, em uma day party famosa na ilha mágica no Hotel Ushuaia. Enquanto o amigo dela foi caçar, ela tentava curtir o show mesmo sem quase enxergar o palco, principalmente porque uma pessoa ficava em pé igual um poste com a mão estendida com o celular gravando o show (sim, este é o Bartosz) na frente dela - uma 'grande' mulher de 1,54m (esta é a Ludmilla).",
+      "pl": "Na imprezie, na którą prawie się nie wybrała, ze słynnym DJ-em, który niekoniecznie był ich ulubionym, na słynnym day party na Magic Island w hotelu Ushuaia. Podczas gdy jej przyjaciel poszedł na podbój, ona próbowała cieszyć się występem, mimo iż prawie nie widziała sceny, głównie z powodu stojącej tuż przed nią jak słup osoby z telefonem komórkowym w wyciągniętej ręce i nagrywającej występ (tak, to Bartosz), stojącej przed jakże ''wysoką'' kobietą o wzroście 1,54 m (to była Ludmilla).",
+      "en": "At a party she almost didn't go to, with a famous DJ who wasn't necessarily their favourite, at a famous day party on the magical island in the Hotel Ushuai…. While her friend’ went for hunt’, she tried to enjoy the concert alone, barely seeing the stage because there was somebody  standing his hand with his cell phone recording everything (yes, this is Bartosz) in front of her - a 'big' woman of 1.54m (this is Ludmilla).",
+      "es": "En una fiesta que ella casi no va, con un famoso DJ que no necesariamente era su favorito, en una famosa fiesta de día en la isla mágica en el Hotel Ushuaia… Mientras su amigo ‘salió para cazar’, ella trató  de disfrutar del espectáculo incluso sin casi ver el escenario porque una persona estaba parada como un poste con la mano extendida con su teléfono grabando el concierto  (sí, este es Bartosz) frente a ella. - una mujer 'grande' de 1,54 m (esta es Ludmilla)."
+    },
+    "Bloco1body2": {
+      "pt": "- Ei, você! Curte o show ao invés de gravar tudo. Filme menos e viva mais! - disse ela ao estranho que a olhou de costas e abaixou o celular.",
+      "pl": "- Hej, ty! Ciesz się występem zamiast wszystko nagrywać. Mniej filmuj, a więcej żyj! - powiedziała do nieznajomego, który spojrzał na nią zza pleców i obniżył telefon komórkowy.",
+      "en": "- Hey you! Enjoy the show instead of recording everything. Film less and live more! - she said to the stranger who looked at her from the back and lowered the cell phone.",
+      "es": "- ¡Eh, tú! Disfruta del concierto  en lugar de grabarlo todo. ¡Filma menos y vive más! - le dijo al desconocido que la miraba de espaldas y bajaba el celular."
+    },
+    "Bloco1body3": {
+      "pt": "Aos poucos o estranho se aproximou dela e puxou papo perguntando de onde ela era. Ela é brasileira, ele é polonês. Ele estava de férias em Ibiza com um amigo, ela foi visitar um casal de amigos com outro amigo. E a conversa morreu, mas ele ficou ali por por perto. Então, ela pediu um abraço. Ele fez uma cara achando estranho mas não negou. Curtiram o show juntos pelo resto do dia como se já se conhecessem por muito tempo, cantando e pulando juntos. Quando acabou o show, ela ficou procurando o amigo porque queria fazer um 'after' na praia com os novos amigos. O amigo apareceu, e assim fizeram.",
+      "pl": "Wkrótce nieznajomy podszedł do niej i rozpoczął rozmowę pytaniem skąd jest. Ona jest Brazylijką, on Polakiem. On spędzał wakacje na Ibizie ze swoim przyjacielem, ona odwiedzała parę przyjaciół z innym przyjacielem. Rozmowa wygasła ale on pozostał w pobliżu. Wtedy ona poprosiła go o przytulenie. Zrobił dziwną minę, ale nie odmówił. Przez resztę dnia bawili się razem, jakby znali się od dawna, śpiewając i skacząc razem. Kiedy występ się skończył, poszła poszukać swojego przyjaciela żeby wspólnie ze swoimi nowymi przyjaciółmi zrobić after party na plaży. Przyjaciel pojawił się i tak zrobili.",
+      "en": "Gradually the stranger approached her and started a conversation asking where she was from. She is Brazilian, he is Polish. He was on holiday in Ibiza with a friend, she was visiting a couple of friends with another friend. And the conversation died, but he stayed close by. So she asked him for a hug. He made a strange face but didn't deny it. They enjoyed the show together for the rest of the day as if they had known each other for a long time, singing and jumping together. When the show ended, she was looking for her friend because she wanted to stand the time with him in a kind of after party at the beach with her new mates. Her friend popped up at the end, and so they went to buy some beers to go to the beach.",
+      "es": "Poco a poco el extraño se acercó a ella y comenzó una conversación preguntándole de dónde era. Ella es brasileña, él es polaco. Él estaba de vacaciones en Ibiza con un amigo, ella estaba visitando a un par de amigos con otro amigo. Y la conversación murió, pero él se quedó cerca. Entonces ella le pidió un abrazo. Hizo una expresión rara pero no la negó. Disfrutaron juntos del concierto durante el resto del día como si se conocieran desde hace mucho tiempo, cantando y saltando juntos. Cuando terminó el programa, ella estaba buscando a su amigo  porque quería seguir la fiesta con los nuevos amigos en la playa. Su amigo apareció, y así lo hicieron."
+    },
+    "Bloco1body4": {
+      "pt": "Foram umas três horas conversando sobre a vida e, graças a paciência dos amigos envolvidos, depois de tanto tempo saiu o primeiro beijo. Ela bem esperta já convidou ele pra curtir umas praias em Ibiza entre amigos no dia seguinte.",
+      "pl": "Spędzili około trzech godzin rozmawiając o życiu i wtedy dopiero, dzięki cierpliwości przyjaciół, doszło do pierwszego pocałunku. W sprytny sposób zaprosiła go do wspólnego spędzania czasu z przyjaciółmi na plażach Ibizy następnego dnia.",
+      "en": "It was about three hours talking about life and, thanks to the patience of the friends involved, after so long, the first kiss came out. She was very smart and invited him to enjoy some beaches in Ibiza with friends the next day.",
+      "es": "Fueron unas tres horas hablando de la vida y, gracias a la paciencia de los amigos involucrados, después de tanto tiempo, salió el primer beso. Ella fue muy lista y lo invitó a disfrutar de unas playas de Ibiza con amigos al día siguiente."
+    },
+    "Bloco2body1": {
+      "pt": "Brasileira sendo brasileira e talvez um pouco pior: ela atrasou mais de 1 hora do horário que haviam combinado e deixou ele e o amigo torrando debaixo do sol esperando. O amigo do Bartosz já estava impaciente, mas Bartosz já tinha uma meta em mente e não podia falhar. No final deu tudo certo, foram visitar praias lindas Ibiza afora - mesmo com a má sorte do tempo ficar um pouco nublado e chuviscar por algum tempo, nada que atrapalhasse o dia juntos.",
+      "pl": "Brazylijka jak to Brazylijka a może trochę bardziej: spóźniła się na spotkanie ponad godzinę sprawiając, że wraz z przyjacielem smażył się na słońcu w oczekiwaniu. Kolega Bartosza był już zniecierpliwiony, ale Bartosz miał już w głowie pewien cel i nie mógł się poddać. Ostatecznie wszystko się udało, wspólnie odwiedzili kilka pięknych plaż poza Ibizą - chociaż nie mieli do końca szczęścia do pogody- było trochę pochmurno i przez chwilę nawet padała mżawka, ale nic nie zakłóciło wspólnie spędzonego dnia.",
+      "en": "Brazilian being Brazilian and maybe a little worse: she was more than 1 hour late from the agreed time and left him and his friend roasting under the sun waiting. Bartosz's friend was already impatient, but Bartosz already had a goal in mind and he couldn't fail. In the end, everything worked out, they went to visit beautiful beaches around Ibiza and enjoy the day together.",
+      "es": "Brasileño siendo brasileño y quizás un poco peor: ella se retrasó más de 1 hora de la hora acordada y lo dejó a él y a su amigo asándose bajo el  sol esperándola. El amigo de Bartosz ya estaba impaciente, pero Bartosz ya tenía un objetivo en mente y no podía fallar. Al final, todo salió bien, fueron a visitar hermosas playas alrededor de Ibiza, disfrutando del día juntos."
+    },
+    "Bloco2body2": {
+      "pt": "Ludmilla já conhecia a ilha e tinha dicas de amigos que moravam há anos por ali. Então resolveu levá-lo em uma praia estratégica para ver o pôr-do-sol na Cala Saladeta, onde possivelmente o tempo estaria melhor.",
+      "pl": "Ludmilla znała już wyspę i miała też polecenia od przyjaciół, którzy mieszkali tam od lat. Postanowiła więc zabrać go na zachód słońca na szczególną plażę w Cala Saladeta, gdzie pogoda mogła okazać się lepsza.",
+      "en": "Ludmilla already knew the island and had tips from friends who had lived there for years. So she decided to take him to a strategic beach to watch the sunset in Cala Saladeta, where possibly the weather would be better.",
+      "es": "Ludmilla ya conocía la isla y tenía consejos de amigos que habían vivido allí durante años. Así que decidió llevarlo a una playa estratégica para ver el atardecer en Cala Saladeta, donde posiblemente el tiempo estaría  mejor."
+    },
+    "Bloco2body3": {
+      "pt": "Quando já estava escurecendo, o amigo da Ludmilla levou Bartosz e seu amigo para o hotel de volta, já que eram as últimas horas deles em Ibiza antes de partir de volta pra Polônia. Ela tinha a expectativa daquelas despedidas de filme de romance, com um beijo demorado para marcar o fim do 'amor de verão de dois dias'. A realidade, porém, foi um beijo rápido tipo selinho seguido de:",
+      "pl": "Gdy zapadał zmrok, przyjaciel Ludmilly odwiózł Bartosza i jego kolegę do hotelu, ponieważ były to ich ostatnie godziny na Ibizie przed powrotem do Polski. Ludmilla oczekiwała na pożegnanie jak na romantycznych filmach, z długim pocałunkiem na zakończenie 'dwudniowej letniej miłości'. W rzeczywistości jednak był to pośpieszny pocałunek, a zaraz po nim:",
+      "en": "When it was getting dark, Ludmilla's friend took Bartosz and his friend back to their hotel, as it was their last hours in Ibiza before head back to Poland. She was looking forward to those ‘romance movie farewells’, with a long kiss to mark the end of the 'two-days summer love'. The reality, however, was a kind of quick peck-like kiss followed by:",
+      "es": "Cuando estaba oscureciendo, el amigo de Ludmilla llevó a Bartosz y a su amigo de regreso al hotel, ya que eran sus últimas horas en Ibiza antes de partir hacia Polonia. Ella esperaba con ansias esas despedidas de películas románticas, con un beso prolongado para marcar el final del 'amor de verano de dos días'. La realidad, sin embargo, fue un rápido beso seguido de:"
+    },
+    "Bloco2body4": {
+      "pt": "- Te vejo em Madrid! - Ele falou acenando para ela já entrando pro hotel com um sorriso no rosto.",
+      "pl": "- Do zobaczenia w Madrycie! - Pomachał do niej, wchodząc już do hotelu z uśmiechem na twarzy.",
+      "en": "- See you in Madrid! - He said waving at her already entering the hotel with a smile on his face.",
+      "es": "- ¡Nos vemos en Madrid! - Le dijo saludando ya entrando al hotel con una sonrisa en su rostro."
+    },
+    "Bloco2body5": {
+      "pt": "Ela voltou pro carro e seu amigo até brincou falando que ela fazia mais sucesso com brasileiros do que com 'gringos'. Desiludida, ela se deu conta que ele nem ao menos perguntou o WhatsApp dela, só tinha Facebook da qual nem tinha foto de perfil  (mais low profile que isso, não existe).",
+      "pl": "Wróciła do samochodu, a jej przyjaciel zażartował nawet, że ma większe powodzenie u Brazylijczyków niż u 'gringos'. Rozczarowana, zdała sobie sprawę, że nawet nie zapytał jej o WhatsApp, miała tylko jego Facebooka, na którym nie było nawet zdjęcia profilowego (bardziej low profil już się nie dało).",
+      "en": "She got back in the car and her friend even joked that she was more successful with Brazilians guys than with europeans. Disappointed, she realised that he didn't even ask for her WhatsApp number, he only had Facebook, which he didn't even have a profile picture of (super low profile).",
+      "es": "Volvió al auto y su amiga incluso bromeó diciendo que tenía más éxito con los brasileños que con los 'gringos'. Decepcionada, se dio cuenta de que él ni siquiera le pidió su número de WhatsApp, solo tenía una cuenta de Facebook que ni siquiera tenía una foto de perfil (perfil inferior a ese, no existe)."
+    },
+    "Bloco3body1": {
+      "pt": "Segundo fontes seguras (leia-se: o próprio amigo que estava presente confirmou), Bartosz voltou correndo pro Hotel para fazer as malas para voltar para Polônia e certificar da viabilidade de viajar para Madrid no próximo feriado. Ela, em contrapartida, ficou super desconfiada porque:",
+      "pl": "Według informacji od wiarygodnych źródeł (czytaj: jego przyjaciela, który był przy tym i potwierdził), Bartosz wrócił biegiem do hotelu, aby spakować walizki przed powrotem do Polski i upewnić się, że podróż do Madrytu w następne wolne dni jest możliwa. Ona z kolei była bardzo podejrzliwa, ponieważ:",
+      "en": "According to reliable sources (read: the friend who was there confirmed it), Bartosz ran back to the Hotel to pack his bags to return to Poland and have time to be sure it was feasible to travel to Madrid for the next holiday. She, on the other hand, was super suspicious because:",
+      "es": "Según fuentes fidedignas (léase: el amigo que estaba allí lo confirmó), Bartosz corrió al Hotel a hacer las maletas para volver a Polonia y asegurarse de que era factible viajar a Madrid para las próximas vacaciones. Ella, por otro lado, estaba súper sospechosa porque:"
+    },
+    "Bloco3Story": [
+      {
+        "pt": "1- Ele usava somente Facebook: e isso no Brasil é ser muito old school, só pais e tios usam (leia-se: pessoas acima dos 50 anos de idade)... E ele é dois anos mais novo que ela, não era nem de perto um perfil de alguém que usa Facebook.",
+        "pl": "1 - Używał tylko Facebooka: a to w Brazylii uważane jest za bardzo oldschoolowe, używają go tylko rodzice i wujkowie (czytaj: ludzie powyżej 50 roku życia)... A on będąc dwa lata młodszy od niej, nie wyglądał zupełnie na kogoś, kto korzysta z Facebooka.",
+        "en": "1- He only used Facebook: and in Brazil it is a bit  old school, only parents and uncles use it (read: people 50+ years old)... And he's younger than her.",
+        "es": "1- Él solo usaba Facebook: y eso en Brasil es muy raro para mileniums o genZ, solo lo usan los padres y los tíos (léase: personas 50+ años)... Y además, él es más jóven que ella."
+      },
+      {
+        "pt": "2- Ele não tinha foto no perfil do Facebook, assim como não tinha nenhuma informação relevante, nem posts ou marcação de nenhum amigo.",
+        "pl": "2- Nie miał zdjęcia na swoim profilu na Facebooku, a także żadnych istotnych informacji, postów ani tagów znajomych.",
+        "en": "2- He didn't have a photo on his Facebook profile, nor did he have any relevant information, nor posts or tags from any friends.",
+        "es": "2- No tenía una foto en su perfil de Facebook, ni tenía ninguna información relevante, ni publicaciones o etiquetas de ningún amigo."
+      },
+      {
+        "pt": "3- Ele não pediu WhatsApp. O que era muito suspeito para uma Brasileira, porque não existe um pessoa no Brasil que não se comunique via WhatsApp.",
+        "pl": "3- Nie zapytał jej o WhatsApp. Co dla Brazylijki było bardzo podejrzane, ponieważ w Brazylii nie ma osoby, która nie komunikowałaby się przez WhatsApp.",
+        "en": "3- He didn't ask for WhatsApp. Which was very suspicious for a Brazilian woman, because there isn't a person in Brazil who doesn't communicate via WhatsApp.",
+        "es": "3- No pidió WhatsApp. Lo cual era muy sospechoso para una mujer brasileña, porque no hay persona en Brasil que no se comunique por WhatsApp."
+      }
+    ],
+    "Bloco3body2": {
+      "pt": "Mesmo com tantas diferenças e alguns impecilhos, aos poucos, eles foram conhecendo melhor sobre a cultura um do outro. Ela se deu conta que lá na Polônia não é tão comum o uso do WhatsApp e que o Facebook Messager era bem popular, e que na Europa, no geral, existem weirdos que não usam foto de perfil nem usam muito redes sociais. Foi uma fase interessante entre eles para se conhecerem em diferentes perspectivas daquelas que estavam acostumados.",
+      "pl": "Nawet przy tak wielu różnicach i pewnych przeszkodach, powoli dowiadywali się coraz więcej o swoich kulturach. Zdała sobie sprawę, że w Polsce WhatsApp nie jest tak powszechny, a Facebook Messenger jest bardzo popularny, oraz że w Europie są ludzie, którzy nie używają zdjęć profilowych i nie korzystają zbyt często z sieci społecznościowych. Był to dla nich interesujący czas, aby poznać się nawzajem z innych perspektyw niż te, do których byli przyzwyczajeni.",
+      "en": "Even with so many differences and some obstacles, little by little, they got to know each other better including  each other's culture. She realised that in Poland it is not so common to use WhatsApp and that Facebook Messenger was very popular, and that in Europe, in general, there are weirdos who don't use a profile picture or use social networks a lot. It was an interesting phase for them to get to know each other from different perspectives than they were used to.",
+      "es": "Aún con tantas diferencias y algunos obstáculos, poco a poco fueron conociéndose mejor incluso de la cultura del otro. Ella se dio cuenta de que allá en Polonia no es tan común usar WhatsApp y que Facebook Messenger era muy popular, y que en Europa, en general, hay personas raras que no usan foto de perfil ni usan mucho las redes sociales. Fue una fase interesante para ellos conocerse desde perspectivas diferentes a las que estaban acostumbrados."
+    },
+    "Bloco3body3": {
+      "pt": "Até que ele realmente foi pra Madrid no feriado seguinte e a história começa de fato!",
+      "pl": "Dopóki naprawdę nie wybrał się do Madrytu w następne wolne dni i tu historia naprawdę się zaczyna!",
+      "en": "Until he actually went to Madrid for the next holiday and the story really began!",
+      "es": "¡Hasta que en realidad se fue a Madrid para las próximas vacaciones y la historia realmente comienza!"
+    },
+    "Bloco4body1": {
+      "pt": "Essa história começou como um relacionamento à distância e, com isso, vieram muitas viagens. Depois de um ano com muitos finais de semana e feriados pela Europa afora, eles voltaram para Ibiza e foi quando decidiram que ficar separados entre Madrid e Cracóvia seria difícil no longo prazo. Eis que em Setembro de 2019 pensaram na possibilidade e, ao mesmo tempo, no desafio de morarem no mesmo lugar incluindo a possibilidade de morar em outro país.",
+      "pl": "Ta historia rozpoczęła się jako związek na odległość, która zapoczątkowała wiele podróży. Po roku z wieloma weekendami i wakacjami spędzonymi w całej Europie, powrócili na Ibizę i właśnie wtedy zdecydowali, że życie na odległość, pomiędzy Madrytem a Krakowem staje się trudne na dłuższą metę. I oto we wrześniu 2019 roku zaczęli myśleć o możliwości i jednocześnie wyzwaniu życia w tym samym miejscu, w tym o możliwości życia w innym kraju.",
+      "en": "This story began as a long-distance relationship, ain which demanded  a lot of travelling. After a year with many weekends and holidays across Europe, they returned to Ibiza and that's when they decided that being separated between Madrid and Kraków would be difficult in the long run. Behold, in September 2019 they thought about the possibility and, at the same time, the challenge of living in the same place, including the possibility of living in another country.",
+      "es": "Esta historia comenzó como una relación a larga distancia, y con eso vinieron muchos viajes. Después de un año con muchos fines de semana y vacaciones por toda Europa, volvieron a Ibiza y fue cuando decidieron que estar separados entre Madrid y Cracovia sería difícil a la largo plazo. Fue en septiembre de 2019que  pensaron juntos en la posibilidad y, al mismo tiempo, el reto de vivir en el mismo lugar, incluyendo la posibilidad de vivir en otro país."
+    },
+    "Bloco4body2": {
+      "pt": "Se eles já estava nesse nível, ainda que ele conhecesse parte da família dela, ainda faltava conhecer onde ela cresceu, sua mãe, seus amigos, ver a cultura de perto. Então ele comprou passagem pra Belo Horizonte, a capital do Estado de Minas Gerais (conhecida também como a capital dos bares, afinal: 'se não tem mar, a gente vai pro bar') no final do ano.",
+      "pl": "Jeśli byli już na tym etapie, nawet jeśli znał część jej rodziny, brakowało by dowiedział się gdzie dorastała, poznał jej mamę, jej przyjaciół, aby zobaczył jej kulturę z bliska. Kupił więc bilet do Belo Horizonte, stolicy stanu Minas Gerais (znanego również jako stolica barów, w końcu: 'jeśli nie ma morza, idziemy do baru') na koniec roku.",
+      "en": "If they were already at that level, even if he knew part of her family, he still needed to know where she grew up, her mother, her friends, and seeing the culture up close. So he bought a ticket to Belo Horizonte at the end of the same year, the capital of the State of Minas Gerais (also known as the capital of bars, after all: 'if there's no sea, we go to the bar').",
+      "es": "Si ya estaban en ese nivel, aunque conociera a parte de su familia, todavía necesitaba saber dónde creció, su madre, sus amigos, para ver la cultura de cerca. Así que compró un billete a Belo Horizontea para el  fin de año, la capital del Estado de Minas Gerais (también conocida como la capital de los bares, después de todo: 'si no hay mar, vamos al bar')."
+    },
+    "Bloco4body3": {
+      "pt": "E aí que entra Búzios na nossa história!",
+      "pl": "I właśnie w tym momencie Búzios wkracza do naszej historii!",
+      "en": "This is where Búzios enters our history!",
+      "es": "¡Aquí es donde Búzios entra en nuestra historia!"
+    },
+    "Bloco4body4": {
+      "pt": "A época de Ano Novo no Brasil é muito peculiar. Especialmente em cidades como Búzios, uma península no Estado do Rio de Janeiro que tinha uma Pacha, ainda tem a balada Privilege e alguns beach clubs, é a preferência de muitos jovens no Brasil como destino de férias de verão. Apesar das festas de Réveillon no Brasil começarem antes da meia-noite, a festa só fica boa realmente depois do brinde e vai até de manhã. Sem dúvida é uma experiência única ver o primeiro nascer-do-sol do ano em uma festa ao ar livre próximo da praia.",
+      "pl": "Sylwester w Brazylii jest bardzo specyficzny. Zwłaszcza w miastach takich jak Búzios, półwysep w stanie Rio de Janeiro, na którym znajduje się Pacha, Privilege i kilka klubów plażowych, ulubione miejsce wielu młodych Brazylijczyków na spędzenie letnich wakacji - przypomina nieco klimat Ibizy. Chociaż imprezy noworoczne w Brazylii rozpoczynają się przed północą, zabawa rozkręca się dopiero po wzniesieniu toastu i trwa do samego rana. To zdecydowanie wyjątkowe doświadczenie zobaczyć pierwszy wschód słońca w roku na imprezie pod gołym niebem w otoczeniu plaży.",
+      "en": "The New Year's season in Brazil is very peculiar. Especially in cities like Búzios, a peninsula in the State of Rio de Janeiro that already hosted Pacha, there is still the Privilege Club and some beach clubs, being a perfect summer destionation among  young people in Brazil during vacation. Although New Year's Eve parties in Brazil start before midnight, the party only gets really good after the mid-night toast and goes on until morning. It is a unique experience to see the first sunrise of the year at an outdoor party near the beach.",
+      "es": "La temporada de Año Nuevo en Brasil es muy peculiar. Especialmente en ciudades como Búzios, una península en el Estado de Río de Janeiro hubo tiempo que tenía Pacha, todavia hay la discoteca Privilege y algunos clubes de playa, lo que acaba siendo una preferencia de vacaciones de verano de muchos  jóvenes en Brasil. Aunque las fiestas de Nochevieja empiezan antes de la medianoche, la fiesta solo se pone realmente buena después del brindis y continúa hasta la mañana. Sin duda, es una experiencia única ver el primer amanecer del año en una fiesta al aire libre cerca de la playa."
+    },
+    "Bloco4body5": {
+      "pt": "Por isso, ela juntou uma galera para viajarem juntos (incluindo o amigo da Ludmilla que estava com ela em Ibiza) mais de treze horas de carro com congestionamento entre Belo Horizonte até Armação de Búzios pra aproveitar um pouco das belíssimas praias da região e uma baita festa na Privilege Búzios com Claptone no Réveillon. Foi uma noite inesquecível para os dois, contudo pra ele foi algo inédito e especial.",
+      "pl": "Z tego powodu zebrała grupę znajomych (w tym przyjaciela Ludmilly, który był z nią na Ibizie) do wspólnej, ponad trzynasto godzinnej podróży napakowanym samochodem między Belo Horizonte i Armação de Búzios, i do wspólnej zabawy na kilku pięknych plażach regionu i na wspaniałej imprezie sylwestrowej w Privilege Búzios z Claptone. To była niezapomniana noc dla obojga, ale dla niego było to coś wyjątkowego.",
+      "en": "That's why she gathered a group of people to travel together (including that Ludmilla's friend who was with her in Ibiza). There were  more than thirteen hours by car including the time spent in a huge traffic jam from Belo Horizonte to Armação de Búzios just to  enjoy some of the region's beautiful beaches and a great party at Privilege Búzios with Claptone on New Year's Eve. It was an unforgettable night for both of them, but for him it was something new and special.",
+      "es": "Por eso ella  reunió a un grupo de amigos para viajar juntos (incluido el amigo de Ludmilla que estuvo con ella en Ibiza). El viaje se tardó más de trece horas dentro de un coche entre Belo Horizonte y Armação de Búzios  para disfrutar de algunas de las hermosas playas de la región y de una gran fiesta en Privilege Búzios con Claptone en Nochevieja. Fue una noche inolvidable para ambos, pero para él fue algo nuevo y especial."
+    },
+    "Bloco5body1": {
+      "pt": "Ainda que 2020 tenha sido desafiador para todos, os quatro meses que a Europa se fechou e proibiu vôos entre países foi a fase mais difícil que eles passaram. É aquela história clássica da pandemia: quem não se divorciou, casou!  No caso deles, foi a época que começaram a pensar na possibilidade de casar.",
+      "pl": "Rok 2020 był wyzwaniem dla wszystkich, te cztery miesiące kiedy to Europa zamknęła się i zakazała lotów między krajami, były najtrudniejszym etapem, przez który przeszli. To klasyczna historia pandemii: ci którzy się nie rozwiedli wzięli ślub! W ich przypadku był to czas, w którym zaczęli myśleć o zawarciu małżeństwa.",
+      "en": "Even though 2020 was challenging for everyone, the four months that Europe was closed and flights were banned between countries was something that impact them deeply. It was  the hardest time they went through. It's that classic pandemic story: ‘those who didn't get divorced, got married!’. In their case, it was the time when they began to think about the possibility of getting married.",
+      "es": "Aunque 2020 fue un desafío para todos, los cuatro meses que Europa cerró y prohibió los vuelos entre países fue la etapa más difícil por la que pasaron. Es la clásica historia de pandemia: ¡los que no se divorciaron, se casaron! . Y en sus casos, fue el momento en que empezaron a pensar en la posibilidad de casarse."
+    },
+    "Bloco5body2": {
+      "pt": "Três anos depois do primeiro encontro em Ibiza, em Setembro de 2021, ele resolve fazer uma surpresa pra ela. Na hora do pôr-do-sol, na menor das ilhas baleares, Formentera, em um lugar que era possível ver a icônica ilha de Ibiza (Ès Vedra), entre os calangos da região que subiam nos pés dela buscando um pouco dos chips que caíam enquanto tomavam cerveja e cidra, ele tirou uma caixinha do bolso a pedindo em casamento com um anel, e ela disse:",
+      "pl": "Trzy lata po ich pierwszej randce na Ibizie, we wrześniu 2021 roku, on postanawia zrobić jej niespodziankę. O zachodzie słońca, na najmniejszej z wysp Balearów, Formenterze, w miejscu, z którego można było zobaczyć kultową wyspę Ibizy (Ès Vedra), wśród lokalnych calangos, które wspinały się na jej stopy w poszukiwaniu chipsów, które spadły podczas picia piwa i cydru, wyjął z kieszeni małe pudełko z pierścionkiem, prosząc ją o rękę a ona odpowiedziała:",
+      "en": "Three years after their first meeting in Ibiza, in September 2021, he decides to surprise her. At sunset time, on the smallest of the Balearic islands, Formentera, in a place where it was possible to see the iconic island of Ibiza (Ès Vedra), among the lizards in the region that climbed on her feet looking for some of the chips that fell off while they were drinking beer and cider, he took a little box out of his pocket asking her to marry him with a ring, and she said:",
+      "es": "Tres años después del  primer encuentro en Ibiza, en septiembre de 2021, él decide sorprenderla. Al atardecer, en la más pequeña de las islas Baleares, Formentera, en un lugar donde se podría ver la icónica isla de Ibiza (Ès Vedra), entre las lagartijas típicas de la región que se subían a sus pies buscando alguna de las patatas fritas que se cayera mientras bebía cerveza y sidra, sacó una cajita de su bolsillo pidiéndola que se casara con él le mostrando un anillo, y ella dijo:"
+    },
+    "Bloco5body3": {
+      "pt": "Yes, I do!",
+      "pl": "Yes, I do!",
+      "en": "Yes, I do!",
+      "es": "Yes, I do!"
+    },
+    "Bloco6body1": {
+      "pt": "A verdade é que ela nunca pensou em se casar. Já ele pensava que eventualmente iria se casaria um dia e provavelmente teria a tradicional cerimônia religiosa católica seguido de uma festa como é o mais comum na Polônia. Ela aceitou a ideia se fosse fosse na praia e juntos tiveram a ideia de um casamento no Brasil como uma excelente oportunidade para que familiares e amigos pudessem se unir em um evento.",
+      "pl": "Tak naprawdę nigdy nie myślała o ślubie. On myślał, że w końcu pewnego dnia się ożeni i prawdopodobnie będzie miał tradycyjną katolicką ceremonię religijną, po której nastąpi przyjęcie, ponieważ jest to najbardziej powszechne w Polsce. Ona zgodziła się pod warunkiem, że odbędzie się to na plaży i razem wpadli na pomysł ślubu w Brazylii jako doskonałej okazji dla rodziny i przyjaciół do spotkania się na jednym wydarzeniu.",
+      "en": "The truth is that she never thought about getting married. He already thought that he would eventually get married one day and would probably have the traditional Catholic religious ceremony followed by a party as the tradition in Poland. She accepted the idea if it was a kind of beach wedding and together they came up with the idea of a wedding in Brazil as an excellent opportunity for family and friends to come together in an event.",
+      "es": "ÉLa verdad es que ella nunca pensó en casarse. Ya él sí pensaba que eventualmente se casaría algún día y probablemente tendría la tradicional ceremonia religiosa católica seguida de una fiesta como es lo más común en Polonia. Ella aceptó la idea si la boda fuera  en la playa y juntos idearon la idea de una boda en Brasil como una excelente oportunidad para que familiares y amigos se reunieran en un evento."
+    },
+    "Bloco6body2": {
+      "pt": "Mas primeiro: o casamento civil. Também precisaria ser do jeito deles, preferencialmente menos burocrático com a questão de idiomas de um casal internacional. Escolheram, então, a Dinamarca - o país que tem um dos índices mais altos de felicidade no mundo.",
+      "pl": "Ale najpierw: ślub cywilny. Musiał on również odbyć się w ich sposób, najlepiej żeby wymagał on jak najmniej biurokracji i brał pod uwagę kwestię języków międzynarodowej pary. Wybrano zatem Danię - kraj o jednym z najwyższych wskaźników szczęścia na świecie.",
+      "en": "But first: civil marriage. It would also need to be in their way, preferably less bureaucratic with the language issue of an international couple. So they chose Denmark - the country that has one of the highest levels of happiness in the world.",
+      "es": "Pero primero: el matrimonio civil. También tendría que ser a su manera, preferiblemente menos burocrático con el tema del idioma de una pareja internacional. Así que elegieron Dinamarca, el país que tiene uno de los niveles de felicidad más altos del mundo."
+    },
+    "Bloco7body1": {
+      "pt": "Ainda que toda a organização à distância de um Destination Wedding tenha seus desafios, é um sonho para eles unir pessoas tão especiais que fizeram parte da vida de cada um deles, em uma festa para celebrar o amor e a união. Por isso, não se esqueça de confirmar sua presença!",
+      "pl": "Chociaż organizacja wesela na odległość w Destination Wedding wiąże się z pewnymi wyzwaniami, ich marzeniem jest zaproszenie na przyjęcie wszystkich wyjątkowych ludzi, którzy stali się częścią ich dotychczasowego życia, aby wspólnie uczcić ich miłość i ich związek. Nie zapomnij więc potwierdzić swojej obecności!      ",
+      "en": "Even though organising a Destination Wedding at a distance has its challenges, it is a dream for them to bring together such special people who were part of each of their lives, in a party to celebrate love and unity. So don't forget to confirm your attendance!",
+      "es": "Aunque organizar un Destination Wedding  a distancia tiene sus desafíos, para ellos es un sueño reunir a personas tan especiales que fueron parte de sus vidas, en una fiesta para celebrar el amor y la unidad. ¡Así que no olvides confirmar tu presencia!"
+    }
+  },
+  "TBG": {
+    "title": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
+    },
+    "subTitle": {
+      "pt": "PODE PARECER CLICHÊ, MAS ESSA GALERA MERECE UM 'STANDING AND OVATION'",
+      "pl": "MOŻE TO ZABRZMI BANALNIE, ALE TA GRUPA ZASŁUGUJE NA OWACJE NA STOJĄCO 'STANDING AND OVATION’",
+      "en": "IT MAY SEEM CLICHE, BUT THESE GUYS DESERVE A 'STANDING AND OVATION'",
+      "es": "PUEDE PARECER CLICHE, PERO ESTOS CHICOS MERECEN UN 'STANDING AND OVATION'"
+    },
+    "introP1": {
+      "pt": "Mesmo que da ideia de casar no Brasil exista desde 2021, quando nos casamos no civil na Dinamarca, só iniciamos esse projeto no ano seguinte.  A maior parte do casamento foi planejado e organizado à distância e graças aos seletos amigos que se dispuseram e se comprometeram a ajudar ativamente na nossa ideia de Destination Wedding, desde a escolha do vestido da noiva, até aquecer a pista de dança no grande dia assim como todo o roteiro de viagem, nosso sonho saiu do papel  - com mais leveza e segurança que podemos contar verdadeiramente com pessoas incríveis ao nosso lado.",
+      "pl": "Chociaż pomysł ślubu w Brazylii pojawił się już w 2021 roku, kiedy wzięliśmy ślub w Danii, rozpoczęliśmy ten projekt dopiero pod koniec 2022 roku. Większość ślubu została zaplanowana i zorganizowana zdalnie, a dzięki wybranym przyjaciołom, którzy zgłosili swoją chęć i zaangażowanie w to by aktywnie pomóc nam w realizacji naszego pomysłu Destination Wedding, od wyboru sukni panny młodej, po rozgrzanie parkietu w wielkim dniu, a także przygotowania całego planu podróży, nasze marzenie się spełniło - z większą lekkością i bezpieczeństwem, że naprawdę możemy liczyć na niesamowitych ludzi u naszego boku.",
+      "en": "Even though the idea of getting married in Brazil has existed since 2021 when we planed our civil wedding in Denmark, we only started organising in fact the ceremony and reception in the following year. Most of the wedding was planned and organised from a distance and thanks to the select friends who were willing and committed to actively help with our idea of Destination Wedding. They gave us a hand from choosing the bride's dress, stand up to be the DJ  to  warm up the dance floor on the big day, or even in every detail of the travel ideas and plan itinerary to make our dream to come to life.",
+      "es": "Aunque nuestra idea de la cerimonia y fiesta ocurre desde 2021 en nuestra boda civil en Dinamarca, sólo empezamos a organizar todo en el año seguinte. La mayor parte de la boda fue planeada y organizada a distancia y gracias a nuestros selectos amigos que estuvieron dispuestas y comprometidas a ayudar activamente con nuestra idea de Destination Wedding, logramos hacerlo., Ellos nos ayudaron desde elegir el vestido de la novia hasta calentar la pista de baile el gran día, o mismo  planeando todo itinerario de viaje, para ayudarnos a transformar nuestro sueño en realidad."
+    },
+    "introP2": {
+      "pt": "Por isso, queremos apresentar o nosso Team Bride & Groom!",
+      "pl": "Dlatego chcielibyśmy przedstawić nasz zespół Bride & Groom!",
+      "en": "Therefore, we want to present our Team Bride & Groom!",
+      "es": "¡Por eso, queremos presentarles a nuestro Team Bride & Groom!"
+    },
+    "Cards": {
+      "Name01": {
+        "pt": "Ana Paula Gomes",
+        "pl": "Ana Paula Gomes",
+        "en": "Ana Paula Gomes",
+        "es": "Ana Paula Gomes"
+      },
+      "Name02": {
+        "pt": "Tiago Mello",
+        "pl": "Tiago Mello",
+        "en": "Tiago Mello",
+        "es": "Tiago Mello"
+      },
+      "Name03": {
+        "pt": "Jeniffer Pimenta",
+        "pl": "Jeniffer Pimenta",
+        "en": "Jeniffer Pimenta",
+        "es": "Jeniffer Pimenta"
+      },
+      "Name04": {
+        "pt": "Łukasz Leja",
+        "pl": "Łukasz Leja",
+        "en": "Łukasz Leja",
+        "es": "Łukasz Leja"
+      },
+      "Name05": {
+        "pt": "Tamara Vieira",
+        "pl": "Tamara Vieira",
+        "en": "Tamara Vieira",
+        "es": "Tamara Vieira"
+      },
+      "Name06": {
+        "pt": "Robert Białas",
+        "pl": "Robert Białas",
+        "en": "Robert Białas",
+        "es": "Tiago Mello"
+      },
+      "Name07": {
+        "pt": "Môrhanna Nogueira",
+        "pl": "Môrhanna Nogueira",
+        "en": "Môrhanna Nogueira",
+        "es": "Môrhanna Nogueira"
+      },
+      "Name08": {
+        "pt": "Luíz Mayrink",
+        "pl": "Luíz Mayrink",
+        "en": "Luíz Mayrink",
+        "es": "Luíz Mayrink"
+      },
+      "Name09": {
+        "pt": "Nayara Ferreira",
+        "pl": "Nayara Ferreira",
+        "en": "Nayara Ferreira",
+        "es": "Nayara Ferreira"
+      },
+      "Name10": {
+        "pt": "Mateusz Augustyniak",
+        "pl": "Mateusz Augustyniak",
+        "en": "Mateusz Augustyniak",
+        "es": "Mateusz Augustyniak"
+      },
+      "Name11": {
+        "pt": "Gilda Lima",
+        "pl": "Gilda Lima",
+        "en": "Gilda Lima",
+        "es": "Gilda Lima"
+      },
+      "Role01": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role02": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role03": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role04": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role05": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role06": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role07": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role08": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role09": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role10": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role11": {
+        "pt": "Dama de Honra",
+        "pl": "Osoba niosąca pierścionki",
+        "en": "Ring Bearer",
+        "es": "Dama de Honor"
+      }
+    }
+  },
+  "Travel": {
+    "title": {
+      "pt": "Destination Wedding",
+      "pl": "Destination Wedding",
+      "en": "Destination Wedding",
+      "es": "Destination Wedding"
+    },
+    "subTitle": {
+      "pt": "PLANEJAMENTO DE VIAGEM",
+      "pl": "PLANOWANIE",
+      "en": "TRAVEL PLANNING",
+      "es": "PLANIFICACIÓN DE VIAJES"
+    },
+    "introP1": {
+      "pt": "Sugerimos 10 dias para conhecer a cidade de Búzios, a região dos Lagos conhecida como o Caribe Brasileiro e conhecer o Rio de Janeiro. Ainda estamos organizando algumas atividades turísticas para com um bom custo-benefício de transportes  para transfer e os passeios turísticos, garantindo segurança e diversão. Em breve mais informações por e-mail após a confirmação de presença!",
+      "pl": "Proponujemy 10 dni na zwiedzenie miasta Búzios, regionu dos Lagos, znanego jako brazylijskie Karaiby, a także odwiedzenie Rio de Janeiro. Wciąż opracowujemy kilka spersonalizowanych pakietów podróży dla Was z jak najlepszą ceną, w tym transfer i transport podczas wycieczki, zapewniając bezpieczeństwo i dobrą zabawę. Prześlemy więcej informacji drogą mailową zaraz po potwierdzeniu obecności!",
+      "en": "We suggest about 10 days trip to get to know the city of Búzios, the region known as the ‘Brazilian Caribbean’, and get to know Rio de Janeiro. We are still organising some tourism plan with a fair price for transport of transfer and tours ensuring safety and fun. More information available by e-mail after the attendance confirmation!",
+      "es": "Sugerimos 10 días para conocer la ciudad de Búzios, la región conocida como el Caribe brasileño, y conocer Río de Janeiro. Todavía estamos planificandoa algunos paseos turísticos con un valor justo de transporte para translados y visitas turísticas, garantizando seguridad y diversión. ¡Pronto más información por correo electrónico después de la confirmación de presencia!"
     },
     "Travel": {
         "title": {
