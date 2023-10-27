@@ -14,6 +14,7 @@ import {
   Text,
 } from "./style";
 import { KeyboardArrowUp, KeyboardArrowDown } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 function formatData(data) {
   const formattedData = data.map((item, index) => {
@@ -103,6 +104,8 @@ export default function QAAccordion({ data }) {
                     {paragraph.lista && (
                       <SubList>
                         {paragraph.lista.map((p, j) => (
+                            // <Link to="/home">
+                            // </Link>
                           <SubListItem key={j}>{p}</SubListItem>
                         ))}
                       </SubList>

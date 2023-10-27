@@ -54,6 +54,7 @@ export const Wedding = () => {
         subtitle={text.Wedding.subTitle[language]}
         paragraph1={text.Wedding.introP1[language]}
         paragraph2={text.Wedding.introP2[language]}
+        paragraph3={text.Wedding.introP3[language]}
       />
       <LocationAndWeather />
       <CarouselWedding dataInfo={dataWedding} />
