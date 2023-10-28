@@ -95,10 +95,10 @@
             "es": "Encontramos un lugar así para unir la Ceremonia Religiosa para bendecir nuestra unión y luego tendremos la recepción en el mismo lugar, con el DJ Tilulu y DJs invitados especiales para disfrutar el día, con el mejor atardecer de Búzios con la brisa fresca del mar..."
         },
         "introP3": {
-            "pt": "Só não se esqueça de <a href='/home'>confirmar presença!</a>",
-            "pl": "Tylko nie zapomnij <a href='/home'>potwierdzić swojej obecności!</a>",
-            "en": "Just don't forget to <a href='/home'>RSVP</a>!",
-            "es": "¡Solo no se olvide <a href='/home'>confirmar tu asistencia!</a>"
+            "pt": "Só não se esqueça de <a target='_blank' href='/home'>confirmar presença!</a>",
+            "pl": "Tylko nie zapomnij <a target='_blank' href='/home'>potwierdzić swojej obecności!</a>",
+            "en": "Just don't forget to <a target='_blank' href='/home'>RSVP</a>!",
+            "es": "¡Solo no se olvide <a target='_blank' href='/home'>confirmar tu asistencia!</a>"
         },
         "BoxEvent": {
             "boxTitle": {
@@ -519,10 +519,10 @@
             "es": "Si quieres regalarnos algo, solo aceptaremos transferencia con tarjeta de crédito/débito con opciones de moneda  que te resulte más cómoda!"
         },
         "introP4": {
-            "pt": "Caso você queira dar um presente fora das opções abaixo, <a href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>entre em contato com os noivos!</a>",
-            "pl": "Jeśli chcesz podarować prezent spoza poniższych opcji, <a href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>daj nam znać!</a>",
-            "en": "If you want to give a gift outside the options below, <a href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>get in touch with the bride and groom!",
-            "es": "Si quieres darnos  un regalo fuera de las siguientes opciones, <a href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>¡ponte en contacto con los novios!</a>"
+            "pt": "Caso você queira dar um presente fora das opções abaixo, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>entre em contato com os noivos!</a>",
+            "pl": "Jeśli chcesz podarować prezent spoza poniższych opcji, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>daj nam znać!</a>",
+            "en": "If you want to give a gift outside the options below, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>get in touch with the bride and groom!",
+            "es": "Si quieres darnos  un regalo fuera de las siguientes opciones, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>¡ponte en contacto con los novios!</a>"
         },
         "Cards_Gift": {
             "TitleGiftBox1": {
@@ -747,10 +747,10 @@
             "es": "Pero primero: el matrimonio civil. También tendría que ser a su manera, preferiblemente menos burocrático con el tema del idioma de una pareja internacional. Así que elegieron Dinamarca, el país que tiene uno de los niveles de felicidad más altos del mundo."
         },
         "Bloco7body1": {
-            "pt": "Ainda que toda a organização à distância de um Destination Wedding tenha seus desafios, é um sonho para eles unir pessoas tão especiais que fizeram parte da vida de cada um deles, em uma festa para celebrar o amor e a união. Por isso, não se esqueça de <a href='/home'>confirmar sua presença!</a>",
-            "pl": "Chociaż organizacja wesela na odległość w Destination Wedding wiąże się z pewnymi wyzwaniami, ich marzeniem jest zaproszenie na przyjęcie wszystkich wyjątkowych ludzi, którzy stali się częścią ich dotychczasowego życia, aby wspólnie uczcić ich miłość i ich związek. Nie zapomnij więc <a href='/home'>potwierdzić swojej obecności!</a>",
-            "en": "Even though organising a Destination Wedding at a distance has its challenges, it is a dream for them to bring together such special people who were part of each of their lives, in a party to celebrate love and unity. So don't forget to <a href='/home'>confirm your attendance!</a>",
-            "es": "Aunque organizar un Destination Wedding  a distancia tiene sus desafíos, para ellos es un sueño reunir a personas tan especiales que fueron parte de sus vidas, en una fiesta para celebrar el amor y la unidad. ¡Así que no olvides <a href='/home'>confirmar tu presencia!</a>"
+            "pt": "Ainda que toda a organização à distância de um Destination Wedding tenha seus desafios, é um sonho para eles unir pessoas tão especiais que fizeram parte da vida de cada um deles, em uma festa para celebrar o amor e a união. Por isso, não se esqueça de <a target='_blank' href='/home'>confirmar sua presença!</a>",
+            "pl": "Chociaż organizacja wesela na odległość w Destination Wedding wiąże się z pewnymi wyzwaniami, ich marzeniem jest zaproszenie na przyjęcie wszystkich wyjątkowych ludzi, którzy stali się częścią ich dotychczasowego życia, aby wspólnie uczcić ich miłość i ich związek. Nie zapomnij więc <a target='_blank' href='/home'>potwierdzić swojej obecności!</a>",
+            "en": "Even though organising a Destination Wedding at a distance has its challenges, it is a dream for them to bring together such special people who were part of each of their lives, in a party to celebrate love and unity. So don't forget to <a target='_blank' href='/home'>confirm your attendance!</a>",
+            "es": "Aunque organizar un Destination Wedding  a distancia tiene sus desafíos, para ellos es un sueño reunir a personas tan especiales que fueron parte de sus vidas, en una fiesta para celebrar el amor y la unidad. ¡Así que no olvides <a target='_blank' href='/home'>confirmar tu presencia!</a>"
         }
     },
     "TBG": {
@@ -927,10 +927,10 @@
             "es": "PLANIFICACIÓN DE VIAJES"
         },
         "introP1": {
-            "pt": "Sugerimos 10 dias para conhecer a cidade de Búzios, a região dos Lagos conhecida como o Caribe Brasileiro e conhecer o Rio de Janeiro. Ainda estamos organizando algumas atividades turísticas para com um bom custo-benefício de transportes  para transfer e os passeios turísticos, garantindo segurança e diversão. Em breve mais informações por e-mail após a <a href='/home'>confirmação de presença!</a>",
-            "pl": "Proponujemy 10 dni na zwiedzenie miasta Búzios, regionu dos Lagos, znanego jako brazylijskie Karaiby, a także odwiedzenie Rio de Janeiro. Wciąż opracowujemy kilka spersonalizowanych pakietów podróży dla Was z jak najlepszą ceną, w tym transfer i transport podczas wycieczki, zapewniając bezpieczeństwo i dobrą zabawę. Prześlemy więcej informacji drogą mailową zaraz po <a href='/home'>potwierdzeniu obecności!</a>",
-            "en": "We suggest about 10 days trip to get to know the city of Búzios, the region known as the ‘Brazilian Caribbean’, and get to know Rio de Janeiro. We are still organising some tourism plan with a fair price for transport of transfer and tours ensuring safety and fun. More information available by e-mail after the <a href='/home'>attendance confirmation!</a>",
-            "es": "Sugerimos 10 días para conocer la ciudad de Búzios, la región conocida como el Caribe brasileño, y conocer Río de Janeiro. Todavía estamos planificandoa algunos paseos turísticos con un valor justo de transporte para translados y visitas turísticas, garantizando seguridad y diversión. ¡Pronto más información por correo electrónico después de la <a href='/home'>confirmación de presencia!</a>"
+            "pt": "Sugerimos 10 dias para conhecer a cidade de Búzios, a região dos Lagos conhecida como o Caribe Brasileiro e conhecer o Rio de Janeiro. Ainda estamos organizando algumas atividades turísticas para com um bom custo-benefício de transportes  para transfer e os passeios turísticos, garantindo segurança e diversão. Em breve mais informações por e-mail após a <a target='_blank' href='/home'>confirmação de presença!</a>",
+            "pl": "Proponujemy 10 dni na zwiedzenie miasta Búzios, regionu dos Lagos, znanego jako brazylijskie Karaiby, a także odwiedzenie Rio de Janeiro. Wciąż opracowujemy kilka spersonalizowanych pakietów podróży dla Was z jak najlepszą ceną, w tym transfer i transport podczas wycieczki, zapewniając bezpieczeństwo i dobrą zabawę. Prześlemy więcej informacji drogą mailową zaraz po <a target='_blank' href='/home'>potwierdzeniu obecności!</a>",
+            "en": "We suggest about 10 days trip to get to know the city of Búzios, the region known as the ‘Brazilian Caribbean’, and get to know Rio de Janeiro. We are still organising some tourism plan with a fair price for transport of transfer and tours ensuring safety and fun. More information available by e-mail after the <a target='_blank' href='/home'>attendance confirmation!</a>",
+            "es": "Sugerimos 10 días para conocer la ciudad de Búzios, la región conocida como el Caribe brasileño, y conocer Río de Janeiro. Todavía estamos planificandoa algunos paseos turísticos con un valor justo de transporte para translados y visitas turísticas, garantizando seguridad y diversión. ¡Pronto más información por correo electrónico después de la <a target='_blank' href='/home'>confirmación de presencia!</a>"
         },
 
         "introP2": {
@@ -1130,10 +1130,10 @@
             "es": "Recomendaciones de los novios"
         },
         "Body2P1": {
-            "pt": "Claro que gostaríamos que você estivesse com a gente por todos os dias dessa viagem ao Brasil, contudo, sabemos que o Brasil não tem preços da Ásia e pode ser difícil acompanhar uma viagem de tantos dias contados como férias. Para ter ideia sobre preços em cada destino, consultar FAQ.",
-            "pl": "Oczywiście chcielibyśmy abyś spędził z nami każdy dzień tej podróży do Brazylii, zdajemy sobie jednak sprawę, że ceny w Brazylii są znacznie wyższe od tych w Azji i spędzenie tak wielu dni podróży liczonych jako wakacje może wiązać się z pewnymi trudnościami. Aby zorientować się w cenach w poszczególnych miejscach, sprawdź Q&A",
-            "en": "Of course we would like you to be with us for all the days of this trip to Brazil, however, we know that Brazil does not have Asian prices and it can be difficult to follow a trip of so many days counted as a vacation. To get an idea about prices in each destination, consult the Q&A.",
-            "es": "Por supuesto que nos gustaría que estuvieras con nosotros todos los días de este viaje a Brasil, sin embargo, sabemos que Brasil no tiene precios asiáticos y puede ser difícil seguir un viaje de tantos días contados como vacaciones. Para tener una idea de los precios en cada destino, consulta la página FAQ."
+            "pt": "Claro que gostaríamos que você estivesse com a gente por todos os dias dessa viagem ao Brasil, contudo, sabemos que o Brasil não tem preços da Ásia e pode ser difícil acompanhar uma viagem de tantos dias contados como férias. Para ter ideia sobre preços em cada destino, <a target='_blank' href='/qea'>consultar FAQ.</a>",
+            "pl": "Oczywiście chcielibyśmy abyś spędził z nami każdy dzień tej podróży do Brazylii, zdajemy sobie jednak sprawę, że ceny w Brazylii są znacznie wyższe od tych w Azji i spędzenie tak wielu dni podróży liczonych jako wakacje może wiązać się z pewnymi trudnościami. Aby zorientować się w cenach w poszczególnych miejscach, <a target='_blank' href='/qea'>sprawdź Q&A</a>",
+            "en": "Of course we would like you to be with us for all the days of this trip to Brazil, however, we know that Brazil does not have Asian prices and it can be difficult to follow a trip of so many days counted as a vacation. To get an idea about prices in each destination, <a target='_blank' href='/qea'>consult the Q&A.</a>",
+            "es": "Por supuesto que nos gustaría que estuvieras con nosotros todos los días de este viaje a Brasil, sin embargo, sabemos que Brasil no tiene precios asiáticos y puede ser difícil seguir un viaje de tantos días contados como vacaciones. Para tener una idea de los precios en cada destino, <a target='_blank' href='/qea'>consulta la página FAQ.</a>"
         },
         "storypoints": [
             {
@@ -1162,10 +1162,10 @@
             "es": "Ya adelantovarias indicaciones de alojamiento en Búzios y Río de Janeiro con buena relación costo-beneficio así como un Transfer seguro y confiable desde el Aeropuerto a Búzios."
         },
         "Body2P3": {
-            "pt": "Para saber sobre mais facilidades como dicas de viagem, passeios turísticos, gastronomia e lugares para comer e beber em Búzios e Rio de Janeiro, confirme presença e aguarde mais informação no seu e-mail.",
-            "pl": "Aby dowiedzieć się więcej o udogodnieniach, takich jak wskazówki dla podróżnych, zwiedzanie, gastronomia oraz miejsca do jedzenia i picia w Búzios i Rio de Janeiro, potwierdź swoją obecność i czekaj na więcej informacji, które otrzymasz na swój e-mail.",
-            "en": "To learn more about facilities such as travel tips, sightseeing, gastronomy and places to eat and drink in Búzios and Rio de Janeiro, RSVP and wait for more information in your e-mail.",
-            "es": "Para obtener más información sobre instalaciones como consejos de viaje, visitas turísticas, gastronomía y lugares para comer y beber en Búzios y Río de Janeiro, confirme su asistencia y espere más información en su correo electrónico."
+            "pt": "Para saber sobre mais facilidades como dicas de viagem, passeios turísticos, gastronomia e lugares para comer e beber em Búzios e Rio de Janeiro, <a target='_blank' href='/home'>confirme presença</a> e aguarde mais informação no seu e-mail.",
+            "pl": "Aby dowiedzieć się więcej o udogodnieniach, takich jak wskazówki dla podróżnych, zwiedzanie, gastronomia oraz miejsca do jedzenia i picia w Búzios i Rio de Janeiro, <a target='_blank' href='/home'>potwierdź swoją obecność</a> i czekaj na więcej informacji, które otrzymasz na swój e-mail.",
+            "en": "To learn more about facilities such as travel tips, sightseeing, gastronomy and places to eat and drink in Búzios and Rio de Janeiro, <a target='_blank' href='/home'>RSVP</a> and wait for more information in your e-mail.",
+            "es": "Para obtener más información sobre instalaciones como consejos de viaje, visitas turísticas, gastronomía y lugares para comer y beber en Búzios y Río de Janeiro, <a target='_blank' href='/home'>confirme su asistencia</a> y espere más información en su correo electrónico."
         },
         "CardsSubPag": {
             "Titulo1": {
@@ -1208,10 +1208,10 @@
             "es": "La Costa del Sol Fluminense, conocida popularmente como Região dos Lagos, se encuentra a unas 3 horas en coche desde Río de Janeiro y comprende 10 municipios, siendo Armação de Búzios, Cabo Frio y Arraial do Cabo las ciudades más turísticas. La belleza de la Región de Lagos está precisamente en la sencillez y la naturaleza misma, con hermosas playas y buena gastronomía!"
         },
         "introP2": {
-            "pt": "Escolhemos Búzios porque fez parte da nossa história. Além disso, é uma cidade fácil de fácil acesso com transporte do Rio de Janeiro ou Belo Horizonte, tem uma vibe mais animada e jovem, além de  ficar perto de Arraial do Cabo, lugar onde possuem praias surreais com cor água azul turquesa.",
-            "pl": "Wybraliśmy Búzios, ponieważ było to częścią naszej historii. Ponadto jest to łatwo dostępne miasto z transportem z Rio de Janeiro lub Belo Horizonte, ma bardziej żywy i młodzieńczy klimat, w dodatku blisko Arraial do Cabo, miejsca z surrealistycznymi plażami i turkusową wodą.",
-            "en": "We chose Búzios because it was part of our history. In addition, there  is an easy access to the city from Rio de Janeiro or Belo Horizonte, having a lively and youthful vibe, and close to Arraial do Cabo, an increadible place with turquoise beaches and white sand.",
-            "es": "Elegimos Búzios porque fue una ciudad que hace  parte de nuestra historia. Además, es una ciudad de fácil acceso desde Río de Janeiro o Belo Horizonte, tiene un ambiente más animado y se ubica  cerca de Arraial do Cabo, un lugar con playas surrealistas con aguas azul turquesa."
+            "pt": "Escolhemos Búzios porque fez <a target='_blank' href='/wedding/ourhistory'>parte da nossa história</a>. Além disso, é uma cidade fácil de fácil acesso com transporte do Rio de Janeiro ou Belo Horizonte, tem uma vibe mais animada e jovem, além de  ficar perto de Arraial do Cabo, lugar onde possuem praias surreais com cor água azul turquesa.",
+            "pl": "Wybraliśmy Búzios, ponieważ było to częścią <a target='_blank' href='/wedding/ourhistory'>naszej historii</a>. Ponadto jest to łatwo dostępne miasto z transportem z Rio de Janeiro lub Belo Horizonte, ma bardziej żywy i młodzieńczy klimat, w dodatku blisko Arraial do Cabo, miejsca z surrealistycznymi plażami i turkusową wodą.",
+            "en": "We chose Búzios because it was part of <a target='_blank' href='/wedding/ourhistory'>our history</a>. In addition, there  is an easy access to the city from Rio de Janeiro or Belo Horizonte, having a lively and youthful vibe, and close to Arraial do Cabo, an increadible place with turquoise beaches and white sand.",
+            "es": "Elegimos Búzios porque fue una ciudad que hace  parte de <a target='_blank' href='/wedding/ourhistory'>nuestra historia</a>. Además, es una ciudad de fácil acceso desde Río de Janeiro o Belo Horizonte, tiene un ambiente más animado y se ubica  cerca de Arraial do Cabo, un lugar con playas surrealistas con aguas azul turquesa."
         },
         "heading1": {
             "pt": "Turismo",
@@ -1276,10 +1276,10 @@
             }
         ],
         "body3": {
-            "pt": "Nós contamos com a empresa In Búzios para fazer todo o transporte seguro. Contudo precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a confirmação de presença (RSVP) por e-mail.",
-            "pl": "CPolegamy na firmie In Búzios, aby cały transport był bezpieczny. Musimy jednak wiedzieć od każdego gościa czy jest zainteresowany udziałem w wycieczkach, aby określić budżet dla każdego. Dalsze szczegóły zostaną potwierdzone dopiero po potwierdzeniu uczestnictwa (RSVP) drogą mailową.",
-            "en": "We rely on the company In Búzios to provide a safe trip. However, we need to know the willingness of each guest to make these tours in order to define the special price  for everyone. Further details will be confirmed only after RSVP by email.",
-            "es": "Confiamos en la empresa In Búzios para hacer todo el transporte seguro. Sin embargo, necesitamos saber el interés de cada uno  en la realización de los tours para poder definir un precio más justo para todos. Se confirmarán más detalles solo después de confirmar su asistencia por correo electrónico."
+            "pt": "Nós contamos com a empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para fazer todo o transporte seguro. Contudo precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a <a target='_blank' href='/home'>confirmação de presença (RSVP)</a> por e-mail.",
+            "pl": "CPolegamy na firmie <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a>, aby cały transport był bezpieczny. Musimy jednak wiedzieć od każdego gościa czy jest zainteresowany udziałem w wycieczkach, aby określić budżet dla każdego. Dalsze szczegóły zostaną potwierdzone dopiero po <a target='_blank' href='/home'>potwierdzeniu uczestnictwa (RSVP)</a> drogą mailową.",
+            "en": "We rely on the company <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> to provide a safe trip. However, we need to know the willingness of each guest to make these tours in order to define the special price  for everyone. Further details will be confirmed only after <a target='_blank' href='/home'>RSVP</a> by email.",
+            "es": "Confiamos en la empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para hacer todo el transporte seguro. Sin embargo, necesitamos saber el interés de cada uno  en la realización de los tours para poder definir un precio más justo para todos. Se confirmarán más detalles solo después de <a target='_blank' href='/home'>confirmar su asistencia</a> por correo electrónico."
         },
         "heading2": {
             "pt": "Hospedagem",
@@ -1294,10 +1294,10 @@
             "es": "Buzios es una península y tiene más de 20 playas en un área más pequeña que Formentera, la más pequeña de las Islas Baleares. A pesar de estar todo aparentemente cerca, la ciudad creció pero la infraestructura de la ciudad no acompañó su crecimiento de manera equivalente. Por lo tanto, puede haber tráfico a ciertas horas, dificultad para moverse ya que muchas calles están empedradas y sin pavimentar y, muchas veces, algunos hostales terminan en lo alto de una colina o son de difícil acceso. Por lo tanto, facilitamos a nuestros huéspedes sugiriendo tres posadas cercanas a donde estaremos, con una excelente ubicación, cerca de tiendas, restaurantes e instalaciones, con buena estructura, limpias y confiables."
         },
         "bodyBuzius2": {
-            "pt": "Visite o site das pousadas abaixo, mas confirme presença (RSVP) para poder usufruir dos descontos!",
-            "pl": "Odwiedź stronę pousadas poniżej, ale potwierdź swoją obecność (RSVP), aby skorzystać ze zniżek!",
-            "en": "Visit the hotels’ website below, but confirm your attendace (RSVP) to enjoy the special discounts we got for our guests!",
-            "es": "¡Visite la página web de las posadas abajo, pero disfrute de los descuentos que logramos al  confirmar  su presencia (RSVP)!"
+            "pt": "Visite o site das pousadas abaixo, mas <a target='_blank' href='/home'>confirme presença (RSVP)</a> para poder usufruir dos descontos!",
+            "pl": "Odwiedź stronę pousadas poniżej, ale potwierdź <a target='_blank' href='/home'>swoją obecność (RSVP)</a>, aby skorzystać ze zniżek!",
+            "en": "Visit the hotels’ website below, but <a target='_blank' href='/home'>confirm your attendace (RSVP)</a> to enjoy the special discounts we got for our guests!",
+            "es": "¡Visite la página web de las posadas abajo, pero disfrute de los descuentos que logramos al  <a target='_blank' href='/home'>confirmar  su presencia (RSVP)!</a>"
         }
     },
     "Rio de Janeiro": {
@@ -1338,10 +1338,10 @@
             "es": "Turismo"
         },
         "bodyRio1": {
-            "pt": "Decidimos incluir um pequeno roteiro ao Rio de Janeiro porque sabemos que quem é de fora do Brasil não vai suportar a ideia de viajar por longas horas e não visitar a cidade mais famosa do país. Com apenas alguns dias de turismo pela cidade maravilhosa é possível de conhecer os principais pontos turísticos da cidade. Contaremos novamente com a empresa In Búzios para poder nos levar para visitar a cidade com segurança com transporte terrestre, incluindo o transfer de Búzios para o Rio de Janeiro.",
-            "pl": "Zdecydowaliśmy się na małą wycieczkę do Rio de Janeiro, ponieważ wiemy, że ludzie spoza Brazylii nie mogą znieść myśli o wielogodzinnej podróży i nie zwiedzeniu najsłynniejszego miasta w kraju. Wystarczy kilka dni w tym wspaniałym mieście, aby odkryć jego główne zabytki. Ponownie będziemy polegać na firmie In Búzios, aby móc bezpiecznie zabrać nas do miasta transportem lądowym, w tym transfer z Búzios do Rio de Janeiro.",
-            "en": "We decided to include a small itinerary to Rio de Janeiro because we know that foreigners wouldn’t bear the idea of travelling for so long and not visiting the most famous city in the country. With just a few days of sightseeing in the wonderful city, it is possible to discover the main sights of the city. We will again rely on the company In Búzios to be able to take us to visit the city safely with land transport, including the transfer from Búzios to Rio de Janeiro.",
-            "es": "Decidimos incluir un pequeño itinerario a Río de Janeiro porque sabemos que las personas que vienen de  fuera de Brasil no soportaría la idea de viajar largas horas y no visitar la ciudad más famosa del país. Con solo unos días de turismo en la ciudad maravillosa, es posible descubrir los principales puntos turísticos de la ciudad. Contaremos  de nuevo con la empresa In Búzios para poder llevarnos a visitar la ciudad de forma segura con transporte terrestre, incluido el traslado de Búzios a Río de Janeiro."
+            "pt": "Decidimos incluir um pequeno roteiro ao Rio de Janeiro porque sabemos que quem é de fora do Brasil não vai suportar a ideia de viajar por longas horas e não visitar a cidade mais famosa do país. Com apenas alguns dias de turismo pela cidade maravilhosa é possível de conhecer os principais pontos turísticos da cidade. Contaremos novamente com a empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para poder nos levar para visitar a cidade com segurança com transporte terrestre, incluindo o transfer de Búzios para o Rio de Janeiro.",
+            "pl": "Zdecydowaliśmy się na małą wycieczkę do Rio de Janeiro, ponieważ wiemy, że ludzie spoza Brazylii nie mogą znieść myśli o wielogodzinnej podróży i nie zwiedzeniu najsłynniejszego miasta w kraju. Wystarczy kilka dni w tym wspaniałym mieście, aby odkryć jego główne zabytki. Ponownie będziemy polegać na firmie <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a>, aby móc bezpiecznie zabrać nas do miasta transportem lądowym, w tym transfer z Búzios do Rio de Janeiro.",
+            "en": "We decided to include a small itinerary to Rio de Janeiro because we know that foreigners wouldn’t bear the idea of travelling for so long and not visiting the most famous city in the country. With just a few days of sightseeing in the wonderful city, it is possible to discover the main sights of the city. We will again rely on the company <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> to be able to take us to visit the city safely with land transport, including the transfer from Búzios to Rio de Janeiro.",
+            "es": "Decidimos incluir un pequeño itinerario a Río de Janeiro porque sabemos que las personas que vienen de  fuera de Brasil no soportaría la idea de viajar largas horas y no visitar la ciudad más famosa del país. Con solo unos días de turismo en la ciudad maravillosa, es posible descubrir los principales puntos turísticos de la ciudad. Contaremos  de nuevo con la empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para poder llevarnos a visitar la ciudad de forma segura con transporte terrestre, incluido el traslado de Búzios a Río de Janeiro."
         },
         "bodyRio2": {
             "pt": "Alguns dos pontos turísticos que vamos conhecer:",
@@ -1400,10 +1400,10 @@
             }
         ],
         "bodyConfirmation3": {
-            "pt": "Se ficou interessado, por gentileza, precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a confirmação de presença (RSVP) por e-mail.",
-            "pl": "Jeśli jesteście zainteresowani, musimy to wiedzieć przed zorganizowaniem wycieczki, aby określić budżet dla każdego. Dalsze szczegóły zostaną przekazane dopiero po potwierdzeniu uczestnictwa (RSVP) drogą mailową.",
-            "en": "If you are interested, please, we need to know the willingness  of each guest to participate of these tours in order to define a fair price for everyone. Further details will be confirmed only after RSVP by email.",
-            "es": "Si está interesado, por favor, necesitamos saber el interés individual de cada uno en la realización de los tours para poder definir un precio más justo. Se confirmarán más detalles solo después de confirmar su asistencia por correo electrónico."
+            "pt": "Se ficou interessado, por gentileza, precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a <a target='_blank' href='/home'>confirmação de presença (RSVP)</a> por e-mail.",
+            "pl": "Jeśli jesteście zainteresowani, musimy to wiedzieć przed zorganizowaniem wycieczki, aby określić budżet dla każdego. Dalsze szczegóły zostaną przekazane dopiero po <a target='_blank' href='/home'>potwierdzeniu uczestnictwa (RSVP)</a> drogą mailową.",
+            "en": "If you are interested, please, we need to know the willingness  of each guest to participate of these tours in order to define a fair price for everyone. Further details will be confirmed only after <a target='_blank' href='/home'>RSVP</a> by email.",
+            "es": "Si está interesado, por favor, necesitamos saber el interés individual de cada uno en la realización de los tours para poder definir un precio más justo. Se confirmarán más detalles solo después de <a target='_blank' href='/home'>confirmar su asistencia</a> por correo electrónico."
         },
         "heading2": {
             "pt": "Hospedagem",
@@ -1444,10 +1444,10 @@
             "es": "Nuestras respuestas a las preguntas más frecuentes..."
         },
         "introP1": {
-            "pt": "Sabemos que um Destination Wedding pode gerar muitas dúvidas! Confira se sua dúvida já está por aqui, caso contrário, entre em contato diretamente com os noivos através do Grupo de WhatsApp!",
-            "pl": "Zdajemy sobie sprawę,, że “Destination Wedding” może rodzić wiele pytań! Sprawdź, czy Twoje pytanie już tu jest, w przeciwnym razie skontaktuj się z parą młodą bezpośrednio przez WhatsApp albo inny komunikator!",
-            "en": "We know that a Destination Wedding can raise a lot of questions! Check if your question is already explained on the website or on the answeres below, otherwise, contact the bride and groom directly through the WhatsApp Group!",
-            "es": "¡Sabemos que una boda de destino puede generar muchas preguntas! Comprueba si tu pregunta ya está aquí, de lo contrario, ¡contacta directamente con los novios a través del Grupo de WhatsApp!"
+            "pt": "Sabemos que um Destination Wedding pode gerar muitas dúvidas! Confira se sua dúvida já está por aqui, caso contrário, entre em contato diretamente com os noivos através do Grupo de <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp!</a>",
+            "pl": "Zdajemy sobie sprawę,, że “Destination Wedding” może rodzić wiele pytań! Sprawdź, czy Twoje pytanie już tu jest, w przeciwnym razie skontaktuj się z parą młodą bezpośrednio przez <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp albo inny komunikator!</a>",
+            "en": "We know that a Destination Wedding can raise a lot of questions! Check if your question is already explained on the website or on the answeres below, otherwise, contact the bride and groom directly through the <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp Group!</a>",
+            "es": "¡Sabemos que una boda de destino puede generar muchas preguntas! Comprueba si tu pregunta ya está aquí, de lo contrario, ¡contacta directamente con los novios a través del Grupo de <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp!</a>"
         },
         "Accordion": [
             {
@@ -1458,7 +1458,7 @@
                     "es": "¿Puedo llevar más personas al viaje?"
                 },
                 "answers": {
-                    "pt": "Pode <a href='/home'>levar</a> mais amigos ou familiares que desejar para a viagem ao Brasil sem nenhum problema, contudo terá que indicar quantas pessoas no espaço de mensagem na confirmação de presença para melhor gestão de turismo. Somente convidados atenderão ao Casamento. Somente convidados terão os benefícios do transfer gratuito (vagas limitadas), isto é: quem não é convidado poderá usufruir do transfer, porém pagando uma taxa.",
+                    "pt": "Pode <a target='_blank' href='/home'>levar</a> mais amigos ou familiares que desejar para a viagem ao Brasil sem nenhum problema, contudo terá que indicar quantas pessoas no espaço de mensagem na confirmação de presença para melhor gestão de turismo. Somente convidados atenderão ao Casamento. Somente convidados terão os benefícios do transfer gratuito (vagas limitadas), isto é: quem não é convidado poderá usufruir do transfer, porém pagando uma taxa.",
                     "pl": "Na wycieczkę do Brazylii można bez problemu zabrać dowolną liczbę przyjaciół lub członków rodziny, jednak w celu lepszego zarządzania wycieczkami należy podać liczbę osób w miejscu na wiadomość podczas potwierdzenia swojego uczestnictwa. Tylko zaproszeni goście mogą uczestniczyć w weselu. Tylko goście skorzystają z bezpłatnego transferu (ograniczona liczba miejsc), innymi słowy: każdy, kto nie jest zaproszonym przez nas gościem, może skorzystać z transferu, ale musi uiścić opłatę.",
                     "en": "You can take as many friends or family as you wish for the trip to Brazil without any problem, however you will have to indicate how many people will join you in the message blank on the RSVP for a better tourism management. Only invited guests can attend the Wedding. Only invited guests will have the benefits of the free transfer (limited spots), that is: those who are not guests will be able to enjoy the transfer, but paying a fee.",
                     "es": "Puede llevar a todos los amigos o familiares que desee para el viaje a Brasil sin ningún problema, sin embargo, deberá indicar cuántas personas en el espacio de mensajes en RSVP para una mejor gestión del turismo. Solo los invitados asistirán a la Boda. Solo los invitados tendrán los beneficios del traslado gratuito (plazas limitadas), es decir: aquellos que no sean invitados podrán disfrutar del traslado, pero pagando una tarifa."
@@ -1472,10 +1472,10 @@
                     "es": "¿Cuánto podría esperar gastar por día en costos de alimentos en Brasil?"
                 },
                 "answers": {
-                    "pt": "Depende muito do seu perfil de viajante. Existe um site que é muito interessante para comparar custo de vida em diversas cidades do mundo: Numbeo.",
-                    "pl": "Zależy to w dużej mierze od profilu podróżnika. Istnieje bardzo interesująca strona porównująca koszty życia w kilku miastach na świecie: Numbeo.",
-                    "en": "It really depends on your traveler profile. There is a site that is very interesting to compare the cost of living in different cities around the world: Numbeo.",
-                    "es": "Realmente depende de su perfil de viajero. Hay un sitio que es muy interesante para comparar el costo de vida en diferentes ciudades del mundo: Numbeo."
+                    "pt": "Depende muito do seu perfil de viajante. Existe um site que é muito interessante para comparar custo de vida em diversas cidades do mundo: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo</a>.",
+                    "pl": "Zależy to w dużej mierze od profilu podróżnika. Istnieje bardzo interesująca strona porównująca koszty życia w kilku miastach na świecie: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>",
+                    "en": "It really depends on your traveler profile. There is a site that is very interesting to compare the cost of living in different cities around the world: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>",
+                    "es": "Realmente depende de su perfil de viajero. Hay un sitio que es muy interesante para comparar el costo de vida en diferentes ciudades del mundo: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>"
                 },
                 "answers2": {
                     "pt": "Búzios é a cidade mais cara da Região dos Lagos, e restaurantes em Búzios tendem a ser mais caros do que o Rio de Janeiro. Rio de Janeiro é mais caro que Belo Horizonte. Cracóvia tem um custo de vida mais similar a Armação de Búzios do que Rio de Janeiro. Já os preços do Rio de Janeiro são mais altos de Quito, ainda que a diferença nos restaurantes não seja percebida tão alta.",
@@ -1498,16 +1498,16 @@
                     "es": "¿Todos los tours son gratuitos?"
                 },
                 "answers": {
-                    "pt": "Não, nenhum passeio turístico é gratuito. O que vamos facilitar é informação e planejamento de viagem (como uma assessoria de viagem) sem nenhum custo adicional comissionado por ser organizado completamente de forma independente através de fornecedores de confiança e transporte seguro.",
-                    "pl": "Nie, żadna wycieczka nie jest bezpłatna. Ułatwiamy natomiast uzyskanie informacji i zaplanowanie podróży (podobnie jak biuro podróży) bez dodatkowych kosztów, ponieważ jest ona organizowana całkowicie niezależnie za pośrednictwem zaufanych dostawców i bezpiecznego transportu.",
-                    "en": "No, none of the tours are free. What we will facilitate is information and travel planning (like a travel advisory) at no additional cost commissioned by being organised completely independently through reliable suppliers and secure transport.",
-                    "es": "No, ninguno de los tours es gratuito. Lo que vamos a facilitar es información y planificación de viajes (como una asesoría de viajes) sin coste adicional por encargo al ser organizados de forma totalmente independiente a través de proveedores de confianza y transporte seguro."
+                    "pt": "Não, nenhum passeio turístico é gratuito. O que vamos facilitar é <strong>informação e planejamento de viagem</strong> (como uma assessoria de viagem) sem nenhum custo adicional comissionado por ser organizado completamente de forma independente através de fornecedores de confiança e transporte seguro.",
+                    "pl": "Nie, żadna wycieczka nie jest bezpłatna. Ułatwiamy natomiast uzyskanie <strong>informacji i zaplanowanie podróży</strong> (podobnie jak biuro podróży) bez dodatkowych kosztów, ponieważ jest ona organizowana całkowicie niezależnie za pośrednictwem zaufanych dostawców i bezpiecznego transportu.",
+                    "en": "No, none of the tours are free. What we will facilitate is <strong>information and travel planning</strong> (like a travel advisory) at no additional cost commissioned by being organised completely independently through reliable suppliers and secure transport.",
+                    "es": "No, ninguno de los tours es gratuito. Lo que vamos a facilitar es <strong>información y planificación de viajes</strong> (como una asesoría de viajes) sin coste adicional por encargo al ser organizados de forma totalmente independiente a través de proveedores de confianza y transporte seguro."
                 },
                 "answers2": {
-                    "pt": "Vamos oferecer apenas um transfer gratuito do Rio de Janeiro até Búzios como cortesia para nossos convidados em um horário específico definido posteriormente com a confirmação de presença dos convidados.",
-                    "pl": "Bezpłatny transfer z Rio de Janeiro do Búzios oferowany jest wyłącznie jako uprzejmość dla naszych gości w określonym czasie, który zostanie później określony w potwierdzeniu obecności gości.",
-                    "en": "We will only offer a free transfer from Rio de Janeiro to Búzios as a courtesy for our guests at a specific time defined later with the guest's attendance confirmation.",
-                    "es": "Solo ofreceremos un traslado gratuito de Río de Janeiro a Búzios como cortesía para nuestros invitados en un horario específico definido más adelante con la confirmación de la presencia de los invitados."
+                    "pt": "Vamos oferecer apenas um transfer gratuito do Rio de Janeiro até Búzios como cortesia para nossos convidados em um horário específico definido posteriormente com a <a target='_blank' href='/home'>confirmação de presença dos convidados.</a>",
+                    "pl": "Bezpłatny transfer z Rio de Janeiro do Búzios oferowany jest wyłącznie jako uprzejmość dla naszych gości w określonym czasie, który zostanie później określony w <a target='_blank' href='/home'>potwierdzeniu obecności gości.</a>",
+                    "en": "We will only offer a free transfer from Rio de Janeiro to Búzios as a courtesy for our guests at a specific time defined later with the guest's <a target='_blank' href='/home'>attendance confirmation.</a>",
+                    "es": "Solo ofreceremos un traslado gratuito de Río de Janeiro a Búzios como cortesía para nuestros invitados en un horario específico definido más adelante con la confirmación de la <a target='_blank' href='/home'>presencia de los invitados.</a>"
                 }
             },
             {
@@ -1525,10 +1525,10 @@
                 },
                 "transfer": [
                     {
-                        "pt": "Transfer In Búzios: Nós contratamos uma empresa especializada que possui horários fixos de transporte para Búzios direto do Aeroporto do Rio de Janeiro. Recomendamos muito a empresa por questão de segurança e credibilidade, além de que a empresa terá o nosso contato direto. Mais informação sobre a empresa em Destination Wedding.",
-                        "pl": "Transfer In Búzios: Wynajęliśmy wyspecjalizowaną firmę, która ma ustalone harmonogramy transportu do Búzios bezpośrednio z lotniska w Rio de Janeiro. Gorąco polecamy tę firmę ze względu na bezpieczeństwo i wiarygodność, a ponadto firma będzie miała nasz bezpośredni kontakt. Więcej informacji o firmie na stronie Destination Wedding.",
-                        "en": "Transfer In Búzios: We hired a specialized company that has fixed timetables for transport from Rio de Janeiro to Búzios directly from the Airport. We highly recommend the company for security and credibility reasons, in addition to the fact that the company will have our direct contact. More information about the company at Destination Wedding.",
-                        "es": "Transfer In Búzios: Hemos contratado una empresa especializada que tiene horarios fijos de traslado a Búzios directamente desde el aeropuerto de Río de Janeiro. Recomendamos ampliamente a empresa por razones de seguridad y credibilidad, además del hecho de que la empresa tendrá nuestro contacto directo. Más información sobre la empresa en Destination Wedding."
+                        "pt": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Nós contratamos uma empresa especializada que possui horários fixos de transporte para Búzios direto do Aeroporto do Rio de Janeiro. Recomendamos muito a empresa por questão de segurança e credibilidade, além de que a empresa terá o nosso contato direto. Mais informação sobre a empresa em </a>",
+                        "pl": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Wynajęliśmy wyspecjalizowaną firmę, która ma ustalone harmonogramy transportu do Búzios bezpośrednio z lotniska w Rio de Janeiro. Gorąco polecamy tę firmę ze względu na bezpieczeństwo i wiarygodność, a ponadto firma będzie miała nasz bezpośredni kontakt. Więcej informacji o firmie na stronie <a target='_blank' href='/travel'>Destination Wedding.</a>",
+                        "en": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> We hired a specialized company that has fixed timetables for transport from Rio de Janeiro to Búzios directly from the Airport. We highly recommend the company for security and credibility reasons, in addition to the fact that the company will have our direct contact. More information about the company at <a target='_blank' href='/travel'>Destination Wedding.</a>",
+                        "es": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Hemos contratado una empresa especializada que tiene horarios fijos de traslado a Búzios directamente desde el aeropuerto de Río de Janeiro. Recomendamos ampliamente a empresa por razones de seguridad y credibilidad, además del hecho de que la empresa tendrá nuestro contacto directo. Más información sobre la empresa en <a target='_blank' href='/travel'>Destination Wedding.</a>"
                     },
                     {
                         "pt": "Outros Transfers: Não conhecemos, portanto não podemos indicar outros transfers que saem direto do Aeroporto. Porém, existem outras empresas que fazem esse serviço, contudo, fique atento a falsos transfers e táxis no Rio de Janeiro.",

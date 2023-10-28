@@ -68,7 +68,8 @@ const Travel = () => {
           <TituloDescription>
             {text.Travel.Heading2[language]}
           </TituloDescription>
-          <Description>{text.Travel.Body2P1[language]}</Description>
+          <Description dangerouslySetInnerHTML={ {__html: text.Travel.Body2P1[language]} } />
+          {/* <Description>{text.Travel.Body2P1[language]}</Description> */}
           <Description>
             {" "}
             <ul>
@@ -79,7 +80,8 @@ const Travel = () => {
           </Description>
 
           <Description>{text.Travel.Body2P2[language]}</Description>
-          <Description>{text.Travel.Body2P3[language]}</Description>
+          <Description dangerouslySetInnerHTML={ {__html: text.Travel.Body2P3[language]} } />
+          {/* <Description>{text.Travel.Body2P3[language]}</Description> */}
         </ContainerPageCity>
       </Box>
       <ContainerCarouselTravel>

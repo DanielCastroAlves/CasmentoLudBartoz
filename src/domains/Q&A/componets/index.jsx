@@ -110,7 +110,7 @@ export default function QAAccordion({ data }) {
                         ))}
                       </SubList>
                     )}
-                    {paragraph.emprAir && (
+                    {/* {paragraph.emprAir && (
                       <EmprAir>
                         <Text>{paragraph.emprAir[0]}</Text>
                         <SubList>
@@ -119,7 +119,7 @@ export default function QAAccordion({ data }) {
                           ))}
                         </SubList>
                       </EmprAir>
-                    )}
+                    )} */}
                     {paragraph.text && <Text>{paragraph.text}</Text>}
                     {paragraph.descriptionData && (
                       <Text>{paragraph.descriptionData[0]}</Text>
@@ -127,7 +127,7 @@ export default function QAAccordion({ data }) {
                     {paragraph.additionalInfo && (
                       <SubList>
                         {paragraph.additionalInfo.map((info, k) => (
-                          <SubListItem key={k}>{info}</SubListItem>
+                          <SubListItem key={k} dangerouslySetInnerHTML={ {__html: info} } />
                         ))}
                       </SubList>
                     )}
@@ -138,7 +138,7 @@ export default function QAAccordion({ data }) {
                           {paragraph.additionalInfoemprAir
                             .slice(1)
                             .map((info, k) => (
-                              <SubListItem key={k}>{info}</SubListItem>
+                                <SubListItem key={k} dangerouslySetInnerHTML={ {__html: info} } />
                             ))}
                         </SubList>
                       </EmprAir>
@@ -149,7 +149,7 @@ export default function QAAccordion({ data }) {
                     {paragraph.additionalInfodescription && (
                       <SubList>
                         {paragraph.additionalInfodescription.map((info, k) => (
-                          <SubListItem key={k}>{info}</SubListItem>
+                          <SubListItem key={k} dangerouslySetInnerHTML={ {__html: info} } />
                         ))}
                       </SubList>
                     )}
