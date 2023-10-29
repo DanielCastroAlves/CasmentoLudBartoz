@@ -49,7 +49,7 @@ export const LocationAndWeather = () => {
                 {!isMobile ? (
                     <CeremonyContainer width="50%">
                         <Typography fontSize={theme.spacing(7)} color={theme.palette.primary.main}>
-                            {text.preWedding.BoxEvent.boxTitle[language]}
+                            {text.Wedding.BoxEvent.boxTitle[language]}
                         </Typography>
                         <Stack width="100%" gap={2} alignItems="center">
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
@@ -72,14 +72,14 @@ export const LocationAndWeather = () => {
                                 )}
                             </Stack>
                             <Typography fontSize={theme.spacing(4.5)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
-                                {text.preWedding.BoxEvent.dateTime[language]}
+                                {text.Wedding.BoxEvent.dateTime[language]}
                             </Typography>
                         </Stack>
                         <Stack direction="row" width="100%" height="100%" px={2} gap={4} my={5}>
                             <Stack gap={4} width="50%" alignItems="center">
                                 <Stack width="100%" alignItems="center">
                                     <Typography fontSize={theme.spacing(9.5)} color={theme.palette.secondary.main} fontFamily="Corinthia">
-                                        Villa Três Marias
+                                        Sirena Gastroba
                                     </Typography>
                                     <Stack>
                                         <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
@@ -107,7 +107,7 @@ export const LocationAndWeather = () => {
                                 sx={{
                                     backgroundImage: `linear-gradient(360deg, #FFF 0%, rgba(255, 255, 255, 0.78) 1.87%, rgba(255, 255, 255, 0.00) 51.77%), url(${brMap})`,
                                     backgroundPosition: "center",
-                                    backgroundSize: "contain", 
+                                    backgroundSize: "contain",
                                     backgroundRepeat: "no-repeat",
                                     maxWidth: "-webkit-fill-available",
                                     overflow: "auto !important",
@@ -121,7 +121,7 @@ export const LocationAndWeather = () => {
                     <CeremonyContainerMobile>
                         <Stack width="100%" gap={2} alignItems="center">
                             <Typography fontSize={theme.spacing(6.5)} color={theme.palette.primary.main}>
-                            {text.preWedding.BoxEvent.boxTitle[language]}
+                                {text.preWedding.BoxEvent.boxTitle[language]}
                             </Typography>
                             <Stack direction="row" width="100%" justifyContent="center" gap={2}>
                                 {language === "es" ? (
@@ -173,7 +173,7 @@ export const LocationAndWeather = () => {
                 )}
                 <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} px={isMobile && 4} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.946544808715!2d-41.91187708872573!3d-22.76736497926735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96ff1202fcdb65%3A0xa27673cadca1dc57!2sVilla%20Tres%20Marias%20Buzios!5e0!3m2!1sen!2sch!4v1689846300672!5m2!1sen!2sch"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7357.821953921361!2d-41.9139298!3d-22.7686848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9701b3a2e4add5%3A0x60f20f24c43c0e4f!2sSirena%20B%C3%BAzios%20Gastrobar!5e0!3m2!1spt-BR!2sbr!4v1698618755881!5m2!1spt-BR!2sbr"
                         width="100%"
                         height="100%"
                         allowfullscreen=""
