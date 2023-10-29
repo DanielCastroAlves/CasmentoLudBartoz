@@ -3,17 +3,21 @@ import { useLanguage } from "../../hooks/useLanguage.jsx";
 import { Header } from "../../Components/Body/Header/index.jsx";
 import { Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { HomeContainer } from "./style.js";
+import { useLocation } from "react-router-dom";
 
 export const Home = () => {
   const { urlForm } = useLanguage();
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const location = useLocation();
+  const url = location.pathname;
 
   return (
     <Stack direction="column" width="100%" height="100%">
       <HomeContainer>
-        <Header />
+        {url === '/home' && <Header />}
+        
         <Stack
           alignItems="center"
           justifyContent="center"

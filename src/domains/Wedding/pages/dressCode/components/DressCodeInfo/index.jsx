@@ -24,50 +24,130 @@ export const DressCodeInfo = () => {
     ];
     return (
         <Grid container height="100%" justifyContent="center" alignItems="space-between" px={isMobile ? 13 : 42.75} mt={15}>
-            <Grid xs={12} sm={6}>
-                <img src={isMobile ? dressCodeMobile1 : dressCodeDesktop1} width="100%" alt="Praia vista de cima" />
-            </Grid>
-            <Grid xs={12} sm={6}>
-                <Stack p={4} gap={8} height="100%" justifyContent="space-between">
-                    <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
-                        {text.dressCode.heading1[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body1[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
-                        {text.dressCode.heading2[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body2[language]}
-                    </Typography>
-                    <Stack width="100%">
-                        <img src={isMobile ? dressCodeMobile2 : dressCodeDesktop2} height="auto" alt="Gráfico de previsão de tempo" />
-                    </Stack>
-                </Stack>
-            </Grid>
-            <Grid xs={12} sm={6} mt={15}>
-                <Stack p={4} gap={2} height="100%">
-                    <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
-                        {text.dressCode.heading3[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body31[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body32[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body33[language]}
-                    </Typography>
-                    <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
-                        {text.dressCode.body34[language]}
-                    </Typography>
-                </Stack>
-            </Grid>
-            <Grid xs={12} sm={6} mt={15}>
-                <img src={isMobile ? dressCodeMobile3 : dressCodeDesktop3} width="100%" alt="Amigos brindando" />
-            </Grid>
+            {isMobile ? (
+                <>
+                    <Grid xs={12} sm={6}>
+                        <img src={isMobile ? dressCodeMobile1 : dressCodeDesktop1} width="100%" alt="Praia vista de cima" />
+                    </Grid>
+                    <Grid xs={12} sm={6}>
+                        <Stack p={4} gap={8} height="100%" justifyContent="space-between">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading1[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body1[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading2[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body2[language]}
+                            </Typography>
+                            <Stack width="100%">
+                                <img src={isMobile ? dressCodeMobile2 : dressCodeDesktop2} height="auto" alt="Gráfico de previsão de tempo" />
+                            </Stack>
+                        </Stack>
+                    </Grid>
+                </>
+            ) : (
+                <>
+                    <Grid
+                        xs={12}
+                        sm={6}
+                        // mt={15}
+                        sx={{
+                            backgroundImage: `url(${isMobile ? dressCodeMobile1 : dressCodeDesktop1})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                            maxWidth: "-webkit-fill-available",
+                            overflow: "auto !important",
+                        }}
+                    ></Grid>
+                    <Grid xs={12} sm={6}>
+                        <Stack p={4} gap={8} height="100%" justifyContent="space-between">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading1[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body1[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading2[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body2[language]}
+                            </Typography>
+                            <Stack width="100%">
+                                <img src={isMobile ? dressCodeMobile2 : dressCodeDesktop2} height="auto" alt="Gráfico de previsão de tempo" />
+                            </Stack>
+                        </Stack>
+                    </Grid>
+                </>
+            )}
+
+            {isMobile ? (
+                <>
+                    <Grid xs={12} sm={6} mt={15}>
+                        <Stack p={4} gap={2} height="100%">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading3[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body31[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body32[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body33[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body34[language]}
+                            </Typography>
+                        </Stack>
+                    </Grid>
+                    <Grid xs={12} sm={6} mt={15}>
+                        <img src={isMobile ? dressCodeMobile3 : dressCodeDesktop3} width="100%" alt="Amigos brindando" />
+                    </Grid>
+                </>
+            ) : (
+                <>
+                    <Grid xs={12} sm={6} mt={15}>
+                        <Stack p={4} gap={2} height="100%">
+                            <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
+                                {text.dressCode.heading3[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body31[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body32[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body33[language]}
+                            </Typography>
+                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                {text.dressCode.body34[language]}
+                            </Typography>
+                        </Stack>
+                    </Grid>
+                    <Grid
+                        xs={12}
+                        sm={6}
+                        mt={15}
+                        sx={{
+                            backgroundImage: `url(${isMobile ? dressCodeMobile3 : dressCodeDesktop3})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                            maxWidth: "-webkit-fill-available",
+                            overflow: "auto !important",
+                        }}
+                    ></Grid>
+                </>
+            )}
+
             {isMobile ? (
                 <>
                     <Grid xs={12} sm={6} a>
@@ -100,9 +180,19 @@ export const DressCodeInfo = () => {
                 </>
             ) : (
                 <>
-                    <Grid xs={12} sm={6} mt={15}>
-                        <img src={isMobile ? dressCodeMobile4 : dressCodeDesktop4} width="100%" alt="Amigas ao redor da noiva" />
-                    </Grid>
+                    <Grid
+                        xs={12}
+                        sm={6}
+                        mt={15}
+                        sx={{
+                            backgroundImage: `url(${isMobile ? dressCodeMobile4 : dressCodeDesktop4})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                            maxWidth: "-webkit-fill-available",
+                            overflow: "auto !important",
+                        }}
+                    ></Grid>
                     <Grid xs={12} sm={6} mt={15}>
                         <Stack p={4} gap={2} height="100%" justifyContent="center">
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
@@ -139,7 +229,7 @@ export const DressCodeInfo = () => {
                             <List component="nav">
                                 {text.dressCode.notAllowed.map((item, i) => {
                                     return (
-                                        <ListItem key={i + item} sx={{height: theme.spacing(6.25)}}>
+                                        <ListItem key={i + item} sx={{ height: theme.spacing(6.25) }}>
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>
@@ -176,7 +266,7 @@ export const DressCodeInfo = () => {
                             <List component="nav">
                                 {text.dressCode.notAllowed.map((item, i) => {
                                     return (
-                                        <ListItem key={i + item} sx={{height: theme.spacing(6.25)}}>
+                                        <ListItem key={i + item} sx={{ height: theme.spacing(6.25) }}>
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>
@@ -195,9 +285,19 @@ export const DressCodeInfo = () => {
                             </Typography>
                         </Stack>
                     </Grid>
-                    <Grid xs={12} sm={6} mt={15}>
-                        <img src={isMobile ? dressCodeMobile5 : dressCodeDesktop5} width="100%" alt="Vários barcos no mar" />
-                    </Grid>
+                    <Grid
+                        xs={12}
+                        sm={6}
+                        mt={15}
+                        sx={{
+                            backgroundImage: `url(${isMobile ? dressCodeMobile5 : dressCodeDesktop5})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                            maxWidth: "-webkit-fill-available",
+                            overflow: "auto !important",
+                        }}
+                    ></Grid>
                 </>
             )}
         </Grid>

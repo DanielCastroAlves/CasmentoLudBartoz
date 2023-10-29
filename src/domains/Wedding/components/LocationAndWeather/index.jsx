@@ -107,7 +107,7 @@ export const LocationAndWeather = () => {
                                 sx={{
                                     backgroundImage: `linear-gradient(360deg, #FFF 0%, rgba(255, 255, 255, 0.78) 1.87%, rgba(255, 255, 255, 0.00) 51.77%), url(${brMap})`,
                                     backgroundPosition: "center",
-                                    backgroundSize: "contain", // A imagem será redimensionada para cobrir completamente o elemento pai sem distorções
+                                    backgroundSize: "contain", 
                                     backgroundRepeat: "no-repeat",
                                     maxWidth: "-webkit-fill-available",
                                     overflow: "auto !important",
