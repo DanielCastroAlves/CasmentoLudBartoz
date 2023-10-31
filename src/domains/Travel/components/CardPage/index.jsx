@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  PageCityContainer,
+  CardCityContainer,
   PageCityDescription,
   PageCityImage,
   PageCityTitle,
@@ -16,7 +16,7 @@ const PageCity = ({ image, title, description, destination }) => {
   };
   return (
     <Link href={destination} underline="none">
-      <PageCityContainer
+      <CardCityContainer
         key={title}
         isSelected={isSelected}
         onClick={toggleSelection}
@@ -26,7 +26,7 @@ const PageCity = ({ image, title, description, destination }) => {
           <PageCityTitle>{title}</PageCityTitle>
           <PageCityDescription>{description}</PageCityDescription>
         </ContainerTitleDescription>
-      </PageCityContainer>
+      </CardCityContainer>
     </Link>
   );
 };
