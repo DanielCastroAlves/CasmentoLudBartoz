@@ -30,18 +30,20 @@ const CarouselWedding = ({ dataInfo }) => {
           desktop: {
             breakpoint: {
               max: 3000,
-              min: 1441,
+              min: 1024,
             },
-            items: 3.4,
+            items: 3,
+            partialVisibilityGutter: 80,
+            centerMode: false,
           },
           desktopOld: {
             breakpoint: {
               max: 1440,
-              min: 800,
+              min: 1024,
             },
-            items: 2.65,
-            partialVisibilityGutter: 30,
-            centerMode: true,
+            items: 2.4,
+            partialVisibilityGutter: 80,
+            centerMode: false,
           },
           mobile: {
             breakpoint: {
