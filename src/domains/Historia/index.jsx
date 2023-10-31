@@ -30,25 +30,25 @@ const Historia = () => {
     { label: text.story.title[language], url: "/wedding/ourhistory" },
   ];
 
-    const path = [
-        { label: text.gifts.title[language], url: "/wedding/gifts" },
-        { label: text.dressCode.title[language], url: "/wedding/gifts" },
-    ];
+  const path = [
+    { label: text.gifts.title[language], url: "/wedding/gifts" },
+    { label: text.dressCode.title[language], url: "/wedding/gifts" },
+  ];
 
-    return (
-        <Stack width="100%" height="100%" mb={10}>
-            <BreadCrumb data={data} />
-            <FirstSection title={text.Wedding.title[language]} subtitle={text.Wedding.subTitle[language]} paragraph1={text.Wedding.introP1[language]} paragraph2={text.Wedding.introP2[language]} />
-            {!isMobile ? <CustomImage src={ibiza} alt="Descrição da imagem" /> : <CustomMB src={originalMB} alt="Descrição da imagem" />}
-
+  return (
+    <Stack width="100%" height="100%" mb={10}>
+      <BreadCrumb data={data} />
+      <FirstSection
+        title={text.story.title[language]}
+        subtitle={text.story.subtitle[language]}
+      />
       {!isMobile ? (
         <CustomImage src={ibiza} alt="Descrição da imagem" />
       ) : (
         <CustomMB src={originalMB} alt="Descrição da imagem" />
       )}
+
       <FirstSection
-        title={text.story.title[language]}
-        subtitle={text.story.subtitle[language]}
         paragraph1={text.story.Bloco1body1[language]}
         paragraph2={text.story.Bloco1body2[language]}
         paragraph3={text.story.Bloco1body3[language]}
