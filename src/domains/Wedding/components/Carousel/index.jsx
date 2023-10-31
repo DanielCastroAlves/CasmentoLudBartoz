@@ -51,7 +51,8 @@ const CarouselWedding = ({ dataInfo }) => {
               min: 0,
             },
             items: 1,
-            centerMode: true,
+            partialVisibilityGutter: 30,
+            centerMode: false,
           },
           tablet: {
             breakpoint: {
@@ -60,6 +61,7 @@ const CarouselWedding = ({ dataInfo }) => {
             },
             items: 1,
             partialVisibilityGutter: 30,
+            centerMode: false,
           },
         }}
         rewind={false}
