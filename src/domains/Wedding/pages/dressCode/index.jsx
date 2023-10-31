@@ -26,7 +26,7 @@ export const DressCode = () => {
     return (
         <Stack width="100%" height="100%" mb={!isMobile && 10}>
             <BreadCrumb data={data} />
-            <FirstSection title={text.dressCode.title[language]} subtitle={text.Wedding.BoxEvent.dressCode[language]} paragraph1={text.dressCode.introP1[language]} />
+            <FirstSection title={text.dressCode.title[language]} subtitle={text.dressCode.subtitle[language]} paragraph1={text.dressCode.introP1[language]} />
             <DressCodeInfo />
             <ButtonNavigation path={path} />
         </Stack>

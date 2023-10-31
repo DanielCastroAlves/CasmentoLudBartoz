@@ -24,6 +24,10 @@ export const Home = () => {
                 <Stack alignItems="center" justifyContent="center" height="100%" px={4} mt={!isMobile ? 110 : 50}>
                     {/* <SubListItem key={j} dangerouslySetInnerHTML={{ __html: p }} /> */}
 
+                    <Typography fontSize={!isMobile ? theme.spacing(9.5) : theme.spacing(7)} fontWeight={400} color={theme.palette.primary.main} style={{ textAlign: "center" }}>
+                        Ludmilla & Bartosz
+                    </Typography>
+                    {/* 
                     {!isMobile ? (
                         <>
                             <Typography fontSize={!isMobile ? theme.spacing(9.5) : theme.spacing(7)} fontWeight={400} color={theme.palette.primary.main} style={{ textAlign: "center" }}>
@@ -39,7 +43,7 @@ export const Home = () => {
                                 {language === "en" ? text.MenuHeaderLinks.wedding[language] : "Ludmilla & Bartosz"}
                             </Typography>
                         </>
-                    )}
+                    )} */}
 
                     <Typography fontSize={!isMobile ? theme.spacing(5.75) : theme.spacing(4)} fontWeight={300} color={theme.palette.primary.main} fontFamily="Open Sans">
                         12.05.2024 | BÚZIOS
