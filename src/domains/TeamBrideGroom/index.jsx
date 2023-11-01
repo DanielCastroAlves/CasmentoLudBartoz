@@ -2,10 +2,9 @@ import { Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import { useLanguage } from "../../hooks/useLanguage";
 import { FirstSection } from "../../Components/FirstSection";
-import Dress from "../../Assets/Images/cardImage/Pixabay-1274056.png";
-import Groom from "../../Assets/Images/cardImage/Pixabay-1845166.png";
-
-import CarouselBG from "./componets/Carousel";
+//import Dress from "../../Assets/Images/cardImage/Pixabay-1274056.png";
+//import Groom from "../../Assets/Images/cardImage/Pixabay-1845166.png";
+//import CarouselBG from "./componets/Carousel";
 import { ButtonNavigation } from "../../Components/ButtonNavigation";
 import { TextEmBreve } from "./style";
 

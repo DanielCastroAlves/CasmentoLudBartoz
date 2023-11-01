@@ -32,7 +32,10 @@ const Historia = () => {
 
   const path = [
     { label: text.gifts.title[language], url: "/wedding/gifts" },
-    { label: text.MenuHeaderLinks.teamBrideGroom[language], url: "/wedding/teamBG" },
+    {
+      label: text.MenuHeaderLinks.teamBrideGroom[language],
+      url: "/wedding/teamBG",
+    },
   ];
 
   return (
@@ -49,7 +52,7 @@ const Historia = () => {
       )}
 
       <FirstSection
-      title={''}
+        title={""}
         paragraph1={text.story.Bloco1body1[language]}
         paragraph2={text.story.Bloco1body2[language]}
         paragraph3={text.story.Bloco1body3[language]}
@@ -69,7 +72,8 @@ const Historia = () => {
           ></iframe>
         </CustomVideo>
       </SectionText>
-      <FirstSection title={''}
+      <FirstSection
+        title={""}
         paragraph1={text.story.Bloco2body1[language]}
         paragraph2={text.story.Bloco2body2[language]}
         paragraph3={text.story.Bloco2body3[language]}
@@ -83,7 +87,8 @@ const Historia = () => {
           <CustomMB src={ibizaMB} alt="Descrição da imagem" />
         )}
       </SectionText>
-      <FirstSection title={''}
+      <FirstSection
+        title={""}
         paragraph1={text.story.Bloco3body1[language]}
         paragraph2={text.story.Bloco3Story[language]}
         paragraph3={text.story.Bloco3body2[language]}
@@ -96,7 +101,8 @@ const Historia = () => {
           <CustomImage src={viagemMB} alt="Descrição da imagem" />
         )}
       </SectionText>
-      <FirstSection title={''}
+      <FirstSection
+        title={""}
         paragraph1={text.story.Bloco4body1[language]}
         paragraph2={text.story.Bloco4body2[language]}
         paragraph3={text.story.Bloco4body3[language]}
@@ -117,7 +123,8 @@ const Historia = () => {
           ></iframe>
         </CustomVideo>
       </SectionText>
-      <FirstSection title={''}
+      <FirstSection
+        title={""}
         paragraph1={text.story.Bloco5body1[language]}
         paragraph2={text.story.Bloco5body2[language]}
         paragraph3={text.story.Bloco5body3[language]}
@@ -130,7 +137,8 @@ const Historia = () => {
           <CustomImage src={galeriaMB} alt="Descrição da imagem" />
         )}
       </SectionText>
-      <FirstSection title={''}
+      <FirstSection
+        title={""}
         paragraph1={text.story.Bloco6body1[language]}
         paragraph2={text.story.Bloco6body2[language]}
       />
@@ -142,7 +150,7 @@ const Historia = () => {
         )}
       </SectionText>
 
-      <FirstSection title={''} paragraph1={text.story.Bloco7body1[language]} />
+      <FirstSection title={""} paragraph1={text.story.Bloco7body1[language]} />
       <ButtonNavigation path={path} />
     </Stack>
   );
