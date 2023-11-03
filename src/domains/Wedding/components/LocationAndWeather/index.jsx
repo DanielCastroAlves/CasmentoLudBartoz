@@ -168,11 +168,22 @@ export const LocationAndWeather = ({ title, titleBox, address1, address2, date, 
                         </Stack>
                     </CeremonyContainerMobile>
                 )}
-                <Box px={4}>
-                    <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
+                {isMobile ? (
+                    <>
+                        <Box px={4}>
+                            <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"}mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
+                                <iframe src={src} width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameBorder="0"></iframe>
+                            </Box>
+                        </Box>
+                    </>
+                ) : (
+                    <Box width={!isMobile ? "49%" : "100%"} height={isMobile ? "315px" : "auto"} px={isMobile && 4} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
                         <iframe src={src} width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameBorder="0"></iframe>
                     </Box>
-                </Box>
+                )}
+                {/* <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} mx={isMobile && 4} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
+                    <iframe src={src} width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameBorder="0"></iframe>
+                </Box> */}
             </Stack>
             <Stack width="100%" height="100%" mt={!isMobile ? 8 : 4} px={isMobile && 4}>
                 <a

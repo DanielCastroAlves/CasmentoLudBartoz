@@ -43,14 +43,15 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
   },
 
   [createMediaQuery("sm")]: {
-    display: "flex",
-    width: "358px",
-    height: "458px",
-    padding: "16px",
-    flexDirection: "column",
-    alignItems: "center",
-    gap: "16px",
-    flexShrink: 0,
+    display: "flex !important",
+    width: "358px !important",
+    height: "458px !important",
+    padding: "16px !important",
+    flexDirection: "column !important",
+    alignItems: "center !important",
+    justifyContent: "center !important",
+    gap: "16px !important",
+    flexShrink: 1,
 
     background: "#FFF",
     cursor: "pointer",

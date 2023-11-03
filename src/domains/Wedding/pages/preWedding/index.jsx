@@ -10,7 +10,7 @@ import { BreadCrumb } from "../../../../Components/BreadCrumb";
 export const PreWedding = () => {
     const { language } = useLanguage();
     const path = [
-        { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
+        { label: text.MenuHeaderLinks.teamBrideGroom[language], url: "/wedding/teamBG" },
         { label: text.dressCode.title[language], url: "/wedding/dresscode" },
     ];
 
