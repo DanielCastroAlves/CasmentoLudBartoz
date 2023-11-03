@@ -68,7 +68,7 @@ export const LocationAndWeather = ({ title, titleBox, address1, address2, date, 
                                     </>
                                 )}
                             </Stack>
-                            <Typography fontSize={theme.spacing(4)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} fontWeight={300} color={theme.palette.gray["500"]} fontFamily="Open Sans">
                                 {date.toUpperCase()}
                             </Typography>
                         </Stack>
@@ -168,8 +168,10 @@ export const LocationAndWeather = ({ title, titleBox, address1, address2, date, 
                         </Stack>
                     </CeremonyContainerMobile>
                 )}
-                <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} px={isMobile && 4} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
-                    <iframe src={src} width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameBorder="0"></iframe>
+                <Box px={4}>
+                    <Box width={!isMobile ? "50%" : "100%"} height={isMobile ? "315px" : "auto"} mt={isMobile && 4} sx={{ border: `1px solid ${theme.palette.primary.main}` }}>
+                        <iframe src={src} width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameBorder="0"></iframe>
+                    </Box>
                 </Box>
             </Stack>
             <Stack width="100%" height="100%" mt={!isMobile ? 8 : 4} px={isMobile && 4}>

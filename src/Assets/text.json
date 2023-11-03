@@ -251,10 +251,10 @@
             "es": "La pre-boda es una reunión antes de la boda para que los invitados puedan conocerse antes de la fiesta. Decidimos hacer algo muy informal pero en un lugar especial en Búzios para unir nuestros invitados  para disfrutar del atardecer con nosostros."
         },
         "introP2": {
-            "pt": "Mais informações por e-mail depois da confirmação de presença.",
-            "pl": "Więcej informacji otrzymasz drogą mailową po potwierdzeniu obecności.",
-            "en": "More information by email after RSVP.",
-            "es": "Más información por correo electrónico después de la confirmación de asistencia."
+            "pt": "Mais informações por e-mail depois da <a target='_blank' href='/home'>confirmação de presença.</a>",
+            "pl": "Więcej informacji otrzymasz drogą mailową po <a target='_blank' href='/home'>potwierdzeniu obecności.</a>",
+            "en": "More information by email after <a target='_blank' href='/home'>RSVP.</a>",
+            "es": "Más información por correo electrónico después de la <a target='_blank' href='/home'>confirmación de asistencia.</a>"
         },
         "BoxEvent": {
             "boxTitle": {
