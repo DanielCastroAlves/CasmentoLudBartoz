@@ -36,7 +36,7 @@ export const Wedding = () => {
             description: "THINGS YOU SHOULD KNOW BEFORE GIFTING THE BRIDE AND GROOM",
         },
         {
-            destination: "/wedding/ourhistory",
+            destination: "/wedding/ourstory",
             image: historiacard,
             title: "Our Love Story",
             description: "Our wedding party",

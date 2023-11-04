@@ -5,12 +5,13 @@ import { FirstSection } from "../../../../Components/FirstSection";
 import { DressCodeInfo } from "./components/DressCodeInfo";
 import { ButtonNavigation } from "../../../../Components/ButtonNavigation";
 import { BreadCrumb } from "../../../../Components/BreadCrumb";
+import { useEffect } from "react";
 
 export const DressCode = () => {
     const { language } = useLanguage();
 
     const path = [
-        { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
+        { label: "Pre Wedding", url: "/wedding/prewedding" },
         { label: text.gifts.title[language], url: "/wedding/gifts" },
     ];
 
@@ -22,6 +23,10 @@ export const DressCode = () => {
 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <Stack width="100%" height="100%" mb={!isMobile && 10}>

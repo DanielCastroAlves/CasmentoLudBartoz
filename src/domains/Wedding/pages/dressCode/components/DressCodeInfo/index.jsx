@@ -23,7 +23,7 @@ export const DressCodeInfo = () => {
         { label: "Presente", url: "/wedding/gift" },
     ];
     return (
-        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={isMobile ? 13 : 42.75} mt={15}>
+        <Grid container height="100%" justifyContent="center" alignItems="space-between" px={isMobile ? theme.spacing(4) : 42.75} mt={15}>
             {isMobile ? (
                 <>
                     <Grid xs={12} sm={6}>
@@ -34,13 +34,13 @@ export const DressCodeInfo = () => {
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading1[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body1[language]}
                             </Typography>
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading2[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body2[language]}
                             </Typography>
                             <Stack width="100%">
@@ -93,16 +93,16 @@ export const DressCodeInfo = () => {
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading3[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body31[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body32[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body33[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body34[language]}
                             </Typography>
                         </Stack>
@@ -155,7 +155,7 @@ export const DressCodeInfo = () => {
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading4[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body4[language]}
                             </Typography>
                             <List component="nav">
@@ -165,7 +165,7 @@ export const DressCodeInfo = () => {
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>
-                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                                 {item[language]}
                                             </Typography>
                                         </ListItem>
@@ -233,7 +233,7 @@ export const DressCodeInfo = () => {
                                             <ListItemIcon>
                                                 <Dot size={40} />
                                             </ListItemIcon>
-                                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                                 {item[language]}
                                             </Typography>
                                         </ListItem>
@@ -250,7 +250,7 @@ export const DressCodeInfo = () => {
                             <Typography fontSize={theme.spacing(5)} color={theme.palette.secondary.main}>
                                 {text.dressCode.heading6[language]}
                             </Typography>
-                            <Typography fontSize={theme.spacing(4.5)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
+                            <Typography fontSize={theme.spacing(3)} color={theme.palette.gray["500"]} fontWeight="300" fontFamily="Open Sans">
                                 {text.dressCode.body6[language]}
                             </Typography>
                         </Stack>

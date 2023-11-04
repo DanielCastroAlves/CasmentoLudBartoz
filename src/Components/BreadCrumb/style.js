@@ -7,7 +7,7 @@ const BreadCrumbLink = styled(Link)(({ theme }) => ({
 
 const LinkText = styled(Typography)(({ theme }) => ({
     fontFamily: "Open Sans",
-    fontSize: theme.spacing(4),
+    
     textTransform: "uppercase",
     "&:hover": {
         textShadow: "0px 4px 10px rgba(84, 84, 84, 0.30)",

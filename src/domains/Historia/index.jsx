@@ -27,7 +27,7 @@ const Historia = () => {
   const data = [
     { label: text.MenuHeaderLinks.home[language], url: "/home" },
     { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
-    { label: text.story.title[language], url: "/wedding/ourhistory" },
+    { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
 
     const path = [

@@ -13,7 +13,7 @@ export const Gifts = () => {
   const { language } = useLanguage();
   const path = [
     { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
-    { label: text.story.title[language], url: "/wedding/ourhistory" },
+    { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
 
   const topics = [

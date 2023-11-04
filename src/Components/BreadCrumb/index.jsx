@@ -12,7 +12,7 @@ export const BreadCrumb = ({ data }) => {
                 {data.map((link, index) => {
                     return (
                         <BreadCrumbLink underline="hover" color="inherit" to={link.url}>
-                            <LinkText color={index === data.length - 1 ? theme.palette.primary.main : theme.palette.gray["500"]} fontWeight={index === data.length - 1 ? 600 : 400}>
+                            <LinkText fontSize={isMobile ? theme.spacing(2.5) : theme.spacing(4)} color={index === data.length - 1 ? theme.palette.primary.main : theme.palette.gray["500"]} fontWeight={index === data.length - 1 ? 600 : 400}>
                                 {link.label}
                             </LinkText>
                         </BreadCrumbLink>

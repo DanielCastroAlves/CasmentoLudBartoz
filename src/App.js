@@ -107,7 +107,7 @@ const router = createBrowserRouter([
         path: "/",
         children: [
           {
-            path: "wedding/ourhistory",
+            path: "wedding/ourstory",
             element: <Historia />,
           },
         ],
