@@ -1,235 +1,16 @@
 {
-    "MenuHeaderLinks": {
-        "home": {
-            "pt": "Home",
-            "pl": "Home",
-            "en": "Home",
-            "es": "Início"
-        },
-        "wedding": {
-            "pt": "Casamento",
-            "pl": "Ślub",
-            "en": "Wedding",
-            "es": "Boda"
-        },
-        "travel": {
-            "pt": "Viagem",
-            "pl": "Podróż",
-            "en": "Travel",
-            "es": "Viaje"
-        },
-        "qea": {
-            "pt": "FAQ",
-            "pl": "Q&A",
-            "en": "Q&A",
-            "es": "FAQ"
-        },
-        "weddingGift": {
-            "pt": "Presente de Casamento",
-            "pl": "Prezent Ślubny",
-            "en": "Wedding Gift",
-            "es": "Regalo de Boda"
-        },
-        "teamBrideGroom": {
-            "pt": "Team Bride & Groom",
-            "pl": "Team Bride & Groom",
-            "en": "Team Bride & Groom",
-            "es": "Team Bride & Groom"
-        }
-    },
+  "MenuHeaderLinks": {
     "home": {
-        "TtitleSite": {
-            "pt": "Casamento Ludmilla & Bartosz",
-            "pl": "Ślub Ludmilla & Bartosz",
-            "en": "Ludmilla & Bartosz's Wedding",
-            "es": "Boda Ludmilla & Bartosz"
-        },
-        "SubtitleSite": {
-            "pt": "12.05.2024 | BÚZIOS",
-            "pl": "12.05.2024 | BÚZIOS",
-            "en": "12.05.2024 | BÚZIOS",
-            "es": "12.05.2024 | BÚZIOS"
-        },
-        "Title": {
-            "pt": "RSVP",
-            "pl": "RSVP",
-            "en": "RSVP",
-            "es": "RSVP"
-        },
-        "Subtitle": {
-            "pt": "RÉPONDEZ S'IL VOUS PLAÎT",
-            "pl": "RÉPONDEZ S'IL VOUS PLAÎT",
-            "en": "RÉPONDEZ S'IL VOUS PLAÎT",
-            "es": "RÉPONDEZ S'IL VOUS PLAÎT"
-        }
+      "pt": "Home",
+      "pl": "Home",
+      "en": "Home",
+      "es": "Início"
     },
-    "Wedding": {
-        "title": {
-            "pt": "Casamento",
-            "pl": "Ślub",
-            "en": "Ludmilla & Bartosz's",
-            "es": "Boda"
-        },
-        "titleP2": {
-            "pt": "Ludmilla & Bartosz",
-            "pl": "Ludmilly & Bartosza",
-            "en": "Wedding",
-            "es": "Ludmilla & Bartosz"
-        },
-        "subTitle": {
-            "pt": "BORA NOS EMOCIONAR JUNTOS E CURTIR UM DIA INESQUECÍVEL COM A GENTE?",
-            "pl": "DAJMY SIĘ PONIEŚĆ EMOCJOM I PRZEŻYJMY RAZEM NIEZAPOMNIANY DZIEŃ",
-            "en": "LET'S ENJOY TOGETHER AN UNFORGETTABLE DAY WITH US?",
-            "es": "¿VAMOS DISFRUTAR JUNTOS UN DÍA INOLVIDABLE?"
-        },
-        "introP1": {
-            "pt": "Nada contra quem case em igreja, mas ter o fundo do mar como vista para dizer o esperado 'sim!' no altar é muito mais incrível!",
-            "pl": "Nie ma nic przeciwko ślubom w kościele ale widok na morze jako tło do powiedzenia 'yes, I do!' jest o wiele bardziej niesamowite!",
-            "en": "Getting married in a church has its charm, but having the see view as the background for the ‘yes, I do!’ is unique!",
-            "es": "Nada en contra de casarse en una iglesia, pero tener la vista del mar para decir ¡sí, quiero! es mucho más increíble!"
-        },
-        "introP2": {
-            "pt": "Encontramos um lugar desses para unir a Cerimônia Religiosa para abençoar nossa união e, em seguida, teremos a festa no mesmo lugar, ao som do DJ Tilulu e convidados especiais pra aproveitar o dia, com o melhor pôr-do-sol de Búzios e o cair da noite com a brisa fresca do mar...",
-            "pl": "Dlatego znaleźliśmy idealne miejsce gdzie będziemy mogli odbyć ceremonię religijną, aby pobłogosławić nasz związek, a następnie zorganizujemy imprezę przy dźwiękach DJ Tilulu i Goście-DJ będący niespodzianką, aby cieszyć się dniem, z najlepszym zachodem słońca w Búzios i nocą przy świeżej morskiej bryzie..,",
-            "en": "We found this kind of place to have the Religious Ceremony to bless our union followed by the reception in the same place with DJ Tilulu and Special Guests DJs to make our day unforgettable, feeling the sea breeze in the best sunset spot in Búzios...",
-            "es": "Encontramos un lugar así para unir la Ceremonia Religiosa para bendecir nuestra unión y luego tendremos la recepción en el mismo lugar, con el DJ Tilulu y DJs invitados especiales para disfrutar el día, con el mejor atardecer de Búzios con la brisa fresca del mar..."
-        },
-        "introP3": {
-            "pt": "Só não se esqueça de <a target='_blank' href='/home'>confirmar presença!</a>",
-            "pl": "Tylko nie zapomnij <a target='_blank' href='/home'>potwierdzić swojej obecności!</a>",
-            "en": "Just don't forget to <a target='_blank' href='/home'>RSVP</a>!",
-            "es": "¡Solo no se olvide <a target='_blank' href='/home'>confirmar tu asistencia!</a>"
-        },
-        "BoxEvent": {
-            "boxTitle": {
-                "pt": "Cerimônia & Festa",
-                "pl": "Ceremonia i Przyjęcie",
-                "en": "eremony and Reception",
-                "es": "Ceremonia y Fiesta"
-            },
-            "savethedate1": {
-                "pt": "Save",
-                "pl": "Save",
-                "en": "Save",
-                "es": "Save"
-            },
-            "savethedate2": {
-                "pt": "the",
-                "pl": "the",
-                "en": "the",
-                "es": "the"
-            },
-            "savethedate3": {
-                "pt": "Date",
-                "pl": "Date",
-                "en": "Date",
-                "es": "Date"
-            },
-            "dateTime": {
-                "pt": "12 de Maio de 2024 às 15:00",
-                "pl": "12 maja 2024 roku o godzinie 15:00",
-                "en": "May 12th, 2024 at 3:00 PM",
-                "es": "12 de mayo de 2024 a las 15:00"
-            },
-            "Titlebox": {
-                "pt": "Villa Três Marias",
-                "pl": "Villa Três Marias",
-                "en": "Villa Três Marias",
-                "es": "Villa Três Marias"
-            },
-            "addressP1": {
-                "pt": "Armação de Búzios.",
-                "pl": "Miasto Armação de Búzios.",
-                "en": "Armação de Búzios City.",
-                "es": "Ciudad de Armação de Búzios."
-            },
-            "addressP2": {
-                "pt": "Rio de Janeiro, Brasil",
-                "pl": "Stan Rio de Janeiro, Brazylia.",
-                "en": "Rio de Janeiro State, Brazil",
-                "es": "Estado de Rio de Janeiro, Brasil"
-            },
-            "dressCodeTitle": {
-                "pt": "Dress Code",
-                "pl": "Dress Code",
-                "en": "Dress Code",
-                "es": "Dress Code"
-            },
-            "dressCode": {
-                "pt": "Semi-Formal Beach",
-                "pl": "Półformalna Plaża",
-                "en": "Semi-Formal Beach",
-                "es": "Playa Semiformal"
-            }
-        },
-        "weatherLabel": {
-            "pt": "Previsão do Tempo",
-            "pl": "Prognoza Pogody",
-            "en": "Weather Forecast",
-            "es": "Pronóstico del Tiempo"
-        },
-        "Cards_Carrousel": {
-            "Card01": {
-                "pt": "Pre Wedding",
-                "pl": "Pre Wedding",
-                "en": "Pre Wedding",
-                "es": "Pre Wedding"
-            },
-            "Content01": {
-                "pt": "Vamos ver o pôr-do-sol mais bonito da cidade juntos?",
-                "pl": "Chcecie obejrzyć razem zachód słońca?",
-                "en": "Let's watch the sunset together?",
-                "es": "¿Qué tal una reunión en la puesta-del-sol?"
-            },
-            "Card02": {
-                "pt": "Dress Code",
-                "pl": "Dress Code",
-                "en": "Dress Code",
-                "es": "Dress Code"
-            },
-            "Content02": {
-                "pt": "Com que roupa eu vou?",
-                "pl": "Co powinienem założyć?",
-                "en": "What should I wear?",
-                "es": "Qué vestir en la boda?"
-            },
-            "Card03": {
-                "pt": "Presente de Casamento",
-                "pl": "Prezent Ślubny",
-                "en": "Wedding Gift",
-                "es": "Regalo de Boda"
-            },
-            "Content03": {
-                "pt": "Antes de presentear, leia isso!",
-                "pl": "Przeczytaj to, zanim podarujesz nam prezent!",
-                "en": "Read this before gifting us!",
-                "es": "Leya antes de regalarnos!"
-            },
-            "Card04": {
-                "pt": "Nossa História",
-                "pl": "Nasza Historia",
-                "en": "Our Story",
-                "es": "Nuestra Historia"
-            },
-            "Content04": {
-                "pt": "Como tudo começou e evoluiu até hoje...",
-                "pl": "Jak to wszystko się zaczęło i jak daleko zaszło...",
-                "en": "How everything began and got so far...",
-                "es": "Cómo todo ha empezado y se desarrolló hasta al día de hoy..."
-            },
-            "Card05": {
-                "pt": "Team Bride & Groom",
-                "pl": "Team Bride & Groom",
-                "en": "Team Bride & Groom",
-                "es": "Team Bride & Groom"
-            },
-            "Content05": {
-                "pt": "Essa é a nossa panelinha!",
-                "pl": "To jest nasza załoga",
-                "en": "This is our crew!",
-                "es": "Esta es nuestra pandilla!"
-            }
-        }
+    "wedding": {
+      "pt": "Casamento",
+      "pl": "Ślub",
+      "en": "Wedding",
+      "es": "Boda"
     },
     "preWedding": {
         "title": {
@@ -1838,4 +1619,1520 @@
             }
         ]
     }
+  },
+  "dressCode": {
+    "title": {
+      "pt": "Dress Code",
+      "pl": "Dress Code",
+      "en": "Dress Code",
+      "es": "Dress Code"
+    },
+    "subtitle": {
+      "pt": "SEMI-FORMAL BEACH: LEVE, CONFORTÁVEL E ELEGANTE!",
+      "pl": "SEMI-FORMAL BEACH: LEKKO, WYGODNIE I ELEGANCKO!",
+      "en": "SEMI-FORMAL BEACH: LIGHT, COMFORTABLE AND ELEGANT!",
+      "es": "PLAYA SEMI-FORMAL: LIGERO, CÓMODO Y ELEGANTE!"
+    },
+    "introP1": {
+      "pt": "O que vestir em um Casamento na praia? Essa é a dúvida de muita gente, principalmente quando se trata de um evento multicultural em um lugar que não estamos habituados. A maior diferença entre um casamento na praia e um tradicional é em relação aos tecidos e calçados devido ao local e clima. Em síntese: é importante que seja com roupas leves e frescas, confortável mas elegante - afinal de contas é um casamento!",
+      "pl": "Co założyć na ślub na plaży? Stanowi to pytanie wielu osób, zwłaszcza gdy jest to wydarzenie wielokulturowe w miejscu, do którego nie jesteśmy przyzwyczajeni. Największa różnica między ślubem na plaży a tradycyjnym ślubem dotyczy tkanin i obuwia ze względu na lokalizację i klimat. Krótko mówiąc: ważne jest, aby były to lekkie i przewiewne ubrania, wygodne, ale eleganckie - w końcu to ślub!",
+      "en": "What to wear to a beach wedding? This is the one of the most frequent questions when it comes to a beach wedding, even more when there is a multicultural environment.  The main difference between a beach wedding and a traditional one is the fabrics and footwear due to the location and climate. In short: it's important to wear light and fresh clothes, comfortable but elegant - after all, it's a wedding!",
+      "es": "¿Qué llevar para una boda en la playa? Esta es la duda de muchas personas, sobre todo cuando se trata de un evento multicultural en un lugar al que no estamos acostumbrados. La mayor diferencia entre una boda en la playa y una tradicional está en los tejidos y el calzado debido a la ubicación y el clima. En resumen: es importante llevar ropa ligera y fresca, cómoda pero elegante, al fin y al cabo, ¡es una boda!"
+    },
+    "heading1": {
+      "pt": "Local do Evento",
+      "pl": "Miejscu wydarzenia",
+      "en": "Venue",
+      "es": "Lugar del Evento"
+    },
+    "body1": {
+      "pt": "O casamento vai começar às 15:00 à céu aberto e, se São Pedro colaborar, teremos um dia agradavelmente quente com céu azul e sol. Não será literalmente 'pé na areia', mas o espaço é de frente para o mar, com áreas de grama, deck de madeira ou cimento.",
+      "pl": "Ślub rozpocznie się o godzinie 15:00 pod gołym niebem, a przy współpracy ze Świętym Piotrem będziemy mieli przyjemny, ciepły dzień z błękitnym niebem i słońcem. Nie będzie to dosłownie 'stopą na piasku' ale przestrzeń znajduje się nad morzem, na trawniku, z drewnianym lub cementowym pomostem.",
+      "en": "The wedding will start at 3 pm outdoors and hopefully  we will have a pleasantly warm weather with a clear  blue skie  and sun. It won't literally be 'foot in the sand', but the space is facing the sea, with garden with grass and wooden deck or cement.",
+      "es": "La boda comenzará a las 3 pm al aire libre y ojalá tendremos un día agradable, con cielo azul y sol. No será literalmente 'pie en la arena', sino que el espacio está frente al mar, con zonas de jardin verde, deck de madera o cemento."
+    },
+    "heading2": {
+      "pt": "Clima de Búzios",
+      "pl": "Klimat w Búzios",
+      "en": "Local Weather",
+      "es": "Clima en Búzios"
+    },
+    "body2": {
+      "pt": "Maio é outono no Brasil, o auge do verão de quase 40ºC já passou mas não é inverno. Durante o dia, você pode esperar por volta dos 26ºC e à noite cair para a sensação de 18ºC com a brisa do mar.",
+      "pl": "Maj to jesień w Brazylii, szczyt lata z temperaturą prawie 40ºC już minął, ale nie jest to zima. W ciągu dnia można spodziewać się około 26ºC, a w nocy temperatura spada do 18ºC z morską bryzą.",
+      "en": "May is autumn in Brazil, the height of the summer of almost 40ºC has passed but it is not winter. During the day you can expect around 26ºC and at night it drops to the feeling of 18ºC or so with the sea breeze.",
+      "es": "Mayo es otoño en Brasil, ha pasado el pico del verano de casi 40ºC pero no es invierno. Durante el día puedes esperar alrededor de 26ºC y por la noche baja a la sensación de 18ºC con la brisa marina."
+    },
+    "heading3": {
+      "pt": "Recomendação aos convidados",
+      "pl": "Zalecenia dla gości",
+      "en": "Our Recommendations",
+      "es": "Recomendaciones"
+    },
+    "body31": {
+      "pt": "Tecidos arejados e leves, de cores claras, estampas sofisticadas e calçados confortáveis porém casuais.",
+      "pl": "Lekkie i przewiewne tkaniny, jasne kolory, wyrafinowane wzory i wygodne i swobodne buty.",
+      "en": "Opt for breathble and light fabrics, in light or vibrant colour, sophisticated prints or patterns and comfy but casual footwear.",
+      "es": "Escoja tejido  ligeros en colores claros, estampados sofisticados y zapatos cómodos pero casuales."
+    },
+    "body32": {
+      "pt": "Roupas para mulheres pode ser vestidos longos ou curtos, macacão formal, conjunto de saia longa ou calça pantalona e top com tecidos finos. Quando aos sapatos, é melhor que sejam abertos e arejados, não tem problema em ter saltos grossos altos ou baixos para garantir maior conforto e dar um aspecto mais praiano, rasteirinhas elegantes também são permitidas!",
+      "pl": "Propozycją stroju dla kobiet mogą być długie lub krótkie sukienki, formalne kombinezony, długie spódnice lub pantalony i topy z delikatnych tkanin. Jeśli chodzi o buty, najlepiej, aby były otwarte i przewiewne, dobrze jest mieć grube wysokie lub niskie obcasy, aby zapewnić większy komfort i nadać bardziej plażowy wygląd, eleganckie szale są również dozwolone!",
+      "en": "Women wedding clothing can be long or short dresses, formal jumpsuit, long skirt set or casual pants and top with fine fabrics and cuts. Open and breathable shoes are good choice, it's also fine to have high or low chunky heels to ensure greater comfort or even  elegant flats are also allowed toget a beachy look.",
+      "es": "La vestimenta para la mujer puede ser vestidos largos o cortos, mono formal, conjunto de falda larga o pantalón y top con tejidos finos. Lo mejor es que los zapatos sean abiertos y aireados, está bien tener tacones gruesos altos o bajos para garantizar una mayor comodidad y dar un aspecto más playero, ¡también se permiten zapatos planos elegantes!"
+    },
+    "body33": {
+      "pt": "Traje para homens pode ser calças com material mais leve, camisas de mangas longas de tecido fino e fresco. Não é necessário gravata nem blazer, mas fica à critério de cada um. Quanto aos sapatos, opte por mocassin e sapatos sociais.",
+      "pl": "Strojem męskim mogą być spodnie z lżejszego materiału, koszule z długim lub średnim rękawem z cienkiego i przewiewnego materiału. Krawat lub marynarka nie są wymagane, ale zależy to od uznania każdej osoby. Obuwie: mokasyny i półbuty.",
+      "en": "Attire for men can be pants made of lighter material, long-sleeved shirts made of fine, cool fabric. No tie or blazer is required, but it's up to you. Loafers are a good idea for this kind of wedding, but any formal shoes are fine.",
+      "es": "Traje para los hombres puede ser pantalones hechos de un material más ligero, camisas de manga larga hechas de tejido fino y frescos. No se requiere corbata ni blazer, pero depende de cada uno. Los mocasines son super chulos en bodas en la playa, pero se acepta cualquer zapato formal."
+    },
+    "body34": {
+      "pt": "No Brasil não é comum o uso de acessórios como chapéu, luvas nem muito brilho - especialmente em casamentos de dia na praia. Contudo, temos algumas restrições como: não é permitido que mulheres usem roupas nos tons branco, off white, pastel, champagne ou preto em casamentos.",
+      "pl": "W Brazylii nie jest powszechne noszenie akcesoriów, takich jak kapelusze, rękawiczki lub dużo brokatu - szczególnie na ślubach dziennych na plaży. Mamy jednak pewne ograniczenia, takie jak: na wesela kobiety nie powinny zakładać ubrań w kolorach bieli, off white, pastelowych, szampańskich lub czarnych.",
+      "en": "In Brazil, it is not common to use accessories such as a hat, gloves or shiny fabrics- especially in beach day weddings, but feel free to use if you like it. However, we have some restrictions such as: women are not allowed to wear clothes in white, off white, pastel, champagne or black at weddings.",
+      "es": "En Brasil, no es común usar accesorios como sombrero, guantes o mucho brillo, especialmente en bodas de día en la playa. Sin embargo, tenemos algunas restricciones como: las mujeres invitadas no pueden usar ropa blanca, off white, pastel, champaña o negra en las bodas."
+    },
+    "heading4": {
+      "pt": "Dica extra para mulheres",
+      "pl": "Dodatkowa wskazówka dla kobiet",
+      "en": "Extra tip for women",
+      "es": "Consejo extra para mujeres"
+    },
+    "body4": {
+      "pt": "Um evento ao ar livre que se inicia de dia ao lado da praia pode significar um cabelo com mais frizz, vento, sol e, eventualmente, suor.",
+      "pl": "Impreza na świeżym powietrzu, która rozpoczyna się w ciągu dnia obok plaży, może oznaczać włosy bardziej puszące się, wiatr, słońce i prawdopodobnie pot.",
+      "en": "An outdoor event that begins during the day beside the beach can mean hair with more frizz, wind, sun and, eventually, sweat.",
+      "es": "Un evento al aire libre que comienza durante el día cerca de la playa puede significar un cabello con más frizz, viento, sol y, eventualmente, sudor."
+    },
+    "tipsList": [
+      {
+        "pt": "Maquiagens leves e mate (sem muito brilho ou gloss) tem maior durabilidade na praia e a pele",
+        "pl": "Lekki, matowy makijaż (bez nadmiernej ilości brokatu czy błyszczyka) jest trwalszy na plaży, a skóra lepiej wygląda na zdjęciu.",
+        "en": "Light and matte makeup (without too much shine or gloss) lasts longer on the beach and the skin comes out better in the photo.",
+        "es": "El maquillaje ligero y mate (sin demasiados brillos ni brillos) dura más en la playa y la piel sale mejor en la foto."
+      },
+      {
+        "pt": "Se seu cabelo muda em locais úmidos, vale a pena apostar em um penteado como tranças ou coques.",
+        "pl": "Jeśli twoje włosy zmieniają się w wilgotnych miejscach, warto postawić na fryzurę taką jak warkocze lub koki.",
+        "en": "If your hair changes in humid places, it is worth betting on a hairstyle such as braids or buns.",
+        "es": "Si tu cabello cambia en lugares húmedos, vale la pena apostar por un peinado como trenzas o moños."
+      },
+      {
+        "pt": "Perfume e suor não combinam. O ideal é apostar em pouco perfume, de preferência fragrâncias que promovem maior frescor. Para melhorar a duração do perfume, considere colocar na roupa ao invés da própria pele. (Lembre-se: a noiva é alérgica a perfumes, evite perfumes muito forte se puder.)",
+        "pl": "Perfumy i pot nie idą w parze. Idealnie jest użycie niewielkiej ilości perfum, najlepiej świeżych zapachów. Aby wydłużyć czas działania perfum, rozważ nałożenie ich na ubrania zamiast na skórę.",
+        "en": "Perfume and sweat don't mix that well. Chose fragrances that promote more freshness. To improve the duration of the perfume, consider putting it on clothing instead of the skin itself. (Remember: the bride is allergic to perfum, avoid strong fragances if you can).",
+        "es": "El perfume y el sudor no se mezclan bien. Lo ideal es apostar por poco perfume, preferiblemente fragancias que promuevan una mayor frescura. Para mejorar la duración del perfume, considera ponerlo en la ropa en lugar de en la piel misma. (Recuerda: la novia es alérgica al perfume, si puedes, mejor evitar las fragancias mas fuertes)"
+      }
+    ],
+    "heading5": {
+      "pt": "O que não é permitido:",
+      "pl": "Co nie jest dozwolone:",
+      "en": "What is not allowed:",
+      "es": "Lo que no está permitido:"
+    },
+    "notAllowed": [
+      {
+        "pt": "Jeans ou malhas",
+        "pl": "Dżinsy i t-shirt",
+        "en": "Jeans or t shirts",
+        "es": "Vaqueros o camisetas"
+      },
+      {
+        "pt": "Camisa polo",
+        "pl": "Koszulka polo",
+        "en": "Polo Shirt",
+        "es": "Camisa Polo"
+      },
+      {
+        "pt": "Roupas de cores fluorescentes",
+        "pl": "Ubrania w kolorach fluorescencyjnych",
+        "en": "Fluorescent colour clothes",
+        "es": "Ropas de colores fluorescentes"
+      },
+      {
+        "pt": "chinelos de dedo, crocs ou raider",
+        "pl": "japonki, crocs lub klapki",
+        "en": "slippers, crocs or raider",
+        "es": "chanclas, crocs o zuecos"
+      },
+      {
+        "pt": "tênis esportivo",
+        "pl": "buty sportowe",
+        "en": "sport tennis",
+        "es": "tenis deportivo"
+      },
+      {
+        "pt": "alpargata",
+        "pl": "espadryle",
+        "en": "espadrille",
+        "es": "alpargata"
+      }
+    ],
+    "heading6": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
+    },
+    "body6": {
+      "pt": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+      "pl": "Zdecydowaliśmy się nazwać Team Bride and Groom wszystkich tych, którzy będą uczestniczyć w ceremonii, czyli: członków rodziny panny młodej i pana młodego, którzy będą obecni, druhny i drużbów, druhnę/drużbę honorowego. W związku z tym będą oni odgrywać główną rolę w wydarzeniu i powinni przestrzegać określonych formalności, w tym zasad dotyczących ubioru. Wszystkie szczegóły zostaną przesłane pocztą elektroniczną.",
+      "en": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail.",
+      "es": "Decidimos chamar de Team Bride and Groom todos aqueles que vão participar da cerimônia, isto é: o núcleo familiar dos noivos que estarão presentes, os padrinhos e madrinhas, pajem e/ou dama de honra. Portanto, terão maior protagonismo no evento e deverão seguir algumas formalidades específicas inclusive no dress-code. Todos os detalhes serão enviados por e-mail."
+    }
+  },
+  "gifts": {
+    "title": {
+      "pt": "Presente de Casamento",
+      "pl": "Prezent Ślubny",
+      "en": "Wedding Gift",
+      "es": "Regalo de Boda"
+    },
+    "subtitle": {
+      "pt": "NÃO É CLICHÊ: O NOSSO MAIOR PRESENTE É A SUA PRESENÇA!",
+      "pl": "TO NIE BANAŁ: NAJLEPSZYM PREZENTEM DLA NAS JEST TWOJA OBECNOŚĆ!",
+      "en": "IT'S NOT A CLICHE: OUR GREATEST GIFT IS YOUR PRESENCE!",
+      "es": "NO ES UN CLICHE: ¡NUESTRO MAYOR REGALO ES TU PRESENCIA!"
+    },
+    "introP1": {
+      "pt": "Mesmo assim, sabemos que há aqueles convidados muito queridos que gostariam de fazer um agrado de qualquer jeito.",
+      "pl": "Wiemy jednak, że są tacy drodzy goście, którzy i tak chcieliby przygotować podarunek.",
+      "en": "However, we know that there are those very dear guests who would like to give us something anyway.",
+      "es": "Sin embargo, sabemos que hay esos invitados muy queridos que quieren  regalar algo de todo mods."
+    },
+    "introP2": {
+      "pt": "Por ser um Destination Wedding, não teremos condições de levar nada na mala ou transportar qualquer presente do Brasil para a Suíça. Portanto não aceitaremos nenhum tipo de presente físico, por melhor que seja a intenção. Também não aceitaremos dinheiro em espécie já que estaremos viajando pelo Brasil e não é seguro andar com grandes quantidades em dinheiro em espécie.",
+      "pl": "Ponieważ jest to ślub docelowy, nie będziemy mogli zabrać ze sobą niczego w walizce ani przewieźć żadnych prezentów z Brazylii do Szwajcarii. Dlatego nie przyjmujemy żadnych prezentów fizycznych, niezależnie od tego, jak dobre są nasze intencje. Nie przyjmujemy również gotówki, ponieważ będziemy podróżować po Brazylii i noszenie dużych ilości gotówki nie jest bezpieczne.",
+      "en": "As it is a Destination Wedding, we will not be able to carry anything in our suitcase or transport any gift from Brazil to Switzerland. Therefore, we will not accept any kind of physical gift, no matter how good the intention will be. We will also not accept cash since we will be travelling in Brazil and it is not safe to carry large amounts of cash with us.",
+      "es": "Al tratarse de un Destination Wedding, no podremos llevar nada en la maleta ni transportar ningún regalo de Brasil a Suiza. Por lo tanto, no aceptaremos ningún tipo de regalo físico, por muy buena que sea la intención. Tampoco aceptaremos efectivo ya que viajaremos en Brasil y no es seguro llevar grandes cantidades de efectivo."
+    },
+    "introP3": {
+      "pt": "Caso queira nos presentear, apenas aceitaremos transferência com cartão de crédito/débito ou pix em uma das opções abaixo que fique mais cômodo para você!",
+      "pl": "Jeśli chcesz podarować nam prezent, akceptujemy wyłącznie przelewy kartami kredytowymi/debetowymi w różnych walutach, więc możesz wybrać opcję, która najbardziej Ci odpowiada.",
+      "en": "If you want to gift us, we will only accept credit / debit card transfer with a variety of currencies, so you can pick the option that best suits you.",
+      "es": "Si quieres regalarnos algo, solo aceptaremos transferencia con tarjeta de crédito/débito con opciones de moneda  que te resulte más cómoda!"
+    },
+    "introP4": {
+      "pt": "Caso você queira dar um presente fora das opções abaixo, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>entre em contato com os noivos!</a>",
+      "pl": "Jeśli chcesz podarować prezent spoza poniższych opcji, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>daj nam znać!</a>",
+      "en": "If you want to give a gift outside the options below, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>get in touch with the bride and groom!",
+      "es": "Si quieres darnos  un regalo fuera de las siguientes opciones, <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>¡ponte en contacto con los novios!</a>"
+    },
+    "Cards_Gift": {
+      "TitleGiftBox1": {
+        "pt": "Presenteie o noivo",
+        "pl": "Podaruj panu młodemu",
+        "en": "Gift the Groom",
+        "es": "Regala al Novio"
+      },
+      "TitleGiftBox2": {
+        "pt": "Presenteie a noiva",
+        "pl": "Podaruj pannie młodej",
+        "en": "Gift the Bride",
+        "es": "Regala la Novia"
+      },
+      "Body1": {
+        "pt": "Você pode presentear com qualquer valor, efetuando o pagamento com seu cartão de crédito ou débito nas seguintes moedas:",
+        "pl": "Prezent o dowolnej wartości za pośrednictwem karty debetowej lub kredytowej w następujących walutach:",
+        "en": "Gift with any value through debit or credit card in the following currencies:",
+        "es": "Puedes regalar cualquier cantidad haciendo el pago con tarjeta de credito en las seguintes monedas:"
+      },
+      "Body2": {
+        "pt": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "pl": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "en": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
+        "es": "USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN."
+      },
+      "Body3G": {
+        "pt": "Ou se preferir pagar em zlotys, através do blik.",
+        "pl": "Lub przez blik, jeśli Wam to bardziej odpowiada.",
+        "en": "Or through blik if it suits you better.",
+        "es": "O através del blik si es mejor para ti."
+      },
+      "Body3B": {
+        "pt": "Ou se preferir pagar em zlotys, através do pix.",
+        "pl": "Lub przez pix, jeśli Wam to bardziej odpowiada.",
+        "en": "Or through pix if it suits you better.",
+        "es": "O através del pix si es mejor para ti."
+      },
+      "BUTTON1": {
+        "pt": "CARTÃO",
+        "pl": "KARTA",
+        "en": "CARD",
+        "es": "TARJETA"
+      },
+      "BUTTON2": {
+        "pt": "BLIK",
+        "pl": "BLIK",
+        "en": "BLIK",
+        "es": "BLIK"
+      },
+      "BUTTON3": {
+        "pt": "PIX",
+        "pl": "PIX",
+        "en": "PIX",
+        "es": "PIX"
+      }
+    }
+  },
+
+  "story": {
+    "title": {
+      "pt": "Ludmilla & Bartosz",
+      "pl": "Ludmilla & Bartosz",
+      "en": "Ludmilla & Bartosz",
+      "es": "Ludmilla & Bartosz"
+    },
+    "subtitle": {
+      "pt": "ERA UMA VEZ EM IBIZA…",
+      "pl": "PEWNEGO RAZU NA IBIZIE…",
+      "en": "ONCE UPON A TIME IN IBIZA…",
+      "es": "ÉRASE UNA VEZ EN IBIZA…"
+    },
+    "Bloco1body1": {
+      "pt": "Em uma festa que ela quase não foi, com um DJ famoso que não era necessariamente o preferido deles, em uma day party famosa na ilha mágica no Hotel Ushuaia. Enquanto o amigo dela foi caçar, ela tentava curtir o show mesmo sem quase enxergar o palco, principalmente porque uma pessoa ficava em pé igual um poste com a mão estendida com o celular gravando o show (sim, este é o Bartosz) na frente dela - uma 'grande' mulher de 1,54m (esta é a Ludmilla).\n\n- Ei, você! Curte o show ao invés de gravar tudo. Filme menos e viva mais! - disse ela ao estranho que a olhou de costas e abaixou o celular.\n\nAos poucos o estranho se aproximou dela e puxou papo perguntando de onde ela era. Ela é brasileira, ele é polonês. Ele estava de férias em Ibiza com um amigo, ela foi visitar um casal de amigos com outro amigo. E a conversa morreu, mas ele ficou ali por por perto. Então, ela pediu um abraço. Ele fez uma cara achando estranho mas não negou. Curtiram o show juntos pelo resto do dia como se já se conhecessem por muito tempo, cantando e pulando juntos. Quando acabou o show, ela ficou procurando o amigo porque queria fazer um 'after' na praia com os novos amigos. O amigo apareceu, e assim fizeram.\n\nForam umas três horas conversando sobre a vida e, graças a paciência dos amigos envolvidos, depois de tanto tempo saiu o primeiro beijo. Ela bem esperta já convidou ele pra curtir umas praias em Ibiza entre amigos no dia seguinte.",
+      "pl": "Na imprezie, na którą prawie się nie wybrała, ze słynnym DJ-em, który niekoniecznie był ich ulubionym, na słynnym day party na Magic Island w hotelu Ushuaia. Podczas gdy jej przyjaciel poszedł na podbój, ona próbowała cieszyć się występem, mimo iż prawie nie widziała sceny, głównie z powodu stojącej tuż przed nią jak słup osoby z telefonem komórkowym w wyciągniętej ręce i nagrywającej występ (tak, to Bartosz), stojącej przed jakże ''wysoką'' kobietą o wzroście 1,54 m (to była Ludmilla).\n\n- Hej, ty! Ciesz się występem zamiast wszystko nagrywać. Mniej filmuj, a więcej żyj! - powiedziała do nieznajomego, który spojrzał na nią zza pleców i obniżył telefon komórkowy.\n\nWkrótce nieznajomy podszedł do niej i rozpoczął rozmowę pytaniem skąd jest. Ona jest Brazylijką, on Polakiem. On spędzał wakacje na Ibizie ze swoim przyjacielem, ona odwiedzała parę przyjaciół z innym przyjacielem. Rozmowa wygasła ale on pozostał w pobliżu. Wtedy ona poprosiła go o przytulenie. Zrobił dziwną minę, ale nie odmówił. Przez resztę dnia bawili się razem, jakby znali się od dawna, śpiewając i skacząc razem. Kiedy występ się skończył, poszła poszukać swojego przyjaciela żeby wspólnie ze swoimi nowymi przyjaciółmi zrobić \"after party\" na plaży. Przyjaciel pojawił się i tak zrobili.\n\nSpędzili około trzech godzin rozmawiając o życiu i wtedy dopiero, dzięki cierpliwości przyjaciół, doszło do pierwszego pocałunku. W sprytny sposób zaprosiła go do wspólnego spędzania czasu z przyjaciółmi na plażach Ibizy następnego dnia.",
+      "en": "At a party she almost didn't go to, with a famous DJ who wasn't necessarily their favourite, at a famous day party on the magical island in the Hotel Ushuai…. While her friend’ went for hunt’, she tried to enjoy the concert alone, barely seeing the stage because there was somebody  standing his hand with his cell phone recording everything (yes, this is Bartosz) in front of her - a 'big' woman of 1.54m (this is Ludmilla).\n\n- Hey you! Enjoy the show instead of recording everything. Film less and live more! - she said to the stranger who looked at her from the back and lowered the cell phone.\n\nGradually the stranger approached her and started a conversation asking where she was from. She is Brazilian, he is Polish. He was on holiday in Ibiza with a friend, she was visiting a couple of friends with another friend. And the conversation died, but he stayed close by. So she asked him for a hug. He made a strange face but didn't deny it. They enjoyed the show together for the rest of the day as if they had known each other for a long time, singing and jumping together. When the show ended, she was looking for her friend because she wanted to stand the time with him in a kind of after party at the beach with her new mates. Her friend popped up at the end, and so they went to buy some beers to go to the beach.\n\nIt was about three hours talking about life and, thanks to the patience of the friends involved, after so long, the first kiss came out. She was very smart and invited him to enjoy some beaches in Ibiza with friends the next day.",
+      "es": "En una fiesta que ella casi no va, con un famoso DJ que no necesariamente era su favorito, en una famosa fiesta de día en la isla mágica en el Hotel Ushuaia… Mientras su amigo ‘salió para cazar’, ella trató  de disfrutar del espectáculo incluso sin casi ver el escenario porque una persona estaba parada como un poste con la mano extendida con su teléfono grabando el concierto  (sí, este es Bartosz) frente a ella. - una mujer 'grande' de 1,54 m (esta es Ludmilla).\n\n- ¡Eh, tú! Disfruta del concierto  en lugar de grabarlo todo. ¡Filma menos y vive más! - le dijo al desconocido que la miraba de espaldas y bajaba el celular.\n\nPoco a poco el extraño se acercó a ella y comenzó una conversación preguntándole de dónde era. Ella es brasileña, él es polaco. Él estaba de vacaciones en Ibiza con un amigo, ella estaba visitando a un par de amigos con otro amigo. Y la conversación murió, pero él se quedó cerca. Entonces ella le pidió un abrazo. Hizo una expresión rara pero no la negó. Disfrutaron juntos del concierto durante el resto del día como si se conocieran desde hace mucho tiempo, cantando y saltando juntos. Cuando terminó el programa, ella estaba buscando a su amigo  porque quería seguir la fiesta con los nuevos amigos en la playa. Su amigo apareció, y así lo hicieron.\n\nFueron unas tres horas hablando de la vida y, gracias a la paciencia de los amigos involucrados, después de tanto tiempo, salió el primer beso. Ella fue muy lista y lo invitó a disfrutar de unas playas de Ibiza con amigos al día siguiente."
+    },
+
+    "Bloco1body2": {
+      "pt": "- <em>Ei, você! Curte o show ao invés de gravar tudo. Filme menos e viva mais! - disse ela ao estranho que a olhou de costas e abaixou o celular.</em>",
+      "pl": "- <em>Hej, ty! Ciesz się występem zamiast wszystko nagrywać. Mniej filmuj, a więcej żyj! - powiedziała do nieznajomego, który spojrzał na nią zza pleców i obniżył telefon komórkowy.</em>",
+      "en": "- <em>Hey you! Enjoy the show instead of recording everything. Film less and live more! - she said to the stranger who looked at her from the back and lowered the cell phone.</em>",
+      "es": "- <em>¡Eh, tú! Disfruta del concierto  en lugar de grabarlo todo. ¡Filma menos y vive más! - le dijo al desconocido que la miraba de espaldas y bajaba el celular.</em>"
+    },
+    "Bloco1body3": {
+      "pt": "Aos poucos o estranho se aproximou dela e puxou papo perguntando de onde ela era. Ela é brasileira, ele é polonês. Ele estava de férias em Ibiza com um amigo, ela foi visitar um casal de amigos com outro amigo. E a conversa morreu, mas ele ficou ali por por perto. Então, ela pediu um abraço. Ele fez uma cara achando estranho mas não negou. Curtiram o show juntos pelo resto do dia como se já se conhecessem por muito tempo, cantando e pulando juntos. Quando acabou o show, ela ficou procurando o amigo porque queria fazer um 'after' na praia com os novos amigos. O amigo apareceu, e assim fizeram.",
+      "pl": "Wkrótce nieznajomy podszedł do niej i rozpoczął rozmowę pytaniem skąd jest. Ona jest Brazylijką, on Polakiem. On spędzał wakacje na Ibizie ze swoim przyjacielem, ona odwiedzała parę przyjaciół z innym przyjacielem. Rozmowa wygasła ale on pozostał w pobliżu. Wtedy ona poprosiła go o przytulenie. Zrobił dziwną minę, ale nie odmówił. Przez resztę dnia bawili się razem, jakby znali się od dawna, śpiewając i skacząc razem. Kiedy występ się skończył, poszła poszukać swojego przyjaciela żeby wspólnie ze swoimi nowymi przyjaciółmi zrobić after party na plaży. Przyjaciel pojawił się i tak zrobili.",
+      "en": "Gradually the stranger approached her and started a conversation asking where she was from. She is Brazilian, he is Polish. He was on holiday in Ibiza with a friend, she was visiting a couple of friends with another friend. And the conversation died, but he stayed close by. So she asked him for a hug. He made a strange face but didn't deny it. They enjoyed the show together for the rest of the day as if they had known each other for a long time, singing and jumping together. When the show ended, she was looking for her friend because she wanted to stand the time with him in a kind of after party at the beach with her new mates. Her friend popped up at the end, and so they went to buy some beers to go to the beach.",
+      "es": "Poco a poco el extraño se acercó a ella y comenzó una conversación preguntándole de dónde era. Ella es brasileña, él es polaco. Él estaba de vacaciones en Ibiza con un amigo, ella estaba visitando a un par de amigos con otro amigo. Y la conversación murió, pero él se quedó cerca. Entonces ella le pidió un abrazo. Hizo una expresión rara pero no la negó. Disfrutaron juntos del concierto durante el resto del día como si se conocieran desde hace mucho tiempo, cantando y saltando juntos. Cuando terminó el programa, ella estaba buscando a su amigo  porque quería seguir la fiesta con los nuevos amigos en la playa. Su amigo apareció, y así lo hicieron."
+    },
+    "Bloco1body4": {
+      "pt": "Foram umas três horas conversando sobre a vida e, graças a paciência dos amigos envolvidos, depois de tanto tempo saiu o primeiro beijo. Ela bem esperta já convidou ele pra curtir umas praias em Ibiza entre amigos no dia seguinte.",
+      "pl": "Spędzili około trzech godzin rozmawiając o życiu i wtedy dopiero, dzięki cierpliwości przyjaciół, doszło do pierwszego pocałunku. W sprytny sposób zaprosiła go do wspólnego spędzania czasu z przyjaciółmi na plażach Ibizy następnego dnia.",
+      "en": "It was about three hours talking about life and, thanks to the patience of the friends involved, after so long, the first kiss came out. She was very smart and invited him to enjoy some beaches in Ibiza with friends the next day.",
+      "es": "Fueron unas tres horas hablando de la vida y, gracias a la paciencia de los amigos involucrados, después de tanto tiempo, salió el primer beso. Ella fue muy lista y lo invitó a disfrutar de unas playas de Ibiza con amigos al día siguiente."
+    },
+    "Bloco2body1": {
+      "pt": "Brasileira sendo brasileira e talvez um pouco pior: ela atrasou mais de 1 hora do horário que haviam combinado e deixou ele e o amigo torrando debaixo do sol esperando. O amigo do Bartosz já estava impaciente, mas Bartosz já tinha uma meta em mente e não podia falhar. No final deu tudo certo, foram visitar praias lindas Ibiza afora - mesmo com a má sorte do tempo ficar um pouco nublado e chuviscar por algum tempo, nada que atrapalhasse o dia juntos.",
+      "pl": "Brazylijka jak to Brazylijka a może trochę bardziej: spóźniła się na spotkanie ponad godzinę sprawiając, że wraz z przyjacielem smażył się na słońcu w oczekiwaniu. Kolega Bartosza był już zniecierpliwiony, ale Bartosz miał już w głowie pewien cel i nie mógł się poddać. Ostatecznie wszystko się udało, wspólnie odwiedzili kilka pięknych plaż poza Ibizą - chociaż nie mieli do końca szczęścia do pogody- było trochę pochmurno i przez chwilę nawet padała mżawka, ale nic nie zakłóciło wspólnie spędzonego dnia.",
+      "en": "Brazilian being Brazilian and maybe a little worse: she was more than 1 hour late from the agreed time and left him and his friend roasting under the sun waiting. Bartosz's friend was already impatient, but Bartosz already had a goal in mind and he couldn't fail. In the end, everything worked out, they went to visit beautiful beaches around Ibiza and enjoy the day together.",
+      "es": "Brasileño siendo brasileño y quizás un poco peor: ella se retrasó más de 1 hora de la hora acordada y lo dejó a él y a su amigo asándose bajo el  sol esperándola. El amigo de Bartosz ya estaba impaciente, pero Bartosz ya tenía un objetivo en mente y no podía fallar. Al final, todo salió bien, fueron a visitar hermosas playas alrededor de Ibiza, disfrutando del día juntos."
+    },
+    "Bloco2body2": {
+      "pt": "Ludmilla já conhecia a ilha e tinha dicas de amigos que moravam há anos por ali. Então resolveu levá-lo em uma praia estratégica para ver o pôr-do-sol na Cala Saladeta, onde possivelmente o tempo estaria melhor.",
+      "pl": "Ludmilla znała już wyspę i miała też polecenia od przyjaciół, którzy mieszkali tam od lat. Postanowiła więc zabrać go na zachód słońca na szczególną plażę w Cala Saladeta, gdzie pogoda mogła okazać się lepsza.",
+      "en": "Ludmilla already knew the island and had tips from friends who had lived there for years. So she decided to take him to a strategic beach to watch the sunset in Cala Saladeta, where possibly the weather would be better.",
+      "es": "Ludmilla ya conocía la isla y tenía consejos de amigos que habían vivido allí durante años. Así que decidió llevarlo a una playa estratégica para ver el atardecer en Cala Saladeta, donde posiblemente el tiempo estaría  mejor."
+    },
+    "Bloco2body3": {
+      "pt": "Quando já estava escurecendo, o amigo da Ludmilla levou Bartosz e seu amigo para o hotel de volta, já que eram as últimas horas deles em Ibiza antes de partir de volta pra Polônia. Ela tinha a expectativa daquelas despedidas de filme de romance, com um beijo demorado para marcar o fim do 'amor de verão de dois dias'. A realidade, porém, foi um beijo rápido tipo selinho seguido de:",
+      "pl": "Gdy zapadał zmrok, przyjaciel Ludmilly odwiózł Bartosza i jego kolegę do hotelu, ponieważ były to ich ostatnie godziny na Ibizie przed powrotem do Polski. Ludmilla oczekiwała na pożegnanie jak na romantycznych filmach, z długim pocałunkiem na zakończenie 'dwudniowej letniej miłości'. W rzeczywistości jednak był to pośpieszny pocałunek, a zaraz po nim:",
+      "en": "When it was getting dark, Ludmilla's friend took Bartosz and his friend back to their hotel, as it was their last hours in Ibiza before head back to Poland. She was looking forward to those ‘romance movie farewells’, with a long kiss to mark the end of the 'two-days summer love'. The reality, however, was a kind of quick peck-like kiss followed by:",
+      "es": "Cuando estaba oscureciendo, el amigo de Ludmilla llevó a Bartosz y a su amigo de regreso al hotel, ya que eran sus últimas horas en Ibiza antes de partir hacia Polonia. Ella esperaba con ansias esas despedidas de películas románticas, con un beso prolongado para marcar el final del 'amor de verano de dos días'. La realidad, sin embargo, fue un rápido beso seguido de:"
+    },
+    "Bloco2body4": {
+      "pt": "- <em>Te vejo em Madrid! - Ele falou acenando para ela já entrando pro hotel com um sorriso no rosto.</em>",
+      "pl": "- <em>Do zobaczenia w Madrycie! - Pomachał do niej, wchodząc już do hotelu z uśmiechem na twarzy.</em>",
+      "en": "- <em>See you in Madrid! - He said waving at her already entering the hotel with a smile on his face.</em>",
+      "es": "- <em>¡Nos vemos en Madrid! - Le dijo saludando ya entrando al hotel con una sonrisa en su rostro.</em>"
+    },
+    "Bloco2body5": {
+      "pt": "Ela voltou pro carro e seu amigo até brincou falando que ela fazia mais sucesso com brasileiros do que com 'gringos'. Desiludida, ela se deu conta que ele nem ao menos perguntou o WhatsApp dela, só tinha Facebook da qual nem tinha foto de perfil  (mais low profile que isso, não existe).",
+      "pl": "Wróciła do samochodu, a jej przyjaciel zażartował nawet, że ma większe powodzenie u Brazylijczyków niż u 'gringos'. Rozczarowana, zdała sobie sprawę, że nawet nie zapytał jej o WhatsApp, miała tylko jego Facebooka, na którym nie było nawet zdjęcia profilowego (bardziej low profil już się nie dało).",
+      "en": "She got back in the car and her friend even joked that she was more successful with Brazilians guys than with europeans. Disappointed, she realised that he didn't even ask for her WhatsApp number, he only had Facebook, which he didn't even have a profile picture of (super low profile).",
+      "es": "Volvió al auto y su amiga incluso bromeó diciendo que tenía más éxito con los brasileños que con los 'gringos'. Decepcionada, se dio cuenta de que él ni siquiera le pidió su número de WhatsApp, solo tenía una cuenta de Facebook que ni siquiera tenía una foto de perfil (perfil inferior a ese, no existe)."
+    },
+    "Bloco3body1": {
+      "pt": "Segundo fontes seguras (leia-se: o próprio amigo que estava presente confirmou), Bartosz voltou correndo pro Hotel para fazer as malas para voltar para Polônia e certificar da viabilidade de viajar para Madrid no próximo feriado. Ela, em contrapartida, ficou super desconfiada porque:",
+      "pl": "Według informacji od wiarygodnych źródeł (czytaj: jego przyjaciela, który był przy tym i potwierdził), Bartosz wrócił biegiem do hotelu, aby spakować walizki przed powrotem do Polski i upewnić się, że podróż do Madrytu w następne wolne dni jest możliwa. Ona z kolei była bardzo podejrzliwa, ponieważ:",
+      "en": "According to reliable sources (read: the friend who was there confirmed it), Bartosz ran back to the Hotel to pack his bags to return to Poland and have time to be sure it was feasible to travel to Madrid for the next holiday. She, on the other hand, was super suspicious because:",
+      "es": "Según fuentes fidedignas (léase: el amigo que estaba allí lo confirmó), Bartosz corrió al Hotel a hacer las maletas para volver a Polonia y asegurarse de que era factible viajar a Madrid para las próximas vacaciones. Ella, por otro lado, estaba súper sospechosa porque:"
+    },
+    "Bloco3Story": [
+      {
+        "pt": "1- Ele usava somente Facebook: e isso no Brasil é ser muito old school, só pais e tios usam (leia-se: pessoas acima dos 50 anos de idade)... E ele é dois anos mais novo que ela, não era nem de perto um perfil de alguém que usa Facebook.",
+        "pl": "1 - Używał tylko Facebooka: a to w Brazylii uważane jest za bardzo oldschoolowe, używają go tylko rodzice i wujkowie (czytaj: ludzie powyżej 50 roku życia)... A on będąc dwa lata młodszy od niej, nie wyglądał zupełnie na kogoś, kto korzysta z Facebooka.",
+        "en": "1- He only used Facebook: and in Brazil it is a bit  old school, only parents and uncles use it (read: people 50+ years old)... And he's younger than her.",
+        "es": "1- Él solo usaba Facebook: y eso en Brasil es muy raro para mileniums o genZ, solo lo usan los padres y los tíos (léase: personas 50+ años)... Y además, él es más jóven que ella."
+      },
+      {
+        "pt": "2- Ele não tinha foto no perfil do Facebook, assim como não tinha nenhuma informação relevante, nem posts ou marcação de nenhum amigo.",
+        "pl": "2- Nie miał zdjęcia na swoim profilu na Facebooku, a także żadnych istotnych informacji, postów ani tagów znajomych.",
+        "en": "2- He didn't have a photo on his Facebook profile, nor did he have any relevant information, nor posts or tags from any friends.",
+        "es": "2- No tenía una foto en su perfil de Facebook, ni tenía ninguna información relevante, ni publicaciones o etiquetas de ningún amigo."
+      },
+      {
+        "pt": "3- Ele não pediu WhatsApp. O que era muito suspeito para uma Brasileira, porque não existe um pessoa no Brasil que não se comunique via WhatsApp.",
+        "pl": "3- Nie zapytał jej o WhatsApp. Co dla Brazylijki było bardzo podejrzane, ponieważ w Brazylii nie ma osoby, która nie komunikowałaby się przez WhatsApp.",
+        "en": "3- He didn't ask for WhatsApp. Which was very suspicious for a Brazilian woman, because there isn't a person in Brazil who doesn't communicate via WhatsApp.",
+        "es": "3- No pidió WhatsApp. Lo cual era muy sospechoso para una mujer brasileña, porque no hay persona en Brasil que no se comunique por WhatsApp."
+      }
+    ],
+    "Bloco3body2": {
+      "pt": "Mesmo com tantas diferenças e alguns impecilhos, aos poucos, eles foram conhecendo melhor sobre a cultura um do outro. Ela se deu conta que lá na Polônia não é tão comum o uso do WhatsApp e que o Facebook Messager era bem popular, e que na Europa, no geral, existem weirdos que não usam foto de perfil nem usam muito redes sociais. Foi uma fase interessante entre eles para se conhecerem em diferentes perspectivas daquelas que estavam acostumados.",
+      "pl": "Nawet przy tak wielu różnicach i pewnych przeszkodach, powoli dowiadywali się coraz więcej o swoich kulturach. Zdała sobie sprawę, że w Polsce WhatsApp nie jest tak powszechny, a Facebook Messenger jest bardzo popularny, oraz że w Europie są ludzie, którzy nie używają zdjęć profilowych i nie korzystają zbyt często z sieci społecznościowych. Był to dla nich interesujący czas, aby poznać się nawzajem z innych perspektyw niż te, do których byli przyzwyczajeni.",
+      "en": "Even with so many differences and some obstacles, little by little, they got to know each other better including  each other's culture. She realised that in Poland it is not so common to use WhatsApp and that Facebook Messenger was very popular, and that in Europe, in general, there are weirdos who don't use a profile picture or use social networks a lot. It was an interesting phase for them to get to know each other from different perspectives than they were used to.",
+      "es": "Aún con tantas diferencias y algunos obstáculos, poco a poco fueron conociéndose mejor incluso de la cultura del otro. Ella se dio cuenta de que allá en Polonia no es tan común usar WhatsApp y que Facebook Messenger era muy popular, y que en Europa, en general, hay personas raras que no usan foto de perfil ni usan mucho las redes sociales. Fue una fase interesante para ellos conocerse desde perspectivas diferentes a las que estaban acostumbrados."
+    },
+    "Bloco3body3": {
+      "pt": "Até que ele realmente foi pra Madrid no feriado seguinte e a história começa de fato!",
+      "pl": "Dopóki naprawdę nie wybrał się do Madrytu w następne wolne dni i tu historia naprawdę się zaczyna!",
+      "en": "Until he actually went to Madrid for the next holiday and the story really began!",
+      "es": "¡Hasta que en realidad se fue a Madrid para las próximas vacaciones y la historia realmente comienza!"
+    },
+    "Bloco4body1": {
+      "pt": "Essa história começou como um relacionamento à distância e, com isso, vieram muitas viagens. Depois de um ano com muitos finais de semana e feriados pela Europa afora, eles voltaram para Ibiza e foi quando decidiram que ficar separados entre Madrid e Cracóvia seria difícil no longo prazo. Eis que em Setembro de 2019 pensaram na possibilidade e, ao mesmo tempo, no desafio de morarem no mesmo lugar incluindo a possibilidade de morar em outro país.",
+      "pl": "Ta historia rozpoczęła się jako związek na odległość, która zapoczątkowała wiele podróży. Po roku z wieloma weekendami i wakacjami spędzonymi w całej Europie, powrócili na Ibizę i właśnie wtedy zdecydowali, że życie na odległość, pomiędzy Madrytem a Krakowem staje się trudne na dłuższą metę. I oto we wrześniu 2019 roku zaczęli myśleć o możliwości i jednocześnie wyzwaniu życia w tym samym miejscu, w tym o możliwości życia w innym kraju.",
+      "en": "This story began as a long-distance relationship, ain which demanded  a lot of travelling. After a year with many weekends and holidays across Europe, they returned to Ibiza and that's when they decided that being separated between Madrid and Kraków would be difficult in the long run. Behold, in September 2019 they thought about the possibility and, at the same time, the challenge of living in the same place, including the possibility of living in another country.",
+      "es": "Esta historia comenzó como una relación a larga distancia, y con eso vinieron muchos viajes. Después de un año con muchos fines de semana y vacaciones por toda Europa, volvieron a Ibiza y fue cuando decidieron que estar separados entre Madrid y Cracovia sería difícil a la largo plazo. Fue en septiembre de 2019que  pensaron juntos en la posibilidad y, al mismo tiempo, el reto de vivir en el mismo lugar, incluyendo la posibilidad de vivir en otro país."
+    },
+    "Bloco4body2": {
+      "pt": "Se eles já estava nesse nível, ainda que ele conhecesse parte da família dela, ainda faltava conhecer onde ela cresceu, sua mãe, seus amigos, ver a cultura de perto. Então ele comprou passagem pra Belo Horizonte, a capital do Estado de Minas Gerais (conhecida também como a capital dos bares, afinal: 'se não tem mar, a gente vai pro bar') no final do ano.",
+      "pl": "Jeśli byli już na tym etapie, nawet jeśli znał część jej rodziny, brakowało by dowiedział się gdzie dorastała, poznał jej mamę, jej przyjaciół, aby zobaczył jej kulturę z bliska. Kupił więc bilet do Belo Horizonte, stolicy stanu Minas Gerais (znanego również jako stolica barów, w końcu: 'jeśli nie ma morza, idziemy do baru') na koniec roku.",
+      "en": "If they were already at that level, even if he knew part of her family, he still needed to know where she grew up, her mother, her friends, and seeing the culture up close. So he bought a ticket to Belo Horizonte at the end of the same year, the capital of the State of Minas Gerais (also known as the capital of bars, after all: 'if there's no sea, we go to the bar').",
+      "es": "Si ya estaban en ese nivel, aunque conociera a parte de su familia, todavía necesitaba saber dónde creció, su madre, sus amigos, para ver la cultura de cerca. Así que compró un billete a Belo Horizontea para el  fin de año, la capital del Estado de Minas Gerais (también conocida como la capital de los bares, después de todo: 'si no hay mar, vamos al bar')."
+    },
+    "Bloco4body3": {
+      "pt": "<strong>E aí que entra Búzios na nossa história!</strong>",
+      "pl": "<strong>I właśnie w tym momencie Búzios wkracza do naszej historii!</strong>",
+      "en": "<strong>This is where Búzios enters our history!</strong>",
+      "es": "<strong>¡Aquí es donde Búzios entra en nuestra historia!</strong>"
+    },
+    "Bloco4body4": {
+      "pt": "A época de Ano Novo no Brasil é muito peculiar. Especialmente em cidades como Búzios, uma península no Estado do Rio de Janeiro que tinha uma Pacha, ainda tem a balada Privilege e alguns beach clubs, é a preferência de muitos jovens no Brasil como destino de férias de verão. Apesar das festas de Réveillon no Brasil começarem antes da meia-noite, a festa só fica boa realmente depois do brinde e vai até de manhã. Sem dúvida é uma experiência única ver o primeiro nascer-do-sol do ano em uma festa ao ar livre próximo da praia.",
+      "pl": "Sylwester w Brazylii jest bardzo specyficzny. Zwłaszcza w miastach takich jak Búzios, półwysep w stanie Rio de Janeiro, na którym znajduje się Pacha, Privilege i kilka klubów plażowych, ulubione miejsce wielu młodych Brazylijczyków na spędzenie letnich wakacji - przypomina nieco klimat Ibizy. Chociaż imprezy noworoczne w Brazylii rozpoczynają się przed północą, zabawa rozkręca się dopiero po wzniesieniu toastu i trwa do samego rana. To zdecydowanie wyjątkowe doświadczenie zobaczyć pierwszy wschód słońca w roku na imprezie pod gołym niebem w otoczeniu plaży.",
+      "en": "The New Year's season in Brazil is very peculiar. Especially in cities like Búzios, a peninsula in the State of Rio de Janeiro that already hosted Pacha, there is still the Privilege Club and some beach clubs, being a perfect summer destionation among  young people in Brazil during vacation. Although New Year's Eve parties in Brazil start before midnight, the party only gets really good after the mid-night toast and goes on until morning. It is a unique experience to see the first sunrise of the year at an outdoor party near the beach.",
+      "es": "La temporada de Año Nuevo en Brasil es muy peculiar. Especialmente en ciudades como Búzios, una península en el Estado de Río de Janeiro hubo tiempo que tenía Pacha, todavia hay la discoteca Privilege y algunos clubes de playa, lo que acaba siendo una preferencia de vacaciones de verano de muchos  jóvenes en Brasil. Aunque las fiestas de Nochevieja empiezan antes de la medianoche, la fiesta solo se pone realmente buena después del brindis y continúa hasta la mañana. Sin duda, es una experiencia única ver el primer amanecer del año en una fiesta al aire libre cerca de la playa."
+    },
+    "Bloco4body5": {
+      "pt": "Por isso, ela juntou uma galera para viajarem juntos (incluindo o amigo da Ludmilla que estava com ela em Ibiza) mais de treze horas de carro com congestionamento entre Belo Horizonte até Armação de Búzios pra aproveitar um pouco das belíssimas praias da região e uma baita festa na Privilege Búzios com Claptone no Réveillon. Foi uma noite inesquecível para os dois, contudo pra ele foi algo inédito e especial.",
+      "pl": "Z tego powodu zebrała grupę znajomych (w tym przyjaciela Ludmilly, który był z nią na Ibizie) do wspólnej, ponad trzynasto godzinnej podróży napakowanym samochodem między Belo Horizonte i Armação de Búzios, i do wspólnej zabawy na kilku pięknych plażach regionu i na wspaniałej imprezie sylwestrowej w Privilege Búzios z Claptone. To była niezapomniana noc dla obojga, ale dla niego było to coś wyjątkowego.",
+      "en": "That's why she gathered a group of people to travel together (including that Ludmilla's friend who was with her in Ibiza). There were  more than thirteen hours by car including the time spent in a huge traffic jam from Belo Horizonte to Armação de Búzios just to  enjoy some of the region's beautiful beaches and a great party at Privilege Búzios with Claptone on New Year's Eve. It was an unforgettable night for both of them, but for him it was something new and special.",
+      "es": "Por eso ella  reunió a un grupo de amigos para viajar juntos (incluido el amigo de Ludmilla que estuvo con ella en Ibiza). El viaje se tardó más de trece horas dentro de un coche entre Belo Horizonte y Armação de Búzios  para disfrutar de algunas de las hermosas playas de la región y de una gran fiesta en Privilege Búzios con Claptone en Nochevieja. Fue una noche inolvidable para ambos, pero para él fue algo nuevo y especial."
+    },
+    "Bloco5body1": {
+      "pt": "Ainda que 2020 tenha sido desafiador para todos, os quatro meses que a Europa se fechou e proibiu vôos entre países foi a fase mais difícil que eles passaram. É aquela história clássica da pandemia: quem não se divorciou, casou!  No caso deles, foi a época que começaram a pensar na possibilidade de casar.",
+      "pl": "Rok 2020 był wyzwaniem dla wszystkich, te cztery miesiące kiedy to Europa zamknęła się i zakazała lotów między krajami, były najtrudniejszym etapem, przez który przeszli. To klasyczna historia pandemii: ci którzy się nie rozwiedli wzięli ślub! W ich przypadku był to czas, w którym zaczęli myśleć o zawarciu małżeństwa.",
+      "en": "Even though 2020 was challenging for everyone, the four months that Europe was closed and flights were banned between countries was something that impact them deeply. It was  the hardest time they went through. It's that classic pandemic story: ‘those who didn't get divorced, got married!’. In their case, it was the time when they began to think about the possibility of getting married.",
+      "es": "Aunque 2020 fue un desafío para todos, los cuatro meses que Europa cerró y prohibió los vuelos entre países fue la etapa más difícil por la que pasaron. Es la clásica historia de pandemia: ¡los que no se divorciaron, se casaron! . Y en sus casos, fue el momento en que empezaron a pensar en la posibilidad de casarse."
+    },
+    "Bloco5body2": {
+      "pt": "Três anos depois do primeiro encontro em Ibiza, em Setembro de 2021, ele resolve fazer uma surpresa pra ela. Na hora do pôr-do-sol, na menor das ilhas baleares, Formentera, em um lugar que era possível ver a icônica ilha de Ibiza (Ès Vedra), entre os calangos da região que subiam nos pés dela buscando um pouco dos chips que caíam enquanto tomavam cerveja e cidra, ele tirou uma caixinha do bolso a pedindo em casamento com um anel, e ela disse:",
+      "pl": "Trzy lata po ich pierwszej randce na Ibizie, we wrześniu 2021 roku, on postanawia zrobić jej niespodziankę. O zachodzie słońca, na najmniejszej z wysp Balearów, Formenterze, w miejscu, z którego można było zobaczyć kultową wyspę Ibizy (Ès Vedra), wśród lokalnych calangos, które wspinały się na jej stopy w poszukiwaniu chipsów, które spadły podczas picia piwa i cydru, wyjął z kieszeni małe pudełko z pierścionkiem, prosząc ją o rękę a ona odpowiedziała:",
+      "en": "Three years after their first meeting in Ibiza, in September 2021, he decides to surprise her. At sunset time, on the smallest of the Balearic islands, Formentera, in a place where it was possible to see the iconic island of Ibiza (Ès Vedra), among the lizards in the region that climbed on her feet looking for some of the chips that fell off while they were drinking beer and cider, he took a little box out of his pocket asking her to marry him with a ring, and she said:",
+      "es": "Tres años después del  primer encuentro en Ibiza, en septiembre de 2021, él decide sorprenderla. Al atardecer, en la más pequeña de las islas Baleares, Formentera, en un lugar donde se podría ver la icónica isla de Ibiza (Ès Vedra), entre las lagartijas típicas de la región que se subían a sus pies buscando alguna de las patatas fritas que se cayera mientras bebía cerveza y sidra, sacó una cajita de su bolsillo pidiéndola que se casara con él le mostrando un anillo, y ella dijo:"
+    },
+    "Bloco5body3": {
+      "pt": "<em>Yes, I do!</em>",
+      "pl": "<em>Yes, I do!</em>",
+      "en": "<em>Yes, I do!</em>",
+      "es": "<em>Yes, I do</em>!"
+    },
+    "Bloco6body1": {
+      "pt": "A verdade é que ela nunca pensou em se casar. Já ele pensava que eventualmente iria se casaria um dia e provavelmente teria a tradicional cerimônia religiosa católica seguido de uma festa como é o mais comum na Polônia. Ela aceitou a ideia se fosse fosse na praia e juntos tiveram a ideia de um casamento no Brasil como uma excelente oportunidade para que familiares e amigos pudessem se unir em um evento.",
+      "pl": "Tak naprawdę nigdy nie myślała o ślubie. On myślał, że w końcu pewnego dnia się ożeni i prawdopodobnie będzie miał tradycyjną katolicką ceremonię religijną, po której nastąpi przyjęcie, ponieważ jest to najbardziej powszechne w Polsce. Ona zgodziła się pod warunkiem, że odbędzie się to na plaży i razem wpadli na pomysł ślubu w Brazylii jako doskonałej okazji dla rodziny i przyjaciół do spotkania się na jednym wydarzeniu.",
+      "en": "The truth is that she never thought about getting married. He already thought that he would eventually get married one day and would probably have the traditional Catholic religious ceremony followed by a party as the tradition in Poland. She accepted the idea if it was a kind of beach wedding and together they came up with the idea of a wedding in Brazil as an excellent opportunity for family and friends to come together in an event.",
+      "es": "ÉLa verdad es que ella nunca pensó en casarse. Ya él sí pensaba que eventualmente se casaría algún día y probablemente tendría la tradicional ceremonia religiosa católica seguida de una fiesta como es lo más común en Polonia. Ella aceptó la idea si la boda fuera  en la playa y juntos idearon la idea de una boda en Brasil como una excelente oportunidad para que familiares y amigos se reunieran en un evento."
+    },
+    "Bloco6body2": {
+      "pt": "Mas primeiro: o casamento civil. Também precisaria ser do jeito deles, preferencialmente menos burocrático com a questão de idiomas de um casal internacional. Escolheram, então, a Dinamarca - o país que tem um dos índices mais altos de felicidade no mundo.",
+      "pl": "Ale najpierw: ślub cywilny. Musiał on również odbyć się w ich sposób, najlepiej żeby wymagał on jak najmniej biurokracji i brał pod uwagę kwestię języków międzynarodowej pary. Wybrano zatem Danię - kraj o jednym z najwyższych wskaźników szczęścia na świecie.",
+      "en": "But first: civil marriage. It would also need to be in their way, preferably less bureaucratic with the language issue of an international couple. So they chose Denmark - the country that has one of the highest levels of happiness in the world.",
+      "es": "Pero primero: el matrimonio civil. También tendría que ser a su manera, preferiblemente menos burocrático con el tema del idioma de una pareja internacional. Así que elegieron Dinamarca, el país que tiene uno de los niveles de felicidad más altos del mundo."
+    },
+    "Bloco7body1": {
+      "pt": "Ainda que toda a organização à distância de um Destination Wedding tenha seus desafios, é um sonho para eles unir pessoas tão especiais que fizeram parte da vida de cada um deles, em uma festa para celebrar o amor e a união. Por isso, não se esqueça de <a target='_blank' href='/home'>confirmar sua presença!</a>",
+      "pl": "Chociaż organizacja wesela na odległość w Destination Wedding wiąże się z pewnymi wyzwaniami, ich marzeniem jest zaproszenie na przyjęcie wszystkich wyjątkowych ludzi, którzy stali się częścią ich dotychczasowego życia, aby wspólnie uczcić ich miłość i ich związek. Nie zapomnij więc <a target='_blank' href='/home'>potwierdzić swojej obecności!</a>",
+      "en": "Even though organising a Destination Wedding at a distance has its challenges, it is a dream for them to bring together such special people who were part of each of their lives, in a party to celebrate love and unity. So don't forget to <a target='_blank' href='/home'>confirm your attendance!</a>",
+      "es": "Aunque organizar un Destination Wedding  a distancia tiene sus desafíos, para ellos es un sueño reunir a personas tan especiales que fueron parte de sus vidas, en una fiesta para celebrar el amor y la unidad. ¡Así que no olvides <a target='_blank' href='/home'>confirmar tu presencia!</a>"
+    }
+  },
+  "TBG": {
+    "title": {
+      "pt": "Team Bride & Groom",
+      "pl": "Team Bride & Groom",
+      "en": "Team Bride & Groom",
+      "es": "Team Bride & Groom"
+    },
+    "subTitle": {
+      "pt": "PODE PARECER CLICHÊ, MAS ESSA GALERA MERECE UM 'STANDING AND OVATION'",
+      "pl": "MOŻE TO ZABRZMI BANALNIE, ALE TA GRUPA ZASŁUGUJE NA OWACJE NA STOJĄCO 'STANDING AND OVATION’",
+      "en": "IT MAY SEEM CLICHE, BUT THESE GUYS DESERVE A 'STANDING AND OVATION'",
+      "es": "PUEDE PARECER CLICHE, PERO ESTOS CHICOS MERECEN UN 'STANDING AND OVATION'"
+    },
+    "introP1": {
+      "pt": "Mesmo que da ideia de casar no Brasil exista desde 2021, quando nos casamos no civil na Dinamarca, só iniciamos esse projeto no ano seguinte.  A maior parte do casamento foi planejado e organizado à distância e graças aos seletos amigos que se dispuseram e se comprometeram a ajudar ativamente na nossa ideia de Destination Wedding, desde a escolha do vestido da noiva, até aquecer a pista de dança no grande dia assim como todo o roteiro de viagem, nosso sonho saiu do papel  - com mais leveza e segurança que podemos contar verdadeiramente com pessoas incríveis ao nosso lado.",
+      "pl": "Chociaż pomysł ślubu w Brazylii pojawił się już w 2021 roku, kiedy wzięliśmy ślub w Danii, rozpoczęliśmy ten projekt dopiero pod koniec 2022 roku. Większość ślubu została zaplanowana i zorganizowana zdalnie, a dzięki wybranym przyjaciołom, którzy zgłosili swoją chęć i zaangażowanie w to by aktywnie pomóc nam w realizacji naszego pomysłu Destination Wedding, od wyboru sukni panny młodej, po rozgrzanie parkietu w wielkim dniu, a także przygotowania całego planu podróży, nasze marzenie się spełniło - z większą lekkością i bezpieczeństwem, że naprawdę możemy liczyć na niesamowitych ludzi u naszego boku.",
+      "en": "Even though the idea of getting married in Brazil has existed since 2021 when we planed our civil wedding in Denmark, we only started organising in fact the ceremony and reception in the following year. Most of the wedding was planned and organised from a distance and thanks to the select friends who were willing and committed to actively help with our idea of Destination Wedding. They gave us a hand from choosing the bride's dress, stand up to be the DJ  to  warm up the dance floor on the big day, or even in every detail of the travel ideas and plan itinerary to make our dream to come to life.",
+      "es": "Aunque nuestra idea de la cerimonia y fiesta ocurre desde 2021 en nuestra boda civil en Dinamarca, sólo empezamos a organizar todo en el año seguinte. La mayor parte de la boda fue planeada y organizada a distancia y gracias a nuestros selectos amigos que estuvieron dispuestas y comprometidas a ayudar activamente con nuestra idea de Destination Wedding, logramos hacerlo., Ellos nos ayudaron desde elegir el vestido de la novia hasta calentar la pista de baile el gran día, o mismo  planeando todo itinerario de viaje, para ayudarnos a transformar nuestro sueño en realidad."
+    },
+    "introP2": {
+      "pt": "Por isso, queremos apresentar o nosso Team Bride & Groom!",
+      "pl": "Dlatego chcielibyśmy przedstawić nasz zespół Bride & Groom!",
+      "en": "Therefore, we want to present our Team Bride & Groom!",
+      "es": "¡Por eso, queremos presentarles a nuestro Team Bride & Groom!"
+    },
+    "Cards": {
+      "Name01": {
+        "pt": "Ana Paula Gomes",
+        "pl": "Ana Paula Gomes",
+        "en": "Ana Paula Gomes",
+        "es": "Ana Paula Gomes"
+      },
+      "Name02": {
+        "pt": "Tiago Mello",
+        "pl": "Tiago Mello",
+        "en": "Tiago Mello",
+        "es": "Tiago Mello"
+      },
+      "Name03": {
+        "pt": "Jeniffer Pimenta",
+        "pl": "Jeniffer Pimenta",
+        "en": "Jeniffer Pimenta",
+        "es": "Jeniffer Pimenta"
+      },
+      "Name04": {
+        "pt": "Łukasz Leja",
+        "pl": "Łukasz Leja",
+        "en": "Łukasz Leja",
+        "es": "Łukasz Leja"
+      },
+      "Name05": {
+        "pt": "Tamara Vieira",
+        "pl": "Tamara Vieira",
+        "en": "Tamara Vieira",
+        "es": "Tamara Vieira"
+      },
+      "Name06": {
+        "pt": "Robert Białas",
+        "pl": "Robert Białas",
+        "en": "Robert Białas",
+        "es": "Tiago Mello"
+      },
+      "Name07": {
+        "pt": "Môrhanna Nogueira",
+        "pl": "Môrhanna Nogueira",
+        "en": "Môrhanna Nogueira",
+        "es": "Môrhanna Nogueira"
+      },
+      "Name08": {
+        "pt": "Luíz Mayrink",
+        "pl": "Luíz Mayrink",
+        "en": "Luíz Mayrink",
+        "es": "Luíz Mayrink"
+      },
+      "Name09": {
+        "pt": "Nayara Ferreira",
+        "pl": "Nayara Ferreira",
+        "en": "Nayara Ferreira",
+        "es": "Nayara Ferreira"
+      },
+      "Name10": {
+        "pt": "Mateusz Augustyniak",
+        "pl": "Mateusz Augustyniak",
+        "en": "Mateusz Augustyniak",
+        "es": "Mateusz Augustyniak"
+      },
+      "Name11": {
+        "pt": "Gilda Lima",
+        "pl": "Gilda Lima",
+        "en": "Gilda Lima",
+        "es": "Gilda Lima"
+      },
+      "Role01": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role02": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role03": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role04": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role05": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role06": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role07": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role08": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role09": {
+        "pt": "Madrinha",
+        "pl": "Druhna",
+        "en": "Bridesmaid",
+        "es": "Madrina"
+      },
+      "Role10": {
+        "pt": "Padrinho",
+        "pl": "Drużba",
+        "en": "Groomsman",
+        "es": "Padrino"
+      },
+      "Role11": {
+        "pt": "Dama de Honra",
+        "pl": "Osoba niosąca pierścionki",
+        "en": "Ring Bearer",
+        "es": "Dama de Honor"
+      }
+    }
+  },
+  "Travel": {
+    "title": {
+      "pt": "Destination Wedding",
+      "pl": "Destination Wedding",
+      "en": "Destination Wedding",
+      "es": "Destination Wedding"
+    },
+    "subTitle": {
+      "pt": "PLANEJAMENTO DE VIAGEM",
+      "pl": "PLANOWANIE",
+      "en": "TRAVEL PLANNING",
+      "es": "PLANIFICACIÓN DE VIAJES"
+    },
+    "introP1": {
+      "pt": "Sugerimos 10 dias para conhecer a cidade de Búzios, a região dos Lagos conhecida como o Caribe Brasileiro e conhecer o Rio de Janeiro. Ainda estamos organizando algumas atividades turísticas para com um bom custo-benefício de transportes  para transfer e os passeios turísticos, garantindo segurança e diversão. Em breve mais informações por e-mail após a <a target='_blank' href='/home'>confirmação de presença!</a>",
+      "pl": "Proponujemy 10 dni na zwiedzenie miasta Búzios, regionu dos Lagos, znanego jako brazylijskie Karaiby, a także odwiedzenie Rio de Janeiro. Wciąż opracowujemy kilka spersonalizowanych pakietów podróży dla Was z jak najlepszą ceną, w tym transfer i transport podczas wycieczki, zapewniając bezpieczeństwo i dobrą zabawę. Prześlemy więcej informacji drogą mailową zaraz po <a target='_blank' href='/home'>potwierdzeniu obecności!</a>",
+      "en": "We suggest about 10 days trip to get to know the city of Búzios, the region known as the ‘Brazilian Caribbean’, and get to know Rio de Janeiro. We are still organising some tourism plan with a fair price for transport of transfer and tours ensuring safety and fun. More information available by e-mail after the <a target='_blank' href='/home'>attendance confirmation!</a>",
+      "es": "Sugerimos 10 días para conocer la ciudad de Búzios, la región conocida como el Caribe brasileño, y conocer Río de Janeiro. Todavía estamos planificandoa algunos paseos turísticos con un valor justo de transporte para translados y visitas turísticas, garantizando seguridad y diversión. ¡Pronto más información por correo electrónico después de la <a target='_blank' href='/home'>confirmación de presencia!</a>"
+    },
+
+    "introP2": {
+      "pt": "Nossa sugestão de roteiro será baseado nessas datas:",
+      "pl": "Nasz sugerowany plan podróży będzie oparty następujących datach:",
+      "en": "Our itinerary suggestion will be based on these dates:",
+      "es": "Nuestra sugerencia de itinerario se basará en estas fechas:"
+    },
+    "itineraryLabel": {
+      "pt": "Linha do Tempo",
+      "pl": "Linha do Tempo",
+      "en": "Timeline",
+      "es": "Línea de Tiempo"
+    },
+    "itinerary": [
+      {
+        "day": {
+          "pt": "Quinta",
+          "pl": "Czwartek",
+          "en": "Thursday",
+          "es": "Jueves"
+        },
+        "date": {
+          "pt": "09.05.24",
+          "pl": "09.05.24",
+          "en": "09.05.24",
+          "es": "09.05.24"
+        },
+        "description": {
+          "pt": "Chegada em Armação de Búzios, Rio de Janeiro",
+          "pl": "Przylot do Armação de Búzios, Rio de Janeiro.",
+          "en": "Arrival in Armação de Búzios, Rio de Janeiro",
+          "es": "Llegada a Armação de Búzios, Río de Janeiro."
+        },
+        "id": 2,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Sexta",
+          "pl": "Piątek",
+          "en": "Friday",
+          "es": "Viernes"
+        },
+        "date": {
+          "pt": "10.05.24",
+          "pl": "10.05.24",
+          "en": "10.05.24",
+          "es": "10.05.24"
+        },
+        "description": {
+          "pt": "Passeio na Região dos Lagos",
+          "pl": "Wycieczka po Região dos Lagos",
+          "en": "Tour in the Lakes Region",
+          "es": "Tour en la Región de los Lagos"
+        },
+        "id": 3,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Sábado",
+          "pl": "Sobota",
+          "en": "Saturday",
+          "es": "Sábado"
+        },
+        "date": {
+          "pt": "11.05.24",
+          "pl": "11.05.24",
+          "en": "11.05.24",
+          "es": "11.05.24"
+        },
+        "description": {
+          "pt": "Pre Wedding",
+          "pl": "Pre-Wedding",
+          "en": "Pre-Wedding",
+          "es": "Pre-Wedding"
+        },
+        "id": 4,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Domingo",
+          "pl": "Niedziela",
+          "en": "Sunday",
+          "es": "Domingo"
+        },
+        "date": {
+          "pt": "12.05.24",
+          "pl": "12.05.24",
+          "en": "12.05.24",
+          "es": "12.05.24"
+        },
+        "description": {
+          "pt": "Casamento",
+          "pl": "Ślub",
+          "en": "Marriage",
+          "es": "Casamiento"
+        },
+        "id": 5,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Segunda",
+          "pl": "Poniedziałek",
+          "en": "Monday",
+          "es": "Lunes"
+        },
+        "date": {
+          "pt": "13.05.24",
+          "pl": "13.05.24",
+          "en": "13.05.24",
+          "es": "13.05.24"
+        },
+        "description": {
+          "pt": "Passeio nas praias de Búzios",
+          "pl": "Spacer po plażach Búzios",
+          "en": "Walk on the beaches of Búzios",
+          "es": "Paseo por las playas de Búzios"
+        },
+        "id": 6,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Terça",
+          "pl": "Wtorek",
+          "en": "Tuesday",
+          "es": "Martes"
+        },
+        "date": {
+          "pt": "14.05.24",
+          "pl": "14.05.24",
+          "en": "14.05.24",
+          "es": "14.05.24"
+        },
+        "description": {
+          "pt": "Transfer Rio com Tour Rio de Janeiro",
+          "pl": "Transfer do Rio z Tour Rio de Janeiro",
+          "en": "Transfer Rio with Tour Rio de Janeiro",
+          "es": "Transfer Rio con Tour Rio de Janeiro"
+        },
+        "id": 7,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Quarta",
+          "pl": "Środa",
+          "en": "Wednesday",
+          "es": "Miércoles"
+        },
+        "date": {
+          "pt": "15.05.24",
+          "pl": "15.05.24",
+          "en": "15.05.24",
+          "es": "15.05.24"
+        },
+        "description": {
+          "pt": "Tour Rio de Janeiro",
+          "pl": "Rio de Janeiro Tour",
+          "en": "Tour of Rio de Janeiro",
+          "es": "Tour Río de Janeiro"
+        },
+        "id": 8,
+        "icon": "CheckCircleOutlineIcon"
+      },
+      {
+        "day": {
+          "pt": "Quinta",
+          "pl": "Czwartek",
+          "en": "Thursday",
+          "es": "Jueves"
+        },
+        "date": {
+          "pt": "16.05.24",
+          "pl": "16.05.24",
+          "en": "16.05.24",
+          "es": "16.05.24"
+        },
+        "description": {
+          "pt": "Tour Rio de Janeiro",
+          "pl": "Rio de Janeiro Tour",
+          "en": "Tour of Rio de Janeiro",
+          "es": "Tour Río de Janeiro"
+        },
+        "id": 9,
+        "icon": "CheckCircleOutlineIcon"
+      }
+    ],
+    "Heading2": {
+      "pt": "Sugestão dos noivos",
+      "pl": "Sugestie od Państwa Młodych",
+      "en": "Suggestion from the Bride & Groom",
+      "es": "Recomendaciones de los novios"
+    },
+    "Body2P1": {
+      "pt": "Claro que gostaríamos que você estivesse com a gente por todos os dias dessa viagem ao Brasil, contudo, sabemos que o Brasil não tem preços da Ásia e pode ser difícil acompanhar uma viagem de tantos dias contados como férias. Para ter ideia sobre preços em cada destino, <a target='_blank' href='/qea'>consultar FAQ.</a>",
+      "pl": "Oczywiście chcielibyśmy abyś spędził z nami każdy dzień tej podróży do Brazylii, zdajemy sobie jednak sprawę, że ceny w Brazylii są znacznie wyższe od tych w Azji i spędzenie tak wielu dni podróży liczonych jako wakacje może wiązać się z pewnymi trudnościami. Aby zorientować się w cenach w poszczególnych miejscach, <a target='_blank' href='/qea'>sprawdź Q&A</a>",
+      "en": "Of course we would like you to be with us for all the days of this trip to Brazil, however, we know that Brazil does not have Asian prices and it can be difficult to follow a trip of so many days counted as a vacation. To get an idea about prices in each destination, <a target='_blank' href='/qea'>consult the Q&A.</a>",
+      "es": "Por supuesto que nos gustaría que estuvieras con nosotros todos los días de este viaje a Brasil, sin embargo, sabemos que Brasil no tiene precios asiáticos y puede ser difícil seguir un viaje de tantos días contados como vacaciones. Para tener una idea de los precios en cada destino, <a target='_blank' href='/qea'>consulta la página FAQ.</a>"
+    },
+    "storypoints": [
+      {
+        "pt": "Imprescindível: 11 a 13 de Maio. Será o final de semana do nosso casamento.",
+        "pl": "Konieczne: od 11 do 13 maja. Będzie to weekend naszego ślubu.",
+        "en": "Essential: May 11th to 13th.Weekend wedding!",
+        "es": "Imprescindible: del 11 al 13 de mayo. Será el fin de semana de nuestra boda."
+      },
+      {
+        "pt": "Férias na Praia: 09 a 13 de Maio, porque terá diversos passeios, inclusive de escuna, em várias praias lindas da região de Búzios.",
+        "pl": "Wakacje na plaży: od 09 do 13 maja, w tym czasie odbędzie się kilka wycieczek, w tym rejsy szkunerem, na kilka pięknych plaż w regionie Búzios.",
+        "en": "Beach vacation: May 9th to 13th, there are several trips, including by schooner, on several beautiful beaches in the region of Búzios.",
+        "es": "Vacaciones en la playa: Del 09 al 13 de mayo, porque habrá varios viajes, incluso en goleta, en varias hermosas playas de la región de Búzios."
+      },
+      {
+        "pt": "Tour no Rio de Janeiro: Estamos preparando um roteiro que você possa visitar o Cristo Redentor e o Pão de Açúcar até quarta-feira, dia 15 de Maio. Contudo, haverá atividades até sábado, dia 17 de Maio, para conhecer a 'Cidade Maravilhosa'.",
+        "pl": "Wycieczka do Rio de Janeiro: Przygotowujemy wycieczkę abyś mógł odwiedzić Chrystusa Odkupiciela i Głowę Cukru do środy 15 maja. Jednak do soboty 17 maja będą odbywać się aktywności pozwalające poznać te 'cudowne miasto'.",
+        "en": "Tour of Rio de Janeiro: We are preparing an itinerary for you to visit Christ the Redeemer and Sugarloaf Mountain until Wednesday, May 15th. However, there will be activities until Saturday, May 17th, to get to know the 'Wonderful City'.",
+        "es": "Tour con Rio de Janeiro: Estamos preparando un itinerario para que visites el Cristo Redentor y el Pan de Azúcar hasta el miércoles 15 de mayo. No obstante, habrá actividades hasta el sábado 17 de mayo para conocer la 'Ciudad Maravillosa'."
+      }
+    ],
+    "Body2P2": {
+      "pt": "Já adianto abaixo diversas indicações de hospedagem em Búzios e Rio de Janeiro com bom custo-benefício assim como Transfer seguro e confiável do Aeroporto até Búzios .",
+      "pl": "Poniżej przedstawiam kilka wskazówek dotyczących zakwaterowania w Búzios i Rio de Janeiro o dobrym stosunku jakości do ceny, a także bezpiecznego i niezawodnego transferu z lotniska do Búzios.",
+      "en": "Please see below several indications of accommodation in Búzios and Rio de Janeiro with good cost-benefit as well as safe and reliable Transfer from the Airport to Búzios.",
+      "es": "Ya adelantovarias indicaciones de alojamiento en Búzios y Río de Janeiro con buena relación costo-beneficio así como un Transfer seguro y confiable desde el Aeropuerto a Búzios."
+    },
+    "Body2P3": {
+      "pt": "Para saber sobre mais facilidades como dicas de viagem, passeios turísticos, gastronomia e lugares para comer e beber em Búzios e Rio de Janeiro, <a target='_blank' href='/home'>confirme presença</a> e aguarde mais informação no seu e-mail.",
+      "pl": "Aby dowiedzieć się więcej o udogodnieniach, takich jak wskazówki dla podróżnych, zwiedzanie, gastronomia oraz miejsca do jedzenia i picia w Búzios i Rio de Janeiro, <a target='_blank' href='/home'>potwierdź swoją obecność</a> i czekaj na więcej informacji, które otrzymasz na swój e-mail.",
+      "en": "To learn more about facilities such as travel tips, sightseeing, gastronomy and places to eat and drink in Búzios and Rio de Janeiro, <a target='_blank' href='/home'>RSVP</a> and wait for more information in your e-mail.",
+      "es": "Para obtener más información sobre instalaciones como consejos de viaje, visitas turísticas, gastronomía y lugares para comer y beber en Búzios y Río de Janeiro, <a target='_blank' href='/home'>confirme su asistencia</a> y espere más información en su correo electrónico."
+    },
+    "CardsSubPag": {
+      "Titulo1": {
+        "pt": "Armação de Búzios",
+        "pl": "Armação de Búzios",
+        "en": "Armação de Búzios",
+        "es": "Armação de Búzios"
+      },
+      "Titulo2": {
+        "pt": "Rio de Janeiro",
+        "pl": "Rio de Janeiro",
+        "en": "Rio de Janeiro",
+        "es": "Rio de Janeiro"
+      },
+      "Body1": {
+        "pt": "Saiba tudo antes de viajar!",
+        "pl": "Wszystko co chcesz wiedzieć przed podróża",
+        "en": "Everything you need to know before travel!",
+        "es": "Todo que necesitas saber antes de viajar!"
+      }
+    }
+  },
+  "Búzios": {
+    "titleP1": {
+      "pt": "Armação de Búzios",
+      "pl": "Armação de Búzios",
+      "en": "Armação de Búzios",
+      "es": "Armação de Búzios"
+    },
+    "subTitle": {
+      "pt": "UM VILAREJO PESQUEIRO BEM PITORESCO NA REGIÃO DO 'CARIBE BRASILEIRO'",
+      "pl": "BARDZO MALOWNICZA WIOSKA RYBACKA W REGIONIE 'BRAZYLIJSKICH KARAIBÓW'",
+      "en": "A PICTURESQUE FISHING VILLAGE IN THE BRAZILIAN CARIBBEAN' REGION",
+      "es": "UN PUEBLO PESQUERO MUY PINTORESCO EN LA REGIÓN DEL 'CARIBE BRASILEÑO'"
+    },
+    "introP1": {
+      "pt": "A Costa do Sol Fluminense, conhecida popularmente como Região dos Lagos, fica cerca de 3 horas de carro do Rio de Janeiro e é composta por 10 municípios, sendo Armação de Búzios, Cabo Frio e Arraial do Cabo as cidades mais turísticas. A beleza da Região dos Lagos está justamente na simplicidade e na natureza em si, contando com praias belíssimas e boa gastronomia!",
+      "pl": "Costa do Sol Fluminense, popularnie znane jako Região dos Lagos, znajduje się około 3 godziny jazdy od Rio de Janeiro i składa się z 10 gmin, z Armação de Búzios, Cabo Frio i Arraial do Cabo, które są najbardziej turystycznymi miastami. Piękno regionu Lagos tkwi właśnie w prostocie i samej naturze, z pięknymi plażami i dobrą kuchnią!",
+      "en": "The Costa do Sol Fluminense, popularly known as Região dos Lagos, is about a 3-hour drive from Rio de Janeiro and comprises 10 municipalities, with Armação de Búzios, Cabo Frio and Arraial do Cabo being the most touristic cities. The beauty of the Lagos Region is precisely in the simplicity and nature itself, with beautiful beaches and fine cuisine!",
+      "es": "La Costa del Sol Fluminense, conocida popularmente como Região dos Lagos, se encuentra a unas 3 horas en coche desde Río de Janeiro y comprende 10 municipios, siendo Armação de Búzios, Cabo Frio y Arraial do Cabo las ciudades más turísticas. La belleza de la Región de Lagos está precisamente en la sencillez y la naturaleza misma, con hermosas playas y buena gastronomía!"
+    },
+    "introP2": {
+      "pt": "Escolhemos Búzios porque fez <a target='_blank' href='/wedding/ourhistory'>parte da nossa história</a>. Além disso, é uma cidade fácil de fácil acesso com transporte do Rio de Janeiro ou Belo Horizonte, tem uma vibe mais animada e jovem, além de  ficar perto de Arraial do Cabo, lugar onde possuem praias surreais com cor água azul turquesa.",
+      "pl": "Wybraliśmy Búzios, ponieważ było to częścią <a target='_blank' href='/wedding/ourhistory'>naszej historii</a>. Ponadto jest to łatwo dostępne miasto z transportem z Rio de Janeiro lub Belo Horizonte, ma bardziej żywy i młodzieńczy klimat, w dodatku blisko Arraial do Cabo, miejsca z surrealistycznymi plażami i turkusową wodą.",
+      "en": "We chose Búzios because it was part of <a target='_blank' href='/wedding/ourhistory'>our history</a>. In addition, there  is an easy access to the city from Rio de Janeiro or Belo Horizonte, having a lively and youthful vibe, and close to Arraial do Cabo, an increadible place with turquoise beaches and white sand.",
+      "es": "Elegimos Búzios porque fue una ciudad que hace  parte de <a target='_blank' href='/wedding/ourhistory'>nuestra historia</a>. Además, es una ciudad de fácil acceso desde Río de Janeiro o Belo Horizonte, tiene un ambiente más animado y se ubica  cerca de Arraial do Cabo, un lugar con playas surrealistas con aguas azul turquesa."
+    },
+    "heading1": {
+      "pt": "Turismo",
+      "pl": "Turystyka",
+      "en": "Tourism",
+      "es": "Turismo"
+    },
+    "body1": {
+      "pt": "Durante o período em Búzios, gostaríamos de fazer dois dias de passeio, um nas praias mais bonitas de Arraial do Cabo e outro passeio na própria cidade de Búzios. Ambos passeios terão parte terrestre, parte marítima com escuna e almoço incluso. Dessa forma é possível conhecer vários lugares incríveis na região em pouco tempo e aproveitar cada segundo da viagem!",
+      "pl": "Podczas pobytu w Búzios chcielibyśmy spędzić dwa dni na zwiedzaniu, jeden na najpiękniejszych plażach Arraial do Cabo i kolejny w mieście Búzios. Obie wycieczki będą miały część lądową, część morską ze szkunerem i lunchem. W ten sposób możesz w krótkim czasie odwiedzić kilka niesamowitych miejsc w regionie i cieszyć się każdą sekundą podróży!",
+      "en": "To enjoy our time in  Búzios, we thought about spending two days to know the city od Búzios itself and the region, in Arraial do Cabo.  Both tours will have a land part by bus and a sea part with a schooner, with lunch included. That way, you can visit several amazing places in the region in a short time and enjoy every second of the trip!",
+      "es": "Durante el período en Búzios, nos gustaría hacer dos días de turismo, uno en las playas más hermosas de Arraial do Cabo y otro recorrido en la ciudad de Búzios. Ambos tours tendrán una parte terrestre, una parte marítima con goleta y almuerzo incluido. De esa manera, puedes visitar varios lugares increíbles de la región en poco tiempo y ¡disfrutar cada segundo del viaje!"
+    },
+    "body2": {
+      "pt": "Nossa ideia é passar em várias praias, alguns destinos na Região dos Lagos são:",
+      "pl": "Naszym pomysłem jest odwiedzenie kilku plaż, niektóre miejsca w regionie Lagos to:",
+      "en": "Our idea is to visit several beaches, some of the highlight sighseen you could enjoy in the Lagos Region are:",
+      "es": "Nuestra idea es visitar varias playas, algunos destinos en la Región de Lagos son:"
+    },
+    "destinos-buzios": [
+      {
+        "pt": "Imprescindível: 11 a 13 de Maio. Será o final de semana do nosso casamento.",
+        "pl": "Konieczne: od 11 do 13 maja. Będzie to weekend naszego ślubu.",
+        "en": "Essential: May 11th to 13th.Weekend wedding!",
+        "es": "Imprescindible: del 11 al 13 de mayo. Será el fin de semana de nuestra boda."
+      },
+      {
+        "pt": "Ilha do Farol",
+        "pl": "Ilha do Farol",
+        "en": "Ilha do Farol",
+        "es": "Ilha do Farol"
+      },
+      {
+        "pt": "Pontal do Atalaya",
+        "pl": "Pontal do Atalaya",
+        "en": "Pontal do Atalaya",
+        "es": "Pontal do Atalaya"
+      },
+      {
+        "pt": "Praia dos Anjos",
+        "pl": "Praia dos Anjos",
+        "en": "Praia dos Anjos",
+        "es": "Praia dos Anjos"
+      },
+      {
+        "pt": "Praia João Fernandes",
+        "pl": "Praia João Fernandes",
+        "en": "Praia João Fernandes",
+        "es": "Praia João Fernandes"
+      },
+      {
+        "pt": "Praia Azeda e Azedinha",
+        "pl": "Praia Azeda e Azedinha",
+        "en": "Praia Azeda e Azedinha",
+        "es": "Praia Azeda e Azedinha"
+      },
+      {
+        "pt": "Praia das Moças",
+        "pl": "Praia das Moças",
+        "en": "Praia das Moças",
+        "es": "Praia das Moças"
+      }
+    ],
+    "body3": {
+      "pt": "Nós contamos com a empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para fazer todo o transporte seguro. Contudo precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a <a target='_blank' href='/home'>confirmação de presença (RSVP)</a> por e-mail.",
+      "pl": "CPolegamy na firmie <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a>, aby cały transport był bezpieczny. Musimy jednak wiedzieć od każdego gościa czy jest zainteresowany udziałem w wycieczkach, aby określić budżet dla każdego. Dalsze szczegóły zostaną potwierdzone dopiero po <a target='_blank' href='/home'>potwierdzeniu uczestnictwa (RSVP)</a> drogą mailową.",
+      "en": "We rely on the company <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> to provide a safe trip. However, we need to know the willingness of each guest to make these tours in order to define the special price  for everyone. Further details will be confirmed only after <a target='_blank' href='/home'>RSVP</a> by email.",
+      "es": "Confiamos en la empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para hacer todo el transporte seguro. Sin embargo, necesitamos saber el interés de cada uno  en la realización de los tours para poder definir un precio más justo para todos. Se confirmarán más detalles solo después de <a target='_blank' href='/home'>confirmar su asistencia</a> por correo electrónico."
+    },
+    "heading2": {
+      "pt": "Hospedagem",
+      "pl": "Zakwaterowanie",
+      "en": "Accommodation",
+      "es": "Alojamiento"
+    },
+    "bodyBuzius1": {
+      "pt": "Búzios é uma península e conta com mais de 20 praias em uma área menor que Formentera, a menor das Ilhas Baleares. Apesar de tudo ser aparentemente perto, a cidade cresceu mas a infra-estrutrura da cidade não acompanhou seu crescimento de forma equivalente. Portanto, pode haver trânsito em certas horas, dificuldade de se movimentar na ilha já que muitas ruas são de paralelepípedo e não asfaltadas e, muitas vezes, algumas pousadas acabam ficando no alto de algum morro ou de difícil acesso. Por isso, facilitamos para os nossos convidados sugerindo três pousadas próximo de onde estaremos, com excelente localização, próximo de comércio, restaurantes e facilidades, com boa estrutura, limpo e confiável.",
+      "pl": "Buzios jest półwyspem i ma ponad 20 plaż na obszarze mniejszym niż Formentera, najmniejsza z Balearów. Mimo, że wszystko wydawało się być blisko, miasto rozwijało się, ale infrastruktura miasta nie nadążała za jego rozwojem w równoważny sposób. W związku z tym w określonych godzinach mogą występować korki, trudności w poruszaniu się po wyspie, ponieważ wiele ulic jest brukowanych, a nie utwardzonych, a często niektóre zajazdy znajdują się na szczycie wzgórza lub są trudno dostępne. Dlatego ułatwiamy naszym gościom proponując trzy domy wypoczynkowe (“Pousadas”) blisko miejsca, w którym będziemy, z doskonałą lokalizacją, blisko sklepów, restauracji i obiektów, z dobrą strukturą, czyste i niezawodne.",
+      "en": "Buzios is a peninsula surrounded by the sea, with more than 20 beaches in an area smaller than Formentera, the smallest of the Balearic Islands. Despite everything being apparently close to each other, the city grew but the infrastructure did not follow its growth proportionally. Therefore, there may be traffic at certain hours, and may be difficulty moving around the island since many streets are not paved and, often, some inns end up being on the top of a hill or difficult to access. Therefore, we make it easier for our guests by suggesting three fine hostels  close to where we will be, with an excellent location, close to shops, restaurants and facilities, with good structure, clean and reliable.",
+      "es": "Buzios es una península y tiene más de 20 playas en un área más pequeña que Formentera, la más pequeña de las Islas Baleares. A pesar de estar todo aparentemente cerca, la ciudad creció pero la infraestructura de la ciudad no acompañó su crecimiento de manera equivalente. Por lo tanto, puede haber tráfico a ciertas horas, dificultad para moverse ya que muchas calles están empedradas y sin pavimentar y, muchas veces, algunos hostales terminan en lo alto de una colina o son de difícil acceso. Por lo tanto, facilitamos a nuestros huéspedes sugiriendo tres posadas cercanas a donde estaremos, con una excelente ubicación, cerca de tiendas, restaurantes e instalaciones, con buena estructura, limpias y confiables."
+    },
+    "bodyBuzius2": {
+      "pt": "Visite o site das pousadas abaixo, mas <a target='_blank' href='/home'>confirme presença (RSVP)</a> para poder usufruir dos descontos!",
+      "pl": "Odwiedź stronę pousadas poniżej, ale potwierdź <a target='_blank' href='/home'>swoją obecność (RSVP)</a>, aby skorzystać ze zniżek!",
+      "en": "Visit the hotels’ website below, but <a target='_blank' href='/home'>confirm your attendace (RSVP)</a> to enjoy the special discounts we got for our guests!",
+      "es": "¡Visite la página web de las posadas abajo, pero disfrute de los descuentos que logramos al  <a target='_blank' href='/home'>confirmar  su presencia (RSVP)!</a>"
+    }
+  },
+  "Rio de Janeiro": {
+    "titleP1": {
+      "pt": "Rio de Janeiro",
+      "pl": "Rio de Janeiro",
+      "en": "Rio de Janeiro",
+      "es": "Rio de Janeiro"
+    },
+    "subTitle": {
+      "pt": "CONHECIDA COMO 'A CIDADE MARAVILHOSA' NÃO É ATOA…",
+      "pl": "ZNANE JAKO 'CUDOWNE MIASTO' TO NIC…",
+      "en": "THERE’S A REASON IT IS KNOWN AS 'THE WONDERFUL CITY'...",
+      "es": "NO ES DE LA NADA QUE QUEDÓ FAMOSA COMO 'LA CIUDAD MARAVILLA' …'"
+    },
+    "introP1": {
+      "pt": "A região do Rio de Janeiro foi uma das primeiras a serem descobertas no Brasil por expedição portuguesa no Brasil em 1502. Contudo, somente em 1567 que a região onde hoje está localizado o Morro da Urca e o Pão de Açúcar, foi batizada de São Sebastião do Rio de Janeiro. E a partir de então, foi crescendo e se tornando uma região muito rica no Brasil, chegando até a ser  por um período a capital do país.",
+      "pl": "Region Rio de Janeiro był jednym z pierwszych odkrytych w Brazylii przez portugalską ekspedycję w Brazylii w 1502 roku. Jednak dopiero w 1567 roku region, w którym obecnie znajdują się Morro da Urca i Pão de Açúcar, został nazwany São Sebastião do Rio de Janeiro. Od tego czasu rozrósł się i stał się bardzo bogatym regionem Brazylii, stając się nawet przez pewien czas stolicą kraju.",
+      "en": "The region of Rio de Janeiro was one of the first places discovered in Brazil by a Portuguese expedition in Brazil in 1502. However, it was only in 1567 that the region where Morro da Urca e Pão de Açúcar are located today, was named São Sebastião from Rio de Janeiro. And from then on, it grew and became a very rich region in Brazil, even becoming the capital of the country for a period.",
+      "es": "La región de Río de Janeiro fue una de las primeras descubiertas en Brasil por una expedición portuguesa en Brasil en 1502. Sin embargo, solamente en 1567 que la región donde hoy se encuentran el Morro da Urca y el Pan de Azúcar recibió el nombre de São Sebastião de Río de Janeiro. Y a partir de ahí creció y se convirtió en una región muy rica de Brasil, llegando a ser la capital del país por un tiempo."
+    },
+    "introP2": {
+      "pt": "O Rio - como é carinhosamente chamada, além de história e grande influência no país, tem uma beleza natural fora do comum, conquistando o coração de muita gente pelo mundo afora.",
+      "pl": "Rio - jak się pieszczotliwie nazywa, oprócz historii i wielkich wpływów w kraju, posiada niezwykłe piękno przyrody, podbijając serca wielu ludzi na całym świecie.",
+      "en": "Rio - as Brazilians used to call it, is not just a historical city, but bear an unique landscape that attracts many tourists worldwide.",
+      "es": "Río - como se le llama cariñosamente por los brasileños, mas allá que su historia y gran influencia en el país, tiene una belleza natural fuera de lo común, conquistando el corazón de muchas personas en todo el mundo."
+    },
+    "introP3": {
+      "pt": "Apesar da noiva ter nascido no estado do Maranhão, no nordeste do país, e crescido em Belo Horizonte, a capital de Minas Gerais; o Rio possui melhores conexões e estrutura para uma primeira visita ao país. A região nordeste do Brasil possui praias ainda mais exuberantes, com temperatura da água mais quente, comidas típicas e uma cultura única com maior influência indígena e africana. O estado de Minas Gerais é conhecida pela culinária deliciosa, muita história do período colonial como a cidade de Ouro Preto que é Patrimônio Mundial da UNESCO, uma paisagem única de montanhas e cachoeiras e, claro, pelo “jeitinho mineiro” de ser, sempre muito receptivo e aberto. Contudo, o Brasil possui dimensões continentais, impossível conhecer tudo de uma só vez.. Pensando nisso, resolvemos mostrar um pouquinho da história e da beleza do país no Rio de Janeiro mesmo!",
+      "pl": "Chociaż panna młoda urodziła się w stanie Maranhão, na północnym wschodzie kraju, a dorastała w Belo Horizonte, stolicy stanu Minas Gerais; Rio ma lepsze połączenia i infrastrukturę na pierwszą wizytę w tym kraju. Region północno-wschodniej Brazylii ma jeszcze bardziej bujne plaże, z cieplejszą wodą, typową żywnością i wyjątkową kulturą z większymi wpływami tubylczymi i afrykańskimi. Stan Minas Gerais słynie z wyśmienitej kuchni, bogatej historii z okresu kolonialnego takiej jak Ouro Preto, które jest częścią Światowego Dziedzictwa Kultury UNESCO, wyjątkowego krajobrazu gór i wodospadów oraz, oczywiście, „mineiro” bycia zawsze bardzo otwartym i otwartym. Jednak Brazylia ma wymiar kontynentalny, nie sposób poznać wszystkiego od razu, dlatego postanowiliśmy pokazać trochę historii i piękna tego kraju w Rio de Janeiro!",
+      "en": "Although the bride was born in the state of Maranhão, in the northeast of the country, and grew up in Belo Horizonte, the capital of Minas Gerais; Rio de Janeiro  has better connections and infrastructure for the first visit to the country. The northeast region of Brazil has even more interesting beaches, with warmer water temperatures, typical foods and a unique culture with greater indigenous and African influence. The state of Minas Gerais is known for its delicious cuisine, a lot of history from the colonial period like the city Ouro Preto that is a UNESCO World Heritage Site, a unique landscape of mountains and waterfalls and, of course, for the culture of people that is  always very receptive and open. However, Brazil has continental dimensions, it is impossible to know everything at once. With that in mind, we decided to show a little bit of the history and beauty of the country in Rio de Janeiro!",
+      "es": "Aunque la novia nació en el estado de Maranhão, en el noreste del país, y creció en Belo Horizonte, la capital de Minas Gerais; Ríode Janeiro  tiene mejores conexiones y estructura para una primera visita al país. La región noreste de Brasil tiene playas aún más exuberantes, con temperaturas de agua más cálidas, comidas típicas y una cultura única con mayor influencia indígena y africana. El estado de Minas Gerais es conocido por su deliciosa cocina, mucha historia de la época colonial como la ciudad de Ouro Preto que es un Património Mundial de UNESCO, un paisaje único de montañas y cascadas y, por supuesto, por la “manera mineiro de ser”, siempre muy receptivo y abierto. Sin embargo, Brasil tiene dimensiones continentales, es imposible saberlo todo a la vez, por eso decidimos mostrar un poco de la historia y la belleza del país en Río de Janeiro."
+    },
+    "heading1": {
+      "pt": "Turismo",
+      "pl": "Turystyka",
+      "en": "Tourism",
+      "es": "Turismo"
+    },
+    "bodyRio1": {
+      "pt": "Decidimos incluir um pequeno roteiro ao Rio de Janeiro porque sabemos que quem é de fora do Brasil não vai suportar a ideia de viajar por longas horas e não visitar a cidade mais famosa do país. Com apenas alguns dias de turismo pela cidade maravilhosa é possível de conhecer os principais pontos turísticos da cidade. Contaremos novamente com a empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para poder nos levar para visitar a cidade com segurança com transporte terrestre, incluindo o transfer de Búzios para o Rio de Janeiro.",
+      "pl": "Zdecydowaliśmy się na małą wycieczkę do Rio de Janeiro, ponieważ wiemy, że ludzie spoza Brazylii nie mogą znieść myśli o wielogodzinnej podróży i nie zwiedzeniu najsłynniejszego miasta w kraju. Wystarczy kilka dni w tym wspaniałym mieście, aby odkryć jego główne zabytki. Ponownie będziemy polegać na firmie <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a>, aby móc bezpiecznie zabrać nas do miasta transportem lądowym, w tym transfer z Búzios do Rio de Janeiro.",
+      "en": "We decided to include a small itinerary to Rio de Janeiro because we know that foreigners wouldn’t bear the idea of travelling for so long and not visiting the most famous city in the country. With just a few days of sightseeing in the wonderful city, it is possible to discover the main sights of the city. We will again rely on the company <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> to be able to take us to visit the city safely with land transport, including the transfer from Búzios to Rio de Janeiro.",
+      "es": "Decidimos incluir un pequeño itinerario a Río de Janeiro porque sabemos que las personas que vienen de  fuera de Brasil no soportaría la idea de viajar largas horas y no visitar la ciudad más famosa del país. Con solo unos días de turismo en la ciudad maravillosa, es posible descubrir los principales puntos turísticos de la ciudad. Contaremos  de nuevo con la empresa <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios</a> para poder llevarnos a visitar la ciudad de forma segura con transporte terrestre, incluido el traslado de Búzios a Río de Janeiro."
+    },
+    "bodyRio2": {
+      "pt": "Alguns dos pontos turísticos que vamos conhecer:",
+      "pl": "Niektóre zabytki, które odwiedzimy:",
+      "en": "Some of the sights we will visit:",
+      "es": "Algunos de los lugares que visitaremos:"
+    },
+    "destinos-rio": [
+      {
+        "pt": "Cristo Redentor",
+        "pl": "Pomnik Chrystusa Odkupiciela",
+        "en": "Christ of the Redeemer",
+        "es": "Cristo Redentor"
+      },
+      {
+        "pt": "Morro da Urca e Pão de Açúcar",
+        "pl": "Morro da Urca i Głowa Cukru",
+        "en": "Morro da Urca and Sugarloaf Mountain",
+        "es": "Morro da Urca y Pan de Azúcar"
+      },
+      {
+        "pt": "Museu do Amanhã",
+        "pl": "Muzeum Przyszłości (Museu do Amanhã)",
+        "en": "Museum of Tomorrow",
+        "es": "Museo del Mañana"
+      },
+      {
+        "pt": "Arcos da Lapa",
+        "pl": "Lapa Arches",
+        "en": "Lapa Arches",
+        "es": "Arcos de Lapa"
+      },
+      {
+        "pt": "Escadaria de Salaron",
+        "pl": "Escadaria de Salaron",
+        "en": "Salaron staircase",
+        "es": "Escalera de Salaron"
+      },
+      {
+        "pt": "Estádio do Maracanã",
+        "pl": "Stadion Maracanã",
+        "en": "Maracana Stadium",
+        "es": "Estadio de Maracaná"
+      },
+      {
+        "pt": "Sambódromo",
+        "pl": "Sambódromo",
+        "en": "Sambodrome",
+        "es": "Sambódromo"
+      },
+      {
+        "pt": "Praias: Copacabana, Ipanema e Leblon",
+        "pl": "Plaże: Copacabana, Ipanema i Leblon",
+        "en": "Beaches: Copacabana, Ipanema and Leblon",
+        "es": "Playas: Copacabana, Ipanema y Leblon"
+      }
+    ],
+    "bodyConfirmation3": {
+      "pt": "Se ficou interessado, por gentileza, precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a <a target='_blank' href='/home'>confirmação de presença (RSVP)</a> por e-mail.",
+      "pl": "Jeśli jesteście zainteresowani, musimy to wiedzieć przed zorganizowaniem wycieczki, aby określić budżet dla każdego. Dalsze szczegóły zostaną przekazane dopiero po <a target='_blank' href='/home'>potwierdzeniu uczestnictwa (RSVP)</a> drogą mailową.",
+      "en": "If you are interested, please, we need to know the willingness  of each guest to participate of these tours in order to define a fair price for everyone. Further details will be confirmed only after <a target='_blank' href='/home'>RSVP</a> by email.",
+      "es": "Si está interesado, por favor, necesitamos saber el interés individual de cada uno en la realización de los tours para poder definir un precio más justo. Se confirmarán más detalles solo después de <a target='_blank' href='/home'>confirmar su asistencia</a> por correo electrónico."
+    },
+    "heading2": {
+      "pt": "Hospedagem",
+      "pl": "Zakwaterowanie",
+      "en": "Accommodation",
+      "es": "Alojamiento"
+    },
+    "body1": {
+      "pt": "A cidade do Rio de Janeiro é bem grande, porém, há zonas que podem não ser muito interessante para se hospedarem seja porque é longe e fora de mão ou porque é perigoso.",
+      "pl": "Miasto Rio de Janeiro jest dość duże, jednak istnieją obszary, które mogą nie być zbyt interesujące do pobytu, albo dlatego, że są daleko i na uboczu, albo dlatego, że są mniej bezpieczne.",
+      "en": "The city of Rio de Janeiro is quite large, however, there are areas that may not be very interesting to stay in, either because it is far away from the main sights, difficult to get there or because it is dangerous.",
+      "es": "La ciudad de Río de Janeiro es bastante grande, sin embargo, hay zonas que pueden no ser muy interesantes para quedarse, ya sea porque está lejos y fuera del camino o porque es peligrosa."
+    },
+    "body2": {
+      "pt": "Sugerimos hospedarem em uma rede de hotéis na região de Ipanema, região famosa pela música icônica no estilo Bossa Nova conhecida mundialmente: 'Garota de Ipanema'. É uma região segura, que possui uma praia extensa de areia clara e boa infra-estrutura, além de estar próximo a todos os lugares que iremos passear.",
+      "pl": "Proponujemy pobyt w hotelu sieciowym w regionie Ipanema, regionie znanym z kultowej piosenki w stylu Bossa Nova, znanej na całym świecie z piosenki: „Dziewczyna z Ipanemy”. To bezpieczny region, z rozległą plażą z białym piaskiem i dobrą infrastrukturą, a do tego blisko do wszystkich miejsc, do których pójdziemy na spacer.",
+      "en": "We suggest staying at a hotel chain in the Ipanema region. This region is famous for the iconic Bossa Nova song known worldwide: 'Girl from Ipanema'. It is a safer region, which has an extensive beach with white sand and good infrastructure, and it is also easy to move around the places we are planning to visit.",
+      "es": "Sugerimos hospedarse en una cadena hotelera en la región de Ipanema, región famosa por la icónica canción estilo Bossa Nova conocida mundialmente: “Garota de Ipanema”. Es una región segura, que cuenta con una extensa playa de arena blanca y buena infraestructura, además de estar cerca de todos los lugares por los que planeamos salir de paseo."
+    },
+    "body3": {
+      "pt": "Visite o site das pousadas abaixo, mas confirme presença (RSVP) para poder usufruir dos descontos!",
+      "pl": "Odwiedź stronę pousadas poniżej, ale potwierdź swoją obecność (RSVP), aby skorzystać ze zniżek!",
+      "en": "Visit the hotels’ website below, but confirm your attendace (RSVP) to enjoy the special discounts we got for our guests!",
+      "es": "¡Visite la página web de las posadas abajo, pero disfrute de los descuentos que logramos al  confirmar  su presencia (RSVP)!"
+    }
+  },
+  "QEA": {
+    "titleP1": {
+      "pt": "Perguntas e Respostas",
+      "pl": "Pytania i Odpowiedzi",
+      "en": "Questions and Answers",
+      "es": "Preguntas Frecuentes"
+    },
+    "subTitle": {
+      "pt": "Nossas respostas às perguntas mais frequentes...",
+      "pl": "Nasze odpowiedzi na najczęściej zadawane pytania...",
+      "en": "Frequent Questions Answered",
+      "es": "Nuestras respuestas a las preguntas más frecuentes..."
+    },
+    "introP1": {
+      "pt": "Sabemos que um Destination Wedding pode gerar muitas dúvidas! Confira se sua dúvida já está por aqui, caso contrário, entre em contato diretamente com os noivos através do Grupo de <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp!</a>",
+      "pl": "Zdajemy sobie sprawę,, że “Destination Wedding” może rodzić wiele pytań! Sprawdź, czy Twoje pytanie już tu jest, w przeciwnym razie skontaktuj się z parą młodą bezpośrednio przez <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp albo inny komunikator!</a>",
+      "en": "We know that a Destination Wedding can raise a lot of questions! Check if your question is already explained on the website or on the answeres below, otherwise, contact the bride and groom directly through the <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp Group!</a>",
+      "es": "¡Sabemos que una boda de destino puede generar muchas preguntas! Comprueba si tu pregunta ya está aquí, de lo contrario, ¡contacta directamente con los novios a través del Grupo de <a target='_blank' href='https://chat.whatsapp.com/EXIqMDn7KW93Dc4XskJ8qn'>WhatsApp!</a>"
+    },
+    "Accordion": [
+      {
+        "questions": {
+          "pt": "Posso levar mais pessoas para a viagem?",
+          "pl": "Czy mogę zabrać na wycieczkę więcej osób?",
+          "en": "Can I bring more people on the trip?",
+          "es": "¿Puedo llevar más personas al viaje?"
+        },
+        "answers": {
+          "pt": "Pode <a target='_blank' href='/home'>levar</a> mais amigos ou familiares que desejar para a viagem ao Brasil sem nenhum problema, contudo terá que indicar quantas pessoas no espaço de mensagem na confirmação de presença para melhor gestão de turismo. Somente convidados atenderão ao Casamento. Somente convidados terão os benefícios do transfer gratuito (vagas limitadas), isto é: quem não é convidado poderá usufruir do transfer, porém pagando uma taxa.",
+          "pl": "Na wycieczkę do Brazylii można bez problemu zabrać dowolną liczbę przyjaciół lub członków rodziny, jednak w celu lepszego zarządzania wycieczkami należy podać liczbę osób w miejscu na wiadomość podczas potwierdzenia swojego uczestnictwa. Tylko zaproszeni goście mogą uczestniczyć w weselu. Tylko goście skorzystają z bezpłatnego transferu (ograniczona liczba miejsc), innymi słowy: każdy, kto nie jest zaproszonym przez nas gościem, może skorzystać z transferu, ale musi uiścić opłatę.",
+          "en": "You can take as many friends or family as you wish for the trip to Brazil without any problem, however you will have to indicate how many people will join you in the message blank on the RSVP for a better tourism management. Only invited guests can attend the Wedding. Only invited guests will have the benefits of the free transfer (limited spots), that is: those who are not guests will be able to enjoy the transfer, but paying a fee.",
+          "es": "Puede llevar a todos los amigos o familiares que desee para el viaje a Brasil sin ningún problema, sin embargo, deberá indicar cuántas personas en el espacio de mensajes en RSVP para una mejor gestión del turismo. Solo los invitados asistirán a la Boda. Solo los invitados tendrán los beneficios del traslado gratuito (plazas limitadas), es decir: aquellos que no sean invitados podrán disfrutar del traslado, pero pagando una tarifa."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Quanto poderia esperar gastar por dia com custos de alimentação no Brasil?",
+          "pl": "Ile można wydać dziennie na jedzenie w Brazylii?",
+          "en": "How much could you expect to spend per day on food costs in Brazil?",
+          "es": "¿Cuánto podría esperar gastar por día en costos de alimentos en Brasil?"
+        },
+        "answers": {
+          "pt": "Depende muito do seu perfil de viajante. Existe um site que é muito interessante para comparar custo de vida em diversas cidades do mundo: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo</a>.",
+          "pl": "Zależy to w dużej mierze od profilu podróżnika. Istnieje bardzo interesująca strona porównująca koszty życia w kilku miastach na świecie: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>",
+          "en": "It really depends on your traveler profile. There is a site that is very interesting to compare the cost of living in different cities around the world: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>",
+          "es": "Realmente depende de su perfil de viajero. Hay un sitio que es muy interesante para comparar el costo de vida en diferentes ciudades del mundo: <a target='_blank' href='https://www.numbeo.com/cost-of-living/'>Numbeo.</a>"
+        },
+        "answers2": {
+          "pt": "Búzios é a cidade mais cara da Região dos Lagos, e restaurantes em Búzios tendem a ser mais caros do que o Rio de Janeiro. Rio de Janeiro é mais caro que Belo Horizonte. Cracóvia tem um custo de vida mais similar a Armação de Búzios do que Rio de Janeiro. Já os preços do Rio de Janeiro são mais altos de Quito, ainda que a diferença nos restaurantes não seja percebida tão alta.",
+          "pl": "Búzios jest najdroższym miastem w regionie Região dos Lago, a restauracje w Búzios są zazwyczaj droższe niż w Rio de Janeiro. Rio de Janeiro jest droższe niż Belo Horizonte. Kraków ma koszty życia bardziej zbliżone do Armação de Búzios niż Rio de Janeiro. Ceny w Rio de Janeiro są wyższe niż w Quito, chociaż różnica w restauracjach nie jest postrzegana jako wysoka.",
+          "en": "Búzios is the most expensive city in the Lagos Region, and restaurants in Búzios tend to be more expensive than Rio de Janeiro. Rio de Janeiro is more expensive than Belo Horizonte. Kraków has a cost of living more similar to Armação de Búzios than Rio de Janeiro. Prices in Rio de Janeiro are higher than in Quito, although the difference in restaurants is not perceived as high.",
+          "es": "Búzios es la ciudad más cara de la Región de Lagos, y los restaurantes en Búzios tienden a ser más caros que en Río de Janeiro. Río de Janeiro es más caro que Belo Horizonte. Cracovia tiene un costo de vida más similar a Armação de Búzios que a Río de Janeiro. Los precios en Río de Janeiro son más altos que en Quito, aunque la diferencia en los restaurantes no se percibe tan alta."
+        },
+        "answers3": {
+          "pt": "Exemplo:",
+          "pl": "Przykład:",
+          "en": "Example: ",
+          "es": "Ejemplo: "
+        }
+      },
+      {
+        "questions": {
+          "pt": "Todos os passeios são gratuitos?",
+          "pl": "Czy wszystkie wycieczki są bezpłatne?",
+          "en": "Are all tours free?",
+          "es": "¿Todos los tours son gratuitos?"
+        },
+        "answers": {
+          "pt": "Não, nenhum passeio turístico é gratuito. O que vamos facilitar é <strong>informação e planejamento de viagem</strong> (como uma assessoria de viagem) sem nenhum custo adicional comissionado por ser organizado completamente de forma independente através de fornecedores de confiança e transporte seguro.",
+          "pl": "Nie, żadna wycieczka nie jest bezpłatna. Ułatwiamy natomiast uzyskanie <strong>informacji i zaplanowanie podróży</strong> (podobnie jak biuro podróży) bez dodatkowych kosztów, ponieważ jest ona organizowana całkowicie niezależnie za pośrednictwem zaufanych dostawców i bezpiecznego transportu.",
+          "en": "No, none of the tours are free. What we will facilitate is <strong>information and travel planning</strong> (like a travel advisory) at no additional cost commissioned by being organised completely independently through reliable suppliers and secure transport.",
+          "es": "No, ninguno de los tours es gratuito. Lo que vamos a facilitar es <strong>información y planificación de viajes</strong> (como una asesoría de viajes) sin coste adicional por encargo al ser organizados de forma totalmente independiente a través de proveedores de confianza y transporte seguro."
+        },
+        "answers2": {
+          "pt": "Vamos oferecer apenas um transfer gratuito do Rio de Janeiro até Búzios como cortesia para nossos convidados em um horário específico definido posteriormente com a <a target='_blank' href='/home'>confirmação de presença dos convidados.</a>",
+          "pl": "Bezpłatny transfer z Rio de Janeiro do Búzios oferowany jest wyłącznie jako uprzejmość dla naszych gości w określonym czasie, który zostanie później określony w <a target='_blank' href='/home'>potwierdzeniu obecności gości.</a>",
+          "en": "We will only offer a free transfer from Rio de Janeiro to Búzios as a courtesy for our guests at a specific time defined later with the guest's <a target='_blank' href='/home'>attendance confirmation.</a>",
+          "es": "Solo ofreceremos un traslado gratuito de Río de Janeiro a Búzios como cortesía para nuestros invitados en un horario específico definido más adelante con la confirmación de la <a target='_blank' href='/home'>presencia de los invitados.</a>"
+        }
+      },
+      {
+        "questions": {
+          "pt": "E se meu vôo chegar depois do transfer gratuito?",
+          "pl": "Co jeśli mój lot przyleci po bezpłatnym transferze?",
+          "en": "What if my flight arrives after the free transfer?",
+          "es": "¿Qué sucede si mi vuelo llega después del traslado gratuito?"
+        },
+        "answers": {
+          "pt": "Temos algumas opções:",
+          "pl": "Mamy do wyboru kilka opcji:",
+          "en": "We have some options:",
+          "es": "Tenemos algunas opciones:"
+        },
+        "transfer": [
+          {
+            "pt": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Nós contratamos uma empresa especializada que possui horários fixos de transporte para Búzios direto do Aeroporto do Rio de Janeiro. Recomendamos muito a empresa por questão de segurança e credibilidade, além de que a empresa terá o nosso contato direto. Mais informação sobre a empresa em <a target='_blank' href='/travel'>Destination Wedding.</a>",
+            "pl": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Wynajęliśmy wyspecjalizowaną firmę, która ma ustalone harmonogramy transportu do Búzios bezpośrednio z lotniska w Rio de Janeiro. Gorąco polecamy tę firmę ze względu na bezpieczeństwo i wiarygodność, a ponadto firma będzie miała nasz bezpośredni kontakt. Więcej informacji o firmie na stronie <a target='_blank' href='/travel'>Destination Wedding.</a>",
+            "en": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> We hired a specialized company that has fixed timetables for transport from Rio de Janeiro to Búzios directly from the Airport. We highly recommend the company for security and credibility reasons, in addition to the fact that the company will have our direct contact. More information about the company at <a target='_blank' href='/travel'>Destination Wedding.</a>",
+            "es": "Transfer <a target='_blank' href='https://www.inbuzios.com/home'>In Búzios:</a> Hemos contratado una empresa especializada que tiene horarios fijos de traslado a Búzios directamente desde el aeropuerto de Río de Janeiro. Recomendamos ampliamente a empresa por razones de seguridad y credibilidad, además del hecho de que la empresa tendrá nuestro contacto directo. Más información sobre la empresa en <a target='_blank' href='/travel'>Destination Wedding.</a>"
+          },
+          {
+            "pt": "Outros Transfers: Não conhecemos, portanto não podemos indicar outros transfers que saem direto do Aeroporto. Porém, existem outras empresas que fazem esse serviço, contudo, fique atento a falsos transfers e táxis no Rio de Janeiro.",
+            "pl": "Inne transfery: Nie znamy więc nie możemy wskazać innych transferów, które odjeżdżają bezpośrednio z lotniska. Istnieją jednak inne firmy, które świadczą takie usługi, jednak należy uważać na fałszywe transfery i taksówki w Rio de Janeiro.",
+            "en": "Other Transfers: We don't know, so we can't recommend other transfers from the Airport. However, there are other companies that provide this service, but be aware of false transfers and taxis in Rio de Janeiro.",
+            "es": "Otros Traslados: No lo sabemos, por lo que no podemos indicar otros traslados que salgan directamente del Aeropuerto. Aunque hay otras empresas que posen este servicio, tenga cuidado con los traslados y taxis falsos en Río de Janeiro."
+          },
+          {
+            "pt": "Transfer do Hotel: Alguns hotéis em Búzios oferecem o serviço de transfer do Aeroporto Galeão, no Rio de Janeiro, até o Hotel. Geralmente acaba ficando mais caro, mas é uma opção mais segura.",
+            "pl": "Transfer z hotelu: Niektóre hotele w Búzios oferują usługę transferu z lotniska Galeão w Rio de Janeiro do hotelu. Zazwyczaj jest to droższa opcja, ale bezpieczniejsza.",
+            "en": "Hotel Transfer: Some hotels in Búzios offer a transfer service from Galeão Airport to the Hotel. It usually ends up being more expensive, but it is a safer option.",
+            "es": "Traslado Hotel: Algunos hoteles en Búzios ofrecen servicio de traslado desde el Aeropuerto de Galeão, en Río de Janeiro, hasta el Hotel. Suele acabar siendo más caro, pero es una opción más segura."
+          },
+          {
+            "pt": "<a target='_blank' href='https://www.autoviacao1001.com.br/disponibilidade?data_ida=25102023&origem_id=22131&destino_id=14234&num_psgr=1&deep=false'>Ônibus 1001:</a> É possível comprar bilhetes de ônibus no próprio Aeroporto Galeão, no Rio de Janeiro, da empresa Viação 1001 que tem como destino final a Rodoviária de Búzios. Da Rodoviária seria necessário chamar um Uber para ir até o Hotel.",
+            "pl": "<a target='_blank' href='https://www.autoviacao1001.com.br/disponibilidade?data_ida=25102023&origem_id=22131&destino_id=14234&num_psgr=1&deep=false'>Autobus 1001:</a> Na lotnisku Galeão w Rio de Janeiro można kupić bilety autobusowe firmy Viação 1001, której stacją docelową jest dworzec autobusowy Búzios. Z dworca autobusowego należy wezwać Ubera, aby dojechać do hotelu.",
+            "en": "<a target='_blank' href='https://www.autoviacao1001.com.br/disponibilidade?data_ida=25102023&origem_id=22131&destino_id=14234&num_psgr=1&deep=false'>Bus 1001:</a> It is possible to buy bus tickets at Galeão Airport, in Rio de Janeiro, from the company Viação 1001, whose final destination is Buzios Bus Station. From the bus station it would be necessary to call an Uber to go to the Hotel.",
+            "es": "<a target='_blank' href='https://www.autoviacao1001.com.br/disponibilidade?data_ida=25102023&origem_id=22131&destino_id=14234&num_psgr=1&deep=false'>Autobús 1001:</a> Es posible comprar billetes de autobús en el Aeropuerto de Galeão, en Río de Janeiro, de la empresa Viação 1001, cuyo destino final es la Terminal de Ómnibus de Buzios. Desde la estación de autobuses sería necesario llamar a un Uber para ir al Hotel."
+          }
+        ]
+      },
+      {
+        "questions": {
+          "pt": "Onde compro passagem de vôos para o Rio de Janeiro?",
+          "pl": "Gdzie mogę kupić bilety na loty do Rio de Janeiro?",
+          "en": "Where do I buy flight tickets to Rio de Janeiro?",
+          "es": "¿Dónde puedo comprar boletos para vuelos a Río de Janeiro?"
+        },
+        "answers": {
+          "pt": "O Rio de Janeiro possui dois aeroportos: Galeão (GIG) e Santos Dumont (SDU). O Santos Dumont é somente para vôos domésticos e o Galeão inclui vôos internacionais. O transfer gratuito sairá do Galeão (GIG).",
+          "pl": "Rio de Janeiro ma dwa lotniska: Galeão (GIG) i Santos Dumont (SDU). Santos Dumont obsługuje tylko loty krajowe, a Galeão loty międzynarodowe. Bezpłatny transfer odlatuje z Galeão (GIG).",
+          "en": "Rio de Janeiro has two airports: Galeão (GIG) and Santos Dumont (SDU). Santos Dumont serves only domestic flights, while Galeão includes international flights. The free transfer we offer will depart from Galeão (GIG).",
+          "es": "Río de Janeiro tiene dos aeropuertos: Galeão (GIG) y Santos Dumont (SDU). Santos Dumont es solo para vuelos domésticos, y Galeão incluye vuelos internacionales. El traslado gratuito partirá de Galeão (GIG)."
+        },
+        "answers2": {
+          "pt": "Basta buscar rotas e preços através de sites buscadores de vôos como <a target='_blank' href='https://www.momondo.com/'>Momondo</a>, <a target='_blank' href='https://www.kayak.com/'>Kayak</a> ou <a target='_blank' href='https://www.skyscanner.com/'>Skyscanner.</a> É possível comprar direto dos buscadores, mas também pode comprar diretamente pelos sites das companhias aéreas, como as que tem vôo direto da Europa para o Rio de Janeiro Galeão.",
+          "pl": "Wystarczy wyszukać trasy i ceny za pomocą wyszukiwarek lotów, takich jak <a target='_blank' href='https://www.momondo.com/'>Momondo</a>, <a target='_blank' href='https://www.kayak.com/'>Kayak</a> lub <a target='_blank' href='https://www.skyscanner.com/'>Skyscanner.</a> Możesz dokonać zakupu bezpośrednio z wyszukiwarek, ale możesz także dokonać zakupu bezpośrednio na stronach linii lotniczych, takich jak te z bezpośrednimi lotami z Europy do Rio de Janeiro Galeão.",
+          "en": "Just search for routes and prices through flight search engines like <a target='_blank' href='https://www.momondo.com/'>Momondo</a>, <a target='_blank' href='https://www.kayak.com/'>Kayak</a> or <a target='_blank' href='https://www.skyscanner.com/'>Skyscanner.</a> It is possible to buy directly from search engines, but you can also buy directly from airline websites, such as those with direct flights from Europe to Rio de Janeiro Galeão.",
+          "es": "Simplemente busca rutas y precios a través de buscadores de vuelos como <a target='_blank' href='https://www.momondo.com/'>Momondo</a>, <a target='_blank' href='https://www.kayak.com/'>Kayak</a> o <a target='_blank' href='https://www.skyscanner.com/'>Skyscanner.</a> Es posible comprar directamente desde los motores de búsqueda, pero también puedes comprar directamente desde los sitios web de las aerolíneas, como las que tienen vuelos directos desde Europa a Río de Janeiro Galeão."
+        },
+        "answers3": {
+          "pt": "Outra opção é fazer a conexão no aeroporto internacional de Guarulhos (GRU) em São Paulo que possui muito mais opções de conexões e, muitas vezes, possui preços mais competitivos. Para fazer o vôo doméstico de São Paulo - Guarulhos (GRU) para Rio de Janeiro - Galeão (GIG) pode ser feito via <a target='_blank' href='https://www.latamairlines.com/'>Latam</a> ou <a target='_blank' href='https://www.voegol.com.br/en/inicio'>Gol.</a> O Aeroporto de São Paulo (GRU) é um aeroporto grande e geralmente as companhias aéreas pedem para retirar as malas chegando em São Paulo para fazer o check-in e drop-off das malas novamente para vôos domésticos - o que acaba gastando muito tempo.",
+          "pl": "Inną opcją jest wykonanie połączenia na międzynarodowym lotnisku Guarulhos (GRU) w São Paulo, które oferuje znacznie więcej opcji połączeń i często ma bardziej konkurencyjne ceny. Lot krajowy z Sao Paulo - Guarulhos (GRU) do Rio de Janeiro - Galeao (GIG) można odbyć za pośrednictwem <a target='_blank' href='https://www.latamairlines.com/'>Latam</a> lub <a target='_blank' href='https://www.voegol.com.br/en/inicio'>Gol.</a> Lotnisko w São Paulo (GRU) jest dużym portem lotniczym i zazwyczaj linie lotnicze proszą o odebranie bagażu przylatującego do São Paulo w celu odprawy i ponownego oddania bagażu na loty krajowe - co zajmuje dużo czasu.",
+          "en": "Another option is to make the connection at Guarulhos International Airport (GRU) in São Paulo, which has many more connection options and often has more competitive prices. To make the domestic flight from São Paulo - Guarulhos (GRU) to Rio de Janeiro - Galeão (GIG) it can be done via <a target='_blank' href='https://www.latamairlines.com/'>Latam</a> or <a target='_blank' href='https://www.voegol.com.br/en/inicio'>Gol.</a> São Paulo Airport (GRU) is a big airport and usually the airlines ask to collect the bags arriving in São Paulo to check-in and drop-off the bags again for domestic flights - which ends up spending a lot of time.",
+          "es": "Otra opción es hacer la conexión en el Aeropuerto Internacional de Guarulhos (GRU) en São Paulo, que tiene muchas más opciones de conexión y suele tener precios más competitivos. Para realizar el vuelo doméstico de São Paulo - Guarulhos (GRU) a Río de Janeiro - Galeão (GIG) se puede hacer vía <a target='_blank' href='https://www.latamairlines.com/'>Latam</a> o <a target='_blank' href='https://www.voegol.com.br/en/inicio'>Gol.</a> El Aeropuerto de São Paulo (GRU) es un aeropuerto grande y, por lo general, las aerolíneas solicitan recoger las maletas que llegan a São Paulo para facturar y dejar las maletas nuevamente para vuelos nacionales, lo que termina perdiendo mucho tiempo."
+        },
+        "answers4": {
+          "pt": "Outra questão importante com relação aos vôos de São Paulo é porque algumas conexões são feitas de São Paulo - Congonhas (CGH) que é outro aeroporto que atende a cidade de São Paulo ou mesmo Viracopos (VCO) que é em Campinas - não atende a cidade de São Paulo. Existem ônibus gratuitos das companhias aéreas para fazer a conexão entre Guarulhos (GRU) e Congonhas (CGH), porém, <strong>não recomendo fazer essa rota porque os ônibus saem a cada hora e pode haver trânsito.</strong> Além disso, o aeroporto de Congonhas só faz vôos domésticos para o aeroporto Santos Dumont no Rio de Janeiro (SDU).",
+          "pl": "Inną ważną kwestią dotyczącą lotów z São Paulo jest to, że niektóre połączenia są wykonywane z São Paulo - Congonhas (CGH), które jest innym lotniskiem obsługującym miasto São Paulo, a nawet Viracopos (VCO), które znajduje się w Campinas - nie obsługuje miasta São Paulo. Istnieją bezpłatne autobusy lotnicze, które łączą Guarulhos (GRU) z Congonhas (CGH), <strong>jednak nie polecam pokonywania tej trasy, ponieważ autobusy odjeżdżają co godzinę i mogą występować korki.</strong> Ponadto lotnisko Congonhas obsługuje tylko loty krajowe na lotnisko Santos Dumont w Rio de Janeiro (SDU).",
+          "en": "Another important issue regarding flights from São Paulo is why some connections are made from São Paulo - Congonhas (CGH) which is another airport that serves the city of São Paulo or even Viracopos (VCO) which is in Campinas - does not serve the city from Sao Paulo. There are free airline buses to make the connection between Guarulhos (GRU) and Congonhas (CGH), however, <strong>I do not recommend taking this route because the buses leave every hour and there may be traffic.</strong> Furthermore, Congonhas airport only has domestic flights to Santos Dumont airport in Rio de Janeiro (SDU).",
+          "es": "Otra cuestión importante con respecto a los vuelos desde São Paulo es por qué algunas conexiones se hacen desde São Paulo - Congonhas (CGH) que es otro aeropuerto que sirve a la ciudad de São Paulo o incluso Viracopos (VCO) que está en Campinas - no sirve a la ciudad desde Sao Paulo. Hay buses de líneas aéreas gratuitos para hacer la conexión entre Guarulhos (GRU) y Congonhas (CGH), sin embargo, <strong>no recomiendo tomar esta ruta porque los buses salen cada hora y puede haber tráfico.</strong> Además, el aeropuerto de Congonhas solo tiene vuelos domésticos al aeropuerto Santos Dumont de Río de Janeiro (SDU)."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Existe algum transfer do Aeroporto de Cabo Frio?",
+          "pl": "Czy istnieje transfer z lotniska Cabo Frio?",
+          "en": "Is there any transfer from Cabo Frio Airport?",
+          "es": "¿Hay algún traslado desde el aeropuerto de Cabo Frio?"
+        },
+        "answers": {
+          "pt": "O Aeroporto de Cabo Frio é o mais próximo de Búzios e só recebe vôos de Belo Horizonte pela companhia aérea <a target='_blank' href='https://www.voeazul.com.br/fr/home'>Azul</a> e raramente alguns de São Paulo, mas não recebe vôos internacionais. Portanto, a princípio, não é nossa prioridade fornecer transfer do Aeroporto de Cabo Frio. No entanto, se houver muita demanda, podemos fornecer um orçamento mais próximo da data. De qualquer forma, um Uber (ou App 99) geralmente cobra em torno de R$100,00 para fazer o trajeto de Cabo Frio a Búzios (até a região de Manguinhos ou Geribá).",
+          "pl": "Lotnisko Cabo Frio jest najbliższym lotniskiem do Búzios i przyjmuje tylko loty z Belo Horizonte obsługiwane przez linię lotniczą <a target='_blank' href='https://www.voeazul.com.br/fr/home'>Azul</a> i rzadko kilka z São Paulo, ale nie obsługuje lotów międzynarodowych. Dlatego początkowo nie jest to naszym priorytetem zapewnienie transferu z lotniska Cabo Frio. Jeśli jednak istnieje duże zapotrzebowanie, możemy podać cenę bliżej daty. W każdym razie, Uber (lub aplikacja 99) zazwyczaj pobiera około R$100,00 za podróż z Cabo Frio do Buzios (do regionu Manguinhos lub Geribá).",
+          "en": "Cabo Frio Airport is the closest to Búzios and only receives flights from Belo Horizonte by the <a target='_blank' href='https://www.voeazul.com.br/fr/home'>Azul</a> airline and rarely some from São Paulo, but does not receive international flights. Therefore, initially, it is not our priority to provide transfer from Cabo Frio Airport. However, if there is a high demand, we can provide a quote closer to the date. In any case, an Uber (or App 99) usually charges around R$100.00 to make the trip from Cabo Frio to Búzios (up to the Manguinhos or Geribá region).",
+          "es": "El Aeropuerto de Cabo Frio es el más cercano a Búzios y solo recibe vuelos desde Belo Horizonte de la aerolínea <a target='_blank' href='https://www.voeazul.com.br/fr/home'>Azul</a> y raramente algunos desde São Paulo, pero no recibe vuelos internacionales. Por lo tanto, al principio no es nuestra prioridad proporcionar traslado desde el aeropuerto de Cabo Frio, sin embargo, si hay mucha demanda, podemos cotizar un valor más cercano a la fecha. De todos modos, un Uber (o App 99) suele cobrar alrededor de R$100,00 para realizar el viaje desde Cabo Frio a Búzios (hasta la región de Manguinhos o Geribá)."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Alguém poderia me dar uma carona de BH?",
+          "pl": "Czy ktoś mógłby mnie podwieźć z BH?",
+          "en": "Could someone give me a ride from BH?",
+          "es": "¿Alguien podría llevarme desde BH?"
+        },
+        "answers": {
+          "pt": "Muitos convidados vão preferir sair de Belo Horizonte de carro e poderiam dar carona dividindo custos. Fique atento ao seu e-mail e posteriormente será liberado um Grupo no WhatsApp específico para discutir essas logísticas.",
+          "pl": "Wielu gości będzie wolało opuścić Belo Horizonte samochodem i mogłoby podzielić się kosztami. Bądź czujny w swojej skrzynce e-mailowej, a później zostanie utworzona specjalna grupa na WhatsAppie w celu omówienia tych logistyk.",
+          "en": "Many guests will prefer to leave Belo Horizonte by car and could share the costs. Keep an eye on your email, and a specific WhatsApp Group will be released later to discuss these logistics.",
+          "es": "Muchos invitados preferirán salir de Belo Horizonte en automóvil y podrían compartir los costos. Esté atento a su correo electrónico y más tarde se lanzará un grupo de WhatsApp específico para discutir esta logística."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Gostaria de me hospedar em outro lugar que não está nas recomendações de <a targett='_blank' href='/travel'>Viagem,</a> onde seriam os melhores lugares?",
+          "pl": "Chciałbym zatrzymać się w innym miejscu, które nie jest w <a targett='_blank' href='/travel'>podróżniczych</a> rekomendacjach. Gdzie byłyby najlepsze miejsca?",
+          "en": "I would like to stay somewhere else that is not on the <a targett='_blank' href='/travel'>Travel</a> recommendations, where would the best places stay?",
+          "es": "Me gustaría quedarme en otro lugar que no esté en las recomendaciones de <a targett='_blank' href='/travel'>viaje,</a> ¿cuáles serían los mejores lugares?"
+        },
+        "answers": {
+          "pt": "Nossas recomendações neste site foram escolhidas atentamente levando em consideração o melhor custo-benefício (um preço justo, um lugar organizado e limpo, próximo de onde vale a pena ir, incluindo café da manhã). Contudo, claro que existem outras opções de pousadas legais mais em conta, hostel e hotéis até de mais luxo.\n\nVale lembrar que Búzios é uma cidade praiana, muito úmida e dependendo do lugar pode ter cheiro de mofo ou presença de insetos indesejáveis por causa do clima. Rio de Janeiro é uma cidade grande e, apesar de muito turística, pode haver lugares que pode ser perigoso. Lembre-se que os passeios sairão da Zona Sul.",
+          "pl": "Nasze rekomendacje na tej stronie zostały starannie wybrane, biorąc pod uwagę najlepszy stosunek jakości do ceny (uczciwa cena, zorganizowane i czyste miejsce, blisko miejsca, do którego warto się udać, w tym śniadanie). Istnieją jednak oczywiście inne opcje ładnych kwater i jeszcze bardziej luksusowych hoteli.\n\nBúzioz to miasto nadmorskie, bardzo wilgotne i w zależności od miejsca może mieć zapach stęchlizny lub obecność niepożądanych owadów ze względu na klimat. Rio de Janeiro to duże miasto i chociaż jest bardzo turystyczne, mogą istnieć miejsca, które mogą być niebezpieczne. Pamiętaj, że wycieczki wyruszają ze strefy południowej (Zona Sul).",
+          "en": "Our recommendations on this site have been carefully chosen taking into consideration  the best value for money (a fair price, an organized and clean place, close to where it is worth going, including breakfast). However, of course there are other options from those more affordable hostel, to even more luxurious hotels.\n\nIt is worth remembering that Búzios is a beach town, very humid and depending on the place, it can have a musty smell or the presence of undesirable insects due to the climate. Rio de Janeiro is a big city and, despite being very touristy, there can be places that can be dangerous. Remember that the tours will depart from those hotels in the Zona Sul.",
+          "es": "Nuestras recomendaciones en este sitio han sido cuidadosamente seleccionadas teniendo en cuenta la mejor relación calidad-precio (un precio justo, un lugar organizado y limpio, cerca de donde vale la pena ir, desayuno incluido). Sin embargo, por supuesto, hay otras opciones para hostels más asequibles, hostales e incluso hoteles más lujosos.\n\nVale recordar que Búzios es un pueblo de playa, muy húmedo y dependiendo del lugar, puede tener olor a humedad o presencia de insectos indeseables debido al clima. Río de Janeiro es una ciudad grande y, a pesar de ser muy turística, puede haber lugares que pueden ser peligrosos. Recuerda que los tours partirán desde la Zona Sur."
+        },
+        "answer1": {
+          "pt": "Vale lembrar que Búzios é uma cidade praiana, muito úmida e dependendo do lugar pode ter cheiro de mofo ou presença de insetos indesejáveis por causa do clima. Rio de Janeiro é uma cidade grande e, apesar de muito turística, pode haver lugares que podem ser perigosos. Lembre-se que os passeios sairão da Zona Sul.",
+          "pl": "Warto pamiętać, że Búzios to miasto nadmorskie, bardzo wilgotne i w zależności od miejsca może mieć zapach stęchlizny lub obecność niepożądanych owadów ze względu na klimat. Rio de Janeiro to duże miasto i, pomimo że jest bardzo turystyczne, mogą istnieć miejsca, które mogą być niebezpieczne. Pamiętaj, że wycieczki wyruszają ze strefy południowej (Zona Sul).",
+          "en": "It is worth remembering that Búzios is a beach town, very humid and depending on the place, it can have a musty smell or the presence of undesirable insects due to the climate. Rio de Janeiro is a big city and, despite being very touristy, there can be places that can be dangerous. Remember that the tours will depart from those hotels in the Zona Sul.",
+          "es": "Vale recordar que Búzios es un pueblo de playa, muy húmedo y dependiendo del lugar, puede tener olor a humedad o presencia de insectos indeseables debido al clima. Río de Janeiro es una ciudad grande y, a pesar de ser muy turística, puede haber lugares que pueden ser peligrosos. Recuerda que los tours partirán desde la Zona Sur."
+        },
+        "answer2": {
+          "pt": "Recomendações de regiões para se hospedar:",
+          "pl": "Recommendations of the regions to stay:",
+          "en": "Recommendations of the regions to stay:",
+          "es": "Te recomendamos las regiones para quedarse:"
+        },
+        "opcoesBuzios": [
+          {
+            "pt": "A região de Manguinhos próximo do Porto da Barra, um centro gastronômico bem legal na cidade. A praia de Manguinhos é exclusiva para pesca local.",
+            "pl": "Region Manguinhos w pobliżu Porto da Barra. Ma bardzo spokojną i pustą plażę, ale nie zawsze z bardzo długim odcinkiem piasku. Jest to strona o zachodzie słońca.",
+            "en": "The Manguinhos region close to Porto da Barra, a very nice gastronomic centre in the city. Manguinhos beach is exclusive for local fishing.",
+            "es": "La región de Manguinhos cerca de Porto da Barra, un centro gastronómico muy agradable en la ciudad. La playa de Manguinhos es exclusiva para la pesca local."
+          },
+          {
+            "pt": "A região de Geribá próximo da praia. É a praia mais popular da península, sempre cheia, com muita vida, muitas opções de comida, bebida e atividades na água como SUP e Kayak.",
+            "pl": "Region Geribá w pobliżu plaży. Jest to najpopularniejsza plaża na półwyspie, zawsze pełna, z mnóstwem życia, wieloma opcjami jedzenia, napojów i aktywności w wodzie, takich jak SUP i kajaki.",
+            "en": "The Geribá region is close to the most popular beach on the peninsula, always full, with lots of life, many options for food, drink and water activities such as SUP and Kayak.",
+            "es": "La región de Geribá cerca de la playa. Es la playa más popular de la península, siempre llena, con mucha vida, muchas opciones de comida, bebida y actividades acuáticas como SUP y Kayak"
+          },
+          {
+            "pt": "Outras regiões: podem ser difícil de chegar porque a península é levemente montanhosa e muitas vezes sem asfalto e fica longe de onde será o evento",
+            "pl": "Inne regiony: mogą być trudno dostępne, ponieważ półwysep jest lekko pagórkowaty i często bez asfaltu i jest daleko od miejsca, w którym odbędzie się wydarzenie.",
+            "en": "Other regions: can be difficult to reach because the peninsula is slightly hilly and often unpaved and is far from where the event will be held.",
+            "es": "Otras regiones: puede ser difícil llegar porque la península es ligeramente montañosa y, a menudo, no está pavimentada y está lejos de donde se llevará a cabo el evento."
+          }
+        ],
+        "opcoesRioDeJaneiro": [
+          {
+            "pt": "Zona Sul: Copacabana, Arpoador, Ipanema ou Leblon. Preferencialmente até três quadras da praia para manter a segurança.",
+            "pl": "Strefa południowa: Copacabana, Arpoador, Ipanema lub Leblon. Najlepiej w odległości trzech przecznic od plaży w celu zachowania bezpieczeństwa.",
+            "en": "South Zone: Copacabana, Arpoador, Ipanema, or Leblon. Preferably within three blocks of the beach to maintain security.",
+            "es": "Zona Sur: Copacabana, Arpoador, Ipanema o Leblon. Preferiblemente a tres cuadras de la playa para mantener la seguridad."
+          },
+          {
+            "pt": "Barra da Tijuca: próximo à praia da Barra pode ser interessante para quem quiser aproveitar as praias para surfar, curtir calmaria da Praia da Reserva e ir em outros passeios no Parque Nacional da Tijuca ou trilhas para a famosa Pedra do Telégrafo. Porém é uma região bem longe do centro, da Zona Sul e do aeroporto. Para fazer qualquer passeio turístico recomendamos ir com empresas de turismo local e não sozinhos.",
+            "pl": "Barra da Tijuca: w pobliżu plaży Barra może być interesująca dla tych, którzy chcą korzystać z plaż do surfowania, cieszyć się spokojem na plaży Reserva i wybierać się na wycieczki po Parku Narodowym Tijuca lub szlaki w kierunku słynnej Pedra do Telégrafo. Jest to jednak region bardzo oddalony od centrum, strefy południowej i lotniska. W celu skorzystania z wycieczek turystycznych zalecamy skorzystanie z lokalnych firm turystycznych i nie podróżowanie samodzielnie.",
+            "en": "Barra da Tijuca: close to Praia da Barra, it can be interesting for those who want to enjoy the beaches to surf, enjoy the calm vibe of Praia da Reserva and go on other walks in the Tijuca National Park or trails to the famous Pedra do Telégrafo. However, it is a region far from the centre, the South Zone and the airport. To go on any sightseeing tour, we recommend going with local tourism companies and not alone.",
+            "es": "Barra da Tijuca: cerca de Praia da Barra, puede ser interesante para aquellos que desean disfrutar de las playas para hacer surf, disfrutar de la tranquilidad de Praia da Reserva e ir a otras caminatas en el Parque Nacional de Tijuca o rutas a la famosa Pedra do Telégrafo. Sin embargo, es una región alejada del centro, la Zona Sur y el aeropuerto. Para hacer cualquier recorrido turístico, recomendamos ir con empresas de turismo locales y no hacerlo solos."
+          }
+        ],
+        "answer3": {
+          "pt": "É importante lembrar que há certas regiões no Rio de Janeiro que podem ser perigosas e a Zona Sul é mais turística e, portanto, monitorada com guardas e policiamento local. A Barra é mais residencial.",
+          "pl": "Ważne jest, aby pamiętać, że niektóre regiony Rio de Janeiro mogą nie być najbardziej bezpiecznymi o każdej porze dnia, a strefa południowa jest bardziej monitorowana przez strażników i lokalną policję.",
+          "en": "It is important to remember that there are certain regions in Rio de Janeiro that can be dangerous and the South Zone is more touristic and therefore monitored with guards and local police. Barra is more residential.",
+          "es": "Es importante recordar que hay ciertas regiones en Río de Janeiro que pueden ser peligrosas y la Zona Sur es más turística y por lo tanto vigilada con guardias y policía local. Barra es más residencial."
+        },
+        "answer4": {
+          "pt": "Búzios",
+          "pl": "Búzios",
+          "en": "Búzios",
+          "es": "Búzios"
+        },
+        "answer5": {
+          "pt": "Rio de Janeiro",
+          "pl": "Rio de Janeiro",
+          "en": "Rio de Janeiro",
+          "es": "Rio de Janeiro"
+        }
+      },
+      {
+        "questions": {
+          "pt": "Preciso de Visto para ir ao Brasil?",
+          "pl": "Czy potrzebuję wizy, aby pojechać do Brazylii?",
+          "en": "Do I need a Visa to go to Brazil?",
+          "es": "¿Necesito una visa para ir a Brasil?"
+        },
+        "answers": {
+          "pt": "Europeus e extrangeiros do Mercosul não precisam de visto para entrar no Brasil e ficar até 90 dias como turista. Para extrangeiros do Mercosul somente Identidade é suficiente, já as demais nacionaldiades é necessário o Passaporte para ser carimbado!",
+          "pl": "Europejczycy i obcokrajowcy z obszaru Mercosur nie potrzebują wizy, aby wjechać do Brazylii i mogą w niej pozostać do 90 dni w charakterze turystów. Bilet powrotny i opłacone zakwaterowanie są wystarczającym dowodem pobytu w Brazylii w celach turystycznych.",
+          "en": "Europeans and foreigners from Mercosur do not need a visa to enter in Brazil and stay up to 90 days as a tourist. For foreigners from Mercosur, only an ID is enough, as for other nationalities, a Passport is required to be stamped!",
+          "es": "Los europeos y extranjeros del Mercosur no necesitan visa para ingresar a Brasil y permanecer hasta 90 días como turista. Para los extranjeros del Mercosur, solo basta con la cédula de identidad, mientras que para otras nacionalidades se requiere sellar el Pasaporte!"
+        },
+        "answers2": {
+          "pt": "Somente passagem de volta e acomodação paga já serve como prova suficiente para entrar como turista no Brasil",
+          "pl": "Dla obcokrajowców z obszaru Mercosul wystarczy tylko dowód tożsamości, dla innych narodowości paszport jest niezbędny w celu otrzymania pieczęci!",
+          "en": "The return ticket and paid accommodation is enough proof to enter Brazil as a tourist.",
+          "es": "Sólo un billete de ida y vuelta y alojamiento pagado es prueba suficiente para entrar en Brasil como turista."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Preciso ter alguma vacina para entrar no Brasil?",
+          "pl": "Czy muszę mieć specjalne szczepienia przed wjazdem do Brazylii?",
+          "en": "Do I need to have any vaccinations to enter Brazil?",
+          "es": "¿Necesito tener alguna vacuna para ingresar a Brasil?"
+        },
+        "answers": {
+          "pt": "Para viajar para o Brasil é obrigatório ter comprovante de vacinação completa contra COVID-19 para pessoas acima de 12 anos. Além disso é necessário confirmar com as autoridades do seu país, sendo recomendável a vacinação de Febre Amarela e Poliomielite (para crianças entre 3 meses a 6 anos).",
+          "pl": "Aby podróżować do Brazylii, obowiązkowe jest posiadanie dowodu pełnego szczepienia przeciwko COVID-19 dla osób powyżej 12 roku życia. Zaleca się szczepienie przeciwko żółtej febrze i polio (dla dzieci w wieku od 3 miesięcy do 6 lat).",
+          "en": "To travel to Brazil, it is mandatory to have proof of complete vaccination against COVID-19 for people over 12 years old. In addition, it is necessary to confirm with the authorities in your country, recommending vaccination for Yellow Fever and Poliomyelitis (for children aged between 3 months and 6 years).",
+          "es": "Para viajar a Brasil es obligatorio tener comprobante de vacunación completa contra el COVID-19 para mayores de 12 años. Además, es necesario confirmar con las autoridades de su país, recomendando la vacunación de Fiebre Amarilla y Poliomielitis (para niños de 3 meses a 6 años)."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Quanto custa uma passagem de avião da Europa para o Brasil?",
+          "pl": "Ile kosztuje bilet lotniczy z Europy do Brazylii?",
+          "en": "How much is a plane ticket from Europe to Brazil?",
+          "es": "¿Cuánto cuesta un boleto de avión de Europa a Brasil?"
+        },
+        "answers": {
+          "pt": "Pela experiência dos noivos, passagens de avião da Europa para o Rio de Janeiro podem variar bastante, mas se achar valores por volta €800 ída e volta, pode considerar como excelente preço para comprar. As linhas aéreas  KLM e Lufthansa são as melhores opções para quem sai da Polônia, contudo, existem ofertas interessantes para quem sair da Espanha ou Portugal pela Iberia, Latam ou TAP.",
+          "pl": "Na podstawie doświadczenia pary młodej, bilety lotnicze z Europy do Rio de Janeiro mogą się bardzo różnić, ale jeśli ceny za podróż w obie strony wynoszą około 800 euro, można uznać to za doskonałą cenę. Linie KLM i Lufthansa to najlepsze opcje dla osób wyjeżdżających z Polski, jednakże istnieją ciekawe oferty dla osób opuszczających Hiszpanię lub Portugalię przez Iberię, Latam lub TAP.",
+          "en": "Based on the bride and groom’s experiences, flight tickets from Europe to Rio de Janeiro can vary a lot, but if you find prices around €800 round trip, you can consider it an excellent price to buy. KLM and Lufthansa airlines are the best options for those leaving from Poland, however, there are interesting offers for those leaving from Spain or Portugal via Iberia, Latam or TAP.",
+          "es": "Por la experiencia que tenemos, los billetes de avión de Europa a Río de Janeiro pueden variar mucho, pero si encuentras precios que rondan los 800€ ida y vuelta, puedes considerarlo un excelente precio para comprar. Las aerolíneas KLM y Lufthansa son las mejores opciones para quienes salen de Polonia, sin embargo, existen ofertas interesantes para quienes salen de España o Portugal a través de Iberia, Latam o TAP."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Quanto tempo é o mínimo de tempo de vôo entre a Europa e o Brasil?",
+          "pl": "Jaki jest minimalny czas lotu między Europą a Brazylią?",
+          "en": "How long is the minimum flight time between Europe and Brazil?",
+          "es": "¿Cuál es el tiempo mínimo de vuelo entre Europa y Brasil?"
+        },
+        "answers": {
+          "pt": "Em média, um vôo de Lisboa para o Rio de Janeiro é de 11 horas. Vôos da Polônia possuem escala e podem demorar entre 16 a 24h total de viagem.",
+          "pl": "Lot z Lizbony do Rio de Janeiro trwa średnio 11 godzin. Loty z Polski mają przesiadkę i łącznie mogą trwać od 16 do 24 godzin.",
+          "en": "On average, a flight from Lisbon to Rio de Janeiro takes 11 hours. Flights from Poland have a stopover and can take between 16 and 24 hours in total.",
+          "es": "Un promedio de un vuelo desde Lisboa a Río de Janeiro tarda 11 horas. Los vuelos desde Polonia tienen escala y pueden tardar entre 16 y 24 horas en total."
+        }
+      },
+      {
+        "questions": {
+          "pt": "Será fornecido um Transfer gratuito do Rio de Janeiro para Búzios?",
+          "pl": "Czy zapewniony zostanie bezpłatny transfer z Rio de Janeiro do Búzios?",
+          "en": "Will a free transfer from Rio de Janeiro to Búzios be provided?",
+          "es": "¿Se proporcionará un traslado gratuito de Río de Janeiro a Búzios?"
+        },
+        "answers": {
+          "pt": "Vamos fornecer um transfer gratuito com vagas limitadas do Aeroporto Galeão do Rio de Janeiro com direção à Armação de Búzios passando em uma das hospedagens recomendadas no site. A prioridade será para convidados estrangeiros. Mais informação será compartilhada posteriormente por e-mail, após a <a target='_blank' href='/home'>confirmação de presença.</a>",
+          "pl": "Zapewniamy bezpłatny transfer z ograniczoną liczbą miejsc z lotniska Galeão w Rio de Janeiro do Armação de Búzios przez jeden z polecanych poniżej hosteli. Pierwszeństwo mają goście z zagranicy. Więcej informacji zostanie przekazanych później za pośrednictwem poczty elektronicznej, po otrzymaniu <a target='_blank' href='/home'>potwierdzenia obecności.</a>",
+          "en": "We will provide a free transfer with limited spaces from Galeão Airport in Rio de Janeiro towards Armação de Búzios, passing through one of the accommodations recommended on the website. Priority will be given to foreign guests. More information will be shared later by email, after <a target='_blank' href='/home'>confirmation of attendance.</a>",
+          "es": "Brindaremos un traslado gratuito con espacios limitados desde el Aeropuerto de Galeão en Río de Janeiro hacia Armação de Búzios, pasando por uno de los alojamientos recomendados en el sitio web. Se dará prioridad a los huéspedes extranjeros. Se compartirá más información más adelante por correo electrónico, después de la <a target='_blank' href='/home'>confirmación de asistencia.</a>"
+        }
+      },
+      {
+        "questions": {
+          "pt": "Nossa recomendação da melhor rota para voar de/para Cracóvia",
+          "pl": "Nasza rekomendacja najlepszej trasy lotu z/do Krakowa",
+          "en": "Our recommendation of the best route to fly from/to Cracow",
+          "es": "Nuestra recomendación sobre la mejor ruta para volar a/desde Cracovia"
+        },
+        "answers": {
+          "pt": "Existem dois roteiros que podem ser a melhor opção e a escolha do noivo para ir ao Brasil.",
+          "pl": "Istnieją dwie trasy, które mogą być najlepszą opcją na wyjazd do Brazylii.",
+          "en": "There are two routes that might be the best option and the choice of the groom to go to Brazil.",
+          "es": "Hay dos rutas que pueden ser la mejor opción y la elección del novio para ir a Brasil."
+        },
+        "answer2": {
+          "pt": "- Opção 1: KLM:",
+          "pl": "- Opcja 1: KLM:",
+          "en": "- Option 1: KLM:",
+          "es": "- Opción 1: KLM:"
+        },
+        "answer3": {
+          "pt": "- Opção 2: Lufthansa",
+          "pl": "- Opcja 2: Lufthansa",
+          "en": "- Option 2: LUFTHANSA",
+          "es": "- Opción 2: LUFTHANSA"
+        },
+        "flightKLM": [
+          {
+            "pt": "Cracóvia – Amsterdam - Rio de Janeiro. Saindo dia 09.05.2024 às 06:35. Chegada no mesmo dia às 19:45.",
+            "pl": "Kraków – Amsterdam - Rio de Janeiro. Wylot 09.05.2024 o 06:35. Przylot tego samego dnia o 19:45.",
+            "en": "Cracow – Amsterdam - Rio de Janeiro. Leaving on 09.05.2024 at 06:35. Arrival on the same day at 19:45.",
+            "es": "Cracovia – Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
+          },
+          {
+            "pt": "Rio de Janeiro – Amsterdam - Cracóvia. Saindo dia 19.05.2024 às 21:55. Chegada no dia seguinte às 22:25.",
+            "pl": "Rio de Janeiro – Amsterdam - Kraków. Wylot 19.05.2024 o 21:55. Przylot następnego dnia o 22:25.",
+            "en": "Rio de Janeiro – Amsterdam - Cracow. Leaving on 19.05.2024 at 21:55. Arrival on the next day at 22:25.",
+            "es": "Cracovia – Amsterdam - Rio de Janeiro. Saliendo en el día 09.05.2024 a las 06:35. Llegada en el mismo día a las 19:45."
+          },
+          {
+            "pt": "Custo total por pessoa: cerca de PLN 4.300",
+            "pl": "Całkowity koszt na osobę: około 4 300 zł",
+            "en": "Total cost per person: around PLN 4.300",
+            "es": "Costo total por persona: alrededor de PLN 4.300"
+          }
+        ],
+        "flightLUFTHANSA1": [
+          {
+            "pt": "Cracóvia – Frankfurt -  Rio de Janeiro. Saindo dia 09.05.2024 às 14:05. Chegada no dia seguinte às 05:35.",
+            "pl": "Kraków – Frankfurt -  Rio de Janeiro. Wylot 08.05.2024 o 14:05. Przylot następnego dnia o 05:35.",
+            "en": "Cracow – Frankfurt - Rio de Janeiro. Leaving on 08.05.2024 at 14:05. Arrival on the next day at 05:35.",
+            "es": "Cracovia – Frankfurt - Río de Janeiro. Saliendo en el día 09.05.2024 a las 14:05. Llegada en el día seguinte a las 05:35."
+          },
+          {
+            "pt": "Rio de Janeiro – Frankfurt - Cracóvia. Saindo dia 19.05.2024 às 16:30. Chegada no dia seguinte às 13:20.",
+            "pl": "Rio de Janeiro – Frankfurt - Kraków. Wylot 19.05.2024 o 16:30. Przylot następnego dnia o 13:20.",
+            "en": "Rio de Janeiro – Frankfurt - Cracow. Leaving on 19.05.2024 at 16:30. Arrival on the next day at 13:20.",
+            "es": "Río de Janeiro – Frankfurt - Cracovia. Saliendo en el día 19.05.2024 a las 16:30. Llegada en el día seguinte a las 13:20."
+          },
+          {
+            "pt": "Custo total por pessoa: cerca de PLN 4.300",
+            "pl": "Całkowity koszt na osobę: około 4 300 zł",
+            "en": "Total cost per person: around PLN 4.300",
+            "es": "Costo total por persona: alrededor de PLN 4.300"
+          }
+        ],
+        "answer4": {
+          "pt": "[Visto pela última vez em Outubro 2023]",
+          "pl": "[Ceny aktualne na Październik 2023]",
+          "en": "[Last seen in October 2023]",
+          "es": "[Visto la última vez en Octobre2023]"
+        }
+      }
+    ]
+  }
 }

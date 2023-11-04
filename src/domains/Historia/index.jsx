@@ -30,25 +30,29 @@ const Historia = () => {
     { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
 
-    const path = [
-        { label: text.gifts.title[language], url: "/wedding/gifts" },
-        { label: text.dressCode.title[language], url: "/wedding/gifts" },
-    ];
+  const path = [
+    { label: text.gifts.title[language], url: "/wedding/gifts" },
+    {
+      label: text.MenuHeaderLinks.teamBrideGroom[language],
+      url: "/wedding/teamBG",
+    },
+  ];
 
-    return (
-        <Stack width="100%" height="100%" mb={10}>
-            <BreadCrumb data={data} />
-            <FirstSection title={text.Wedding.title[language]} subtitle={text.Wedding.subTitle[language]} paragraph1={text.Wedding.introP1[language]} paragraph2={text.Wedding.introP2[language]} />
-            {!isMobile ? <CustomImage src={ibiza} alt="Descrição da imagem" /> : <CustomMB src={originalMB} alt="Descrição da imagem" />}
-
+  return (
+    <Stack width="100%" height="100%" mb={10}>
+      <BreadCrumb data={data} />
+      <FirstSection
+        title={text.story.title[language]}
+        subtitle={text.story.subtitle[language]}
+      />
       {!isMobile ? (
         <CustomImage src={ibiza} alt="Descrição da imagem" />
       ) : (
         <CustomMB src={originalMB} alt="Descrição da imagem" />
       )}
+
       <FirstSection
-        title={text.story.title[language]}
-        subtitle={text.story.subtitle[language]}
+        title={""}
         paragraph1={text.story.Bloco1body1[language]}
         paragraph2={text.story.Bloco1body2[language]}
         paragraph3={text.story.Bloco1body3[language]}
@@ -69,6 +73,7 @@ const Historia = () => {
         </CustomVideo>
       </SectionText>
       <FirstSection
+        title={""}
         paragraph1={text.story.Bloco2body1[language]}
         paragraph2={text.story.Bloco2body2[language]}
         paragraph3={text.story.Bloco2body3[language]}
@@ -83,6 +88,7 @@ const Historia = () => {
         )}
       </SectionText>
       <FirstSection
+        title={""}
         paragraph1={text.story.Bloco3body1[language]}
         paragraph2={text.story.Bloco3Story[language]}
         paragraph3={text.story.Bloco3body2[language]}
@@ -96,6 +102,7 @@ const Historia = () => {
         )}
       </SectionText>
       <FirstSection
+        title={""}
         paragraph1={text.story.Bloco4body1[language]}
         paragraph2={text.story.Bloco4body2[language]}
         paragraph3={text.story.Bloco4body3[language]}
@@ -117,6 +124,7 @@ const Historia = () => {
         </CustomVideo>
       </SectionText>
       <FirstSection
+        title={""}
         paragraph1={text.story.Bloco5body1[language]}
         paragraph2={text.story.Bloco5body2[language]}
         paragraph3={text.story.Bloco5body3[language]}
@@ -130,6 +138,7 @@ const Historia = () => {
         )}
       </SectionText>
       <FirstSection
+        title={""}
         paragraph1={text.story.Bloco6body1[language]}
         paragraph2={text.story.Bloco6body2[language]}
       />
@@ -141,7 +150,7 @@ const Historia = () => {
         )}
       </SectionText>
 
-      <FirstSection paragraph1={text.story.Bloco7body1[language]} />
+      <FirstSection title={""} paragraph1={text.story.Bloco7body1[language]} />
       <ButtonNavigation path={path} />
     </Stack>
   );

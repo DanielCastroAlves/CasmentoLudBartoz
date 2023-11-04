@@ -9,11 +9,9 @@ import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 
 import Carousel from "react-multi-carousel";
-import {
-  ContainerCarouselTravel,
- 
-} from "./components/CardPage/style";
+
 import { ContainerPageCity, Description, TituloDescription } from "../RJ/style";
+import { ContainerCarouselTravel } from "./components/Carousel/style";
 
 const Travel = () => {
   const { language } = useLanguage();
@@ -34,8 +32,6 @@ const Travel = () => {
       description: text.Travel.CardsSubPag.Body1[language],
     },
   ];
-
- 
 
   return (
     <Stack width="100%" height="100%" mb={10}>
@@ -68,7 +64,9 @@ const Travel = () => {
           <TituloDescription>
             {text.Travel.Heading2[language]}
           </TituloDescription>
-          <Description dangerouslySetInnerHTML={ {__html: text.Travel.Body2P1[language]} } />
+          <Description
+            dangerouslySetInnerHTML={{ __html: text.Travel.Body2P1[language] }}
+          />
           {/* <Description>{text.Travel.Body2P1[language]}</Description> */}
           <Description>
             {" "}
@@ -80,68 +78,71 @@ const Travel = () => {
           </Description>
 
           <Description>{text.Travel.Body2P2[language]}</Description>
-          <Description dangerouslySetInnerHTML={ {__html: text.Travel.Body2P3[language]} } />
+          <Description
+            dangerouslySetInnerHTML={{ __html: text.Travel.Body2P3[language] }}
+          />
           {/* <Description>{text.Travel.Body2P3[language]}</Description> */}
         </ContainerPageCity>
       </Box>
+
       <ContainerCarouselTravel>
         <Carousel
-         additionalTransfrom={0}
-         //arrows={isMobile}
-         autoPlaySpeed={3000}
-         draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
-         swipeable={true} // Tornar o scroll mais suave
-         // focusOnSelect={false}
-         // keyBoardControl
-         // minimumTouchDrag={80}
-         // pauseOnHover
-         // renderArrowsWhenDisabled={false}
-         // renderButtonGroupOutside
-         // showDots={true}
-         renderDotsOutside={false}
-         responsive={{
-           desktop: {
-             breakpoint: {
-               max: 3000,
-               min: 1441,
-             },
-             items: 3.4,
-           },
-           desktopOld: {
-             breakpoint: {
-               max: 1440,
-               min: 1024,
-             },
-             items: 2.65,
-             partialVisibilityGutter: 50,
-             centerMode: true,
-           },
-           mobile: {
-             breakpoint: {
-               max: 464,
-               min: 0,
-             },
-             items: 1,
-             centerMode: true,
-             partialVisibilityGutter: 50,
-           },
-           tablet: {
-             breakpoint: {
-               max: 1024,
-               min: 465,
-             },
-             items: 1,
-             partialVisibilityGutter: 30,
-           },
-         }}
-         rewind={false}
-         rewindWithAnimation={false}
-         rtl={false}
-         shouldResetAutoplay
-         sliderClass=""
-         slidesToSlide={1}
-         infinite={true}
-       >
+          additionalTransfrom={0}
+          //arrows={isMobile}
+          autoPlaySpeed={3000}
+          draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
+          swipeable={true} // Tornar o scroll mais suave
+          // focusOnSelect={false}
+          // keyBoardControl
+          // minimumTouchDrag={80}
+          // pauseOnHover
+          // renderArrowsWhenDisabled={false}
+          // renderButtonGroupOutside
+          // showDots={true}
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 3,
+            },
+            desktopOld: {
+              breakpoint: {
+                max: 1440,
+                min: 1024,
+              },
+              items: 2.2,
+              partialVisibilityGutter: 80,
+              centerMode: true,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+              centerMode: true,
+              partialVisibilityGutter: 80,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 465,
+              },
+              items: 1,
+              partialVisibilityGutter: 80,
+            },
+          }}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          sliderClass=""
+          slidesToSlide={10}
+          infinite={true}
+        >
           {citys.map((city) => (
             <CardPage
               key={city.id}

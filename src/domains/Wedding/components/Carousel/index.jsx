@@ -30,18 +30,20 @@ const CarouselWedding = ({ dataInfo }) => {
           desktop: {
             breakpoint: {
               max: 3000,
-              min: 1441,
+              min: 1024,
             },
-            items: 3.4,
+            items: 3,
+            partialVisibilityGutter: 80,
+            centerMode: false,
           },
           desktopOld: {
             breakpoint: {
               max: 1440,
-              min: 800,
+              min: 1024,
             },
-            items: 2.65,
-            partialVisibilityGutter: 30,
-            centerMode: true,
+            items: 2.4,
+            partialVisibilityGutter: 80,
+            centerMode: false,
           },
           mobile: {
             breakpoint: {
@@ -49,7 +51,8 @@ const CarouselWedding = ({ dataInfo }) => {
               min: 0,
             },
             items: 1,
-            centerMode: true,
+            partialVisibilityGutter: 30,
+            centerMode: false,
           },
           tablet: {
             breakpoint: {
@@ -58,6 +61,7 @@ const CarouselWedding = ({ dataInfo }) => {
             },
             items: 1,
             partialVisibilityGutter: 30,
+            centerMode: false,
           },
         }}
         rewind={false}
