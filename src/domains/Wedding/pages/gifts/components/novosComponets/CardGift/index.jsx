@@ -10,9 +10,18 @@ import {
   ContainerLink,
   ContainerTitleDescription,
 } from "./style";
-import { Link } from "@mui/material";
 
-const CardGift = ({ imagem, title, description, link1, link2, moedas, options }) => {
+const CardGift = ({
+  imagem,
+  title,
+  description,
+  link1,
+  link2,
+  moedas,
+  options,
+  destinoURL1,
+  destinoURL2,
+}) => {
   const [isSelected, setIsSelected] = useState(false);
   const [selectedValue, setSelectedValue] = useState("");
 
@@ -38,8 +47,12 @@ const CardGift = ({ imagem, title, description, link1, link2, moedas, options })
           <CardGiftMoedas>{moedas}</CardGiftMoedas>
           <CardGiftDescription>{options}</CardGiftDescription>
           <ContainerLink>
-            <CardGiftLink>{link1}</CardGiftLink>
-            <CardGiftLink>{link2}</CardGiftLink>
+            <CardGiftLink onClick={() => window.open(destinoURL1, "_blank")}>
+              {link1}
+            </CardGiftLink>
+            <CardGiftLink onClick={() => window.open(destinoURL2, "_blank")}>
+              {link2}
+            </CardGiftLink>
           </ContainerLink>
         </ContainerInfo>
       </ContainerTitleDescription>

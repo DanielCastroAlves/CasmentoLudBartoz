@@ -8,6 +8,7 @@ import { BreadCrumb } from "../../../../Components/BreadCrumb";
 import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
 import imagem2 from "./image/little-girl.png";
+import { useNavigate } from "react-router-dom";
 
 export const Gifts = () => {
   const { language } = useLanguage();
@@ -19,23 +20,25 @@ export const Gifts = () => {
   const topics = [
     {
       imagem: imagem1,
-      title: "Presenteie o Noivo",
-      description:
-        "Você pode presentear com qualquer valor, efetuando o pagamento com seu cartão de crédito ou débito nas seguintes moedas:",
-      moedas: " USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
-      options: "Ou se preferir pagar em zlotys, através do blik.",
-      link1: "CARTÃO",
-      link2: "BLIK",
+      title: text.gifts.Cards_Gift.TitleGiftBox1[language],
+      description: text.gifts.Cards_Gift.Body1[language],
+      moedas: text.gifts.Cards_Gift.Body2[language],
+      options: text.gifts.Cards_Gift.Body3G[language],
+      link1: text.gifts.Cards_Gift.BUTTON1[language],
+      link2: text.gifts.Cards_Gift.BUTTON2[language],
+      destinoURL1: "https://revolut.me/bartosmw9s",
+      destinoURL2: "",
     },
     {
       imagem: imagem2,
-      title: "Presenteie a Noiva",
-      description:
-        "Você pode presentear com qualquer valor, efetuando o pagamento com seu cartão de crédito ou débito nas seguintes moedas:",
-      moedas: " USD, EUR, AUD, CAD, CHF, DKK, SEK, PLN.",
-      options: "Ou se preferir pagar em reais, através do pix.",
-      link1: "CARTÃO",
-      link2: "PIX",
+      title: text.gifts.Cards_Gift.TitleGiftBox2[language],
+      description: text.gifts.Cards_Gift.Body1[language],
+      moedas: text.gifts.Cards_Gift.Body2[language],
+      options: text.gifts.Cards_Gift.Body3B[language],
+      link1: text.gifts.Cards_Gift.BUTTON1[language],
+      link2: text.gifts.Cards_Gift.BUTTON3[language],
+      destinoURL1: "https://revolut.me/ludmillakramos",
+      destinoURL2: "https://nubank.com.br/pagar/16xuh8/Zr8AfCO23q",
     },
   ];
 
@@ -51,7 +54,7 @@ export const Gifts = () => {
   };
 
   const selectedItem = topics.find((item) => item.id === timelineItem);
-
+  const navigate = useNavigate();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -83,6 +86,8 @@ export const Gifts = () => {
               link2={item.link2}
               moedas={item.moedas}
               options={item.options}
+              destinoURL1={item.destinoURL1}
+              destinoURL2={item.destinoURL2}
             />
           </Grid>
         ))}

@@ -1,9 +1,9 @@
 import React from "react";
-import { Box, Button, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
 import { ArrowLeft, ArrowRight } from "@phosphor-icons/react";
-import { LeftBtnNavigation, RightBtnNavigation, StyledIcon, TextBtn } from "./style";
+import { LeftBtnNavigation, RightBtnNavigation } from "./style";
 import { useNavigate } from "react-router-dom";
-import arrowLeft from '../../Assets/Images/wedding/arrowLeft.svg'
+
 
 export const ButtonNavigation = ({ path }) => {
     const theme = useTheme();
