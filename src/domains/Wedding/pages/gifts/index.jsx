@@ -8,7 +8,7 @@ import { BreadCrumb } from "../../../../Components/BreadCrumb";
 import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
 import imagem2 from "./image/little-girl.png";
-import { useNavigate } from "react-router-dom";
+
 
 export const Gifts = () => {
   const { language } = useLanguage();
@@ -54,7 +54,7 @@ export const Gifts = () => {
   };
 
   const selectedItem = topics.find((item) => item.id === timelineItem);
-  const navigate = useNavigate();
+
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
