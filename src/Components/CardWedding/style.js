@@ -44,8 +44,9 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
 
   [createMediaQuery("sm")]: {
     display: "flex !important",
-    width: "358px !important",
-    height: "458px !important",
+    marginLeft:"30px",
+    width: "300px !important",
+    height: "400px !important",
     padding: "16px !important",
     flexDirection: "column !important",
     alignItems: "center !important",
@@ -59,8 +60,9 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
 
   [createMediaQuery("md")]: {
     display: "flex",
-    width: "358px",
-    height: "458px",
+    marginLeft:"35px",
+    width: "300px",
+    height: "400px",
     padding: "16px",
     flexDirection: "column",
     alignItems: "center",
@@ -112,12 +114,12 @@ const CardWeddingImage = styled("img")({
     height: "412px",
   },
   [createMediaQuery("sm")]: {
-    width: "326px",
-    height: "326px",
+    width: "276px",
+    height: "296px",
   },
   [createMediaQuery("md")]: {
-    width: "326px",
-    height: "326px",
+    width: "276px",
+    height: "296px",
   },
 });
 
@@ -141,6 +143,10 @@ const CardWeddingTitle = styled("h6")(({ theme }) => ({
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: "normal",
+  [createMediaQuery("lg")]: {},
+  [createMediaQuery("xl")]: {},
+  [createMediaQuery("sm")]: {fontSize: 15,},
+  [createMediaQuery("md")]: {fontSize: 15,},
 }));
 
 const CardWeddingDescription = styled("p")(({ theme }) => ({
@@ -151,6 +157,10 @@ const CardWeddingDescription = styled("p")(({ theme }) => ({
   fontWeight: 400,
   lineHeight: "normal",
   textTransform: "uppercase",
+  [createMediaQuery("lg")]: {},
+  [createMediaQuery("xl")]: {},
+  [createMediaQuery("sm")]: {fontSize: 9,},
+  [createMediaQuery("md")]: {fontSize: 9,},
 }));
 
 export {

@@ -17,35 +17,36 @@ export const Wedding = () => {
     const { language } = useLanguage();
 
     const dataWedding = [
-        {
-            destination: "/wedding/prewedding",
-            image: PreWeddingImage,
-            title: "Pre Wedding",
-            description: "Vamos ver o pôr-do-sol mais bonito da cidade juntos?",
-        },
+      
         {
             destination: "/wedding/dresscode",
             image: DressCodeImage,
-            title: "Dress Code",
-            description: "Com que roupa eu vou?",
+            title: text.Wedding.Cards_Carrousel.Card02[language],
+            description: text.Wedding.Cards_Carrousel.Content02[language],
         },
         {
             destination: "/wedding/gifts",
             image: PresenteImage,
-            title: "Wedding Gift",
-            description: "THINGS YOU SHOULD KNOW BEFORE GIFTING THE BRIDE AND GROOM",
+            title: text.Wedding.Cards_Carrousel.Card03[language],
+            description: text.Wedding.Cards_Carrousel.Content03[language],
         },
         {
             destination: "/wedding/ourstory",
             image: historiacard,
-            title: "Our Love Story",
-            description: "Our wedding party",
+            title: text.Wedding.Cards_Carrousel.Card04[language],
+            description: text.Wedding.Cards_Carrousel.Content04[language],
         },
         {
             destination: "/wedding/teamBG",
             image: teambrideGroom,
-            title: "Team Bride & Groom",
-            description: "Our wedding party",
+            title: text.Wedding.Cards_Carrousel.Card05[language],
+            description: text.Wedding.Cards_Carrousel.Content05[language],
+        },
+        {
+            destination: "/wedding/prewedding",
+            image: PreWeddingImage,
+            title: text.Wedding.Cards_Carrousel.Card01[language],
+            description: text.Wedding.Cards_Carrousel.Content01[language],
         },
     ];
     return (

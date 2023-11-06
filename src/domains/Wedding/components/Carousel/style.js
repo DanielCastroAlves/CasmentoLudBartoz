@@ -43,13 +43,14 @@ const ContainerCarousel = styled("div")(({ theme }) => ({
     width: "85%",  // 85% of the viewport width in rem
   },
   [createMediaQuery("sm")]: {
-    width: "100%",
+    width: "87%",
     "& .react-multiple-carousel__arrow": {
       backgroundColor: "rgba(255, 255, 255, 0.45);",
       blur: "0.75rem",    // 12px in rem
       color: "blue",
       padding: "0px",
       height: "18.75rem",  // 300px in rem
+      display: "none",
     },
     "& .react-multiple-carousel__arrow::before": {
       color: theme.palette.primary.main,
@@ -69,7 +70,7 @@ const ContainerCarousel = styled("div")(({ theme }) => ({
     },
   },
   [createMediaQuery("md")]: {
-    width: "100%",
+    width: "87%",
     "& .react-multiple-carousel__arrow": {
       backgroundColor: "rgba(255, 255, 255, 0.45);",
       blur: "0.75rem",    // 12px in rem
