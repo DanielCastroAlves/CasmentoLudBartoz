@@ -136,6 +136,26 @@ const ContainerLink = styled("div")(({ theme }) => ({
   alignItems: "flex-start",
   gap: "1rem", // 16px
 
+  "&:hover": {
+    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+  },
+
+  [createMediaQuery("sm")]: {},
+  [createMediaQuery("md")]: {},
+}));
+
+const CopyFeedback = styled("div")(({ theme }) => ({
+  color: "var(--Green-Olive, #52736B)",
+  textAlign: "center",
+  fontFamily: "Open Sans",
+  fontSize: "16px",
+  fontStyle: " normal",
+  fontWeight: 600,
+  lineHeight: "150%" /* 24px */,
+  letterSpacing: " 0.15px",
+  textTransform: "uppercase",
+  marginTop: "-12px",
+
   [createMediaQuery("sm")]: {},
   [createMediaQuery("md")]: {},
 }));
@@ -212,4 +232,5 @@ export {
   CardGiftLink,
   ContainerLink,
   ContainerInfo,
+  CopyFeedback,
 };

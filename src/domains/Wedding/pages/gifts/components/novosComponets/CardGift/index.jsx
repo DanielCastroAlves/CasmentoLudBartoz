@@ -9,6 +9,7 @@ import {
   ContainerInfo,
   ContainerLink,
   ContainerTitleDescription,
+  CopyFeedback,
 } from "./style";
 
 const CardGift = ({
@@ -21,17 +22,59 @@ const CardGift = ({
   options,
   destinoURL1,
   destinoURL2,
+  copyPasteBlink,
+  copyPastePix,
 }) => {
   const [isSelected, setIsSelected] = useState(false);
   const [selectedValue, setSelectedValue] = useState("");
+  const [hoveredText, setHoveredText] = useState(link2);
+  const [copyFeedback, setCopyFeedback] = useState("");
 
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
 
   useEffect(() => {
-    setSelectedValue(""); // Redefina o valor selecionado quando a página mudar
+    setSelectedValue("");
   }, [link1, link2]);
+
+  const handleHoverEnter = () => {
+    if (hoveredText === "BLIK") {
+      setHoveredText("BLIK bartosz s");
+    } else if (hoveredText === "PIX") {
+      setHoveredText("pix copia e cola");
+    }
+  };
+
+  const handleHoverLeave = () => {
+    setHoveredText(link2);
+  };
+
+  const handleLinkClick = () => {
+    let textToCopy = "";
+    if (hoveredText === "BLIK") {
+      textToCopy = copyPasteBlink;
+    } else if (hoveredText === "PIX") {
+      textToCopy = copyPastePix;
+    }
+
+    const textArea = document.createElement("textarea");
+    textArea.value = textToCopy;
+    document.body.appendChild(textArea);
+    textArea.select();
+
+    try {
+      navigator.clipboard.writeText(textToCopy);
+
+      if (link2 === "PIX") {
+        setCopyFeedback("PIX copiado");
+      } else {
+        setCopyFeedback("+48 602 180485");
+      }
+    } catch (err) {
+      setCopyFeedback("Erro ao copiar o texto para a área de transferência.");
+    }
+  };
 
   return (
     <CardGiftContainer
@@ -50,10 +93,15 @@ const CardGift = ({
             <CardGiftLink onClick={() => window.open(destinoURL1, "_blank")}>
               {link1}
             </CardGiftLink>
-            <CardGiftLink onClick={() => window.open(destinoURL2, "_blank")}>
-              {link2}
+            <CardGiftLink
+              onClick={handleLinkClick}
+              onMouseEnter={handleHoverEnter}
+              onMouseLeave={handleHoverLeave}
+            >
+              {hoveredText}
             </CardGiftLink>
           </ContainerLink>
+          <CopyFeedback>{copyFeedback}</CopyFeedback>
         </ContainerInfo>
       </ContainerTitleDescription>
     </CardGiftContainer>

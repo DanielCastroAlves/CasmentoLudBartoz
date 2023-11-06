@@ -9,7 +9,6 @@ import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
 import imagem2 from "./image/little-girl.png";
 
-
 export const Gifts = () => {
   const { language } = useLanguage();
   const path = [
@@ -28,6 +27,7 @@ export const Gifts = () => {
       link2: text.gifts.Cards_Gift.BUTTON2[language],
       destinoURL1: "https://revolut.me/bartosmw9s",
       destinoURL2: "",
+      copyPasteBlink: "+48 602 180485",
     },
     {
       imagem: imagem2,
@@ -39,6 +39,8 @@ export const Gifts = () => {
       link2: text.gifts.Cards_Gift.BUTTON3[language],
       destinoURL1: "https://revolut.me/ludmillakramos",
       destinoURL2: "https://nubank.com.br/pagar/16xuh8/Zr8AfCO23q",
+      copyPastePix:
+        "00020126460014BR.GOV.BCB.PIX0124ludmillakramos@gmail.com5204000053039865802BR5924Ludmilla Kolanscki Ramos6009SAO PAULO61080540900062250521pAU9VGKziYM8NeR16xuh863049467",
     },
   ];
 
@@ -88,6 +90,8 @@ export const Gifts = () => {
               options={item.options}
               destinoURL1={item.destinoURL1}
               destinoURL2={item.destinoURL2}
+              copyPasteBlink={item.copyPasteBlink}
+              copyPastePix={item.copyPasteBlink}
             />
           </Grid>
         ))}
