@@ -3,7 +3,6 @@ import { ButtonNavigation } from "../../../../Components/ButtonNavigation";
 import { FirstSection } from "../../../../Components/FirstSection";
 import text from "../../../../Assets/text.json";
 import { useLanguage } from "../../../../hooks/useLanguage";
-import { useState } from "react";
 import { BreadCrumb } from "../../../../Components/BreadCrumb";
 import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
@@ -44,18 +43,11 @@ export const Gifts = () => {
     },
   ];
 
-  const [timelineItem, setTimelineItem] = useState(null);
   const data = [
     { label: text.MenuHeaderLinks.home[language], url: "/home" },
     { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
     { label: text.gifts.title[language], url: "/wedding/gifts" },
   ];
-
-  const handleTimelineItemClick = (item) => {
-    setTimelineItem(item);
-  };
-
-  const selectedItem = topics.find((item) => item.id === timelineItem);
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
@@ -91,7 +83,7 @@ export const Gifts = () => {
               destinoURL1={item.destinoURL1}
               destinoURL2={item.destinoURL2}
               copyPasteBlink={item.copyPasteBlink}
-              copyPastePix={item.copyPasteBlink}
+              copyPastePix={item.copyPastePix}
             />
           </Grid>
         ))}
