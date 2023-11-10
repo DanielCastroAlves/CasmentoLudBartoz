@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./Theme/index.js";
 import { Body } from "./Components/Body";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import { Home } from "./domains/Home/index.jsx";
 import { LanguageContextProvider } from "./context/LanguageContext.jsx";
 import { Wedding } from "./domains/Wedding/index.jsx";
@@ -16,123 +16,131 @@ import QeA from "./domains/Q&A/index.jsx";
 import Historia from "./domains/Historia/index.jsx";
 import { TeamBrideGroom } from "./domains/TeamBrideGroom/index.jsx";
 
-//teste
 
 const router = createBrowserRouter([
-  {
-    element: <Body />,
-    children: [
-      {
-        path: "/",
+    {
+        element: <Body />,
         children: [
-          {
-            path: "home",
-            element: <Home />,
-          },
+            {
+                path: "/",
+                element: <Navigate to="/home" />,
+            },
+            {
+                path: "*",
+                element: <Navigate to="/home" />,
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "home",
+                        element: <Home />,
+                    },
+                ],
+            },
+
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding",
+                        element: <Wedding />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/prewedding",
+                        element: <PreWedding />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/dresscode",
+                        element: <DressCode />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/gifts",
+                        element: <Gifts />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "travel",
+                        element: <Travel />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "travel/rio-de-janeiro",
+                        element: <RioDeJaneiro />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "travel/buzios",
+                        element: <Buzios />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "qea",
+                        element: <QeA />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/ourstory",
+                        element: <Historia />,
+                    },
+                ],
+            },
+            {
+                path: "/",
+                children: [
+                    {
+                        path: "wedding/teamBG",
+                        element: <TeamBrideGroom />,
+                    },
+                ],
+            },
         ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding",
-            element: <Wedding />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding/prewedding",
-            element: <PreWedding />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding/dresscode",
-            element: <DressCode />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding/gifts",
-            element: <Gifts />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "travel",
-            element: <Travel />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "travel/rio-de-janeiro",
-            element: <RioDeJaneiro />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "travel/buzios",
-            element: <Buzios />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "qea",
-            element: <QeA />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding/ourstory",
-            element: <Historia />,
-          },
-        ],
-      },
-      {
-        path: "/",
-        children: [
-          {
-            path: "wedding/teamBG",
-            element: <TeamBrideGroom />,
-          },
-        ],
-      },
-    ],
-  },
+    },
 ]);
 
 function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <LanguageContextProvider>
-        <RouterProvider router={router} />
-      </LanguageContextProvider>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <LanguageContextProvider>
+                <RouterProvider router={router} />
+            </LanguageContextProvider>
+        </ThemeProvider>
+    );
 }
 
 export default App;
