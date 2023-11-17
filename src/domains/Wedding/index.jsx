@@ -8,7 +8,7 @@ import DressCodeImage from "../../Assets/Images/cardImage/DressCode.svg";
 import PreWeddingImage from "../../Assets/Images/cardImage/PreWedding.svg";
 import teambrideGroom from "../../Assets/Images/cardImage/teambrideGroom.png";
 
-import PresenteImage from "../../Assets/Images/cardImage/Presente.svg";
+import PresenteImage from "../../Assets/Images/cardImage/cardPresente.png";
 import historiacard from "../../Assets/Images/cardImage/historiacard.png";
 import { useLocation } from "react-router-dom";
 
