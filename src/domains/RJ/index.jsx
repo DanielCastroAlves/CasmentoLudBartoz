@@ -69,7 +69,11 @@ const RioDeJaneiro = () => {
         <TituloDescription>
           {text.RiodeJaneiro.heading1[language]}
         </TituloDescription>
-        <Description>{text.RiodeJaneiro.bodyRio1[language]}</Description>
+        <Description
+          dangerouslySetInnerHTML={{
+            __html: text.RiodeJaneiro.bodyRio1[language],
+          }}
+        />
         <Description>{text.RiodeJaneiro.bodyRio2[language]}</Description>
         <Description>
           <ul>
