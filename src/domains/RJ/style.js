@@ -190,6 +190,7 @@ const TituloDescription = styled("h2")(({ theme }) => ({
   fontFamily: "Cinzel",
   fontSize: "1.25rem",
   fontWeight: 400,
+  margin:"auto 10%",
   marginBottom: "2rem",
 
   [createMediaQuery("sm")]: {
@@ -221,6 +222,7 @@ const Description = styled("p")(({ theme }) => ({
     fontWeight: 300,
     lineHeight: "normal",
   },
+  margin:"auto 10%",
   marginBottom: "1.25rem",
 
   [createMediaQuery("sm")]: {

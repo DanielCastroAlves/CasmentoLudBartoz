@@ -21,10 +21,9 @@ import { BannerImageBuzios } from "../Buzios/style";
 import { FirstSection } from "../../Components/FirstSection";
 import { BreadCrumb } from "../../Components/BreadCrumb";
 
-
 const Buzios = () => {
   const [isSelected, setIsSelected] = useState(false);
-  
+
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
@@ -85,12 +84,21 @@ const Buzios = () => {
             <li>{text.Búzios.destinosBuzios.d6[language]}</li>
           </ul>
         </Description>
-        <Description>{text.Búzios.body3[language]}</Description>
+
+        <Description
+          dangerouslySetInnerHTML={{
+            __html: text.Búzios.body3[language],
+          }}
+        />
       </ContainerPageCity>
       <ContainerPageCity>
-        <TituloDescription>{text.Búzios.heading1[language]}</TituloDescription>
+        <TituloDescription>{text.Búzios.heading2[language]}</TituloDescription>
         <Description>{text.Búzios.bodyBuzius1[language]}</Description>
-        <Description>{text.Búzios.bodyBuzius2[language]}</Description>
+        <Description
+          dangerouslySetInnerHTML={{
+            __html: text.Búzios.bodyBuzius2[language],
+          }}
+        />
       </ContainerPageCity>
 
       <ContainerBanner>

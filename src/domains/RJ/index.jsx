@@ -83,10 +83,14 @@ const RioDeJaneiro = () => {
             <li>{text.RiodeJaneiro.destinosRio.d8[language]}</li>
           </ul>
         </Description>
-        <Description>
-          {text.RiodeJaneiro.bodyConfirmation3[language]}
-        </Description>
+
+        <Description
+          dangerouslySetInnerHTML={{
+            __html: text.RiodeJaneiro.bodyConfirmation3[language],
+          }}
+        />
       </ContainerPageCity>
+
       <ContainerPageCity>
         <TituloDescription>
           {text.RiodeJaneiro.heading2[language]}
