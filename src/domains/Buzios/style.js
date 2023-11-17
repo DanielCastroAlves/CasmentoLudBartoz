@@ -68,7 +68,7 @@ const ContainerBanner = styled("div")(({ theme }) => ({
   },
 }));
 
-const CardBanner = styled("div")(({ theme }) => ({
+const CardBanner = styled("div")(({ theme, isSelected }) => ({
   display: "flex",
   height: "552px",
   padding: "10px",
@@ -76,8 +76,35 @@ const CardBanner = styled("div")(({ theme }) => ({
   alignItems: "flex-start",
   gap: "16px",
   flexShrink: 0,
-  border: "1px solid var(--Terracota, #9C4522)",
+
   background: "#FFF",
+  border: isSelected
+    ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
+    : "0.0625rem solid var(--terracota, #9C4522)", // 1px converted to rem
+  "& img": {
+    border: isSelected
+      ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
+      : "none",
+  },
+  "& h1": {
+    color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
+  },
+  "&:hover": {
+    border: isSelected
+      ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
+      : "0.0625rem solid var(--terracota, #9C4522)", // 1px converted to rem
+    boxShadow: "0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25)", // 4px converted to rem
+    "& img": {},
+    "& h1": {
+      color: "var(--terracota, #9C4522)",
+      textAlign: "center",
+      fontFamily: "Cinzel",
+      fontSize: "1.75rem", // 28px converted to rem
+      fontStyle: "normal",
+      fontWeight: 700,
+      lineHeight: "normal",
+    },
+  },
   [createMediaQuery("sm")]: {
     // Estilos específicos para "sm" aqui
   },
@@ -86,12 +113,10 @@ const CardBanner = styled("div")(({ theme }) => ({
   },
 }));
 
-
 const BannerImageBuzios = styled("div")(({ theme }) => ({
   width: "412px",
   height: "410px",
   border: "0.0625rem solid var(--Terracota, #9C4522)",
-  
 
   [createMediaQuery("sm")]: {
     width: "",
@@ -211,5 +236,5 @@ export {
   BannerImageBuzios,
   ContainerTitleBanner,
   ContainerBanner,
-  CardBanner
+  CardBanner,
 };

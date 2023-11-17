@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import text from "../../Assets/text.json";
 import { useLanguage } from "../../hooks/useLanguage";
 import { Link, Stack } from "@mui/material";
@@ -21,10 +21,23 @@ import { BreadCrumb } from "../../Components/BreadCrumb";
 import { CardBanner } from "../Buzios/style";
 
 const RioDeJaneiro = () => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const toggleSelection = () => {
+    setIsSelected(!isSelected);
+  };
   const { language } = useLanguage();
   const hoteis = [
-    { nome: "hotel arpoador", destination:"http://pousadaalforria.com.br/", imagem: IMG_2905 },
-    { nome: "hotel ipanema inn", destination:"https://www.ipanemainn.com.br/en", imagem: ipanemaHotel },
+    {
+      nome: "hotel arpoador",
+      destination: "http://pousadaalforria.com.br/",
+      imagem: IMG_2905,
+    },
+    {
+      nome: "hotel ipanema inn",
+      destination: "https://www.ipanemainn.com.br/en",
+      imagem: ipanemaHotel,
+    },
   ];
 
   const data = [
@@ -85,8 +98,8 @@ const RioDeJaneiro = () => {
 
       <ContainerBanner>
         {hoteis.map((hotel, index) => (
-          <Link href={hotel.destination} underline="none">
-            <CardBanner>
+          <Link href={hotel.destination} underline="none" target="blank">
+            <CardBanner isSelected={isSelected} onClick={toggleSelection}>
               <BannerImageBuzios
                 style={{
                   position: "relative",

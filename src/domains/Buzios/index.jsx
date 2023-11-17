@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import text from "../../Assets/text.json";
 import { useLanguage } from "../../hooks/useLanguage";
 import { Stack } from "@mui/material";
@@ -21,7 +21,13 @@ import { BannerImageBuzios } from "../Buzios/style";
 import { FirstSection } from "../../Components/FirstSection";
 import { BreadCrumb } from "../../Components/BreadCrumb";
 
+
 const Buzios = () => {
+  const [isSelected, setIsSelected] = useState(false);
+  
+  const toggleSelection = () => {
+    setIsSelected(!isSelected);
+  };
   const hoteis = [
     {
       nome: "Alforria",
@@ -89,8 +95,8 @@ const Buzios = () => {
 
       <ContainerBanner>
         {hoteis.map((hotel, index) => (
-          <Link href={hotel.destination} underline="none">
-            <CardBanner>
+          <Link href={hotel.destination} underline="none" target="blank">
+            <CardBanner isSelected={isSelected} onClick={toggleSelection}>
               <BannerImageBuzios
                 style={{
                   position: "relative",
