@@ -8,7 +8,7 @@ import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
 import imagem2 from "./image/little-girl.png";
 
-export const Gifts = () => {
+const Gifts = () => {
   const { language } = useLanguage();
   const path = [
     { label: text.MenuHeaderLinks.wedding[language], url: "/wedding" },
