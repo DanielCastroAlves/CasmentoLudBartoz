@@ -7,6 +7,7 @@ import buziosMb from "../../Assets/Images/cardImage/Picture Buzios mobile.png";
 import alforria from "../../Assets/Images/hoteis/Alforria.png";
 import blueMarlin from "../../Assets/Images/hoteis/blueMarlin.png";
 import Sable from "../../Assets/Images/hoteis/Sable.png";
+import { Link } from "@mui/material";
 import {
   BannerImage,
   CardBanner,
@@ -22,9 +23,21 @@ import { BreadCrumb } from "../../Components/BreadCrumb";
 
 const Buzios = () => {
   const hoteis = [
-    { nome: "Alforria", imagem: alforria },
-    { nome: "Blue Marlin", imagem: blueMarlin },
-    { nome: "Sable", imagem: Sable },
+    {
+      nome: "Alforria",
+      destination: "http://pousadaalforria.com.br/",
+      imagem: alforria,
+    },
+    {
+      nome: "Blue Marlin",
+      destination: "https://www.bluemarlinbuzios.com.br/",
+      imagem: blueMarlin,
+    },
+    {
+      nome: "Sable",
+      destination: "https://www.pousadasabledor.com.br/",
+      imagem: Sable,
+    },
   ];
   const { language } = useLanguage();
 
@@ -76,21 +89,23 @@ const Buzios = () => {
 
       <ContainerBanner>
         {hoteis.map((hotel, index) => (
-          <CardBanner>
-            <BannerImageBuzios
-              style={{
-                position: "relative",
-                backgroundImage: `url(${hotel.imagem})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-            />
-            <ContainerTitleBanner>
-              <h1>{hotel.nome}</h1>
-              <p>Conheça o hotel</p>
-            </ContainerTitleBanner>
-          </CardBanner>
+          <Link href={hotel.destination} underline="none">
+            <CardBanner>
+              <BannerImageBuzios
+                style={{
+                  position: "relative",
+                  backgroundImage: `url(${hotel.imagem})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+              />
+              <ContainerTitleBanner>
+                <h1>{hotel.nome}</h1>
+                <p>Conheça o hotel</p>
+              </ContainerTitleBanner>
+            </CardBanner>
+          </Link>
         ))}
       </ContainerBanner>
     </Stack>

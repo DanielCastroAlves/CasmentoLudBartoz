@@ -14,7 +14,7 @@ const BannerImage = styled("div")(({ theme }) => ({
   margin: "1.25rem 0 1.25rem 0",
   padding: "1.25rem 0 1.25rem 0",
 
-  "& > .imgBuziosMb": {
+  "& > .imgrioMb": {
     display: "none",
   },
 
@@ -26,7 +26,7 @@ const BannerImage = styled("div")(({ theme }) => ({
     "& > .imgBuzios": {
       display: "none",
     },
-    "& > .imgBuziosMb": {
+    "& > .imgrioMb": {
       display: "block",
     },
   },
@@ -38,7 +38,7 @@ const BannerImage = styled("div")(({ theme }) => ({
     "& > .imgBuzios": {
       display: "none",
     },
-    "& > .imgBuziosMb": {
+    "& > .imgrioMb": {
       display: "block",
     },
   },

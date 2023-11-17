@@ -1300,7 +1300,7 @@
       "es": "¡Visite la página web de las posadas abajo, pero disfrute de los descuentos que logramos al  <a target='_blank' href='/home'>confirmar  su presencia (RSVP)!</a>"
     }
   },
-  "Rio de Janeiro": {
+  "RiodeJaneiro": {
     "titleP1": {
       "pt": "Rio de Janeiro",
       "pl": "Rio de Janeiro",
@@ -1349,56 +1349,56 @@
       "en": "Some of the sights we will visit:",
       "es": "Algunos de los lugares que visitaremos:"
     },
-    "destinos-rio": [
-      {
+    "destinosRio": {
+      "d1": {
         "pt": "Cristo Redentor",
         "pl": "Pomnik Chrystusa Odkupiciela",
         "en": "Christ of the Redeemer",
         "es": "Cristo Redentor"
       },
-      {
+      "d2": {
         "pt": "Morro da Urca e Pão de Açúcar",
         "pl": "Morro da Urca i Głowa Cukru",
         "en": "Morro da Urca and Sugarloaf Mountain",
         "es": "Morro da Urca y Pan de Azúcar"
       },
-      {
+      "d3": {
         "pt": "Museu do Amanhã",
         "pl": "Muzeum Przyszłości (Museu do Amanhã)",
         "en": "Museum of Tomorrow",
         "es": "Museo del Mañana"
       },
-      {
+      "d4": {
         "pt": "Arcos da Lapa",
         "pl": "Lapa Arches",
         "en": "Lapa Arches",
         "es": "Arcos de Lapa"
       },
-      {
+      "d5": {
         "pt": "Escadaria de Salaron",
         "pl": "Escadaria de Salaron",
         "en": "Salaron staircase",
         "es": "Escalera de Salaron"
       },
-      {
+      "d6": {
         "pt": "Estádio do Maracanã",
         "pl": "Stadion Maracanã",
         "en": "Maracana Stadium",
         "es": "Estadio de Maracaná"
       },
-      {
+      "d7": {
         "pt": "Sambódromo",
         "pl": "Sambódromo",
         "en": "Sambodrome",
         "es": "Sambódromo"
       },
-      {
+      "d8": {
         "pt": "Praias: Copacabana, Ipanema e Leblon",
         "pl": "Plaże: Copacabana, Ipanema i Leblon",
         "en": "Beaches: Copacabana, Ipanema and Leblon",
         "es": "Playas: Copacabana, Ipanema y Leblon"
       }
-    ],
+    },
     "bodyConfirmation3": {
       "pt": "Se ficou interessado, por gentileza, precisamos de saber do interesse individual de cada convidado em realizar os passeios para poder definir um orçamento legal para todo mundo. Mais detalhes será confirmado somente após a <a target='_blank' href='/home'>confirmação de presença (RSVP)</a> por e-mail.",
       "pl": "Jeśli jesteście zainteresowani, musimy to wiedzieć przed zorganizowaniem wycieczki, aby określić budżet dla każdego. Dalsze szczegóły zostaną przekazane dopiero po <a target='_blank' href='/home'>potwierdzeniu uczestnictwa (RSVP)</a> drogą mailową.",
