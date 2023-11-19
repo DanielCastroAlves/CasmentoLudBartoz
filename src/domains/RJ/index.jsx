@@ -30,7 +30,7 @@ const RioDeJaneiro = () => {
   const hoteis = [
     {
       nome: "hotel arpoador",
-      destination: "http://pousadaalforria.com.br/",
+      destination: "https://www.hotelarpoador.com/en",
       imagem: IMG_2905,
     },
     {

@@ -39,7 +39,7 @@ const Buzios = () => {
       imagem: blueMarlin,
     },
     {
-      nome: "Sable",
+      nome: "Sable D'Or",
       destination: "https://www.pousadasabledor.com.br/",
       imagem: Sable,
     },
