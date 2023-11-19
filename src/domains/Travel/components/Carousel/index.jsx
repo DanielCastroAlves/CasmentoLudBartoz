@@ -1,18 +1,13 @@
 import React from "react";
+import CardPage from "../CardPage";
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import ContainerCarouselTravel from "./style";
 
 
-import CardWedding from "../../../../Components/CardWedding";
-import ContainerCarousel from "./style";
-//import { useMediaQuery, useTheme } from "@mui/material";
 
-const CarouselWedding = ({ dataInfo }) => {
-  //  const theme = useTheme();
-  //const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-
+const CarouselTravel = ({ dataInfo }) => {
   return (
-    <ContainerCarousel>
+    <ContainerCarouselTravel>
       <Carousel
         additionalTransfrom={0}
         //arrows={isMobile}
@@ -28,51 +23,49 @@ const CarouselWedding = ({ dataInfo }) => {
         // showDots={true}
         renderDotsOutside={false}
         responsive={{
+          desktopExtraLarge: {
+            breakpoint: {
+              max: 4000,
+              min: 1921,
+            },
+            items: 2,
+            partialVisibilityGutter: 50,
+          },
           desktop: {
             breakpoint: {
-              max: 1279,
-              min: 1001,
-            },
-            items: 2.4,
-            partialVisibilityGutter: 50,
-            centerMode: false,
-          },
-          desktop1: {
-            breakpoint: {
-              max: 1440,
-              min: 1280,
-            },
-            items: 2.6,
-            partialVisibilityGutter: 50,
-            centerMode: true,
-          },
-          desktop2: {
-            breakpoint: {
-              max: 2559,
+              max: 1920, // Adjusted to match the max value of desktopExtraLarge
               min: 1441,
             },
-            items: 2.6,
+            items: 2,
+            partialVisibilityGutter: 50,
+          },
+          desktopOld: {
+            breakpoint: {
+              max: 1440,
+              min: 1025,
+            },
+            items: 2,
+            partialVisibilityGutter: 50,
+          },
+          tablet: {
+            breakpoint: {
+              max: 1000,
+              min: 551,
+            },
+            items: 1,
             partialVisibilityGutter: 50,
             centerMode: true,
           },
           mobile: {
             breakpoint: {
-              max: 500,
+              max: 550,
               min: 0,
             },
             items: 1,
             partialVisibilityGutter: 30,
             centerMode: true,
           },
-          tablet: {
-            breakpoint: {
-              max: 1000,
-              min: 501,
-            },
-            items: 1,
-            partialVisibilityGutter: 30,
-            centerMode: true,
-          },
+          
         }}
         rewind={false}
         rewindWithAnimation={false}
@@ -82,12 +75,18 @@ const CarouselWedding = ({ dataInfo }) => {
         slidesToSlide={1}
         infinite={true}
       >
-        {dataInfo.map((data, index) => (
-          <CardWedding {...data} />
+        {dataInfo.map((city) => (
+          <CardPage
+            key={city.id}
+            image={city.image}
+            destination={city.destination}
+            description={city.description}
+            title={city.title}
+          />
         ))}
       </Carousel>
-    </ContainerCarousel>
+    </ContainerCarouselTravel>
   );
 };
 
-export default CarouselWedding;
+export default CarouselTravel;

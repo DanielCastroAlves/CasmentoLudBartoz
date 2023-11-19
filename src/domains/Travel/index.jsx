@@ -2,16 +2,17 @@ import React from "react";
 import { Box, Stack } from "@mui/material";
 import text from "../../Assets/text.json";
 import CustomTimeline from "./components/CustomTimeline";
-import CardPage from "./components/CardPage";
+
 import rioImage from "../../Assets/Images/cardImage/RiodeJaneiroCard.png";
 import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
 import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 
-import Carousel from "react-multi-carousel";
+
 
 import { ContainerPageCity, Description, TituloDescription } from "../RJ/style";
-import { ContainerCarouselTravel } from "./components/Carousel/style";
+
+import CarouselTravel from "./components/Carousel";
 
 const Travel = () => {
   const { language } = useLanguage();
@@ -85,75 +86,7 @@ const Travel = () => {
         </ContainerPageCity>
       </Box>
 
-      <ContainerCarouselTravel>
-        <Carousel
-          additionalTransfrom={0}
-          //arrows={isMobile}
-          autoPlaySpeed={3000}
-          draggable={true} // Tornar o carousel deslizável com o mouse/touchpad
-          swipeable={true} // Tornar o scroll mais suave
-          // focusOnSelect={false}
-          // keyBoardControl
-          // minimumTouchDrag={80}
-          // pauseOnHover
-          // renderArrowsWhenDisabled={false}
-          // renderButtonGroupOutside
-          // showDots={true}
-          renderDotsOutside={false}
-          responsive={{
-            desktop: {
-              breakpoint: {
-                max: 3000,
-                min: 1024,
-              },
-              items: 3,
-            },
-            desktopOld: {
-              breakpoint: {
-                max: 1440,
-                min: 1024,
-              },
-              items: 2.2,
-              partialVisibilityGutter: 80,
-              centerMode: true,
-            },
-            mobile: {
-              breakpoint: {
-                max: 464,
-                min: 0,
-              },
-              items: 1,
-              centerMode: true,
-              partialVisibilityGutter: 80,
-            },
-            tablet: {
-              breakpoint: {
-                max: 1024,
-                min: 465,
-              },
-              items: 1,
-              partialVisibilityGutter: 80,
-            },
-          }}
-          rewind={false}
-          rewindWithAnimation={false}
-          rtl={false}
-          shouldResetAutoplay
-          sliderClass=""
-          slidesToSlide={10}
-          infinite={true}
-        >
-          {citys.map((city) => (
-            <CardPage
-              key={city.id}
-              image={city.image}
-              destination={city.destination}
-              description={city.description}
-              title={city.title}
-            />
-          ))}
-        </Carousel>
-      </ContainerCarouselTravel>
+      <CarouselTravel dataInfo={citys} />
     </Stack>
   );
 };

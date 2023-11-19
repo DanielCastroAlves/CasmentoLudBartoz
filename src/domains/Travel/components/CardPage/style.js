@@ -2,88 +2,100 @@ import { styled } from "@mui/material";
 
 const breakpoints = {
   xs: "0rem",
-  sm: "37.5rem", // 600px converted to rem
-  md: "60rem", // 960px converted to rem
-  lg: "80rem", // 1280px converted to rem
-  xl: "120rem", // 1920px converted to rem
-  custom: "87.5rem", // 1400px converted to rem
+  sm: "37.5rem",
+  md: "60rem",
+  lg: "80rem",
+  xl: "100rem",
+  xxl: "220rem", // Ajustado para 120rem para tela 4K
 };
 
 const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const CardCityContainer = styled("div")(({ theme, isSelected }) => ({
+  // Estilos para telas grandes (lg) e extra grandes (xl)
   [createMediaQuery("lg")]: {
     display: "flex",
-    width: "27.75rem", // 444px converted to rem
-    height: "34.5rem", // 552px converted to rem
-    padding: "1rem", // 16px converted to rem
+    width: "27.75rem",
+    height: "34.5rem",
+    padding: "1rem",
     flexDirection: "column",
     alignItems: "flex-start",
-    gap: "1rem", // 16px converted to rem
+    gap: "1rem",
     flexShrink: 0,
     background: "#FFF",
-    marginBottom: "0.625rem", // 10px converted to rem
+    marginBottom: "0.625rem",
   },
   [createMediaQuery("xl")]: {
     display: "flex",
-    width: "27.75rem", // 444px converted to rem
-    height: "34.5rem", // 552px converted to rem
-    padding: "1rem", // 16px converted to rem
+    width: "27.75rem",
+    height: "34.5rem",
+    padding: "1rem",
     flexDirection: "column",
     alignItems: "flex-start",
-    gap: "1rem", // 16px converted to rem
+    gap: "1rem",
     flexShrink: 0,
     background: "#FFF",
-    marginBottom: "0.625rem", // 10px converted to rem
+    marginBottom: "0.625rem",
   },
+  [createMediaQuery("xxl")]: {
+    display: "flex",
+    width: "27.75rem",
+    height: "34.5rem",
+    padding: "1rem",
+    flexDirection: "column",
+    alignItems: "flex-start",
+    gap: "1rem",
+    flexShrink: 0,
+    background: "#FFF",
+    marginBottom: "0.625rem",
+  },
+  // Estilos para telas pequenas (sm) e médias (md)
   [createMediaQuery("sm")]: {
     display: "flex",
-    width: "22.375rem", // 358px converted to rem
-    height: "28.625rem", // 458px converted to rem
-    padding: "1rem", // 16px converted to rem
+    width: "22.375rem",
+    height: "28.625rem",
+    padding: "1rem",
     flexDirection: "column",
     alignItems: "center",
-    gap: "1rem", // 16px converted to rem
+    gap: "1rem",
     flexShrink: 0,
     background: "#FFF",
-    marginBottom: "0.625rem", // 10px converted to rem
+    marginBottom: "0.625rem",
     marginLeft: 10,
   },
   [createMediaQuery("md")]: {
     display: "flex",
-    width: "22.375rem", // 358px converted to rem
-    height: "28.625rem", // 458px converted to rem
-    padding: "1rem", // 16px converted to rem
+    width: "22.375rem",
+    height: "28.625rem",
+    padding: "1rem",
     flexDirection: "column",
     alignItems: "center",
-    gap: "1rem", // 16px converted to rem
+    gap: "1rem",
     flexShrink: 0,
     background: "#FFF",
-    marginBottom: "0.625rem", // 10px converted to rem
+    marginBottom: "0.625rem",
     marginLeft: 10,
   },
   border: isSelected
-    ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
-    : "0.0625rem solid var(--terracota, #9C4522)", // 1px converted to rem
+    ? "0.0625rem solid var(--Green-Olive, #52736B)"
+    : "0.0625rem solid var(--terracota, #9C4522)",
   "& img": {
-    border: isSelected
-      ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
-      : "none",
+    border: isSelected ? "0.0625rem solid var(--Green-Olive, #52736B)" : "none",
   },
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
   },
   "&:hover": {
     border: isSelected
-      ? "0.0625rem solid var(--Green-Olive, #52736B)" // 1px converted to rem
-      : "0.0625rem solid var(--terracota, #9C4522)", // 1px converted to rem
-    boxShadow: "0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25)", // 4px converted to rem
+      ? "0.0625rem solid var(--Green-Olive, #52736B)"
+      : "0.0625rem solid var(--terracota, #9C4522)",
+    boxShadow: "0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25)",
     "& img": {},
     "& h6": {
       color: "var(--terracota, #9C4522)",
       textAlign: "center",
       fontFamily: "Cinzel",
-      fontSize: "1.75rem", // 28px converted to rem
+      fontSize: "1.75rem",
       fontStyle: "normal",
       fontWeight: 700,
       lineHeight: "normal",
@@ -142,7 +154,6 @@ const PageCityDescription = styled("p")(({ theme }) => ({
   lineHeight: "normal",
   textTransform: "uppercase",
 }));
-
 
 export {
   CardCityContainer,
