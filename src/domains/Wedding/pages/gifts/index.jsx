@@ -5,9 +5,8 @@ import text from "../../../../Assets/text.json";
 import { useLanguage } from "../../../../hooks/useLanguage";
 import { BreadCrumb } from "../../../../Components/BreadCrumb";
 import CardGift from "./components/novosComponets/CardGift";
-import imagem1 from "./image/little-girl-with-sunflower-in-a-sunflower-field.png";
-import imagem2 from "./image/little-girl.png";
-
+import imagem1 from "../../../../Assets/Images/cardImage/PresenteBartosz.png";
+import imagem2 from "../../../../Assets/Images/cardImage/PresenteLudmilla.png";
 export const Gifts = () => {
   const { language } = useLanguage();
   const path = [

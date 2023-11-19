@@ -13,7 +13,7 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("lg")]: {
     display: "flex",
-    height: "34.5rem", // 552px
+   /*  height: "34.5rem", // 552px */
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "flex-start",
@@ -26,7 +26,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   },
   [createMediaQuery("xl")]: {
     display: "flex",
-    height: "34.5rem", // 552px
+   /*  height: "34.5rem", // 552px */
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "flex-start",
@@ -92,11 +92,11 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
 const CardGiftImage = styled("img")({
   [createMediaQuery("lg")]: {
     width: "25.75rem", // 412px
-    height: "15.75rem", // 252px
+    height: "25.75rem", // 252px
   },
   [createMediaQuery("xl")]: {
     width: "25.75rem", // 412px
-    height: "15.75rem", // 252px
+    height: "25.75rem", // 252px
   },
   [createMediaQuery("sm")]: {
     width: "20.375rem", // 326px
