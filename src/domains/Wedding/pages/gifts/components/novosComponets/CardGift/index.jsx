@@ -3,7 +3,9 @@ import {
   CardGiftContainer,
   CardGiftDescription,
   CardGiftImage,
-  CardGiftLink,
+
+  CardGiftLink1,
+  CardGiftLink2,
   CardGiftMoedas,
   CardGiftTitle,
   ContainerInfo,
@@ -40,9 +42,9 @@ const CardGift = ({
 
   const handleHoverEnter = () => {
     if (hoveredText === "BLIK") {
-      setHoveredText("BLIK bartosz s");
+      setHoveredText("Blik: Bartosz");
     } else if (hoveredText === "PIX") {
-      setHoveredText("pix copia e cola");
+      setHoveredText("Pix: Ludmilla");
     }
   };
 
@@ -90,16 +92,16 @@ const CardGift = ({
           <CardGiftMoedas>{moedas}</CardGiftMoedas>
           <CardGiftDescription>{options}</CardGiftDescription>
           <ContainerLink>
-            <CardGiftLink onClick={() => window.open(destinoURL1, "_blank")}>
+            <CardGiftLink1 onClick={() => window.open(destinoURL1, "_blank")}>
               {link1}
-            </CardGiftLink>
-            <CardGiftLink
+            </CardGiftLink1>
+            <CardGiftLink2
               onClick={handleLinkClick}
               onMouseEnter={handleHoverEnter}
               onMouseLeave={handleHoverLeave}
             >
               {hoveredText}
-            </CardGiftLink>
+            </CardGiftLink2>
           </ContainerLink>
           <CopyFeedback>{copyFeedback}</CopyFeedback>
         </ContainerInfo>

@@ -13,7 +13,7 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   [createMediaQuery("lg")]: {
     display: "flex",
-   /*  height: "34.5rem", // 552px */
+    /*  height: "34.5rem", // 552px */
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "flex-start",
@@ -26,7 +26,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   },
   [createMediaQuery("xl")]: {
     display: "flex",
-   /*  height: "34.5rem", // 552px */
+    /*  height: "34.5rem", // 552px */
     padding: "1rem", // 16px
     flexDirection: "column",
     alignItems: "flex-start",
@@ -72,7 +72,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
   },
-  "&:hover": {
+  /*  "&:hover": {
     border: "1px solid var(--Terracota, #9C4522)",
     boxShadow: "0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25)",
     "& img": {},
@@ -86,7 +86,7 @@ const CardGiftContainer = styled("div")(({ theme, isSelected }) => ({
       lineHeight: "normal",
     },
     "& p": {},
-  },
+  }, */
 }));
 
 const CardGiftImage = styled("img")({
@@ -136,12 +136,42 @@ const ContainerLink = styled("div")(({ theme }) => ({
   alignItems: "flex-start",
   gap: "1rem", // 16px
 
-  "&:hover": {
-    textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-  },
-
   [createMediaQuery("sm")]: {},
   [createMediaQuery("md")]: {},
+}));
+
+const CardGiftLink = styled("p")(({ theme }) => ({
+  color: "var(--Terracota, #9C4522)",
+  textAlign: "center",
+  fontFeatureSettings: "'clig' off, 'liga' off",
+  fontFamily: "Open Sans",
+  fontSize: "16px", // 16px
+  fontStyle: "normal",
+  fontWeight: 400,
+  lineHeight: "1.5", // 150%
+  letterSpacing: "0.15rem", // 0.15px
+  textTransform: "uppercase",
+}));
+
+const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
+  // Styles for link1
+  // For example:
+  color: theme.link1Color,
+
+  "&:hover": {
+    textDecoration: "none", // Remova o sublinhado ao passar o mouse
+    fontWeight: 700, // Adicione o negrito ao passar o mouse
+  },
+}));
+
+const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
+  // Styles for link2
+  // For example:
+  color: theme.link2Color,
+  "&:hover": {
+    textDecoration: "none", // Remova o sublinhado ao passar o mouse
+    fontWeight: 700, // Adicione o negrito ao passar o mouse
+  },
 }));
 
 const CopyFeedback = styled("div")(({ theme }) => ({
@@ -209,19 +239,6 @@ const CardGiftMoedas = styled("p")(({ theme }) => ({
   textTransform: "uppercase",
 }));
 
-const CardGiftLink = styled("p")(({ theme }) => ({
-  color: "var(--Terracota, #9C4522)",
-  textAlign: "center",
-  fontFeatureSettings: "'clig' off, 'liga' off",
-  fontFamily: "Open Sans",
-  fontSize: "16px", // 16px
-  fontStyle: "normal",
-  fontWeight: 400,
-  lineHeight: "1.5", // 150%
-  letterSpacing: "0.15rem", // 0.15px
-  textTransform: "uppercase",
-}));
-
 export {
   CardGiftContainer,
   CardGiftImage,
@@ -230,6 +247,8 @@ export {
   CardGiftMoedas,
   CardGiftDescription,
   CardGiftLink,
+  CardGiftLink1,
+  CardGiftLink2,
   ContainerLink,
   ContainerInfo,
   CopyFeedback,
