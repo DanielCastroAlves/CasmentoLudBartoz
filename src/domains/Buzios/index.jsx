@@ -20,6 +20,7 @@ import {
 import { BannerImageBuzios } from "../Buzios/style";
 import { FirstSection } from "../../Components/FirstSection";
 import { BreadCrumb } from "../../Components/BreadCrumb";
+import { ButtonNavigation } from "../../Components/ButtonNavigation";
 
 const Buzios = () => {
   const [isSelected, setIsSelected] = useState(false);
@@ -50,6 +51,14 @@ const Buzios = () => {
     { label: text.MenuHeaderLinks.home[language], url: "/home" },
     { label: text.MenuHeaderLinks.travel[language], url: "/travel" },
     { label: "Búzios", url: "travel/buzios" },
+  ];
+
+  const path = [
+    {
+      label: text.MenuHeaderLinks.travel[language],
+      url: "/travel",
+    },
+    { label: text.MenuHeaderLinks.rioDeJaneiro[language], url: "/travel/rio-de-janeiro" },
   ];
 
   return (
@@ -122,6 +131,7 @@ const Buzios = () => {
           </Link>
         ))}
       </ContainerBanner>
+      <ButtonNavigation path={path} />
     </Stack>
   );
 };

@@ -19,6 +19,7 @@ import {
 } from "./style";
 import { BreadCrumb } from "../../Components/BreadCrumb";
 import { CardBanner } from "../Buzios/style";
+import { ButtonNavigation } from "../../Components/ButtonNavigation";
 
 const RioDeJaneiro = () => {
   const [isSelected, setIsSelected] = useState(false);
@@ -44,6 +45,14 @@ const RioDeJaneiro = () => {
     { label: text.MenuHeaderLinks.home[language], url: "/home" },
     { label: text.MenuHeaderLinks.travel[language], url: "/travel" },
     { label: "Rio de Janeiro", url: "travel/rio-de-janeiro" },
+  ];
+
+  const path = [
+    { label: text.MenuHeaderLinks.buzios[language], url: "/travel/buzios" },
+    {
+      label: text.MenuHeaderLinks.travel[language],
+      url: "/travel",
+    },
   ];
 
   return (
@@ -125,6 +134,8 @@ const RioDeJaneiro = () => {
           </Link>
         ))}
       </ContainerBanner>
+
+      <ButtonNavigation path={path} />
     </Stack>
   );
 };
