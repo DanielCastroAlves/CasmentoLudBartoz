@@ -17,6 +17,12 @@ export const Wedding = () => {
     const { language } = useLanguage();
 
     const dataWedding = [
+        {
+            destination: "/wedding/prewedding",
+            image: PreWeddingImage,
+            title: text.Wedding.Cards_Carrousel.Card01[language],
+            description: text.Wedding.Cards_Carrousel.Content01[language],
+        },
       
         {
             destination: "/wedding/dresscode",
@@ -42,12 +48,7 @@ export const Wedding = () => {
             title: text.Wedding.Cards_Carrousel.Card05[language],
             description: text.Wedding.Cards_Carrousel.Content05[language],
         },
-        {
-            destination: "/wedding/prewedding",
-            image: PreWeddingImage,
-            title: text.Wedding.Cards_Carrousel.Card01[language],
-            description: text.Wedding.Cards_Carrousel.Content01[language],
-        },
+       
     ];
     return (
         <Stack width="100%" height="100%" mb={10}>

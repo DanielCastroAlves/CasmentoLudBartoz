@@ -8,8 +8,6 @@ import buziosImage from "../../Assets/Images/cardImage/B_Búzios=Enabled.png";
 import { FirstSection } from "../../Components/FirstSection";
 import { useLanguage } from "../../hooks/useLanguage";
 
-
-
 import { ContainerPageCity, Description, TituloDescription } from "../RJ/style";
 
 import CarouselTravel from "./components/Carousel";
@@ -20,22 +18,22 @@ const Travel = () => {
   const citys = [
     {
       id: 1,
-      title: text.Travel.CardsSubPag.Titulo2[language],
-      image: rioImage,
-      destination: "travel/rio-de-janeiro",
-      description: text.Travel.CardsSubPag.Body1[language],
-    },
-    {
-      id: 2,
       title: text.Travel.CardsSubPag.Titulo1[language],
       image: buziosImage,
       destination: "travel/buzios",
       description: text.Travel.CardsSubPag.Body1[language],
     },
+    {
+      id: 2,
+      title: text.Travel.CardsSubPag.Titulo2[language],
+      image: rioImage,
+      destination: "travel/rio-de-janeiro",
+      description: text.Travel.CardsSubPag.Body1[language],
+    },
   ];
 
   return (
-    <Stack width="100%" height="100%" mb={10}>
+    <Stack width="100%" height="100%" mb={10} mt={-10}>
       <FirstSection
         title={text.Travel.title[language]}
         subtitle={text.Travel.subTitle[language]}
@@ -48,7 +46,7 @@ const Travel = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          marginTop: "80px",
+          margin: "0px 0 -100px 0",
         }}
       >
         <CustomTimeline topics={text.Travel.itinerary} />
@@ -58,7 +56,7 @@ const Travel = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          margin: "80px 0 -60px 0",
+          margin: "80px 0 -90px 0",
         }}
       >
         <ContainerPageCity>

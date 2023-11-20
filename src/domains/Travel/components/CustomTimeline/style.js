@@ -13,11 +13,12 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 export const ContainerTimeline = styled("div")(() => ({
   display: "flex",
   width: "540px",
-  height: "900px",
+  height: "772px",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "flex-start",
-  gap: "32px",
+  gap: "12px",
+  marginTop:"-70px",
 
   [createMediaQuery("sm")]: {
     alignItems: "center",
@@ -32,7 +33,7 @@ export const ContainerTimeline = styled("div")(() => ({
 export const PlanTravel = styled("div")(() => ({
   display: "flex",
   width: "540px",
-  height: "73px",
+  height: "63px",
   alignItems: "center",
   gap: "32px",
   flexShrink: 0,

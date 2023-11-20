@@ -52,18 +52,20 @@ export const AccordionSummaryStyled = styled(AccordionSummary)`
 
   &:hover {
     background-color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
     .icon-typography-container {
     }
 
     .icon {
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-      fill: var(--green-olive, #52736b);
+      font-weight: 900; //nao pega
     }
 
     .typography {
       color: var(--green-olive, #52736b);
+      &:hover {
+        background-color: #ffffff;
+        font-weight: bold;
+      }
     }
   }
 
@@ -71,7 +73,6 @@ export const AccordionSummaryStyled = styled(AccordionSummary)`
     display: flex;
     align-items: center;
   }
-
   .icon {
     color: #52736b;
     margin-right: 10px;
@@ -97,7 +98,6 @@ export const IconContainer = styled.div`
 `;
 
 export const ArrowDownIcon = styled(KeyboardArrowDown)`
-  color: #52736b; /* Cor do ícone */
   margin-right: 10px;
 `;
 export const AccordionDetailsStyled = styled(AccordionDetails)`
@@ -128,7 +128,6 @@ export const TypographyStyled = styled(Typography)`
   &:hover {
     background-color: #ffffff;
     box-shadow: none;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   &.pergunta-aberta {

@@ -12,8 +12,8 @@ export const TeamBrideGroom = () => {
   const { language } = useLanguage();
 
   const path = [
-    { label: text.story.title[language], url: "/wedding/ourhistory" },
     { label: text.preWedding.title[language], url: "/wedding/prewedding" },
+    { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
 
   return (

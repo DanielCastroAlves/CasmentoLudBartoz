@@ -85,22 +85,7 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
   },
-  "&:hover": {
-    border: "1px solid var(--Terracota, #9C4522)",
-    boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
-
-    "& img": {},
-    "& h6": {
-      color: "var(--terracota, #9C4522)",
-      textAlign: "center",
-      fontFamily: "Cinzel",
-      fontSize: 28,
-      fontStyle: "normal",
-      fontWeight: 700,
-      lineHeight: "normal",
-    },
-    "& p": {},
-  },
+ 
 }));
 
 const CardWeddingImage = styled("img")({
