@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
 import CardWedding from "../../../../Components/CardWedding";
 import ContainerCarousel from "./style";
 //import { useMediaQuery, useTheme } from "@mui/material";
@@ -28,34 +27,78 @@ const CarouselWedding = ({ dataInfo }) => {
         // showDots={true}
         renderDotsOutside={false}
         responsive={{
-          desktop: {
+          desktopCustom1: {
             breakpoint: {
-              max: 1279,
+              max: 1200,
               min: 1001,
             },
-            items: 2.4,
+            items: 2.1,
             partialVisibilityGutter: 50,
             centerMode: false,
           },
-          desktop1: {
+          desktopCustom2: {
+            breakpoint: {
+              max: 1300,
+              min: 1201,
+            },
+            items: 2.55,
+            partialVisibilityGutter: 50,
+            centerMode: true,
+          },
+          desktopCustom3: {
+            breakpoint: {
+              max: 1400,
+              min: 1301,
+            },
+            items: 2.8,
+            partialVisibilityGutter: 50,
+            centerMode: true,
+          },
+          desktopCustom4: {
             breakpoint: {
               max: 1440,
-              min: 1280,
+              min: 1401,
             },
-            items: 2.6,
+            items: 2.85,
             partialVisibilityGutter: 50,
             centerMode: true,
           },
-          desktop2: {
+          desktopCustom5: {
             breakpoint: {
-              max: 2559,
+              max: 1600,
               min: 1441,
             },
-            items: 2.6,
+            items: 3.2,
             partialVisibilityGutter: 50,
             centerMode: true,
           },
-          mobile: {
+          desktopCustom6: {
+            breakpoint: {
+              max: 1800,
+              min: 1601,
+            },
+            items: 3.2,
+            partialVisibilityGutter: 50,
+            centerMode: true,
+          },
+          desktopCustom7: {
+            breakpoint: {
+              max: 2559,
+              min: 1801,
+            },
+            items: 3.5,
+            partialVisibilityGutter: 50,
+            centerMode: true,
+          },
+          desktopCustom8: {
+            breakpoint: {
+              min: 2560,
+            },
+            items: 4,
+            partialVisibilityGutter: 50,
+            centerMode: true,
+          },
+          mobileCustom: {
             breakpoint: {
               max: 500,
               min: 0,
@@ -64,7 +107,7 @@ const CarouselWedding = ({ dataInfo }) => {
             partialVisibilityGutter: 30,
             centerMode: true,
           },
-          tablet: {
+          tabletCustom: {
             breakpoint: {
               max: 1000,
               min: 501,
