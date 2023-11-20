@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
+
 import {
   CardGiftContainer,
   CardGiftDescription,
   CardGiftImage,
-
   CardGiftLink1,
   CardGiftLink2,
   CardGiftMoedas,
@@ -13,6 +13,7 @@ import {
   ContainerTitleDescription,
   CopyFeedback,
 } from "./style";
+import { useMediaQuery, useTheme } from "@mui/material";
 
 const CardGift = ({
   imagem,
@@ -28,22 +29,22 @@ const CardGift = ({
   copyPastePix,
 }) => {
   const [isSelected, setIsSelected] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("");
   const [hoveredText, setHoveredText] = useState(link2);
   const [copyFeedback, setCopyFeedback] = useState("");
-
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
 
   useEffect(() => {
-    setSelectedValue("");
+    // O código aqui é executado quando o componente é montado
   }, [link1, link2]);
 
   const handleHoverEnter = () => {
-    if (hoveredText === "BLIK") {
+    if (hoveredText === "BLIK" && !isMobile) {
       setHoveredText("Blik: Bartosz");
-    } else if (hoveredText === "PIX") {
+    } else if (hoveredText === "PIX" && !isMobile) {
       setHoveredText("Pix: Ludmilla");
     }
   };
@@ -74,6 +75,7 @@ const CardGift = ({
         setCopyFeedback("+48 602 180485");
       }
     } catch (err) {
+      console.error("Erro ao copiar texto:", err);
       setCopyFeedback("Erro ao copiar o texto para a área de transferência.");
     }
   };
