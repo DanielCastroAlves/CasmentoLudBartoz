@@ -12,21 +12,29 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 export const ContainerTimeline = styled("div")(() => ({
   display: "flex",
-  width: "540px",
-  height: "772px",
+  width: "33.75rem",
+  height: "48.25rem",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "flex-start",
-  gap: "12px",
-  marginTop:"-70px",
+  gap: "1rem",
+  marginTop: "-70px",
 
   [createMediaQuery("sm")]: {
-    alignItems: "center",
-    width: "100%",
+    display: "flex",
+    width: "22.375rem",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    gap: "0.5rem",
+    marginTop: "-90px",
   },
   [createMediaQuery("md")]: {
-    alignItems: "center",
-    width: "100%",
+    display: "flex",
+    width: "22.375rem",
+    flexDirection: "column",
+    alignItems: "flex-end",
+    gap: "0.5rem",
+    marginTop: "-90px",
   },
 }));
 
@@ -107,8 +115,8 @@ export const TravelDescription = styled("h6")(() => ({
   alignSelf: "stretch",
   color: "var(--Black, #545454)",
   fontFamily: "Open Sans",
-  fontSize: "14px",
+  fontSize: "0.75rem",
   fontStyle: "normal",
-  fontWeight: 400,
+  fontWeight: 300,
   lineHeight: "normal",
 }));

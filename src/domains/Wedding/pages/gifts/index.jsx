@@ -10,7 +10,7 @@ import imagem2 from "../../../../Assets/Images/cardImage/PresenteLudmilla.png";
 export const Gifts = () => {
   const { language } = useLanguage();
   const path = [
-    { label: text.preWedding.title[language], url: "/wedding/prewedding" },
+    { label: text.dressCode.title[language], url: "/wedding/dresscode" },
     { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
 

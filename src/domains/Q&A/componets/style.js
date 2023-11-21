@@ -54,10 +54,14 @@ export const AccordionSummaryStyled = styled(AccordionSummary)`
     background-color: #ffffff;
 
     .icon-typography-container {
+      
     }
 
     .icon {
+     
       font-weight: 900; //nao pega
+  
+  
     }
 
     .typography {
@@ -76,7 +80,9 @@ export const AccordionSummaryStyled = styled(AccordionSummary)`
   .icon {
     color: #52736b;
     margin-right: 10px;
+   
   }
+
 
   .typography {
     color: var(--green-olive, #52736b);
@@ -99,6 +105,8 @@ export const IconContainer = styled.div`
 
 export const ArrowDownIcon = styled(KeyboardArrowDown)`
   margin-right: 10px;
+  
+  
 `;
 export const AccordionDetailsStyled = styled(AccordionDetails)`
   display: flex;
