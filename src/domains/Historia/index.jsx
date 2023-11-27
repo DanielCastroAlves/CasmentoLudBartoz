@@ -34,7 +34,7 @@ const Historia = () => {
     { label: text.gifts.title[language], url: "/wedding/gifts" },
     {
       label: text.MenuHeaderLinks.teamBrideGroom[language],
-      url: "/wedding/teamBG",
+      url: "/wedding/weddingparty",
     },
   ];
 

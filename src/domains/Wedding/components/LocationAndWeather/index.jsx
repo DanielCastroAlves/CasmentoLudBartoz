@@ -6,7 +6,7 @@ import sargatana from "../../../../Assets/Images/Sargatana.png";
 import brMap from "../../../../Assets/Images/brMap.png";
 import text from "../../../../Assets/text.json";
 
-export const LocationAndWeather = ({ title, titleBox, address1, address2, date, src }) => {
+export const LocationAndWeather = ({ title, titleBox, address1, address2, date, src, dressCode }) => {
     const { language } = useLanguage();
     const theme = useTheme();
 
@@ -95,7 +95,7 @@ export const LocationAndWeather = ({ title, titleBox, address1, address2, date, 
                                         {language === "es" ? "Código de vestimenta:" : "Dress Code:"}
                                     </Typography>
                                     <Typography fontSize={fontSizeDressCodeOption} color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                        {text.preWedding.dressCode[language].toUpperCase()}
+                                        {dressCode}
                                     </Typography>
                                 </Stack>
                             </Stack>
@@ -163,7 +163,7 @@ export const LocationAndWeather = ({ title, titleBox, address1, address2, date, 
                                 {language === "es" ? "Código de vestimenta:" : "Dress Code:"}
                             </Typography>
                             <Typography color={theme.palette.gray["500"]} fontWeight={300} fontFamily="Open Sans">
-                                {text.preWedding.dressCode[language].toUpperCase()}
+                                {dressCode}
                             </Typography>
                         </Stack>
                     </CeremonyContainerMobile>

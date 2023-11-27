@@ -66,7 +66,7 @@ export const Footer = () => {
                                 <Typography>{text.gifts.title[language]}</Typography>
                             </MenuLink>
                             <MenuLink to="/home">
-                                <Typography>RSVP</Typography>
+                                <Typography>{text.footer.RSVP[language]}</Typography>
                             </MenuLink>
                         </Stack>
                     </Grid>

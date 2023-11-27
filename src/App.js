@@ -124,7 +124,7 @@ const router = createBrowserRouter([
                 path: "/",
                 children: [
                     {
-                        path: "wedding/teamBG",
+                        path: "wedding/weddingparty",
                         element: <TeamBrideGroom />,
                     },
                 ],
