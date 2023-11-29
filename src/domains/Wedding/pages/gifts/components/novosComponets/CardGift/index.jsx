@@ -1,5 +1,5 @@
+// CardGift.jsx
 import React, { useState, useEffect } from "react";
-
 import {
   CardGiftContainer,
   CardGiftDescription,
@@ -27,25 +27,19 @@ const CardGift = ({
   destinoURL2,
   copyPasteBlink,
   copyPastePix,
+  onSelect,
+  isSelected,
 }) => {
-  const [isSelected, setIsSelected] = useState(false);
   const [hoveredText, setHoveredText] = useState(link2);
   const [copyFeedback, setCopyFeedback] = useState("");
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-  const toggleSelection = () => {
-    setIsSelected(!isSelected);
-  };
-
-  useEffect(() => {
-    // O código aqui é executado quando o componente é montado
-  }, [link1, link2]);
 
   const handleHoverEnter = () => {
     if (hoveredText === "BLIK" && !isMobile) {
-      setHoveredText("Blik: Bartosz");
+      setHoveredText(copyPasteBlink);
     } else if (hoveredText === "PIX" && !isMobile) {
-      setHoveredText("Pix: Ludmilla");
+      setHoveredText("PIX: LUDMILLA");
     }
   };
 
@@ -55,10 +49,14 @@ const CardGift = ({
 
   const handleLinkClick = () => {
     let textToCopy = "";
-    if (hoveredText === "BLIK") {
+    let linkToOpen = "";
+
+    if (hoveredText === copyPasteBlink) {
       textToCopy = copyPasteBlink;
-    } else if (hoveredText === "PIX") {
+      linkToOpen = destinoURL2;
+    } else if (hoveredText === "PIX: LUDMILLA") {
       textToCopy = copyPastePix;
+      linkToOpen = destinoURL1;
     }
 
     const textArea = document.createElement("textarea");
@@ -69,11 +67,13 @@ const CardGift = ({
     try {
       navigator.clipboard.writeText(textToCopy);
 
-      if (link2 === "PIX") {
-        setCopyFeedback("PIX copiado");
+      if (hoveredText === "PIX: LUDMILLA") {
+        window.open(linkToOpen, "_blank");
       } else {
-        setCopyFeedback("+48 602 180485");
+        setCopyFeedback("BLIK copiado");
       }
+
+      onSelect(); // Chama a função para informar ao componente pai que este card foi selecionado
     } catch (err) {
       console.error("Erro ao copiar texto:", err);
       setCopyFeedback("Erro ao copiar o texto para a área de transferência.");
@@ -82,9 +82,8 @@ const CardGift = ({
 
   return (
     <CardGiftContainer
-      key={title}
       isSelected={isSelected}
-      onClick={toggleSelection}
+      onClick={onSelect} // Chama a função para informar ao componente pai que este card foi selecionado
     >
       <CardGiftImage src={imagem} alt="Imagem do item" />
       <ContainerTitleDescription>

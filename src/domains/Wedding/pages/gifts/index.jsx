@@ -1,3 +1,5 @@
+// Gifts.jsx
+import React, { useState } from "react";
 import { Grid, Stack, useMediaQuery, useTheme } from "@mui/material";
 import { ButtonNavigation } from "../../../../Components/ButtonNavigation";
 import { FirstSection } from "../../../../Components/FirstSection";
@@ -7,12 +9,21 @@ import { BreadCrumb } from "../../../../Components/BreadCrumb";
 import CardGift from "./components/novosComponets/CardGift";
 import imagem1 from "../../../../Assets/Images/cardImage/PresenteBartosz.png";
 import imagem2 from "../../../../Assets/Images/cardImage/PresenteLudmilla.png";
+
 export const Gifts = () => {
   const { language } = useLanguage();
   const path = [
     { label: text.dressCode.title[language], url: "/wedding/dresscode" },
     { label: text.story.title[language], url: "/wedding/ourstory" },
   ];
+
+  const [selectedGift, setSelectedGift] = useState(null);
+
+  const handleGiftSelect = (giftTitle) => {
+    setSelectedGift((prevSelectedGift) =>
+      prevSelectedGift === giftTitle ? null : giftTitle
+    );
+  };
 
   const topics = [
     {
@@ -83,6 +94,8 @@ export const Gifts = () => {
               destinoURL2={item.destinoURL2}
               copyPasteBlink={item.copyPasteBlink}
               copyPastePix={item.copyPastePix}
+              onSelect={() => handleGiftSelect(item.title)}
+              isSelected={selectedGift === item.title}
             />
           </Grid>
         ))}
