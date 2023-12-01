@@ -1,5 +1,4 @@
-// CardGift.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   CardGiftContainer,
   CardGiftDescription,
@@ -27,34 +26,66 @@ const CardGift = ({
   onSelect,
   isSelected,
 }) => {
-  const [hoveredText, setHoveredText] = useState(link2);
-  const [selectedText, setSelectedText] = useState("");
+  const [text, setText] = useState(link2);
+  const [isLink2Clicked, setIsLink2Clicked] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (cardRef.current && !cardRef.current.contains(event.target)) {
+        setIsLink2Clicked(false);
+        setIsHovered(false);
+        setText(link2);
+      }
+    };
+
+    document.addEventListener("click", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, [link2]);
+
+  const handleClick = () => {
+    setIsLink2Clicked(!isLink2Clicked);
+
+    if (link2 === "BLIK" && !isMobile) {
+      setText("048 602 180 485");
+    } else if (link2 === "PIX" && !isMobile) {
+      setText("PIX: LUDMILLA");
+    }
+  };
+
   const handleHoverEnter = () => {
     if (link2 === "BLIK" && !isMobile) {
-      setHoveredText("Bartosz S.");
+      setIsHovered(true);
+      setText("Bartosz S.");
     } else if (link2 === "PIX" && !isMobile) {
-      setHoveredText("PIX: LUDMILLA");
+      setIsHovered(true);
+      setText("PIX: LUDMILLA");
     }
   };
 
   const handleHoverLeave = () => {
-    setHoveredText(link2);
-  };
-
-  const handleClick = () => {
-    if (link2 === "BLIK" && !isMobile) {
-      setSelectedText("+48 602 180485");
-    } else if (link2 === "PIX" && !isMobile) {
-      setSelectedText("PIX: LUDMILLA");
+    setIsHovered(false);
+    if (!isLink2Clicked) {
+      setText(link2);
     }
   };
 
   return (
-    <CardGiftContainer isSelected={isSelected} onClick={onSelect}>
+    <CardGiftContainer
+      ref={cardRef}
+      isSelected={isSelected}
+      onClick={onSelect}
+      onMouseEnter={handleHoverEnter}
+      onMouseLeave={handleHoverLeave}
+    >
       <CardGiftImage src={imagem} alt="Imagem do item" />
       <ContainerTitleDescription>
         <CardGiftTitle>{title}</CardGiftTitle>
@@ -73,10 +104,9 @@ const CardGift = ({
                   window.open(destinoURL2, "_blank");
                 }
               }}
-              onMouseEnter={handleHoverEnter}
-              onMouseLeave={handleHoverLeave}
+              data-clicked={isLink2Clicked}
             >
-              {isSelected ? selectedText || hoveredText : hoveredText}
+              <span>{text}</span>
             </CardGiftLink2>
           </ContainerLink>
         </ContainerInfo>

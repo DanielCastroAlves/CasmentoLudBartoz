@@ -165,12 +165,32 @@ const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
 }));
 
 const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
-  // Styles for link2
-  // For example:
   color: theme.link2Color,
+
+
   "&:hover": {
     textDecoration: "none", // Remova o sublinhado ao passar o mouse
     fontWeight: 700, // Adicione o negrito ao passar o mouse
+  },
+
+  "&:active": {
+    // Adicione estilos para o estado de clique
+    // Por exemplo:
+    transform: "scale(0.95)",
+  },
+
+  "&[data-clicked='true']": {
+    // Adicione estilos específicos para quando foi clicado
+    color: "var(--Green-Olive, #52736B)",
+    textAlign: "center",
+    fontFeatureSettings: "'clig' off, 'liga' off",
+    fontFamily: "Open Sans",
+    fontSize: "16px",
+    fontStyle: "normal",
+    fontWeight: 600,
+    lineHeight: "150%",
+    letterSpacing: "0.15px",
+    textTransform: "uppercase",
   },
 }));
 
