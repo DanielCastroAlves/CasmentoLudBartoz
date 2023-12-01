@@ -154,9 +154,13 @@ const CardGiftLink = styled("p")(({ theme }) => ({
 }));
 
 const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
-  // Styles for link1
-  // For example:
-  color: theme.link1Color,
+  color: "var(--Terracota, #9C4522)",
+  textAlign: "center",
+  fontFamily: "Cinzel",
+  fontSize: "16px", // 16px
+  fontStyle: "normal",
+  fontWeight: 400,
+  lineHeight: "normal", // 150%
 
   "&:hover": {
     textDecoration: "none", // Remova o sublinhado ao passar o mouse
@@ -165,8 +169,13 @@ const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
 }));
 
 const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
-  color: theme.link2Color,
-
+  color: "var(--Terracota, #9C4522)",
+  textAlign: "center",
+  fontFamily: "Cinzel",
+  fontSize: "16px", // 16px
+  fontStyle: "normal",
+  fontWeight: 400,
+  lineHeight: "normal", // 150%
 
   "&:hover": {
     textDecoration: "none", // Remova o sublinhado ao passar o mouse
