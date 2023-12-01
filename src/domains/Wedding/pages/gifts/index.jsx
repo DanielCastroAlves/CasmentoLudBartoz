@@ -48,8 +48,7 @@ export const Gifts = () => {
       link2: text.gifts.Cards_Gift.BUTTON3[language],
       destinoURL1: "https://revolut.me/ludmillakramos",
       destinoURL2: "https://nubank.com.br/pagar/16xuh8/Zr8AfCO23q",
-      copyPastePix:
-        "00020126460014BR.GOV.BCB.PIX0124ludmillakramos@gmail.com5204000053039865802BR5924Ludmilla Kolanscki Ramos6009SAO PAULO61080540900062250521pAU9VGKziYM8NeR16xuh863049467",
+      copyPastePix: "",
     },
   ];
 

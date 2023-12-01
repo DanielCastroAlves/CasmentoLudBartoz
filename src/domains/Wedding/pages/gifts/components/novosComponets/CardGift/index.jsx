@@ -1,5 +1,5 @@
 // CardGift.jsx
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   CardGiftContainer,
   CardGiftDescription,
@@ -11,7 +11,6 @@ import {
   ContainerInfo,
   ContainerLink,
   ContainerTitleDescription,
-  CopyFeedback,
 } from "./style";
 import { useMediaQuery, useTheme } from "@mui/material";
 
@@ -25,20 +24,19 @@ const CardGift = ({
   options,
   destinoURL1,
   destinoURL2,
-  copyPasteBlink,
-  copyPastePix,
   onSelect,
   isSelected,
 }) => {
   const [hoveredText, setHoveredText] = useState(link2);
-  const [copyFeedback, setCopyFeedback] = useState("");
+  const [selectedText, setSelectedText] = useState("");
+
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   const handleHoverEnter = () => {
-    if (hoveredText === "BLIK" && !isMobile) {
-      setHoveredText(copyPasteBlink);
-    } else if (hoveredText === "PIX" && !isMobile) {
+    if (link2 === "BLIK" && !isMobile) {
+      setHoveredText("Bartosz S.");
+    } else if (link2 === "PIX" && !isMobile) {
       setHoveredText("PIX: LUDMILLA");
     }
   };
@@ -47,44 +45,16 @@ const CardGift = ({
     setHoveredText(link2);
   };
 
-  const handleLinkClick = () => {
-    let textToCopy = "";
-    let linkToOpen = "";
-
-    if (hoveredText === copyPasteBlink) {
-      textToCopy = copyPasteBlink;
-      linkToOpen = destinoURL2;
-    } else if (hoveredText === "PIX: LUDMILLA") {
-      textToCopy = copyPastePix;
-      linkToOpen = destinoURL1;
-    }
-
-    const textArea = document.createElement("textarea");
-    textArea.value = textToCopy;
-    document.body.appendChild(textArea);
-    textArea.select();
-
-    try {
-      navigator.clipboard.writeText(textToCopy);
-
-      if (hoveredText === "PIX: LUDMILLA") {
-        window.open(linkToOpen, "_blank");
-      } else {
-        setCopyFeedback("BLIK copiado");
-      }
-
-      onSelect(); // Chama a função para informar ao componente pai que este card foi selecionado
-    } catch (err) {
-      console.error("Erro ao copiar texto:", err);
-      setCopyFeedback("Erro ao copiar o texto para a área de transferência.");
+  const handleClick = () => {
+    if (link2 === "BLIK" && !isMobile) {
+      setSelectedText("+48 602 180485");
+    } else if (link2 === "PIX" && !isMobile) {
+      setSelectedText("PIX: LUDMILLA");
     }
   };
 
   return (
-    <CardGiftContainer
-      isSelected={isSelected}
-      onClick={onSelect} // Chama a função para informar ao componente pai que este card foi selecionado
-    >
+    <CardGiftContainer isSelected={isSelected} onClick={onSelect}>
       <CardGiftImage src={imagem} alt="Imagem do item" />
       <ContainerTitleDescription>
         <CardGiftTitle>{title}</CardGiftTitle>
@@ -97,14 +67,18 @@ const CardGift = ({
               {link1}
             </CardGiftLink1>
             <CardGiftLink2
-              onClick={handleLinkClick}
+              onClick={() => {
+                handleClick();
+                if (destinoURL2) {
+                  window.open(destinoURL2, "_blank");
+                }
+              }}
               onMouseEnter={handleHoverEnter}
               onMouseLeave={handleHoverLeave}
             >
-              {hoveredText}
+              {isSelected ? selectedText || hoveredText : hoveredText}
             </CardGiftLink2>
           </ContainerLink>
-          <CopyFeedback>{copyFeedback}</CopyFeedback>
         </ContainerInfo>
       </ContainerTitleDescription>
     </CardGiftContainer>
