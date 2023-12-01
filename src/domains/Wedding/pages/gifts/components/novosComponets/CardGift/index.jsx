@@ -79,13 +79,7 @@ const CardGift = ({
   };
 
   return (
-    <CardGiftContainer
-      ref={cardRef}
-      isSelected={isSelected}
-      onClick={onSelect}
-      onMouseEnter={handleHoverEnter}
-      onMouseLeave={handleHoverLeave}
-    >
+    <CardGiftContainer ref={cardRef} isSelected={isSelected} onClick={onSelect}>
       <CardGiftImage src={imagem} alt="Imagem do item" />
       <ContainerTitleDescription>
         <CardGiftTitle>{title}</CardGiftTitle>
@@ -98,6 +92,8 @@ const CardGift = ({
               {link1}
             </CardGiftLink1>
             <CardGiftLink2
+              onMouseEnter={handleHoverEnter}
+              onMouseLeave={handleHoverLeave}
               onClick={() => {
                 handleClick();
                 if (destinoURL2) {
