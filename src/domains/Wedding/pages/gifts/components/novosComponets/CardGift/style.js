@@ -156,7 +156,7 @@ const CardGiftLink = styled("p")(({ theme }) => ({
 const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
   color: "var(--Terracota, #9C4522)",
   textAlign: "center",
-  fontFamily: "Cinzel",
+  fontFamily: "Open Sans",
   fontSize: "16px", // 16px
   fontStyle: "normal",
   fontWeight: 400,
@@ -171,11 +171,11 @@ const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
 const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
   color: "var(--Terracota, #9C4522)",
   textAlign: "center",
-  fontFamily: "Cinzel",
+  fontFamily: "Open Sans !important",
   fontSize: "16px", // 16px
-  fontStyle: "normal",
-  fontWeight: 400,
-  lineHeight: "normal", // 150%
+  fontStyle: "normal !important",
+  fontWeight: 500,
+  lineHeight: "normal !important", // 150%
 
   "&:hover": {
     textDecoration: "none", // Remova o sublinhado ao passar o mouse
