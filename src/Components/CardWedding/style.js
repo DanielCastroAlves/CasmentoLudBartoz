@@ -85,6 +85,7 @@ const CardWeddingContainer = styled("div")(({ theme, isSelected }) => ({
   "& h6": {
     color: isSelected ? "var(--Green-Olive, #52736B)" : "none",
   },
+  
  
 }));
 
