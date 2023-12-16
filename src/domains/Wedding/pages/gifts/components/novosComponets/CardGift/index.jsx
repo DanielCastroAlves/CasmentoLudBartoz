@@ -49,7 +49,7 @@ const CardGift = ({
     return () => {
       document.removeEventListener("click", handleOutsideClick);
     };
-  }, [link2]);
+  }, [link2, text]);
 
   const handleClick = () => {
     setIsLink2Clicked(!isLink2Clicked);
@@ -62,14 +62,17 @@ const CardGift = ({
   };
 
   const handleHoverEnter = () => {
-    if (link2 === "BLIK" && !isMobile) {
+    if (!isMobile) {
       setIsHovered(true);
-      setText("Bartosz S.");
-    } else if (link2 === "PIX" && !isMobile) {
-      setIsHovered(true);
-      setText("PIX: LUDMILLA");
+  
+      if (link2 === "BLIK") {
+        setText(isLink2Clicked ? "048 602 180 485" : "Blik: Bartosz");
+      } else if (link2 === "PIX") {
+        setText("PIX: LUDMILLA");
+      }
     }
   };
+  
 
   const handleHoverLeave = () => {
     setIsHovered(false);
@@ -102,7 +105,7 @@ const CardGift = ({
               }}
               data-clicked={isLink2Clicked}
             >
-              <span>{text}</span>
+              {text}
             </CardGiftLink2>
           </ContainerLink>
         </ContainerInfo>

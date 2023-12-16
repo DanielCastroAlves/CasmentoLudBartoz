@@ -144,7 +144,7 @@ const CardGiftLink = styled("p")(({ theme }) => ({
   color: "var(--Terracota, #9C4522)",
   textAlign: "center",
   fontFeatureSettings: "'clig' off, 'liga' off",
-  fontFamily: "Open Sans",
+  fontFamily: "Open Sans !important",
   fontSize: "16px", // 16px
   fontStyle: "normal",
   fontWeight: 400,
@@ -156,7 +156,7 @@ const CardGiftLink = styled("p")(({ theme }) => ({
 const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
   color: "var(--Terracota, #9C4522)",
   textAlign: "center",
-  fontFamily: "Open Sans",
+  fontFamily: "Open Sans !important",
   fontSize: "16px", // 16px
   fontStyle: "normal",
   fontWeight: 400,
@@ -171,7 +171,7 @@ const CardGiftLink1 = styled(CardGiftLink)(({ theme }) => ({
 const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
   color: "var(--Terracota, #9C4522)",
   textAlign: "center",
-  fontFamily: "Open Sans !important",
+  fontFamily: "Open Sans !important !important",
   fontSize: "16px", // 16px
   fontStyle: "normal !important",
   fontWeight: 500,
@@ -193,7 +193,7 @@ const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
     color: "var(--Green-Olive, #52736B)",
     textAlign: "center",
     fontFeatureSettings: "'clig' off, 'liga' off",
-    fontFamily: "Open Sans",
+    fontFamily: "Open Sans !important",
     fontSize: "16px",
     fontStyle: "normal",
     fontWeight: 600,
@@ -206,7 +206,7 @@ const CardGiftLink2 = styled(CardGiftLink)(({ theme }) => ({
 const CopyFeedback = styled("div")(({ theme }) => ({
   color: "var(--Green-Olive, #52736B)",
   textAlign: "center",
-  fontFamily: "Open Sans",
+  fontFamily: "Open Sans !important",
   fontSize: "16px",
   fontStyle: " normal",
   fontWeight: 600,
@@ -248,7 +248,7 @@ const CardGiftTitle = styled("h6")(({ theme }) => ({
 
 const CardGiftDescription = styled("p")(({ theme }) => ({
   color: "var(--black, #545454)",
-  fontFamily: "Open Sans",
+  fontFamily: "Open Sans !important",
   fontSize: "14px", // 14px
   fontStyle: "normal",
   fontWeight: 400,
@@ -260,7 +260,7 @@ const CardGiftDescription = styled("p")(({ theme }) => ({
 
 const CardGiftMoedas = styled("p")(({ theme }) => ({
   color: "var(--Black, #545454)",
-  fontFamily: "Open Sans",
+  fontFamily: "Open Sans !important",
   fontSize: "14px", // 14px
   fontStyle: "normal",
   fontWeight: 300,
