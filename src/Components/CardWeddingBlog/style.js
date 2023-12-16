@@ -64,13 +64,15 @@ const ContainerTitleDescriptionBlog = styled("div")(({ theme }) => ({
   alignItems: "flex-start",
   flex: "1 0 0",
   alignSelf: "stretch",
-  [createMediaQuery("lg")]: {},
-  [createMediaQuery("xl")]: {},
-  [createMediaQuery("sm")]: {},
-  [createMediaQuery("md")]: {},
 }));
 
 const CardWeddingTitleBlog = styled("h6")(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  gap: 10,
+  flex: "1 0 0",
+  padding: "0.25rem 0.5rem", // 4px 8px / baseFontSize
   color: "var(--terracota, #9C4522)",
   textAlign: "center",
   fontFamily: "Cinzel",
@@ -78,14 +80,15 @@ const CardWeddingTitleBlog = styled("h6")(({ theme }) => ({
   fontStyle: "normal",
   fontWeight: 400,
   lineHeight: "normal",
-  padding: "0.25rem 0.5rem", // 4px 8px / baseFontSize
-  [createMediaQuery("lg")]: {},
-  [createMediaQuery("xl")]: {},
-  [createMediaQuery("sm")]: { fontSize: "0.9375rem" }, // 15px / baseFontSize
-  [createMediaQuery("md")]: { fontSize: "0.9375rem" },
 }));
 
 const CardWeddingDescriptionBlog = styled("p")(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "flex-start",
+  gap: 10,
+  flex: "1 0 0",
+  padding: "0.25rem 0.5rem", // 4px 8px / baseFontSize
   color: "var(--black, #545454)",
   fontFamily: "Open Sans",
   fontSize: "0.875rem", // 14px / baseFontSize
@@ -93,11 +96,6 @@ const CardWeddingDescriptionBlog = styled("p")(({ theme }) => ({
   fontWeight: 400,
   lineHeight: "normal",
   textTransform: "uppercase",
-  padding: "0.25rem 0.5rem", // 4px 8px / baseFontSize
-  [createMediaQuery("lg")]: {},
-  [createMediaQuery("xl")]: {},
-  [createMediaQuery("sm")]: { fontSize: "0.5625rem" }, // 9px / baseFontSize
-  [createMediaQuery("md")]: { fontSize: "0.5625rem" },
 }));
 
 export {
