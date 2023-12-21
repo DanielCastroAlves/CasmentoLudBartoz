@@ -8,7 +8,7 @@ import viagem from "./imagens/Galeria Viagem Desktop.png";
 import original from "./imagens/Original.png";
 
 import originalMB from "./imagens/mobile/Ibiza 02 [Desktop].png";
-import ibizaMB from "./imagens/mobile/Picture IbizaMB.png";
+import ibizaMB from "./imagens/mobile/Ibiza 01MB.png";
 import civilMB from "./imagens/mobile/Galeria Civil Wedding 2021MB.png";
 import galeriaMB from "./imagens/mobile/Galeria Engagement 2021MB.png";
 import viagemMB from "./imagens/mobile/Galeria ViagemMB.png";
