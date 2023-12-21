@@ -16,9 +16,10 @@ import {
   ContainerPageCity,
   ContainerTitleBanner,
   TituloDescription,
+  CardBanner,
 } from "./style";
 import { BreadCrumb } from "../../Components/BreadCrumb";
-import { CardBanner } from "../Buzios/style";
+
 import { ButtonNavigation } from "../../Components/ButtonNavigation";
 
 const RioDeJaneiro = () => {
