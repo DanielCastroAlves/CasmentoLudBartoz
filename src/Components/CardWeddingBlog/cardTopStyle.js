@@ -12,14 +12,12 @@ const createMediaQuery = (size) => `@media (max-width: ${breakpoints[size]})`;
 
 const CardWeddingContainerBlogTop = styled("div")(({ theme, isSelected }) => ({
   display: "flex",
-  width: "68.5rem", // 1096px
-  height: "34.5rem", // 552px
-  padding: "0 1rem", // 16px
+  width: "93rem", // 1096px
+  padding: "0 1rem 1rem", // 16px
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
   gap: "1rem", // 16px
-  flexShrink: 0,
 
   background: "#FFF",
   cursor: "pointer",
@@ -40,9 +38,7 @@ const CardWeddingContainerBlogTop = styled("div")(({ theme, isSelected }) => ({
 }));
 
 const CardWeddingImageBlogTop = styled("img")({
-  width: "68.5rem", // 1096px
-  height: "27.5625rem", // 441px
-  flexShrink: 0,
+  width: "93rem", // 1096px
 });
 
 const ContainerTitleDescriptionBlogTop = styled("div")(({ theme }) => ({

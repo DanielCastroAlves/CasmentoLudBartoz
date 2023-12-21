@@ -24,6 +24,7 @@ const CardCityContainer = styled("div")(({ theme, isSelected }) => ({
     flexShrink: 0,
     background: "#FFF",
     marginBottom: "0.625rem",
+    marginLeft: "20px",
   },
   [createMediaQuery("xl")]: {
     display: "flex",
@@ -36,6 +37,7 @@ const CardCityContainer = styled("div")(({ theme, isSelected }) => ({
     flexShrink: 0,
     background: "#FFF",
     marginBottom: "0.625rem",
+    marginLeft: "20px",
   },
   [createMediaQuery("xxl")]: {
     display: "flex",
@@ -48,6 +50,7 @@ const CardCityContainer = styled("div")(({ theme, isSelected }) => ({
     flexShrink: 0,
     background: "#FFF",
     marginBottom: "0.625rem",
+    marginLeft: "20px",
   },
   // Estilos para telas pequenas (sm) e médias (md)
   [createMediaQuery("sm")]: {
