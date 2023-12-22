@@ -122,11 +122,9 @@ const BannerImageBuzios = styled("div")(({ theme }) => ({
 
   [createMediaQuery("sm")]: {
     width: "20.375rem",
-    
   },
   [createMediaQuery("md")]: {
     width: "20.375rem",
-    
   },
 }));
 
@@ -182,10 +180,12 @@ const ContainerPageCity = styled("div")(({ theme }) => ({
   marginBottom: "3.75rem",
 
   [createMediaQuery("sm")]: {
-    width: "",
+    width: "100%",
+    margin: "auto 0.75rem !mportant",
   },
   [createMediaQuery("md")]: {
-    width: "",
+    width: "100%",
+    margin: "auto 0.75rem !mportant",
   },
 }));
 
