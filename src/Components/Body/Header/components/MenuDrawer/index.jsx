@@ -54,29 +54,30 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                 <Divider sx={{ borderColor: theme.palette.primary.main }} />
                             </Box>
                         </Stack>
-                        <Stack width="100%" height="100%" py={16} px={4} gap={22} alignItems="center">
+                        <Stack width="100%" height="100%" py={16} px={4} alignItems="center">
                             <Typography variant="h6" color={theme.palette.primary.main}>
                                 LUDMILLA & BARTOSZ
                             </Typography>
+                            <Stack width="100%" height="100%" justifyContent="space-evenly" >
                             <Stack width="100%" alignItems="flex-start" gap={2}>
                                 <MenuLink to="/home">
                                     <Typography fontSize={theme.spacing(5)} onClick={(_) => setOpen()} fontWeight={url === "/home" ? 700 : 400} color={url === "/home" ? theme.palette.primary.main : theme.palette.secondary.main}>
-                                        HOME
+                                        {text.MenuHeaderLinks.home[language]}
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/wedding">
                                     <Typography fontSize={theme.spacing(5)} onClick={(_) => setOpen()} fontWeight={url === "/wedding" ? 700 : 400} color={url === "/wedding" ? theme.palette.primary.main : theme.palette.secondary.main}>
-                                        CASAMENTO
+                                        {text.MenuHeaderLinks.wedding[language]}
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/travel">
                                     <Typography fontSize={theme.spacing(5)} onClick={(_) => setOpen()} fontWeight={url === "/travel" ? 700 : 400} color={url === "/travel" ? theme.palette.primary.main : theme.palette.secondary.main}>
-                                        VIAGEM
+                                        {text.MenuHeaderLinks.travel[language]}
                                     </Typography>
                                 </MenuLink>
                                 <MenuLink to="/qea">
                                     <Typography fontSize={theme.spacing(5)} onClick={(_) => setOpen()} fontWeight={url === "/qea" ? 700 : 400} color={url === "/qea" ? theme.palette.primary.main : theme.palette.secondary.main}>
-                                        Q&A
+                                        {text.MenuHeaderLinks.qea[language]}
                                     </Typography>
                                 </MenuLink>
                             </Stack>
@@ -86,13 +87,15 @@ export const MenuDrawer = ({ open, setOpen, handleDrawerOpen }) => {
                                 ))}
                             </Stack>
                             <Stack gap={4} alignItems="center">
+                                <MenuLink to="/home">
+                                    <Typography color={theme.palette.primary.secondary}>{text.footer.RSVP[language]}</Typography>
+                                </MenuLink>
                                 <MenuLink to="/wedding/gifts">
                                     <Typography color={theme.palette.primary.secondary}>{text.gifts.title[language]}</Typography>
                                 </MenuLink>
-                                <MenuLink to="/home">
-                                    <Typography color={theme.palette.primary.secondary}>RSVP</Typography>
-                                </MenuLink>
                             </Stack>
+                            </Stack>
+                     
                         </Stack>
                     </HeaderMenuDrawerContainer>
                 </Stack>
