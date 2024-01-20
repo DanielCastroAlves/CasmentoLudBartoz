@@ -11,10 +11,10 @@ import teambrideGroom from "../../Assets/Images/cardImage/teambrideGroom.png";
 import PresenteImage from "../../Assets/Images/giftCard.png";
 import historiacard from "../../Assets/Images/cardImage/historiacard.png";
 import WeddingStyleBlog from "./components/WeddingStyleBlog";
-import DressCodeBlog from "../../Assets/Images/cardImage/imagensStyleblog/DressCodeBlog.svg";
-import PresenteImageBlog from "../../Assets/Images/cardImage/imagensStyleblog/PresenteImageBlog.svg";
-import historiacardBlog from "../../Assets/Images/cardImage/imagensStyleblog/historiacardBlog.svg";
-import teambrideGroomBlog from "../../Assets/Images/cardImage/imagensStyleblog/teambrideGroomBlog.svg";
+import DressCodeBlog from "./B_Dress Code=Enabled.png";
+import PresenteImageBlog from "./B_Presente=Enabled.png";
+import historiacardBlog from "./B_Nossa História=Enabled (2).png";
+import teambrideGroomBlog from "./B_Pre Wedding=Enabled (3).png";
 
 export const Wedding = () => {
   const theme = useTheme();

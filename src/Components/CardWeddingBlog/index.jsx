@@ -10,15 +10,12 @@ import { Link } from "@mui/material";
 
 const CardWeddingBlog = ({ image, title, description, destination }) => {
   const [isSelected, setIsSelected] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("");
 
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
 
-  useEffect(() => {
-    setSelectedValue(""); // Redefina o valor selecionado quando a página mudar
-  }, [destination]);
+  useEffect(() => {}, [destination]);
 
   return (
     <Link href={destination} underline="none">
@@ -29,8 +26,12 @@ const CardWeddingBlog = ({ image, title, description, destination }) => {
       >
         <CardWeddingImageBlog src={image} alt="Imagem do item" />
         <ContainerTitleDescriptionBlog>
-          <CardWeddingTitleBlog>{title}</CardWeddingTitleBlog>
-          <CardWeddingDescriptionBlog>{description}</CardWeddingDescriptionBlog>
+          <CardWeddingTitleBlog>
+            <h6>{title}</h6>
+          </CardWeddingTitleBlog>
+          <CardWeddingDescriptionBlog>
+            <p>{description}</p>
+          </CardWeddingDescriptionBlog>
         </ContainerTitleDescriptionBlog>
       </CardWeddingContainerBlog>
     </Link>

@@ -10,15 +10,12 @@ import { Link } from "@mui/material";
 
 const CardTop = ({ image, title, description, destination }) => {
   const [isSelected, setIsSelected] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("");
 
   const toggleSelection = () => {
     setIsSelected(!isSelected);
   };
 
-  useEffect(() => {
-    setSelectedValue(""); // Redefina o valor selecionado quando a página mudar
-  }, [destination]);
+  useEffect(() => {}, [destination]);
 
   return (
     <Link href={destination} underline="none">
@@ -30,7 +27,9 @@ const CardTop = ({ image, title, description, destination }) => {
         <CardWeddingImageBlogTop src={image} alt="Imagem do item" />
         <ContainerTitleDescriptionBlogTop>
           <CardWeddingTitleBlogTop>{title}</CardWeddingTitleBlogTop>
-          <CardWeddingDescriptionBlogTop>{description}</CardWeddingDescriptionBlogTop>
+          <CardWeddingDescriptionBlogTop>
+            {description}
+          </CardWeddingDescriptionBlogTop>
         </ContainerTitleDescriptionBlogTop>
       </CardWeddingContainerBlogTop>
     </Link>
