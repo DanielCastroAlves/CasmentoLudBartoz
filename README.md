@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Site do Casamento da Ludmilla & Bartosz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão Geral
 
-## Available Scripts
+Bem-vindo ao site do casamento da Ludmilla & Bartosz!
 
-In the project directory, you can run:
+Este site foi criado como um presente especial para nossa querida amiga Ludmilla, que está se casando com Bartosz! Ludmilla, sendo a talentosa designer de UI/UX e noiva, criou meticulosamente o design para garantir que cada detalhe fosse perfeito. Com seu olhar atento aos detalhes, ela nos manteve, desenvolvedores, Daniel Castro e Matheus Godoy, em alerta, garantindo que tudo estivesse exatamente como ela queria. Foi realmente um esforço colaborativo, com muitas risadas, noites longas e talvez algumas lágrimas (principalmente de depuração).
 
-### `npm start`
+## Conteúdo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Início**: Página inicial com informações sobre o casamento, data e localização.
+- **Casamento**: Detalhes sobre o casamento, incluindo a cerimônia, recepção e uma introdução à história do casal.
+- **Pré-Casamento**: Informações sobre os eventos pré-casamento, incluindo detalhes sobre o jantar de ensaio.
+- **Código de Vestimenta**: Diretrizes sobre o código de vestimenta para o casamento na praia.
+- **FAQ**: Perguntas frequentes sobre o casamento, como RSVP e presentes.
+- **Time da Noiva & Noivo**: Introdução ao grupo de apoio do casal.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Usar
 
-### `npm test`
+1. Navegue pelas diferentes seções usando o menu de navegação.
+2. Leia informações detalhadas sobre o casamento, eventos pré-casamento e código de vestimenta.
+3. Confirme sua presença através da seção RSVP.
+4. Mantenha-se atualizado com as últimas atualizações e informações através do site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Recursos Adicionais
 
-### `npm run build`
+- **Tradução Multilíngue**: O site está disponível em vários idiomas, incluindo Português, Inglês, Polonês e Espanhol.
+- **Design Responsivo**: O site é otimizado para visualização em dispositivos móveis, garantindo uma experiência consistente em todos os dispositivos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
